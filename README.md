@@ -2,8 +2,6 @@
 
 Automated data pipeline for scraping and analyzing Forbes AI 50 companies for private equity intelligence.
 
-**Assignment 2 — DAMG7245**
-
 ---
 
 ## Quick Start
