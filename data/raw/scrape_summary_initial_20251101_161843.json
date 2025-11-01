@@ -1,0 +1,116 @@
+{
+  "run_type": "initial",
+  "started_at": "2025-11-01T16:18:24.808761Z",
+  "total_companies": 2,
+  "companies": [
+    {
+      "company_id": "world_labs",
+      "company_name": "World Labs",
+      "website": "https://world-labs.com",
+      "pages_scraped": 5,
+      "pages": [
+        {
+          "company_name": "World Labs",
+          "company_id": "world_labs",
+          "page_type": "homepage",
+          "source_url": "https://world-labs.com/",
+          "crawled_at": "2025-11-01T16:18:25.912972Z",
+          "content_length": 59861,
+          "text_length": 4423
+        },
+        {
+          "company_name": "World Labs",
+          "company_id": "world_labs",
+          "page_type": "about",
+          "source_url": "https://world-labs.com/about",
+          "crawled_at": "2025-11-01T16:18:27.395447Z",
+          "content_length": 38139,
+          "text_length": 5319
+        },
+        {
+          "company_name": "World Labs",
+          "company_id": "world_labs",
+          "page_type": "product",
+          "source_url": "https://world-labs.com/product",
+          "crawled_at": "2025-11-01T16:18:28.647243Z",
+          "content_length": 4202,
+          "text_length": 219
+        },
+        {
+          "company_name": "World Labs",
+          "company_id": "world_labs",
+          "page_type": "careers",
+          "source_url": "https://world-labs.com/careers",
+          "crawled_at": "2025-11-01T16:18:29.997756Z",
+          "content_length": 4202,
+          "text_length": 219
+        },
+        {
+          "company_name": "World Labs",
+          "company_id": "world_labs",
+          "page_type": "blog",
+          "source_url": "https://world-labs.com/blog",
+          "crawled_at": "2025-11-01T16:18:31.691781Z",
+          "content_length": 44083,
+          "text_length": 4397
+        }
+      ]
+    },
+    {
+      "company_id": "abridge",
+      "company_name": "Abridge",
+      "website": "https://abridge.com",
+      "pages_scraped": 5,
+      "pages": [
+        {
+          "company_name": "Abridge",
+          "company_id": "abridge",
+          "page_type": "homepage",
+          "source_url": "https://www.abridge.com/",
+          "crawled_at": "2025-11-01T16:18:35.511992Z",
+          "content_length": 193487,
+          "text_length": 4851
+        },
+        {
+          "company_name": "Abridge",
+          "company_id": "abridge",
+          "page_type": "about",
+          "source_url": "https://www.abridge.com/about",
+          "crawled_at": "2025-11-01T16:18:36.814981Z",
+          "content_length": 44949,
+          "text_length": 3317
+        },
+        {
+          "company_name": "Abridge",
+          "company_id": "abridge",
+          "page_type": "product",
+          "source_url": "https://www.abridge.com/product",
+          "crawled_at": "2025-11-01T16:18:38.019665Z",
+          "content_length": 120057,
+          "text_length": 5253
+        },
+        {
+          "company_name": "Abridge",
+          "company_id": "abridge",
+          "page_type": "careers",
+          "source_url": "https://jobs.ashbyhq.com/Abridge",
+          "crawled_at": "2025-11-01T16:18:39.314940Z",
+          "content_length": 87138,
+          "text_length": 0
+        },
+        {
+          "company_name": "Abridge",
+          "company_id": "abridge",
+          "page_type": "blog",
+          "source_url": "https://www.abridge.com/blog",
+          "crawled_at": "2025-11-01T16:18:40.528668Z",
+          "content_length": 37658,
+          "text_length": 1181
+        }
+      ]
+    }
+  ],
+  "completed_at": "2025-11-01T16:18:43.535030Z",
+  "successful": 2,
+  "failed": 0
+}

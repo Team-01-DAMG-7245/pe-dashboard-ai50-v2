@@ -1,10 +1,402 @@
 [
   {
-    "company_name": "PLACEHOLDER AI 1",
-    "website": "https://example.com",
-    "linkedin": "https://www.linkedin.com/company/example/",
-    "hq_city": null,
-    "hq_country": null,
-    "category": null
+    "company_name": "World Labs",
+    "website": "https://world-labs.com",
+    "linkedin": "https://www.linkedin.com/company/world-labs/",
+    "hq_city": "San Francisco",
+    "hq_country": "United States",
+    "category": "Spatial intelligence"
+  },
+  {
+    "company_name": "Abridge",
+    "website": "https://abridge.com",
+    "linkedin": "https://www.linkedin.com/company/abridge/",
+    "hq_city": "Pittsburgh",
+    "hq_country": "United States",
+    "category": "Clinical documentation platform"
+  },
+  {
+    "company_name": "Anthropic",
+    "website": "https://anthropic.com",
+    "linkedin": "https://www.linkedin.com/company/anthropic/",
+    "hq_city": "San Francisco",
+    "hq_country": "United States",
+    "category": "AI research and products"
+  },
+  {
+    "company_name": "Anysphere",
+    "website": "https://anysphere.com",
+    "linkedin": "https://www.linkedin.com/company/anysphere/",
+    "hq_city": "San Francisco",
+    "hq_country": "United States",
+    "category": "AI coding tools"
+  },
+  {
+    "company_name": "Baseten",
+    "website": "https://baseten.com",
+    "linkedin": "https://www.linkedin.com/company/baseten/",
+    "hq_city": "San Francisco",
+    "hq_country": "United States",
+    "category": "AI app deployment software"
+  },
+  {
+    "company_name": "Captions",
+    "website": "https://captions.com",
+    "linkedin": "https://www.linkedin.com/company/captions/",
+    "hq_city": "New York",
+    "hq_country": "United States",
+    "category": "Video editor"
+  },
+  {
+    "company_name": "Clay",
+    "website": "https://clay.com",
+    "linkedin": "https://www.linkedin.com/company/clay/",
+    "hq_city": "New York",
+    "hq_country": "United States",
+    "category": "Go-to-market tools"
+  },
+  {
+    "company_name": "Coactive AI",
+    "website": "https://coactive-ai.com",
+    "linkedin": "https://www.linkedin.com/company/coactive-ai/",
+    "hq_city": "San Jose",
+    "hq_country": "United States",
+    "category": "Data labeling software"
+  },
+  {
+    "company_name": "Cohere",
+    "website": "https://cohere.com",
+    "linkedin": "https://www.linkedin.com/company/cohere/",
+    "hq_city": "Toronto",
+    "hq_country": "Canada",
+    "category": "AI model developer"
+  },
+  {
+    "company_name": "Crusoe",
+    "website": "https://crusoe.com",
+    "linkedin": "https://www.linkedin.com/company/crusoe/",
+    "hq_city": "San Francisco",
+    "hq_country": "United States",
+    "category": "AI infrastructure"
+  },
+  {
+    "company_name": "Databricks",
+    "website": "https://databricks.com",
+    "linkedin": "https://www.linkedin.com/company/databricks/",
+    "hq_city": "San Francisco",
+    "hq_country": "United States",
+    "category": "Data and AI platform"
+  },
+  {
+    "company_name": "Decagon",
+    "website": "https://decagon.com",
+    "linkedin": "https://www.linkedin.com/company/decagon/",
+    "hq_city": "San Francisco",
+    "hq_country": "United States",
+    "category": "AI agents for customer service"
+  },
+  {
+    "company_name": "Deepl",
+    "website": "https://deepl.com",
+    "linkedin": "https://www.linkedin.com/company/deepl/",
+    "hq_city": "Cologne",
+    "hq_country": "Germany",
+    "category": "AI translation service"
+  },
+  {
+    "company_name": "Elevenlabs",
+    "website": "https://elevenlabs.com",
+    "linkedin": "https://www.linkedin.com/company/elevenlabs/",
+    "hq_city": "London",
+    "hq_country": "United Kingdom",
+    "category": "AI research and products"
+  },
+  {
+    "company_name": "Figure AI",
+    "website": "https://figure-ai.com",
+    "linkedin": "https://www.linkedin.com/company/figure-ai/",
+    "hq_city": "San Jose",
+    "hq_country": "United States",
+    "category": "Humanoid robots"
+  },
+  {
+    "company_name": "Fireworks AI",
+    "website": "https://fireworks-ai.com",
+    "linkedin": "https://www.linkedin.com/company/fireworks-ai/",
+    "hq_city": "Redwood City",
+    "hq_country": "United States",
+    "category": "App development software"
+  },
+  {
+    "company_name": "Glean",
+    "website": "https://glean.com",
+    "linkedin": "https://www.linkedin.com/company/glean/",
+    "hq_city": "Palo Alto",
+    "hq_country": "United States",
+    "category": "Enterprise AI platform"
+  },
+  {
+    "company_name": "Harvey",
+    "website": "https://harvey.com",
+    "linkedin": "https://www.linkedin.com/company/harvey/",
+    "hq_city": "San Francisco",
+    "hq_country": "United States",
+    "category": "Legal automation software"
+  },
+  {
+    "company_name": "Hebbia",
+    "website": "https://hebbia.com",
+    "linkedin": "https://www.linkedin.com/company/hebbia/",
+    "hq_city": "New York",
+    "hq_country": "United States",
+    "category": "General purpose AI for finance and legal"
+  },
+  {
+    "company_name": "Hugging Face",
+    "website": "https://hugging-face.com",
+    "linkedin": "https://www.linkedin.com/company/hugging-face/",
+    "hq_city": "Brooklyn",
+    "hq_country": "United States",
+    "category": "AI research and products"
+  },
+  {
+    "company_name": "Lambda",
+    "website": "https://lambda.com",
+    "linkedin": "https://www.linkedin.com/company/lambda/",
+    "hq_city": "San Jose",
+    "hq_country": "United States",
+    "category": "AI cloud provider"
+  },
+  {
+    "company_name": "Langchain",
+    "website": "https://langchain.com",
+    "linkedin": "https://www.linkedin.com/company/langchain/",
+    "hq_city": "San Francisco",
+    "hq_country": "United States",
+    "category": "AI app development tools"
+  },
+  {
+    "company_name": "Luminance",
+    "website": "https://luminance.com",
+    "linkedin": "https://www.linkedin.com/company/luminance/",
+    "hq_city": "Cambridge",
+    "hq_country": "United Kingdom",
+    "category": "Enterprise contract automation"
+  },
+  {
+    "company_name": "Mercor",
+    "website": "https://mercor.com",
+    "linkedin": "https://www.linkedin.com/company/mercor/",
+    "hq_city": "San Francisco",
+    "hq_country": "United States",
+    "category": "AI-powered hiring platform"
+  },
+  {
+    "company_name": "Midjourney",
+    "website": "https://midjourney.com",
+    "linkedin": "https://www.linkedin.com/company/midjourney/",
+    "hq_city": "San Francisco",
+    "hq_country": "United States",
+    "category": "AI research and products"
+  },
+  {
+    "company_name": "Mistral AI",
+    "website": "https://mistral-ai.com",
+    "linkedin": "https://www.linkedin.com/company/mistral-ai/",
+    "hq_city": "Paris",
+    "hq_country": "France",
+    "category": "Open source AI model developer"
+  },
+  {
+    "company_name": "Notion",
+    "website": "https://notion.com",
+    "linkedin": "https://www.linkedin.com/company/notion/",
+    "hq_city": "San Francisco",
+    "hq_country": "United States",
+    "category": "Design collaboration software"
+  },
+  {
+    "company_name": "Openai",
+    "website": "https://openai.com",
+    "linkedin": "https://www.linkedin.com/company/openai/",
+    "hq_city": "San Francisco",
+    "hq_country": "United States",
+    "category": "AI research and products"
+  },
+  {
+    "company_name": "Openevidence",
+    "website": "https://openevidence.com",
+    "linkedin": "https://www.linkedin.com/company/openevidence/",
+    "hq_city": "Cambridge",
+    "hq_country": "United States",
+    "category": "ChatGPT for doctors"
+  },
+  {
+    "company_name": "Perplexity AI",
+    "website": "https://perplexity-ai.com",
+    "linkedin": "https://www.linkedin.com/company/perplexity-ai/",
+    "hq_city": "San Francisco",
+    "hq_country": "United States",
+    "category": "AI search engine"
+  },
+  {
+    "company_name": "Photoroom",
+    "website": "https://photoroom.com",
+    "linkedin": "https://www.linkedin.com/company/photoroom/",
+    "hq_city": "Paris",
+    "hq_country": "France",
+    "category": "Photo editing app"
+  },
+  {
+    "company_name": "Pika",
+    "website": "https://pika.com",
+    "linkedin": "https://www.linkedin.com/company/pika/",
+    "hq_city": "Palo Alto",
+    "hq_country": "United States",
+    "category": "Video generation service"
+  },
+  {
+    "company_name": "Runway",
+    "website": "https://runway.com",
+    "linkedin": "https://www.linkedin.com/company/runway/",
+    "hq_city": "New York",
+    "hq_country": "United States",
+    "category": "Generative video"
+  },
+  {
+    "company_name": "Sakana AI",
+    "website": "https://sakana-ai.com",
+    "linkedin": "https://www.linkedin.com/company/sakana-ai/",
+    "hq_city": "Tokyo",
+    "hq_country": "Japan",
+    "category": "AI models for science and research"
+  },
+  {
+    "company_name": "Sambanova",
+    "website": "https://sambanova.com",
+    "linkedin": "https://www.linkedin.com/company/sambanova/",
+    "hq_city": "Palo Alto",
+    "hq_country": "United States",
+    "category": "AI chipmaker"
+  },
+  {
+    "company_name": "Scale AI",
+    "website": "https://scale-ai.com",
+    "linkedin": "https://www.linkedin.com/company/scale-ai/",
+    "hq_city": "San Francisco",
+    "hq_country": "United States",
+    "category": "Data labeling and AI infrastructure"
+  },
+  {
+    "company_name": "Sierra",
+    "website": "https://sierra.com",
+    "linkedin": "https://www.linkedin.com/company/sierra/",
+    "hq_city": "San Francisco",
+    "hq_country": "United States",
+    "category": "Customer service software"
+  },
+  {
+    "company_name": "Skild AI",
+    "website": "https://skild-ai.com",
+    "linkedin": "https://www.linkedin.com/company/skild-ai/",
+    "hq_city": "Pittsburgh",
+    "hq_country": "United States",
+    "category": "AI systems for robotics"
+  },
+  {
+    "company_name": "Snorkel AI",
+    "website": "https://snorkel-ai.com",
+    "linkedin": "https://www.linkedin.com/company/snorkel-ai/",
+    "hq_city": "Redwood City",
+    "hq_country": "United States",
+    "category": "Enterprise data labelling"
+  },
+  {
+    "company_name": "Speak",
+    "website": "https://speak.com",
+    "linkedin": "https://www.linkedin.com/company/speak/",
+    "hq_city": "San Francisco",
+    "hq_country": "United States",
+    "category": "AI language tutor"
+  },
+  {
+    "company_name": "Stackblitz",
+    "website": "https://stackblitz.com",
+    "linkedin": "https://www.linkedin.com/company/stackblitz/",
+    "hq_city": "San Francisco",
+    "hq_country": "United States",
+    "category": "Web and mobile app development"
+  },
+  {
+    "company_name": "Suno",
+    "website": "https://suno.com",
+    "linkedin": "https://www.linkedin.com/company/suno/",
+    "hq_city": "Cambridge",
+    "hq_country": "United States",
+    "category": "Music and sound generation"
+  },
+  {
+    "company_name": "Synthesia",
+    "website": "https://synthesia.com",
+    "linkedin": "https://www.linkedin.com/company/synthesia/",
+    "hq_city": "London",
+    "hq_country": "United Kingdom",
+    "category": "AI video generation"
+  },
+  {
+    "company_name": "Thinking Machine Labs",
+    "website": "https://thinking-machine-labs.com",
+    "linkedin": "https://www.linkedin.com/company/thinking-machine-labs/",
+    "hq_city": "San Francisco",
+    "hq_country": "United States",
+    "category": "AI research company"
+  },
+  {
+    "company_name": "Together AI",
+    "website": "https://together-ai.com",
+    "linkedin": "https://www.linkedin.com/company/together-ai/",
+    "hq_city": "San Francisco",
+    "hq_country": "United States",
+    "category": "AI cloud provider"
+  },
+  {
+    "company_name": "Vannevar Labs",
+    "website": "https://vannevar-labs.com",
+    "linkedin": "https://www.linkedin.com/company/vannevar-labs/",
+    "hq_city": "Palo Alto",
+    "hq_country": "United States",
+    "category": "Defense intelligence software"
+  },
+  {
+    "company_name": "Vast Data",
+    "website": "https://vast-data.com",
+    "linkedin": "https://www.linkedin.com/company/vast-data/",
+    "hq_city": "New York",
+    "hq_country": "United States",
+    "category": "AI data infrastructure"
+  },
+  {
+    "company_name": "Windsurf",
+    "website": "https://windsurf.com",
+    "linkedin": "https://www.linkedin.com/company/windsurf/",
+    "hq_city": "Mountain View",
+    "hq_country": "United States",
+    "category": "AI-powered coding tool"
+  },
+  {
+    "company_name": "Writer",
+    "website": "https://writer.com",
+    "linkedin": "https://www.linkedin.com/company/writer/",
+    "hq_city": "San Francisco",
+    "hq_country": "United States",
+    "category": "Enterprise AI software"
+  },
+  {
+    "company_name": "Xai",
+    "website": "https://xai.com",
+    "linkedin": "https://www.linkedin.com/company/xai/",
+    "hq_city": "Palo Alto",
+    "hq_country": "United States",
+    "category": "AI model developer"
   }
 ]

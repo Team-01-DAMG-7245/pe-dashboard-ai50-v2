@@ -1,0 +1,1293 @@
+{
+  "run_type": "initial",
+  "started_at": "2025-11-01T17:33:06.374807+00:00",
+  "total_companies": 50,
+  "companies": [
+    {
+      "company_id": "world_labs",
+      "company_name": "World Labs",
+      "website": "https://world-labs.com",
+      "pages_scraped": 5,
+      "pages": [
+        {
+          "company_name": "World Labs",
+          "company_id": "world_labs",
+          "page_type": "homepage",
+          "source_url": "https://world-labs.com/",
+          "crawled_at": "2025-11-01T17:33:07.468382+00:00",
+          "content_length": 59861,
+          "text_length": 4423
+        },
+        {
+          "company_name": "World Labs",
+          "company_id": "world_labs",
+          "page_type": "about",
+          "source_url": "https://world-labs.com/about",
+          "crawled_at": "2025-11-01T17:33:08.962115+00:00",
+          "content_length": 38139,
+          "text_length": 5319
+        },
+        {
+          "company_name": "World Labs",
+          "company_id": "world_labs",
+          "page_type": "product",
+          "source_url": "https://world-labs.com/product",
+          "crawled_at": "2025-11-01T17:33:10.220885+00:00",
+          "content_length": 4202,
+          "text_length": 219
+        },
+        {
+          "company_name": "World Labs",
+          "company_id": "world_labs",
+          "page_type": "careers",
+          "source_url": "https://world-labs.com/careers",
+          "crawled_at": "2025-11-01T17:33:11.463513+00:00",
+          "content_length": 4202,
+          "text_length": 219
+        },
+        {
+          "company_name": "World Labs",
+          "company_id": "world_labs",
+          "page_type": "blog",
+          "source_url": "https://world-labs.com/blog",
+          "crawled_at": "2025-11-01T17:33:13.019376+00:00",
+          "content_length": 44083,
+          "text_length": 4397
+        }
+      ]
+    },
+    {
+      "company_id": "abridge",
+      "company_name": "Abridge",
+      "website": "https://abridge.com",
+      "pages_scraped": 5,
+      "pages": [
+        {
+          "company_name": "Abridge",
+          "company_id": "abridge",
+          "page_type": "homepage",
+          "source_url": "https://www.abridge.com/",
+          "crawled_at": "2025-11-01T17:33:16.922192+00:00",
+          "content_length": 193487,
+          "text_length": 4851
+        },
+        {
+          "company_name": "Abridge",
+          "company_id": "abridge",
+          "page_type": "about",
+          "source_url": "https://www.abridge.com/about",
+          "crawled_at": "2025-11-01T17:33:18.162018+00:00",
+          "content_length": 44949,
+          "text_length": 3317
+        },
+        {
+          "company_name": "Abridge",
+          "company_id": "abridge",
+          "page_type": "product",
+          "source_url": "https://www.abridge.com/product",
+          "crawled_at": "2025-11-01T17:33:19.426417+00:00",
+          "content_length": 120057,
+          "text_length": 5253
+        },
+        {
+          "company_name": "Abridge",
+          "company_id": "abridge",
+          "page_type": "careers",
+          "source_url": "https://jobs.ashbyhq.com/Abridge",
+          "crawled_at": "2025-11-01T17:33:21.031253+00:00",
+          "content_length": 87138,
+          "text_length": 0
+        },
+        {
+          "company_name": "Abridge",
+          "company_id": "abridge",
+          "page_type": "blog",
+          "source_url": "https://www.abridge.com/blog",
+          "crawled_at": "2025-11-01T17:33:22.271584+00:00",
+          "content_length": 37658,
+          "text_length": 1181
+        }
+      ]
+    },
+    {
+      "company_id": "anthropic",
+      "company_name": "Anthropic",
+      "website": "https://anthropic.com",
+      "pages_scraped": 5,
+      "pages": [
+        {
+          "company_name": "Anthropic",
+          "company_id": "anthropic",
+          "page_type": "homepage",
+          "source_url": "https://www.anthropic.com/",
+          "crawled_at": "2025-11-01T17:33:25.923719+00:00",
+          "content_length": 272839,
+          "text_length": 4216
+        },
+        {
+          "company_name": "Anthropic",
+          "company_id": "anthropic",
+          "page_type": "about",
+          "source_url": "https://www.anthropic.com/company",
+          "crawled_at": "2025-11-01T17:33:28.586843+00:00",
+          "content_length": 232485,
+          "text_length": 8510
+        },
+        {
+          "company_name": "Anthropic",
+          "company_id": "anthropic",
+          "page_type": "product",
+          "source_url": "https://claude.com/product/overview",
+          "crawled_at": "2025-11-01T17:33:30.409898+00:00",
+          "content_length": 1226630,
+          "text_length": 61775
+        },
+        {
+          "company_name": "Anthropic",
+          "company_id": "anthropic",
+          "page_type": "careers",
+          "source_url": "https://www.anthropic.com/careers",
+          "crawled_at": "2025-11-01T17:33:31.803437+00:00",
+          "content_length": 244040,
+          "text_length": 11847
+        },
+        {
+          "company_name": "Anthropic",
+          "company_id": "anthropic",
+          "page_type": "blog",
+          "source_url": "https://www.anthropic.com/news",
+          "crawled_at": "2025-11-01T17:33:33.649649+00:00",
+          "content_length": 622377,
+          "text_length": 15552
+        }
+      ]
+    },
+    {
+      "company_id": "anysphere",
+      "company_name": "Anysphere",
+      "website": "https://anysphere.com",
+      "pages_scraped": 1,
+      "pages": [
+        {
+          "company_name": "Anysphere",
+          "company_id": "anysphere",
+          "page_type": "homepage",
+          "source_url": "https://anysphere.com/",
+          "crawled_at": "2025-11-01T17:33:36.944003+00:00",
+          "content_length": 863,
+          "text_length": 82
+        }
+      ]
+    },
+    {
+      "company_id": "baseten",
+      "company_name": "Baseten",
+      "website": "https://baseten.com",
+      "pages_scraped": 4,
+      "pages": [
+        {
+          "company_name": "Baseten",
+          "company_id": "baseten",
+          "page_type": "homepage",
+          "source_url": "https://www.baseten.com/",
+          "crawled_at": "2025-11-01T17:33:51.637929+00:00",
+          "content_length": 424160,
+          "text_length": 7690
+        },
+        {
+          "company_name": "Baseten",
+          "company_id": "baseten",
+          "page_type": "about",
+          "source_url": "https://www.baseten.com/resources/careers/",
+          "crawled_at": "2025-11-01T17:33:52.974022+00:00",
+          "content_length": 373884,
+          "text_length": 7315
+        },
+        {
+          "company_name": "Baseten",
+          "company_id": "baseten",
+          "page_type": "careers",
+          "source_url": "https://www.baseten.com/resources/careers/",
+          "crawled_at": "2025-11-01T17:33:56.700568+00:00",
+          "content_length": 373884,
+          "text_length": 7315
+        },
+        {
+          "company_name": "Baseten",
+          "company_id": "baseten",
+          "page_type": "blog",
+          "source_url": "https://www.baseten.com/blog/",
+          "crawled_at": "2025-11-01T17:33:58.647889+00:00",
+          "content_length": 322259,
+          "text_length": 2389
+        }
+      ]
+    },
+    {
+      "company_id": "captions",
+      "company_name": "Captions",
+      "website": "https://captions.com",
+      "pages_scraped": 1,
+      "pages": [
+        {
+          "company_name": "Captions",
+          "company_id": "captions",
+          "page_type": "homepage",
+          "source_url": "https://clearcaptions.com/facebook/",
+          "crawled_at": "2025-11-01T17:34:02.554942+00:00",
+          "content_length": 211740,
+          "text_length": 3665
+        }
+      ]
+    },
+    {
+      "company_id": "clay",
+      "company_name": "Clay",
+      "website": "https://clay.com",
+      "pages_scraped": 4,
+      "pages": [
+        {
+          "company_name": "Clay",
+          "company_id": "clay",
+          "page_type": "homepage",
+          "source_url": "https://www.clay.com/",
+          "crawled_at": "2025-11-01T17:34:21.171992+00:00",
+          "content_length": 188456,
+          "text_length": 14703
+        },
+        {
+          "company_name": "Clay",
+          "company_id": "clay",
+          "page_type": "about",
+          "source_url": "https://www.clay.com/about",
+          "crawled_at": "2025-11-01T17:34:22.652844+00:00",
+          "content_length": 273727,
+          "text_length": 18056
+        },
+        {
+          "company_name": "Clay",
+          "company_id": "clay",
+          "page_type": "careers",
+          "source_url": "https://www.clay.com/careers",
+          "crawled_at": "2025-11-01T17:34:25.157081+00:00",
+          "content_length": 177486,
+          "text_length": 11759
+        },
+        {
+          "company_name": "Clay",
+          "company_id": "clay",
+          "page_type": "blog",
+          "source_url": "https://www.clay.com/blog",
+          "crawled_at": "2025-11-01T17:34:26.709885+00:00",
+          "content_length": 769400,
+          "text_length": 88465
+        }
+      ]
+    },
+    {
+      "company_id": "cohere",
+      "company_name": "Cohere",
+      "website": "https://cohere.com",
+      "pages_scraped": 5,
+      "pages": [
+        {
+          "company_name": "Cohere",
+          "company_id": "cohere",
+          "page_type": "homepage",
+          "source_url": "https://cohere.com/",
+          "crawled_at": "2025-11-01T17:34:34.284521+00:00",
+          "content_length": 889313,
+          "text_length": 5999
+        },
+        {
+          "company_name": "Cohere",
+          "company_id": "cohere",
+          "page_type": "about",
+          "source_url": "https://cohere.com/about",
+          "crawled_at": "2025-11-01T17:34:35.639103+00:00",
+          "content_length": 756926,
+          "text_length": 5948
+        },
+        {
+          "company_name": "Cohere",
+          "company_id": "cohere",
+          "page_type": "product",
+          "source_url": "https://cohere.com/products",
+          "crawled_at": "2025-11-01T17:34:37.045929+00:00",
+          "content_length": 785131,
+          "text_length": 5826
+        },
+        {
+          "company_name": "Cohere",
+          "company_id": "cohere",
+          "page_type": "careers",
+          "source_url": "https://cohere.com/careers",
+          "crawled_at": "2025-11-01T17:34:38.377545+00:00",
+          "content_length": 685277,
+          "text_length": 6533
+        },
+        {
+          "company_name": "Cohere",
+          "company_id": "cohere",
+          "page_type": "blog",
+          "source_url": "https://cohere.com/blog",
+          "crawled_at": "2025-11-01T17:34:40.550257+00:00",
+          "content_length": 322418,
+          "text_length": 3605
+        }
+      ]
+    },
+    {
+      "company_id": "crusoe",
+      "company_name": "Crusoe",
+      "website": "https://crusoe.com",
+      "pages_scraped": 1,
+      "pages": [
+        {
+          "company_name": "Crusoe",
+          "company_id": "crusoe",
+          "page_type": "homepage",
+          "source_url": "https://crusoe.com/",
+          "crawled_at": "2025-11-01T17:34:44.168607+00:00",
+          "content_length": 7170,
+          "text_length": 713
+        }
+      ]
+    },
+    {
+      "company_id": "databricks",
+      "company_name": "Databricks",
+      "website": "https://databricks.com",
+      "pages_scraped": 5,
+      "pages": [
+        {
+          "company_name": "Databricks",
+          "company_id": "databricks",
+          "page_type": "homepage",
+          "source_url": "https://www.databricks.com/",
+          "crawled_at": "2025-11-01T17:34:55.969674+00:00",
+          "content_length": 780117,
+          "text_length": 9834
+        },
+        {
+          "company_name": "Databricks",
+          "company_id": "databricks",
+          "page_type": "about",
+          "source_url": "https://www.databricks.com/company/about-us",
+          "crawled_at": "2025-11-01T17:34:57.407788+00:00",
+          "content_length": 730173,
+          "text_length": 7547
+        },
+        {
+          "company_name": "Databricks",
+          "company_id": "databricks",
+          "page_type": "product",
+          "source_url": "https://www.databricks.com/product/data-lakehouse",
+          "crawled_at": "2025-11-01T17:34:58.809105+00:00",
+          "content_length": 759417,
+          "text_length": 8365
+        },
+        {
+          "company_name": "Databricks",
+          "company_id": "databricks",
+          "page_type": "careers",
+          "source_url": "https://www.databricks.com/company/careers",
+          "crawled_at": "2025-11-01T17:35:00.308646+00:00",
+          "content_length": 750057,
+          "text_length": 8708
+        },
+        {
+          "company_name": "Databricks",
+          "company_id": "databricks",
+          "page_type": "blog",
+          "source_url": "https://www.databricks.com/blog",
+          "crawled_at": "2025-11-01T17:35:01.708528+00:00",
+          "content_length": 729557,
+          "text_length": 8483
+        }
+      ]
+    },
+    {
+      "company_id": "deepl",
+      "company_name": "Deepl",
+      "website": "https://deepl.com",
+      "pages_scraped": 4,
+      "pages": [
+        {
+          "company_name": "Deepl",
+          "company_id": "deepl",
+          "page_type": "homepage",
+          "source_url": "https://www.deepl.com/en/translator",
+          "crawled_at": "2025-11-01T17:35:10.940404+00:00",
+          "content_length": 206112,
+          "text_length": 5699
+        },
+        {
+          "company_name": "Deepl",
+          "company_id": "deepl",
+          "page_type": "about",
+          "source_url": "https://www.deepl.com/en/about-us",
+          "crawled_at": "2025-11-01T17:35:12.693473+00:00",
+          "content_length": 101417,
+          "text_length": 2555
+        },
+        {
+          "company_name": "Deepl",
+          "company_id": "deepl",
+          "page_type": "careers",
+          "source_url": "https://www.deepl.com/en/careers",
+          "crawled_at": "2025-11-01T17:35:16.408208+00:00",
+          "content_length": 104432,
+          "text_length": 2629
+        },
+        {
+          "company_name": "Deepl",
+          "company_id": "deepl",
+          "page_type": "blog",
+          "source_url": "https://www.deepl.com/en/blog",
+          "crawled_at": "2025-11-01T17:35:17.736152+00:00",
+          "content_length": 129999,
+          "text_length": 6369
+        }
+      ]
+    },
+    {
+      "company_id": "elevenlabs",
+      "company_name": "Elevenlabs",
+      "website": "https://elevenlabs.com",
+      "pages_scraped": 4,
+      "pages": [
+        {
+          "company_name": "Elevenlabs",
+          "company_id": "elevenlabs",
+          "page_type": "homepage",
+          "source_url": "https://elevenlabs.io",
+          "crawled_at": "2025-11-01T17:35:21.483386+00:00",
+          "content_length": 1222925,
+          "text_length": 9705
+        },
+        {
+          "company_name": "Elevenlabs",
+          "company_id": "elevenlabs",
+          "page_type": "about",
+          "source_url": "https://elevenlabs.io/about",
+          "crawled_at": "2025-11-01T17:35:23.030980+00:00",
+          "content_length": 904459,
+          "text_length": 4341
+        },
+        {
+          "company_name": "Elevenlabs",
+          "company_id": "elevenlabs",
+          "page_type": "careers",
+          "source_url": "https://elevenlabs.io/careers",
+          "crawled_at": "2025-11-01T17:35:25.996888+00:00",
+          "content_length": 1003058,
+          "text_length": 5419
+        },
+        {
+          "company_name": "Elevenlabs",
+          "company_id": "elevenlabs",
+          "page_type": "blog",
+          "source_url": "https://elevenlabs.io/blog",
+          "crawled_at": "2025-11-01T17:35:27.866530+00:00",
+          "content_length": 915918,
+          "text_length": 4146
+        }
+      ]
+    },
+    {
+      "company_id": "glean",
+      "company_name": "Glean",
+      "website": "https://glean.com",
+      "pages_scraped": 5,
+      "pages": [
+        {
+          "company_name": "Glean",
+          "company_id": "glean",
+          "page_type": "homepage",
+          "source_url": "https://www.glean.com/",
+          "crawled_at": "2025-11-01T17:35:37.942504+00:00",
+          "content_length": 345025,
+          "text_length": 14961
+        },
+        {
+          "company_name": "Glean",
+          "company_id": "glean",
+          "page_type": "about",
+          "source_url": "https://www.glean.com/about",
+          "crawled_at": "2025-11-01T17:35:39.251610+00:00",
+          "content_length": 238195,
+          "text_length": 18415
+        },
+        {
+          "company_name": "Glean",
+          "company_id": "glean",
+          "page_type": "product",
+          "source_url": "https://www.glean.com/",
+          "crawled_at": "2025-11-01T17:35:41.526122+00:00",
+          "content_length": 345025,
+          "text_length": 14961
+        },
+        {
+          "company_name": "Glean",
+          "company_id": "glean",
+          "page_type": "careers",
+          "source_url": "https://www.glean.com/careers",
+          "crawled_at": "2025-11-01T17:35:42.948797+00:00",
+          "content_length": 150656,
+          "text_length": 6506
+        },
+        {
+          "company_name": "Glean",
+          "company_id": "glean",
+          "page_type": "blog",
+          "source_url": "https://www.glean.com/blog",
+          "crawled_at": "2025-11-01T17:35:44.371247+00:00",
+          "content_length": 444074,
+          "text_length": 36805
+        }
+      ]
+    },
+    {
+      "company_id": "hebbia",
+      "company_name": "Hebbia",
+      "website": "https://hebbia.com",
+      "pages_scraped": 5,
+      "pages": [
+        {
+          "company_name": "Hebbia",
+          "company_id": "hebbia",
+          "page_type": "homepage",
+          "source_url": "https://www.hebbia.com/",
+          "crawled_at": "2025-11-01T17:35:49.975292+00:00",
+          "content_length": 187479,
+          "text_length": 8665
+        },
+        {
+          "company_name": "Hebbia",
+          "company_id": "hebbia",
+          "page_type": "about",
+          "source_url": "https://www.hebbia.com/about",
+          "crawled_at": "2025-11-01T17:35:51.223640+00:00",
+          "content_length": 119959,
+          "text_length": 1805
+        },
+        {
+          "company_name": "Hebbia",
+          "company_id": "hebbia",
+          "page_type": "product",
+          "source_url": "https://www.hebbia.com/product",
+          "crawled_at": "2025-11-01T17:35:52.409151+00:00",
+          "content_length": 123043,
+          "text_length": 3690
+        },
+        {
+          "company_name": "Hebbia",
+          "company_id": "hebbia",
+          "page_type": "careers",
+          "source_url": "https://www.hebbia.com/careers",
+          "crawled_at": "2025-11-01T17:35:53.954598+00:00",
+          "content_length": 345926,
+          "text_length": 5002
+        },
+        {
+          "company_name": "Hebbia",
+          "company_id": "hebbia",
+          "page_type": "blog",
+          "source_url": "https://www.hebbia.com/blog",
+          "crawled_at": "2025-11-01T17:35:55.119435+00:00",
+          "content_length": 216993,
+          "text_length": 661
+        }
+      ]
+    },
+    {
+      "company_id": "hugging_face",
+      "company_name": "Hugging Face",
+      "website": "https://hugging-face.com",
+      "pages_scraped": 1,
+      "pages": [
+        {
+          "company_name": "Hugging Face",
+          "company_id": "hugging_face",
+          "page_type": "homepage",
+          "source_url": "https://hugging-face.com/",
+          "crawled_at": "2025-11-01T17:35:58.675166+00:00",
+          "content_length": 15534,
+          "text_length": 675
+        }
+      ]
+    },
+    {
+      "company_id": "langchain",
+      "company_name": "Langchain",
+      "website": "https://langchain.com",
+      "pages_scraped": 3,
+      "pages": [
+        {
+          "company_name": "Langchain",
+          "company_id": "langchain",
+          "page_type": "homepage",
+          "source_url": "https://www.langchain.com/",
+          "crawled_at": "2025-11-01T17:36:15.286119+00:00",
+          "content_length": 87911,
+          "text_length": 6323
+        },
+        {
+          "company_name": "Langchain",
+          "company_id": "langchain",
+          "page_type": "about",
+          "source_url": "https://www.langchain.com/about",
+          "crawled_at": "2025-11-01T17:36:16.554477+00:00",
+          "content_length": 40086,
+          "text_length": 1963
+        },
+        {
+          "company_name": "Langchain",
+          "company_id": "langchain",
+          "page_type": "careers",
+          "source_url": "https://www.langchain.com/careers",
+          "crawled_at": "2025-11-01T17:36:18.819186+00:00",
+          "content_length": 44657,
+          "text_length": 1976
+        }
+      ]
+    },
+    {
+      "company_id": "luminance",
+      "company_name": "Luminance",
+      "website": "https://luminance.com",
+      "pages_scraped": 5,
+      "pages": [
+        {
+          "company_name": "Luminance",
+          "company_id": "luminance",
+          "page_type": "homepage",
+          "source_url": "https://www.luminance.com/",
+          "crawled_at": "2025-11-01T17:36:23.623945+00:00",
+          "content_length": 148934,
+          "text_length": 4844
+        },
+        {
+          "company_name": "Luminance",
+          "company_id": "luminance",
+          "page_type": "about",
+          "source_url": "https://www.luminance.com/about/",
+          "crawled_at": "2025-11-01T17:36:25.176464+00:00",
+          "content_length": 130839,
+          "text_length": 14117
+        },
+        {
+          "company_name": "Luminance",
+          "company_id": "luminance",
+          "page_type": "product",
+          "source_url": "https://www.luminance.com/resources/blog/product-feature-spotlight-accelerate-negotiations-with-luminance%c2%92s-ai-powered-checklists/",
+          "crawled_at": "2025-11-01T17:36:26.904772+00:00",
+          "content_length": 69468,
+          "text_length": 4846
+        },
+        {
+          "company_name": "Luminance",
+          "company_id": "luminance",
+          "page_type": "careers",
+          "source_url": "https://www.luminance.com/careers/",
+          "crawled_at": "2025-11-01T17:36:28.355172+00:00",
+          "content_length": 50505,
+          "text_length": 1687
+        },
+        {
+          "company_name": "Luminance",
+          "company_id": "luminance",
+          "page_type": "blog",
+          "source_url": "https://www.luminance.com/resources/blog/",
+          "crawled_at": "2025-11-01T17:36:29.839310+00:00",
+          "content_length": 118884,
+          "text_length": 1359
+        }
+      ]
+    },
+    {
+      "company_id": "mercor",
+      "company_name": "Mercor",
+      "website": "https://mercor.com",
+      "pages_scraped": 3,
+      "pages": [
+        {
+          "company_name": "Mercor",
+          "company_id": "mercor",
+          "page_type": "homepage",
+          "source_url": "https://mercor.com/",
+          "crawled_at": "2025-11-01T17:36:33.120742+00:00",
+          "content_length": 65404,
+          "text_length": 1317
+        },
+        {
+          "company_name": "Mercor",
+          "company_id": "mercor",
+          "page_type": "careers",
+          "source_url": "https://mercor.com/careers/",
+          "crawled_at": "2025-11-01T17:36:34.945317+00:00",
+          "content_length": 3234,
+          "text_length": 24
+        },
+        {
+          "company_name": "Mercor",
+          "company_id": "mercor",
+          "page_type": "blog",
+          "source_url": "https://mercor.com/blog/",
+          "crawled_at": "2025-11-01T17:36:36.104114+00:00",
+          "content_length": 28914,
+          "text_length": 3422
+        }
+      ]
+    },
+    {
+      "company_id": "notion",
+      "company_name": "Notion",
+      "website": "https://notion.com",
+      "pages_scraped": 5,
+      "pages": [
+        {
+          "company_name": "Notion",
+          "company_id": "notion",
+          "page_type": "homepage",
+          "source_url": "https://www.notion.com",
+          "crawled_at": "2025-11-01T17:36:51.456801+00:00",
+          "content_length": 171052,
+          "text_length": 4191
+        },
+        {
+          "company_name": "Notion",
+          "company_id": "notion",
+          "page_type": "about",
+          "source_url": "https://www.notion.com/about",
+          "crawled_at": "2025-11-01T17:36:52.953479+00:00",
+          "content_length": 87991,
+          "text_length": 4172
+        },
+        {
+          "company_name": "Notion",
+          "company_id": "notion",
+          "page_type": "product",
+          "source_url": "https://www.notion.com/product",
+          "crawled_at": "2025-11-01T17:36:54.203589+00:00",
+          "content_length": 171052,
+          "text_length": 4191
+        },
+        {
+          "company_name": "Notion",
+          "company_id": "notion",
+          "page_type": "careers",
+          "source_url": "https://www.notion.com/careers",
+          "crawled_at": "2025-11-01T17:36:56.016950+00:00",
+          "content_length": 201859,
+          "text_length": 18353
+        },
+        {
+          "company_name": "Notion",
+          "company_id": "notion",
+          "page_type": "blog",
+          "source_url": "https://www.notion.com/blog",
+          "crawled_at": "2025-11-01T17:36:57.804166+00:00",
+          "content_length": 167675,
+          "text_length": 3881
+        }
+      ]
+    },
+    {
+      "company_id": "openevidence",
+      "company_name": "Openevidence",
+      "website": "https://openevidence.com",
+      "pages_scraped": 3,
+      "pages": [
+        {
+          "company_name": "Openevidence",
+          "company_id": "openevidence",
+          "page_type": "homepage",
+          "source_url": "https://www.openevidence.com/",
+          "crawled_at": "2025-11-01T17:37:06.646167+00:00",
+          "content_length": 274077,
+          "text_length": 1063
+        },
+        {
+          "company_name": "Openevidence",
+          "company_id": "openevidence",
+          "page_type": "about",
+          "source_url": "https://www.openevidence.com/about",
+          "crawled_at": "2025-11-01T17:37:08.328377+00:00",
+          "content_length": 259745,
+          "text_length": 5701
+        },
+        {
+          "company_name": "Openevidence",
+          "company_id": "openevidence",
+          "page_type": "blog",
+          "source_url": "https://www.openevidence.com/news",
+          "crawled_at": "2025-11-01T17:37:11.396387+00:00",
+          "content_length": 134997,
+          "text_length": 515
+        }
+      ]
+    },
+    {
+      "company_id": "photoroom",
+      "company_name": "Photoroom",
+      "website": "https://photoroom.com",
+      "pages_scraped": 5,
+      "pages": [
+        {
+          "company_name": "Photoroom",
+          "company_id": "photoroom",
+          "page_type": "homepage",
+          "source_url": "https://www.photoroom.com/",
+          "crawled_at": "2025-11-01T17:37:19.651656+00:00",
+          "content_length": 361926,
+          "text_length": 5612
+        },
+        {
+          "company_name": "Photoroom",
+          "company_id": "photoroom",
+          "page_type": "about",
+          "source_url": "https://www.photoroom.com/about",
+          "crawled_at": "2025-11-01T17:37:20.870230+00:00",
+          "content_length": 212378,
+          "text_length": 3524
+        },
+        {
+          "company_name": "Photoroom",
+          "company_id": "photoroom",
+          "page_type": "product",
+          "source_url": "https://www.photoroom.com/solutions",
+          "crawled_at": "2025-11-01T17:37:24.883826+00:00",
+          "content_length": 223733,
+          "text_length": 2602
+        },
+        {
+          "company_name": "Photoroom",
+          "company_id": "photoroom",
+          "page_type": "careers",
+          "source_url": "https://jobs.ashbyhq.com/photoroom",
+          "crawled_at": "2025-11-01T17:37:26.342375+00:00",
+          "content_length": 38176,
+          "text_length": 0
+        },
+        {
+          "company_name": "Photoroom",
+          "company_id": "photoroom",
+          "page_type": "blog",
+          "source_url": "https://www.photoroom.com/blog",
+          "crawled_at": "2025-11-01T17:37:27.580135+00:00",
+          "content_length": 630434,
+          "text_length": 4667
+        }
+      ]
+    },
+    {
+      "company_id": "runway",
+      "company_name": "Runway",
+      "website": "https://runway.com",
+      "pages_scraped": 4,
+      "pages": [
+        {
+          "company_name": "Runway",
+          "company_id": "runway",
+          "page_type": "homepage",
+          "source_url": "https://runway.com/",
+          "crawled_at": "2025-11-01T17:37:36.002817+00:00",
+          "content_length": 133697,
+          "text_length": 6145
+        },
+        {
+          "company_name": "Runway",
+          "company_id": "runway",
+          "page_type": "about",
+          "source_url": "https://runway.com/about",
+          "crawled_at": "2025-11-01T17:37:37.226166+00:00",
+          "content_length": 95889,
+          "text_length": 5692
+        },
+        {
+          "company_name": "Runway",
+          "company_id": "runway",
+          "page_type": "careers",
+          "source_url": "https://runway.com/careers",
+          "crawled_at": "2025-11-01T17:37:39.312675+00:00",
+          "content_length": 91464,
+          "text_length": 5578
+        },
+        {
+          "company_name": "Runway",
+          "company_id": "runway",
+          "page_type": "blog",
+          "source_url": "https://runway.com/blog",
+          "crawled_at": "2025-11-01T17:37:40.529257+00:00",
+          "content_length": 91418,
+          "text_length": 2123
+        }
+      ]
+    },
+    {
+      "company_id": "speak",
+      "company_name": "Speak",
+      "website": "https://speak.com",
+      "pages_scraped": 3,
+      "pages": [
+        {
+          "company_name": "Speak",
+          "company_id": "speak",
+          "page_type": "homepage",
+          "source_url": "https://www.speak.com/",
+          "crawled_at": "2025-11-01T17:42:02.429660+00:00",
+          "content_length": 86851,
+          "text_length": 5490
+        },
+        {
+          "company_name": "Speak",
+          "company_id": "speak",
+          "page_type": "careers",
+          "source_url": "https://www.speak.com/careers",
+          "crawled_at": "2025-11-01T17:42:05.573504+00:00",
+          "content_length": 89842,
+          "text_length": 3654
+        },
+        {
+          "company_name": "Speak",
+          "company_id": "speak",
+          "page_type": "blog",
+          "source_url": "https://www.speak.com/blog",
+          "crawled_at": "2025-11-01T17:42:06.855950+00:00",
+          "content_length": 61546,
+          "text_length": 1437
+        }
+      ]
+    },
+    {
+      "company_id": "stackblitz",
+      "company_name": "Stackblitz",
+      "website": "https://stackblitz.com",
+      "pages_scraped": 2,
+      "pages": [
+        {
+          "company_name": "Stackblitz",
+          "company_id": "stackblitz",
+          "page_type": "homepage",
+          "source_url": "https://stackblitz.com/",
+          "crawled_at": "2025-11-01T17:42:10.907400+00:00",
+          "content_length": 35427,
+          "text_length": 1834
+        },
+        {
+          "company_name": "Stackblitz",
+          "company_id": "stackblitz",
+          "page_type": "careers",
+          "source_url": "https://bolt.new/careers",
+          "crawled_at": "2025-11-01T17:42:15.402684+00:00",
+          "content_length": 122434,
+          "text_length": 2840
+        }
+      ]
+    },
+    {
+      "company_id": "suno",
+      "company_name": "Suno",
+      "website": "https://suno.com",
+      "pages_scraped": 2,
+      "pages": [
+        {
+          "company_name": "Suno",
+          "company_id": "suno",
+          "page_type": "homepage",
+          "source_url": "https://suno.com/home",
+          "crawled_at": "2025-11-01T17:42:20.495620+00:00",
+          "content_length": 80582,
+          "text_length": 21
+        },
+        {
+          "company_name": "Suno",
+          "company_id": "suno",
+          "page_type": "careers",
+          "source_url": "https://jobs.ashbyhq.com/suno",
+          "crawled_at": "2025-11-01T17:42:22.280571+00:00",
+          "content_length": 70901,
+          "text_length": 0
+        }
+      ]
+    },
+    {
+      "company_id": "synthesia",
+      "company_name": "Synthesia",
+      "website": "https://synthesia.com",
+      "pages_scraped": 4,
+      "pages": [
+        {
+          "company_name": "Synthesia",
+          "company_id": "synthesia",
+          "page_type": "homepage",
+          "source_url": "https://www.synthesia.com/",
+          "crawled_at": "2025-11-01T17:42:27.494847+00:00",
+          "content_length": 127322,
+          "text_length": 3895
+        },
+        {
+          "company_name": "Synthesia",
+          "company_id": "synthesia",
+          "page_type": "about",
+          "source_url": "https://www.synthesia.com/sobre-synthesia/",
+          "crawled_at": "2025-11-01T17:42:30.785992+00:00",
+          "content_length": 157285,
+          "text_length": 9904
+        },
+        {
+          "company_name": "Synthesia",
+          "company_id": "synthesia",
+          "page_type": "product",
+          "source_url": "https://www.synthesia.com/productos/",
+          "crawled_at": "2025-11-01T17:42:33.371568+00:00",
+          "content_length": 109421,
+          "text_length": 4119
+        },
+        {
+          "company_name": "Synthesia",
+          "company_id": "synthesia",
+          "page_type": "blog",
+          "source_url": "https://www.synthesia.com/wp-content/uploads/2021/02/blog.jpg",
+          "crawled_at": "2025-11-01T17:42:39.832610+00:00",
+          "content_length": 35555,
+          "text_length": 30785
+        }
+      ]
+    },
+    {
+      "company_id": "thinking_machine_labs",
+      "company_name": "Thinking Machine Labs",
+      "website": "https://thinking-machine-labs.com",
+      "pages_scraped": 1,
+      "pages": [
+        {
+          "company_name": "Thinking Machine Labs",
+          "company_id": "thinking_machine_labs",
+          "page_type": "homepage",
+          "source_url": "https://thinking-machine-labs.com/",
+          "crawled_at": "2025-11-01T17:42:43.246739+00:00",
+          "content_length": 44257,
+          "text_length": 129
+        }
+      ]
+    },
+    {
+      "company_id": "vannevar_labs",
+      "company_name": "Vannevar Labs",
+      "website": "https://vannevar-labs.com",
+      "pages_scraped": 5,
+      "pages": [
+        {
+          "company_name": "Vannevar Labs",
+          "company_id": "vannevar_labs",
+          "page_type": "homepage",
+          "source_url": "https://vannevar-labs.com/",
+          "crawled_at": "2025-11-01T17:42:55.227952+00:00",
+          "content_length": 3138,
+          "text_length": 93
+        },
+        {
+          "company_name": "Vannevar Labs",
+          "company_id": "vannevar_labs",
+          "page_type": "about",
+          "source_url": "https://vannevar-labs.com/about",
+          "crawled_at": "2025-11-01T17:42:56.482717+00:00",
+          "content_length": 3138,
+          "text_length": 93
+        },
+        {
+          "company_name": "Vannevar Labs",
+          "company_id": "vannevar_labs",
+          "page_type": "product",
+          "source_url": "https://vannevar-labs.com/product",
+          "crawled_at": "2025-11-01T17:42:57.708905+00:00",
+          "content_length": 3138,
+          "text_length": 93
+        },
+        {
+          "company_name": "Vannevar Labs",
+          "company_id": "vannevar_labs",
+          "page_type": "careers",
+          "source_url": "https://vannevar-labs.com/careers",
+          "crawled_at": "2025-11-01T17:42:58.939295+00:00",
+          "content_length": 3138,
+          "text_length": 93
+        },
+        {
+          "company_name": "Vannevar Labs",
+          "company_id": "vannevar_labs",
+          "page_type": "blog",
+          "source_url": "https://vannevar-labs.com/blog",
+          "crawled_at": "2025-11-01T17:43:00.169553+00:00",
+          "content_length": 3138,
+          "text_length": 93
+        }
+      ]
+    },
+    {
+      "company_id": "windsurf",
+      "company_name": "Windsurf",
+      "website": "https://windsurf.com",
+      "pages_scraped": 5,
+      "pages": [
+        {
+          "company_name": "Windsurf",
+          "company_id": "windsurf",
+          "page_type": "homepage",
+          "source_url": "https://windsurf.com/",
+          "crawled_at": "2025-11-01T17:43:06.053835+00:00",
+          "content_length": 1714201,
+          "text_length": 7879
+        },
+        {
+          "company_name": "Windsurf",
+          "company_id": "windsurf",
+          "page_type": "about",
+          "source_url": "https://windsurf.com/about",
+          "crawled_at": "2025-11-01T17:43:07.437585+00:00",
+          "content_length": 154694,
+          "text_length": 4113
+        },
+        {
+          "company_name": "Windsurf",
+          "company_id": "windsurf",
+          "page_type": "product",
+          "source_url": "https://windsurf.com/product",
+          "crawled_at": "2025-11-01T17:43:08.752818+00:00",
+          "content_length": 63954,
+          "text_length": 1244
+        },
+        {
+          "company_name": "Windsurf",
+          "company_id": "windsurf",
+          "page_type": "careers",
+          "source_url": "https://windsurf.com/careers",
+          "crawled_at": "2025-11-01T17:43:10.142033+00:00",
+          "content_length": 71965,
+          "text_length": 1803
+        },
+        {
+          "company_name": "Windsurf",
+          "company_id": "windsurf",
+          "page_type": "blog",
+          "source_url": "https://windsurf.com/blog",
+          "crawled_at": "2025-11-01T17:43:11.522595+00:00",
+          "content_length": 159184,
+          "text_length": 968
+        }
+      ]
+    },
+    {
+      "company_id": "writer",
+      "company_name": "Writer",
+      "website": "https://writer.com",
+      "pages_scraped": 5,
+      "pages": [
+        {
+          "company_name": "Writer",
+          "company_id": "writer",
+          "page_type": "homepage",
+          "source_url": "https://writer.com/",
+          "crawled_at": "2025-11-01T17:43:14.885839+00:00",
+          "content_length": 282365,
+          "text_length": 8054
+        },
+        {
+          "company_name": "Writer",
+          "company_id": "writer",
+          "page_type": "about",
+          "source_url": "https://writer.com/company/about/",
+          "crawled_at": "2025-11-01T17:43:16.168904+00:00",
+          "content_length": 346302,
+          "text_length": 7009
+        },
+        {
+          "company_name": "Writer",
+          "company_id": "writer",
+          "page_type": "product",
+          "source_url": "https://writer.com/",
+          "crawled_at": "2025-11-01T17:43:20.130743+00:00",
+          "content_length": 282365,
+          "text_length": 8054
+        },
+        {
+          "company_name": "Writer",
+          "company_id": "writer",
+          "page_type": "careers",
+          "source_url": "https://writer.com/company/careers/",
+          "crawled_at": "2025-11-01T17:43:21.393026+00:00",
+          "content_length": 210976,
+          "text_length": 3337
+        },
+        {
+          "company_name": "Writer",
+          "company_id": "writer",
+          "page_type": "blog",
+          "source_url": "https://writer.com/blog/",
+          "crawled_at": "2025-11-01T17:43:22.675591+00:00",
+          "content_length": 253097,
+          "text_length": 4585
+        }
+      ]
+    },
+    {
+      "company_id": "xai",
+      "company_name": "Xai",
+      "website": "https://xai.com",
+      "pages_scraped": 5,
+      "pages": [
+        {
+          "company_name": "Xai",
+          "company_id": "xai",
+          "page_type": "homepage",
+          "source_url": "https://xai.com/en",
+          "crawled_at": "2025-11-01T17:43:27.422352+00:00",
+          "content_length": 17215,
+          "text_length": 0
+        },
+        {
+          "company_name": "Xai",
+          "company_id": "xai",
+          "page_type": "about",
+          "source_url": "https://xai.com/en",
+          "crawled_at": "2025-11-01T17:43:29.176531+00:00",
+          "content_length": 17215,
+          "text_length": 0
+        },
+        {
+          "company_name": "Xai",
+          "company_id": "xai",
+          "page_type": "product",
+          "source_url": "https://xai.com/en",
+          "crawled_at": "2025-11-01T17:43:30.899322+00:00",
+          "content_length": 17215,
+          "text_length": 0
+        },
+        {
+          "company_name": "Xai",
+          "company_id": "xai",
+          "page_type": "careers",
+          "source_url": "https://xai.com/en",
+          "crawled_at": "2025-11-01T17:43:32.625103+00:00",
+          "content_length": 17215,
+          "text_length": 0
+        },
+        {
+          "company_name": "Xai",
+          "company_id": "xai",
+          "page_type": "blog",
+          "source_url": "https://xai.com/en",
+          "crawled_at": "2025-11-01T17:43:34.355193+00:00",
+          "content_length": 17215,
+          "text_length": 0
+        }
+      ]
+    }
+  ],
+  "completed_at": "2025-11-01T17:43:37.369974+00:00",
+  "successful": 31,
+  "failed": 19
+}
