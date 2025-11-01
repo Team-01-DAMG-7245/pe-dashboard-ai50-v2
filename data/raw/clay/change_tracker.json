@@ -1,0 +1,24 @@
+{
+  "company_id": "clay",
+  "company_name": "Clay",
+  "hashes": {
+    "about": "ec4ef501ce1ff67b302a66255754144e",
+    "careers": "140346c0dc90509b579291e0c7f4dbe6",
+    "blog": "32924d094d2f74e483abd91f59cebae8",
+    "news": "15888675b937e227fb8255636f710f87"
+  },
+  "history": [
+    {
+      "execution_date": "2025-10-31",
+      "crawled_at": "2025-11-01T21:54:32.301124Z",
+      "pages_checked": 4,
+      "changes_detected": [
+        "about",
+        "careers",
+        "blog",
+        "news"
+      ],
+      "errors": 0
+    }
+  ]
+}

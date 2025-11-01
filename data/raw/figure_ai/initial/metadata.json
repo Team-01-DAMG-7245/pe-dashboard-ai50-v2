@@ -1,0 +1,21 @@
+{
+  "company_name": "Figure AI",
+  "company_id": "figure_ai",
+  "base_url": "https://figure-ai.com",
+  "hq_city": "San Jose",
+  "hq_country": "United States",
+  "category": "Humanoid robots",
+  "linkedin": "https://www.linkedin.com/company/figure-ai/",
+  "crawled_at": "2025-11-01T21:47:15.132173Z",
+  "pages_scraped": [
+    {
+      "page": "homepage",
+      "url": "https://figure-ai.com",
+      "status": 200,
+      "size_bytes": 261908,
+      "html_file": "figure_ai/initial/homepage_raw.html",
+      "text_file": "figure_ai/initial/homepage_clean.txt"
+    }
+  ],
+  "errors": []
+}

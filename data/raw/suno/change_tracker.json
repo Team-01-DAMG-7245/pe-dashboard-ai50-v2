@@ -1,0 +1,22 @@
+{
+  "company_id": "suno",
+  "company_name": "Suno",
+  "hashes": {
+    "about": "7d7105f971dd25f1bae1417498fe720e",
+    "careers": "ecce09c54ac35c98865088cd0268c3ec",
+    "blog": "8942ff61eadf28a98f7452b6bf310bca"
+  },
+  "history": [
+    {
+      "execution_date": "2025-10-31",
+      "crawled_at": "2025-11-01T21:55:55.895367Z",
+      "pages_checked": 3,
+      "changes_detected": [
+        "about",
+        "careers",
+        "blog"
+      ],
+      "errors": 0
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "company_name": "Synthesia",
+  "company_id": "synthesia",
+  "base_url": "https://synthesia.com",
+  "hq_city": "London",
+  "hq_country": "United Kingdom",
+  "category": "AI video generation",
+  "linkedin": "https://www.linkedin.com/company/synthesia/",
+  "crawled_at": "2025-11-01T21:48:19.823180Z",
+  "pages_scraped": [
+    {
+      "page": "homepage",
+      "url": "https://synthesia.com",
+      "status": 200,
+      "size_bytes": 127322,
+      "html_file": "synthesia/initial/homepage_raw.html",
+      "text_file": "synthesia/initial/homepage_clean.txt"
+    },
+    {
+      "page": "about",
+      "url": "https://synthesia.com/about",
+      "status": 200,
+      "size_bytes": 157285,
+      "html_file": "synthesia/initial/about_raw.html",
+      "text_file": "synthesia/initial/about_clean.txt"
+    },
+    {
+      "page": "product",
+      "url": "https://synthesia.com/product",
+      "status": 200,
+      "size_bytes": 109421,
+      "html_file": "synthesia/initial/product_raw.html",
+      "text_file": "synthesia/initial/product_clean.txt"
+    },
+    {
+      "page": "blog",
+      "url": "https://synthesia.com/blog",
+      "status": 200,
+      "size_bytes": 35555,
+      "html_file": "synthesia/initial/blog_raw.html",
+      "text_file": "synthesia/initial/blog_clean.txt"
+    },
+    {
+      "page": "news",
+      "url": "https://synthesia.com/news",
+      "status": 200,
+      "size_bytes": 118657,
+      "html_file": "synthesia/initial/news_raw.html",
+      "text_file": "synthesia/initial/news_clean.txt"
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,56 @@
+{
+  "company_name": "World Labs",
+  "company_id": "world_labs",
+  "base_url": "https://world-labs.com",
+  "crawled_at": "2025-11-01T21:54:31.470321Z",
+  "execution_date": "2025-10-31",
+  "pages_refreshed": [
+    {
+      "page": "about",
+      "url": "https://world-labs.com/about",
+      "status": 200,
+      "size_bytes": 38139,
+      "content_hash": "3a485a23cf513dadbdeaa91bf10c21b9",
+      "changed": true,
+      "html_file": "world_labs/2025-10-31/about_raw.html",
+      "text_file": "world_labs/2025-10-31/about_clean.txt"
+    },
+    {
+      "page": "careers",
+      "url": "https://world-labs.com/careers",
+      "status": 200,
+      "size_bytes": 4202,
+      "content_hash": "dec29c94d03cd9cea9f8b2c5906ecb8a",
+      "changed": true,
+      "html_file": "world_labs/2025-10-31/careers_raw.html",
+      "text_file": "world_labs/2025-10-31/careers_clean.txt"
+    },
+    {
+      "page": "blog",
+      "url": "https://world-labs.com/blog",
+      "status": 200,
+      "size_bytes": 44083,
+      "content_hash": "eaae6d5f95a078652c08801babf71a52",
+      "changed": true,
+      "html_file": "world_labs/2025-10-31/blog_raw.html",
+      "text_file": "world_labs/2025-10-31/blog_clean.txt"
+    },
+    {
+      "page": "news",
+      "url": "https://world-labs.com/news",
+      "status": 200,
+      "size_bytes": 4202,
+      "content_hash": "dec29c94d03cd9cea9f8b2c5906ecb8a",
+      "changed": true,
+      "html_file": "world_labs/2025-10-31/news_raw.html",
+      "text_file": "world_labs/2025-10-31/news_clean.txt"
+    }
+  ],
+  "changes_detected": [
+    "about",
+    "careers",
+    "blog",
+    "news"
+  ],
+  "errors": []
+}

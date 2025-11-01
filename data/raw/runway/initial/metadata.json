@@ -1,0 +1,45 @@
+{
+  "company_name": "Runway",
+  "company_id": "runway",
+  "base_url": "https://runway.com",
+  "hq_city": "New York",
+  "hq_country": "United States",
+  "category": "Generative video",
+  "linkedin": "https://www.linkedin.com/company/runway/",
+  "crawled_at": "2025-11-01T21:47:47.824683Z",
+  "pages_scraped": [
+    {
+      "page": "homepage",
+      "url": "https://runway.com",
+      "status": 200,
+      "size_bytes": 133697,
+      "html_file": "runway/initial/homepage_raw.html",
+      "text_file": "runway/initial/homepage_clean.txt"
+    },
+    {
+      "page": "about",
+      "url": "https://runway.com/about",
+      "status": 200,
+      "size_bytes": 95889,
+      "html_file": "runway/initial/about_raw.html",
+      "text_file": "runway/initial/about_clean.txt"
+    },
+    {
+      "page": "careers",
+      "url": "https://runway.com/careers",
+      "status": 200,
+      "size_bytes": 91464,
+      "html_file": "runway/initial/careers_raw.html",
+      "text_file": "runway/initial/careers_clean.txt"
+    },
+    {
+      "page": "blog",
+      "url": "https://runway.com/blog",
+      "status": 200,
+      "size_bytes": 91418,
+      "html_file": "runway/initial/blog_raw.html",
+      "text_file": "runway/initial/blog_clean.txt"
+    }
+  ],
+  "errors": []
+}

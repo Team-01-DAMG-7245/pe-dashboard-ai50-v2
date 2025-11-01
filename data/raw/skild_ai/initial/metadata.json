@@ -1,0 +1,78 @@
+{
+  "company_name": "Skild AI",
+  "company_id": "skild_ai",
+  "base_url": "https://skild-ai.com",
+  "hq_city": "Pittsburgh",
+  "hq_country": "United States",
+  "category": "AI systems for robotics",
+  "linkedin": "https://www.linkedin.com/company/skild-ai/",
+  "crawled_at": "2025-11-01T21:47:53.251520Z",
+  "pages_scraped": [],
+  "errors": [
+    {
+      "page": "homepage",
+      "url": "https://skild-ai.com",
+      "error": "HTTPSConnectionPool(host='skild-ai.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fa0997a19a0>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+    },
+    {
+      "page": "about",
+      "url": "https://skild-ai.com/about",
+      "error": "HTTPSConnectionPool(host='skild-ai.com', port=443): Max retries exceeded with url: /about (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fa099748280>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+    },
+    {
+      "page": "about",
+      "url": "https://skild-ai.com/about-us",
+      "error": "HTTPSConnectionPool(host='skild-ai.com', port=443): Max retries exceeded with url: /about-us (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fa0997ee0d0>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+    },
+    {
+      "page": "about",
+      "url": "https://skild-ai.com/company",
+      "error": "HTTPSConnectionPool(host='skild-ai.com', port=443): Max retries exceeded with url: /company (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fa0997a1790>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+    },
+    {
+      "page": "product",
+      "url": "https://skild-ai.com/product",
+      "error": "HTTPSConnectionPool(host='skild-ai.com', port=443): Max retries exceeded with url: /product (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fa099748b20>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+    },
+    {
+      "page": "product",
+      "url": "https://skild-ai.com/products",
+      "error": "HTTPSConnectionPool(host='skild-ai.com', port=443): Max retries exceeded with url: /products (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fa099758400>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+    },
+    {
+      "page": "platform",
+      "url": "https://skild-ai.com/platform",
+      "error": "HTTPSConnectionPool(host='skild-ai.com', port=443): Max retries exceeded with url: /platform (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fa099758ca0>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+    },
+    {
+      "page": "platform",
+      "url": "https://skild-ai.com/solutions",
+      "error": "HTTPSConnectionPool(host='skild-ai.com', port=443): Max retries exceeded with url: /solutions (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fa099758c70>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+    },
+    {
+      "page": "careers",
+      "url": "https://skild-ai.com/careers",
+      "error": "HTTPSConnectionPool(host='skild-ai.com', port=443): Max retries exceeded with url: /careers (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fa0997582b0>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+    },
+    {
+      "page": "careers",
+      "url": "https://skild-ai.com/jobs",
+      "error": "HTTPSConnectionPool(host='skild-ai.com', port=443): Max retries exceeded with url: /jobs (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fa0997a1d30>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+    },
+    {
+      "page": "blog",
+      "url": "https://skild-ai.com/blog",
+      "error": "HTTPSConnectionPool(host='skild-ai.com', port=443): Max retries exceeded with url: /blog (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fa09975f160>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+    },
+    {
+      "page": "news",
+      "url": "https://skild-ai.com/news",
+      "error": "HTTPSConnectionPool(host='skild-ai.com', port=443): Max retries exceeded with url: /news (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fa09975fca0>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+    },
+    {
+      "page": "news",
+      "url": "https://skild-ai.com/newsroom",
+      "error": "HTTPSConnectionPool(host='skild-ai.com', port=443): Max retries exceeded with url: /newsroom (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fa09974c580>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "company_name": "Thinking Machine Labs",
+  "company_id": "thinking_machine_labs",
+  "base_url": "https://thinking-machine-labs.com",
+  "hq_city": "San Francisco",
+  "hq_country": "United States",
+  "category": "AI research company",
+  "linkedin": "https://www.linkedin.com/company/thinking-machine-labs/",
+  "crawled_at": "2025-11-01T21:48:19.750791Z",
+  "pages_scraped": [
+    {
+      "page": "homepage",
+      "url": "https://thinking-machine-labs.com",
+      "status": 200,
+      "size_bytes": 44257,
+      "html_file": "thinking_machine_labs/initial/homepage_raw.html",
+      "text_file": "thinking_machine_labs/initial/homepage_clean.txt"
+    }
+  ],
+  "errors": []
+}

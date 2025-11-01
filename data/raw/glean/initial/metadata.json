@@ -1,0 +1,53 @@
+{
+  "company_name": "Glean",
+  "company_id": "glean",
+  "base_url": "https://glean.com",
+  "hq_city": "Palo Alto",
+  "hq_country": "United States",
+  "category": "Enterprise AI platform",
+  "linkedin": "https://www.linkedin.com/company/glean/",
+  "crawled_at": "2025-11-01T21:48:57.833489Z",
+  "pages_scraped": [
+    {
+      "page": "homepage",
+      "url": "https://glean.com",
+      "status": 200,
+      "size_bytes": 345025,
+      "html_file": "glean/initial/homepage_raw.html",
+      "text_file": "glean/initial/homepage_clean.txt"
+    },
+    {
+      "page": "about",
+      "url": "https://glean.com/about",
+      "status": 200,
+      "size_bytes": 238195,
+      "html_file": "glean/initial/about_raw.html",
+      "text_file": "glean/initial/about_clean.txt"
+    },
+    {
+      "page": "platform",
+      "url": "https://glean.com/solutions",
+      "status": 200,
+      "size_bytes": 345025,
+      "html_file": "glean/initial/platform_raw.html",
+      "text_file": "glean/initial/platform_clean.txt"
+    },
+    {
+      "page": "careers",
+      "url": "https://glean.com/careers",
+      "status": 200,
+      "size_bytes": 150656,
+      "html_file": "glean/initial/careers_raw.html",
+      "text_file": "glean/initial/careers_clean.txt"
+    },
+    {
+      "page": "blog",
+      "url": "https://glean.com/blog",
+      "status": 200,
+      "size_bytes": 444074,
+      "html_file": "glean/initial/blog_raw.html",
+      "text_file": "glean/initial/blog_clean.txt"
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,78 @@
+{
+  "company_name": "Pika",
+  "company_id": "pika",
+  "base_url": "https://pika.com",
+  "hq_city": "Palo Alto",
+  "hq_country": "United States",
+  "category": "Video generation service",
+  "linkedin": "https://www.linkedin.com/company/pika/",
+  "crawled_at": "2025-11-01T21:47:45.419134Z",
+  "pages_scraped": [],
+  "errors": [
+    {
+      "page": "homepage",
+      "url": "https://pika.com",
+      "error": "HTTPSConnectionPool(host='pika.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1131)')))"
+    },
+    {
+      "page": "about",
+      "url": "https://pika.com/about",
+      "error": "HTTPSConnectionPool(host='pika.com', port=443): Max retries exceeded with url: /about (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1131)')))"
+    },
+    {
+      "page": "about",
+      "url": "https://pika.com/about-us",
+      "error": "HTTPSConnectionPool(host='pika.com', port=443): Max retries exceeded with url: /about-us (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1131)')))"
+    },
+    {
+      "page": "about",
+      "url": "https://pika.com/company",
+      "error": "HTTPSConnectionPool(host='pika.com', port=443): Max retries exceeded with url: /company (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1131)')))"
+    },
+    {
+      "page": "product",
+      "url": "https://pika.com/product",
+      "error": "HTTPSConnectionPool(host='pika.com', port=443): Max retries exceeded with url: /product (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1131)')))"
+    },
+    {
+      "page": "product",
+      "url": "https://pika.com/products",
+      "error": "HTTPSConnectionPool(host='pika.com', port=443): Max retries exceeded with url: /products (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1131)')))"
+    },
+    {
+      "page": "platform",
+      "url": "https://pika.com/platform",
+      "error": "HTTPSConnectionPool(host='pika.com', port=443): Max retries exceeded with url: /platform (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1131)')))"
+    },
+    {
+      "page": "platform",
+      "url": "https://pika.com/solutions",
+      "error": "HTTPSConnectionPool(host='pika.com', port=443): Max retries exceeded with url: /solutions (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1131)')))"
+    },
+    {
+      "page": "careers",
+      "url": "https://pika.com/careers",
+      "error": "HTTPSConnectionPool(host='pika.com', port=443): Max retries exceeded with url: /careers (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1131)')))"
+    },
+    {
+      "page": "careers",
+      "url": "https://pika.com/jobs",
+      "error": "HTTPSConnectionPool(host='pika.com', port=443): Max retries exceeded with url: /jobs (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1131)')))"
+    },
+    {
+      "page": "blog",
+      "url": "https://pika.com/blog",
+      "error": "HTTPSConnectionPool(host='pika.com', port=443): Max retries exceeded with url: /blog (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1131)')))"
+    },
+    {
+      "page": "news",
+      "url": "https://pika.com/news",
+      "error": "HTTPSConnectionPool(host='pika.com', port=443): Max retries exceeded with url: /news (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1131)')))"
+    },
+    {
+      "page": "news",
+      "url": "https://pika.com/newsroom",
+      "error": "HTTPSConnectionPool(host='pika.com', port=443): Max retries exceeded with url: /newsroom (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1131)')))"
+    }
+  ]
+}

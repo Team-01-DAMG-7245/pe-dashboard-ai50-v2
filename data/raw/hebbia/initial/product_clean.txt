@@ -1,0 +1,79 @@
+Product
+Work will never be the same
+AI as it should be.
+Book a Demo
+Chat-based AI fails to answer 84% of queries because...
+The system doesn’t learn from its mistakes. It never improves as you use it
+You want to compare 6 different businesses going back 10 years
+You want to analyze 10,000 documents
+You want insight about the data, not insight on what's in the data
+You want to run 20 step processes not just single prompts
+You want to analyze long documents that exceed context windows
+The system doesn’t learn from its mistakes. It never improves as you use it
+You want to compare 6 different businesses going back 10 years
+You want to analyze 10,000 documents
+You want insight about the data, not insight on what's in the data
+You want to run 20 step processes not just single prompts
+You want to analyze long documents that exceed context windows
+It's time for AI that can do any task
+Stop relying on AI models and interfaces that limit the world of possibilities. AI should work the way that you work.
+Matrix - the AI interface for serious work
+Any Task
+Any Data
+Total Transparency
+Enterprise Security
+Any Task
+Execute your most complex multi-step workflows.
+Any Data
+Reason over any amount and modality of data – with an infinite effective context window.
+Total Transparency
+See the work – trace every action that AI takes.
+Enterprise Security
+Trusted by the largest and most regulated global institutions.
+Matrix is a speed change. Exceed the limits.
+Integrations.
+Hebbia offers a wealth of integrations, giving you access to all the data you need.
+Natively multi-modal.
+Matrix cycles between all-text LLMs and vision models choosing the best for any task, including those with charts and graphs.
+Forever improving.
+Edit prompts in seconds - Matrix learns and adapts to your custom workflow.
+Trustworthy by design.
+Citations are available every step of the way. Validate, update and co-work with your agent.
+Bridging today's AI with tomorrow's innovation.
+Powered by a world class AI architecture that outperforms RAG at every task, Matrix is the only AI Platform you'll ever need.
+$14T
+AUM of firms using Hebbia
+5000+
+1:1 AI onboardings
+4 years
+deploying enterprise LLMs
+1000+
+use cases in production
+The security of privacy
+Your data is always yours. Rest easy working with one of the only AI companies that never trains on your data.
+SOC2 I
+SOC2 II
+GDPR
+Encrypted in transit and at rest
+No training on user data
+CCPA
+(Coming soon)
+Data encrypted at rest with AES 256 and in transit with TLS 1.3
+Don’t be left behind.
+The world’s leading financial, legal, and Fortune 100 firms are using Matrix to teach AI the way they work.
+For Finance
+What if you could analyze 200 earnings calls...in seconds?
+Book a Demo
+For Law
+What if you could transform thousands of documents into actionable insights...in seconds?
+Book a Demo
+For Corporate
+What if you could identify new sales opportunities...in seconds?
+Book a Demo
+“
+We use Hebbia as our GenAI sandbox: a place to safely ideate, build, and ultimately deploy custom GenAI-powered agents. The Hebbia Matrix has been a game-changer for gleaning insights from large volumes of data.
+”
+Chief Knowledge & Innovation Officer
+Fisher Phillips
+Feel the difference. Book a demo.
+Book a demo

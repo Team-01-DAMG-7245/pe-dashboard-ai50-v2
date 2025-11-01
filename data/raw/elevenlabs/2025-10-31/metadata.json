@@ -1,0 +1,45 @@
+{
+  "company_name": "Elevenlabs",
+  "company_id": "elevenlabs",
+  "base_url": "https://elevenlabs.com",
+  "crawled_at": "2025-11-01T21:54:17.602559Z",
+  "execution_date": "2025-10-31",
+  "pages_refreshed": [
+    {
+      "page": "about",
+      "url": "https://elevenlabs.com/about",
+      "status": 200,
+      "size_bytes": 904459,
+      "content_hash": "8cb79f78724ad5b23d39897de5aafcf4",
+      "changed": true,
+      "html_file": "elevenlabs/2025-10-31/about_raw.html",
+      "text_file": "elevenlabs/2025-10-31/about_clean.txt"
+    },
+    {
+      "page": "careers",
+      "url": "https://elevenlabs.com/careers",
+      "status": 200,
+      "size_bytes": 1002690,
+      "content_hash": "b04314d828facf14539774edbf09b586",
+      "changed": true,
+      "html_file": "elevenlabs/2025-10-31/careers_raw.html",
+      "text_file": "elevenlabs/2025-10-31/careers_clean.txt"
+    },
+    {
+      "page": "blog",
+      "url": "https://elevenlabs.com/blog",
+      "status": 200,
+      "size_bytes": 915868,
+      "content_hash": "d8dee5a5f5643f945585806d21cdddde",
+      "changed": true,
+      "html_file": "elevenlabs/2025-10-31/blog_raw.html",
+      "text_file": "elevenlabs/2025-10-31/blog_clean.txt"
+    }
+  ],
+  "changes_detected": [
+    "about",
+    "careers",
+    "blog"
+  ],
+  "errors": []
+}

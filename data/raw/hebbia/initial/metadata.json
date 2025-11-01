@@ -1,0 +1,69 @@
+{
+  "company_name": "Hebbia",
+  "company_id": "hebbia",
+  "base_url": "https://hebbia.com",
+  "hq_city": "New York",
+  "hq_country": "United States",
+  "category": "General purpose AI for finance and legal",
+  "linkedin": "https://www.linkedin.com/company/hebbia/",
+  "crawled_at": "2025-11-01T21:47:57.855932Z",
+  "pages_scraped": [
+    {
+      "page": "homepage",
+      "url": "https://hebbia.com",
+      "status": 200,
+      "size_bytes": 187479,
+      "html_file": "hebbia/initial/homepage_raw.html",
+      "text_file": "hebbia/initial/homepage_clean.txt"
+    },
+    {
+      "page": "about",
+      "url": "https://hebbia.com/about",
+      "status": 200,
+      "size_bytes": 119959,
+      "html_file": "hebbia/initial/about_raw.html",
+      "text_file": "hebbia/initial/about_clean.txt"
+    },
+    {
+      "page": "product",
+      "url": "https://hebbia.com/product",
+      "status": 200,
+      "size_bytes": 123043,
+      "html_file": "hebbia/initial/product_raw.html",
+      "text_file": "hebbia/initial/product_clean.txt"
+    },
+    {
+      "page": "platform",
+      "url": "https://hebbia.com/solutions",
+      "status": 200,
+      "size_bytes": 187479,
+      "html_file": "hebbia/initial/platform_raw.html",
+      "text_file": "hebbia/initial/platform_clean.txt"
+    },
+    {
+      "page": "careers",
+      "url": "https://hebbia.com/careers",
+      "status": 200,
+      "size_bytes": 345883,
+      "html_file": "hebbia/initial/careers_raw.html",
+      "text_file": "hebbia/initial/careers_clean.txt"
+    },
+    {
+      "page": "blog",
+      "url": "https://hebbia.com/blog",
+      "status": 200,
+      "size_bytes": 216989,
+      "html_file": "hebbia/initial/blog_raw.html",
+      "text_file": "hebbia/initial/blog_clean.txt"
+    },
+    {
+      "page": "news",
+      "url": "https://hebbia.com/newsroom",
+      "status": 200,
+      "size_bytes": 71941,
+      "html_file": "hebbia/initial/news_raw.html",
+      "text_file": "hebbia/initial/news_clean.txt"
+    }
+  ],
+  "errors": []
+}

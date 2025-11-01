@@ -1,223 +1,154 @@
-# Project ORBIT — PE Dashboard for Forbes AI 50
+# Forbes AI 50 - PE Dashboard (Project ORBIT)
 
-This is the starter package for **Assignment 2 — DAMG7245**.
+Automated data pipeline for scraping and analyzing Forbes AI 50 companies for private equity intelligence.
 
-## Run locally (dev)
+**Assignment 2 — DAMG7245**
 
+---
+
+## Quick Start
+
+### Run Airflow (Docker)
 ```bash
-python -m venv .venv
-source .venv/bin/activate
+docker compose up
+# Access UI: http://localhost:8080 (admin/admin)
+```
+
+### Run App Locally (Dev)
+```bash
+python -m venv airflow_env
+source airflow_env/bin/activate
 pip install -r requirements.txt
-uvicorn src.api:app --reload
-# in another terminal
-streamlit run src/streamlit_app.py
+uvicorn src.api:app --reload        # http://localhost:8000
+streamlit run src/streamlit_app.py  # http://localhost:8501
 ```
 
-## Docker (app layer only)
+---
 
+## Project Structure
+
+```
+├── dags/                  # Airflow DAGs (Labs 2-3)
+├── data/
+│   ├── forbes_ai50_seed.json   # Company list (Lab 0)
+│   ├── raw/                     # Scraped HTML/text (Lab 1)
+│   ├── structured/              # Pydantic models (Lab 5)
+│   └── payloads/                # Dashboard payloads (Lab 6)
+├── src/
+│   ├── api.py                   # FastAPI endpoints (Lab 7-8)
+│   ├── models.py                # Pydantic schemas (Lab 5)
+│   ├── s3_utils.py              # Cloud storage (Lab 1)
+│   └── streamlit_app.py         # Dashboard UI (Lab 10)
+├── requirements.txt
+├── docker-compose.yml
+└── README.md
+```
+
+---
+
+## Setup
+
+### 1. AWS S3 Configuration
 ```bash
-cd docker
-docker compose up --build
+aws configure  # Enter your credentials
+export AWS_BUCKET_NAME=quanta-ai50-data
 ```
 
-This starts:
+### 2. Seed File
+Populate `data/forbes_ai50_seed.json` with Forbes AI 50 companies from https://www.forbes.com/lists/ai50/
+
+### 3. Environment Variables
+Create `.env`:
+```bash
+AWS_BUCKET_NAME=quanta-ai50-data
+```
+
+---
+
+## Labs Progress
+
+### ✅ Lab 0: Project Bootstrap
+- Repository structure with `dags/`, `data/`, `src/`
+- `forbes_ai50_seed.json` with all 50 companies
+
+### ✅ Lab 1: Scrape & Store
+- Python scraper for homepage, about, product, careers, blog
+- Stores raw HTML + clean text locally
+- Uploads to S3: `s3://quanta-ai50-data/ai50/raw/`
+
+### ✅ Lab 2: Full Load Airflow DAG
+- `ai50_full_ingest_dag.py` - scrapes all 50 companies
+- Schedule: `@once` (manual trigger)
+- Output: `data/raw/<company_id>/initial/` + S3
+
+### ✅ Lab 3: Daily Refresh Airflow DAG
+- `ai50_daily_refresh_dag.py` - daily updates
+- Schedule: `0 3 * * *` (3 AM UTC)
+- Tracks changes with content hashing
+- Creates dated subfolders per run
+
+### 🔄 Lab 4: Vector DB & RAG Index
+- Chunk text into 500-1000 tokens
+- Embed and store in vector DB (FAISS/Chroma)
+- FastAPI endpoint: `/rag/search`
+
+### 🔄 Lab 5: Structured Extraction (Pydantic)
+- Use `instructor` library with LLM
+- Extract: Company, Event, Snapshot, Product, Leadership, Visibility
+- Output: `data/structured/<company_id>.json`
+
+### 🔄 Lab 6: Payload Assembly
+- Combine all structured data into dashboard payload
+- Output: `data/payloads/<company_id>.json`
+
+### 🔄 Lab 7: RAG Pipeline Dashboard
+- Endpoint: `POST /dashboard/rag`
+- Vector DB → LLM → 8-section Markdown dashboard
+
+### 🔄 Lab 8: Structured Pipeline Dashboard
+- Endpoint: `POST /dashboard/structured`
+- Pydantic payload → LLM → Markdown dashboard
+
+### 🔄 Lab 9: Evaluation & Comparison
+- Compare RAG vs Structured for 5+ companies
+- Rubric: factual correctness, schema adherence, hallucination control
+- Output: `EVAL.md`
+
+### 🔄 Lab 10: Dockerize FastAPI + Streamlit
+- `docker-compose.yml` for app layer
 - FastAPI: http://localhost:8000
 - Streamlit: http://localhost:8501
 
-# Add instructions on running on the cloud based on your setup and links to Codelabs, architecture diagrams etc.
+### 🔄 Lab 11: DAG ↔ App Integration
+- Daily DAG writes to `data/payloads/`
+- App reads from payloads for dashboard generation
 
 ---
 
-# Lab 0 — Project Bootstrap & AI 50 Seed
-
-## How to Implement
-
-### 1. Install Dependencies
-
-Navigate to the Lab0 directory and install the required packages:
+## Key Commands
 
 ```bash
-cd src/Lab0
-pip install -r requirements.txt
+# Airflow
+docker compose up               # Start Airflow
+docker compose down             # Stop Airflow
+docker compose logs -f          # View logs
+
+# Check S3
+aws s3 ls s3://quanta-ai50-data/ai50/raw/
+
+# Check scraped data
+ls data/raw/ | wc -l           # Count companies scraped
 ```
-
-**Note:** If using Selenium, ensure ChromeDriver is installed:
-- Download ChromeDriver from https://chromedriver.chromium.org/
-- Add it to your system PATH, or
-- Use `webdriver-manager` package (optional) for automatic driver management
-
-### 2. Run the Scraper
-
-Execute the scraper script to fetch and populate the Forbes AI 50 data:
-
-```bash
-python scrape_forbes_ai50.py
-```
-
-This will:
-- Fetch data from https://www.forbes.com/lists/ai50/
-- Parse company information
-- Save results to `../../data/forbes_ai50_seed.json`
-
-### 3. Verify Output
-
-Check that the seed file was created:
-
-```bash
-ls ../../data/forbes_ai50_seed.json
-```
-
-The JSON file should contain 50 company entries with the following schema:
-
-```json
-[
-  {
-    "rank": 1,
-    "company_name": "Company Name",
-    "description": "Brief description",
-    "industry": "Industry sector",
-    "location": "Headquarters location",
-    "year_founded": 2020,
-    "funding": "$100M",
-    "valuation": "$1B"
-  }
-]
-```
-
-### 4. Troubleshooting
-
-**If the scraper creates template data instead of real data:**
-
-1. Forbes website may use JavaScript rendering that requires Selenium
-2. Website structure may have changed
-3. Check if ChromeDriver is properly installed and accessible
-
-**Manual Fallback:**
-If automated scraping fails, manually populate `data/forbes_ai50_seed.json` with data from https://www.forbes.com/lists/ai50/
-
-### Checkpoint
-
-After successful implementation:
-- ✅ `data/forbes_ai50_seed.json` exists
-- ✅ File contains 50 company entries
-- ✅ All required fields are populated (rank, company_name at minimum)
 
 ---
 
-# Lab 1 — Scrape & Store
+## Deliverables
 
-## Goal
-
-Pull source pages from company websites and store them locally (or to cloud storage). Each company gets a folder with subfolders for initial pull and subsequent daily runs.
-
-## How to Implement
-
-### 1. Install Dependencies
-
-Navigate to the Lab1 directory and install the required packages:
-
-```bash
-cd src/Lab1
-pip install -r requirements.txt
-```
-
-### 2. Run the Scraper
-
-Execute the scraper script to fetch company website pages:
-
-```bash
-# Scrape all companies (initial run)
-python scrape_company_pages.py
-
-# Or limit to first N companies for testing
-python scrape_company_pages.py --limit 5
-
-# For daily runs (stores in daily/ subfolder)
-python scrape_company_pages.py --run-type daily
-```
-
-This will:
-- Read companies from `../../data/forbes_ai50_seed.json`
-- For each company, scrape 5 page types:
-  - **homepage** (root `/`)
-  - **about** (`/about`, `/about-us`, etc.)
-  - **product/platform** (`/product`, `/platform`, `/solutions`, etc.)
-  - **careers** (`/careers`, `/jobs`, etc.)
-  - **blog/news** (`/blog`, `/news`, `/press`, etc.)
-- Save raw HTML (`.html`) and clean text (`.txt`) for each page
-- Generate metadata JSON for each page
-- Organize files in `data/raw/<company_id>/initial/` structure
-
-### 3. Output Structure
-
-Each company's data is organized as:
-
-```
-data/raw/
-├── <company_id>/
-│   └── initial/              # or daily/ for daily runs
-│       ├── homepage.html     # Raw HTML
-│       ├── homepage.txt      # Clean text
-│       ├── homepage_metadata.json
-│       ├── about.html
-│       ├── about.txt
-│       ├── about_metadata.json
-│       ├── product.html
-│       ├── product.txt
-│       ├── product_metadata.json
-│       ├── careers.html
-│       ├── careers.txt
-│       ├── careers_metadata.json
-│       ├── blog.html
-│       ├── blog.txt
-│       └── blog_metadata.json
-└── scrape_summary_initial_<timestamp>.json
-```
-
-### 4. Metadata Format
-
-Each page's metadata JSON contains:
-
-```json
-{
-  "company_name": "Abridge",
-  "company_id": "abridge",
-  "page_type": "homepage",
-  "source_url": "https://www.abridge.com/",
-  "crawled_at": "2025-11-01T16:18:35.511992Z",
-  "content_length": 193487,
-  "text_length": 4851
-}
-```
-
-**Required fields** (per spec):
-- ✅ `company_name`: Company name
-- ✅ `source_url`: URL of the scraped page
-- ✅ `crawled_at`: ISO 8601 timestamp in UTC
-
-**Additional fields** (useful for processing):
-- `company_id`: Safe identifier for folder naming
-- `page_type`: Type of page (homepage, about, product, etc.)
-- `content_length`: Size of HTML in bytes
-- `text_length`: Size of clean text in characters
-
-### 5. Command-Line Options
-
-```bash
-python scrape_company_pages.py --help
-
-Options:
-  --seed-file PATH     Path to seed JSON file (default: ../../data/forbes_ai50_seed.json)
-  --data-dir PATH      Base directory for storing data (default: ../../data/raw)
-  --run-type TYPE      Type of run: initial or daily (default: initial)
-  --limit N            Limit number of companies to scrape (for testing)
-```
-
-### Checkpoint
-
-After successful implementation:
-- ✅ Companies scraped into `data/raw/<company_id>/initial/...`
-- ✅ Each page type has both `.html` (raw) and `.txt` (clean text) files
-- ✅ Each page has corresponding `_metadata.json` with required fields
-- ✅ Summary file generated at `data/raw/scrape_summary_initial_<timestamp>.json`
-- ✅ All 5 page types attempted for each company (homepage, about, product, careers, blog)
+- [x] GitHub repo: `pe-dashboard-ai50`
+- [x] Working Airflow DAGs (Lab 2-3)
+- [ ] FastAPI with `/companies`, `/dashboard/rag`, `/dashboard/structured`
+- [ ] Streamlit UI with company dropdown → dashboard
+- [ ] Docker for FastAPI + Streamlit
+- [ ] `EVAL.md` comparing RAG vs Structured (5+ companies)
+- [ ] Demo video ≤10 mins
+- [ ] Contribution attestation

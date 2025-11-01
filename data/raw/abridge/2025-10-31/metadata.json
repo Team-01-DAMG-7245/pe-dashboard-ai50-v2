@@ -1,0 +1,45 @@
+{
+  "company_name": "Abridge",
+  "company_id": "abridge",
+  "base_url": "https://abridge.com",
+  "crawled_at": "2025-11-01T21:54:29.501081Z",
+  "execution_date": "2025-10-31",
+  "pages_refreshed": [
+    {
+      "page": "about",
+      "url": "https://abridge.com/about",
+      "status": 200,
+      "size_bytes": 44949,
+      "content_hash": "2a54620ab06ad95bf15b2194ab951060",
+      "changed": true,
+      "html_file": "abridge/2025-10-31/about_raw.html",
+      "text_file": "abridge/2025-10-31/about_clean.txt"
+    },
+    {
+      "page": "careers",
+      "url": "https://abridge.com/careers",
+      "status": 200,
+      "size_bytes": 87138,
+      "content_hash": "2144177f42a039c4158c1b6f1209a56f",
+      "changed": true,
+      "html_file": "abridge/2025-10-31/careers_raw.html",
+      "text_file": "abridge/2025-10-31/careers_clean.txt"
+    },
+    {
+      "page": "blog",
+      "url": "https://abridge.com/blog",
+      "status": 200,
+      "size_bytes": 37658,
+      "content_hash": "86543b88a9cc85b97e410acf7f6ab1be",
+      "changed": true,
+      "html_file": "abridge/2025-10-31/blog_raw.html",
+      "text_file": "abridge/2025-10-31/blog_clean.txt"
+    }
+  ],
+  "changes_detected": [
+    "about",
+    "careers",
+    "blog"
+  ],
+  "errors": []
+}

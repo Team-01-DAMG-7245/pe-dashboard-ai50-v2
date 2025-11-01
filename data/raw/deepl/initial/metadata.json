@@ -1,0 +1,45 @@
+{
+  "company_name": "Deepl",
+  "company_id": "deepl",
+  "base_url": "https://deepl.com",
+  "hq_city": "Cologne",
+  "hq_country": "Germany",
+  "category": "AI translation service",
+  "linkedin": "https://www.linkedin.com/company/deepl/",
+  "crawled_at": "2025-11-01T21:48:20.425227Z",
+  "pages_scraped": [
+    {
+      "page": "homepage",
+      "url": "https://deepl.com",
+      "status": 200,
+      "size_bytes": 206112,
+      "html_file": "deepl/initial/homepage_raw.html",
+      "text_file": "deepl/initial/homepage_clean.txt"
+    },
+    {
+      "page": "about",
+      "url": "https://deepl.com/about-us",
+      "status": 200,
+      "size_bytes": 101417,
+      "html_file": "deepl/initial/about_raw.html",
+      "text_file": "deepl/initial/about_clean.txt"
+    },
+    {
+      "page": "careers",
+      "url": "https://deepl.com/careers",
+      "status": 200,
+      "size_bytes": 104432,
+      "html_file": "deepl/initial/careers_raw.html",
+      "text_file": "deepl/initial/careers_clean.txt"
+    },
+    {
+      "page": "blog",
+      "url": "https://deepl.com/blog",
+      "status": 200,
+      "size_bytes": 129999,
+      "html_file": "deepl/initial/blog_raw.html",
+      "text_file": "deepl/initial/blog_clean.txt"
+    }
+  ],
+  "errors": []
+}

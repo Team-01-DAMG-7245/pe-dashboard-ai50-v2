@@ -1,0 +1,56 @@
+{
+  "company_name": "Cohere",
+  "company_id": "cohere",
+  "base_url": "https://cohere.com",
+  "crawled_at": "2025-11-01T21:54:29.251434Z",
+  "execution_date": "2025-10-31",
+  "pages_refreshed": [
+    {
+      "page": "about",
+      "url": "https://cohere.com/about",
+      "status": 200,
+      "size_bytes": 756926,
+      "content_hash": "bc9c0de68036c18a2c59f2651c47fd9f",
+      "changed": true,
+      "html_file": "cohere/2025-10-31/about_raw.html",
+      "text_file": "cohere/2025-10-31/about_clean.txt"
+    },
+    {
+      "page": "careers",
+      "url": "https://cohere.com/careers",
+      "status": 200,
+      "size_bytes": 685277,
+      "content_hash": "3f7b4b42bb8c088ab41f1f6607b2d7b4",
+      "changed": true,
+      "html_file": "cohere/2025-10-31/careers_raw.html",
+      "text_file": "cohere/2025-10-31/careers_clean.txt"
+    },
+    {
+      "page": "blog",
+      "url": "https://cohere.com/blog",
+      "status": 200,
+      "size_bytes": 322465,
+      "content_hash": "0f2937c39f6a6c69dceae151b754ee9d",
+      "changed": true,
+      "html_file": "cohere/2025-10-31/blog_raw.html",
+      "text_file": "cohere/2025-10-31/blog_clean.txt"
+    },
+    {
+      "page": "news",
+      "url": "https://cohere.com/news",
+      "status": 200,
+      "size_bytes": 607366,
+      "content_hash": "9c628014a1da76f0edd29d7d11641077",
+      "changed": true,
+      "html_file": "cohere/2025-10-31/news_raw.html",
+      "text_file": "cohere/2025-10-31/news_clean.txt"
+    }
+  ],
+  "changes_detected": [
+    "about",
+    "careers",
+    "blog",
+    "news"
+  ],
+  "errors": []
+}

@@ -1,0 +1,474 @@
+{
+  "execution_date": "2025-10-31",
+  "completed_at": "2025-11-01T21:57:03.986117Z",
+  "companies_processed": 50,
+  "total_pages_refreshed": 87,
+  "total_changes_detected": 87,
+  "companies_with_errors": 12,
+  "company_details": [
+    {
+      "company_id": "sakana_ai",
+      "company_name": "Sakana AI",
+      "pages_refreshed": 0,
+      "changes_detected": [],
+      "errors": 0
+    },
+    {
+      "company_id": "cohere",
+      "company_name": "Cohere",
+      "pages_refreshed": 4,
+      "changes_detected": [
+        "about",
+        "careers",
+        "blog",
+        "news"
+      ],
+      "errors": 0
+    },
+    {
+      "company_id": "captions",
+      "company_name": "Captions",
+      "pages_refreshed": 0,
+      "changes_detected": [],
+      "errors": 0
+    },
+    {
+      "company_id": "sambanova",
+      "company_name": "Sambanova",
+      "pages_refreshed": 0,
+      "changes_detected": [],
+      "errors": 8
+    },
+    {
+      "company_id": "anysphere",
+      "company_name": "Anysphere",
+      "pages_refreshed": 0,
+      "changes_detected": [],
+      "errors": 0
+    },
+    {
+      "company_id": "baseten",
+      "company_name": "Baseten",
+      "pages_refreshed": 3,
+      "changes_detected": [
+        "about",
+        "careers",
+        "blog"
+      ],
+      "errors": 0
+    },
+    {
+      "company_id": "harvey",
+      "company_name": "Harvey",
+      "pages_refreshed": 0,
+      "changes_detected": [],
+      "errors": 8
+    },
+    {
+      "company_id": "hebbia",
+      "company_name": "Hebbia",
+      "pages_refreshed": 4,
+      "changes_detected": [
+        "about",
+        "careers",
+        "blog",
+        "news"
+      ],
+      "errors": 0
+    },
+    {
+      "company_id": "mistral_ai",
+      "company_name": "Mistral AI",
+      "pages_refreshed": 0,
+      "changes_detected": [],
+      "errors": 0
+    },
+    {
+      "company_id": "speak",
+      "company_name": "Speak",
+      "pages_refreshed": 2,
+      "changes_detected": [
+        "careers",
+        "blog"
+      ],
+      "errors": 0
+    },
+    {
+      "company_id": "world_labs",
+      "company_name": "World Labs",
+      "pages_refreshed": 4,
+      "changes_detected": [
+        "about",
+        "careers",
+        "blog",
+        "news"
+      ],
+      "errors": 0
+    },
+    {
+      "company_id": "langchain",
+      "company_name": "Langchain",
+      "pages_refreshed": 2,
+      "changes_detected": [
+        "about",
+        "careers"
+      ],
+      "errors": 0
+    },
+    {
+      "company_id": "runway",
+      "company_name": "Runway",
+      "pages_refreshed": 3,
+      "changes_detected": [
+        "about",
+        "careers",
+        "blog"
+      ],
+      "errors": 0
+    },
+    {
+      "company_id": "sierra",
+      "company_name": "Sierra",
+      "pages_refreshed": 0,
+      "changes_detected": [],
+      "errors": 0
+    },
+    {
+      "company_id": "vast_data",
+      "company_name": "Vast Data",
+      "pages_refreshed": 0,
+      "changes_detected": [],
+      "errors": 8
+    },
+    {
+      "company_id": "databricks",
+      "company_name": "Databricks",
+      "pages_refreshed": 4,
+      "changes_detected": [
+        "about",
+        "careers",
+        "blog",
+        "news"
+      ],
+      "errors": 0
+    },
+    {
+      "company_id": "perplexity_ai",
+      "company_name": "Perplexity AI",
+      "pages_refreshed": 0,
+      "changes_detected": [],
+      "errors": 0
+    },
+    {
+      "company_id": "thinking_machine_labs",
+      "company_name": "Thinking Machine Labs",
+      "pages_refreshed": 0,
+      "changes_detected": [],
+      "errors": 0
+    },
+    {
+      "company_id": "mercor",
+      "company_name": "Mercor",
+      "pages_refreshed": 2,
+      "changes_detected": [
+        "careers",
+        "blog"
+      ],
+      "errors": 0
+    },
+    {
+      "company_id": "figure_ai",
+      "company_name": "Figure AI",
+      "pages_refreshed": 0,
+      "changes_detected": [],
+      "errors": 0
+    },
+    {
+      "company_id": "crusoe",
+      "company_name": "Crusoe",
+      "pages_refreshed": 0,
+      "changes_detected": [],
+      "errors": 8
+    },
+    {
+      "company_id": "synthesia",
+      "company_name": "Synthesia",
+      "pages_refreshed": 3,
+      "changes_detected": [
+        "about",
+        "blog",
+        "news"
+      ],
+      "errors": 0
+    },
+    {
+      "company_id": "xai",
+      "company_name": "Xai",
+      "pages_refreshed": 4,
+      "changes_detected": [
+        "about",
+        "careers",
+        "blog",
+        "news"
+      ],
+      "errors": 0
+    },
+    {
+      "company_id": "midjourney",
+      "company_name": "Midjourney",
+      "pages_refreshed": 0,
+      "changes_detected": [],
+      "errors": 0
+    },
+    {
+      "company_id": "decagon",
+      "company_name": "Decagon",
+      "pages_refreshed": 0,
+      "changes_detected": [],
+      "errors": 0
+    },
+    {
+      "company_id": "notion",
+      "company_name": "Notion",
+      "pages_refreshed": 3,
+      "changes_detected": [
+        "about",
+        "careers",
+        "blog"
+      ],
+      "errors": 0
+    },
+    {
+      "company_id": "elevenlabs",
+      "company_name": "Elevenlabs",
+      "pages_refreshed": 3,
+      "changes_detected": [
+        "about",
+        "careers",
+        "blog"
+      ],
+      "errors": 0
+    },
+    {
+      "company_id": "pika",
+      "company_name": "Pika",
+      "pages_refreshed": 0,
+      "changes_detected": [],
+      "errors": 8
+    },
+    {
+      "company_id": "writer",
+      "company_name": "Writer",
+      "pages_refreshed": 4,
+      "changes_detected": [
+        "about",
+        "careers",
+        "blog",
+        "news"
+      ],
+      "errors": 0
+    },
+    {
+      "company_id": "skild_ai",
+      "company_name": "Skild AI",
+      "pages_refreshed": 0,
+      "changes_detected": [],
+      "errors": 8
+    },
+    {
+      "company_id": "clay",
+      "company_name": "Clay",
+      "pages_refreshed": 4,
+      "changes_detected": [
+        "about",
+        "careers",
+        "blog",
+        "news"
+      ],
+      "errors": 0
+    },
+    {
+      "company_id": "stackblitz",
+      "company_name": "Stackblitz",
+      "pages_refreshed": 1,
+      "changes_detected": [
+        "careers"
+      ],
+      "errors": 0
+    },
+    {
+      "company_id": "fireworks_ai",
+      "company_name": "Fireworks AI",
+      "pages_refreshed": 0,
+      "changes_detected": [],
+      "errors": 8
+    },
+    {
+      "company_id": "glean",
+      "company_name": "Glean",
+      "pages_refreshed": 3,
+      "changes_detected": [
+        "about",
+        "careers",
+        "blog"
+      ],
+      "errors": 0
+    },
+    {
+      "company_id": "luminance",
+      "company_name": "Luminance",
+      "pages_refreshed": 4,
+      "changes_detected": [
+        "about",
+        "careers",
+        "blog",
+        "news"
+      ],
+      "errors": 0
+    },
+    {
+      "company_id": "lambda",
+      "company_name": "Lambda",
+      "pages_refreshed": 0,
+      "changes_detected": [],
+      "errors": 8
+    },
+    {
+      "company_id": "deepl",
+      "company_name": "Deepl",
+      "pages_refreshed": 3,
+      "changes_detected": [
+        "about",
+        "careers",
+        "blog"
+      ],
+      "errors": 0
+    },
+    {
+      "company_id": "windsurf",
+      "company_name": "Windsurf",
+      "pages_refreshed": 4,
+      "changes_detected": [
+        "about",
+        "careers",
+        "blog",
+        "news"
+      ],
+      "errors": 0
+    },
+    {
+      "company_id": "anthropic",
+      "company_name": "Anthropic",
+      "pages_refreshed": 4,
+      "changes_detected": [
+        "about",
+        "careers",
+        "blog",
+        "news"
+      ],
+      "errors": 0
+    },
+    {
+      "company_id": "together_ai",
+      "company_name": "Together AI",
+      "pages_refreshed": 4,
+      "changes_detected": [
+        "about",
+        "careers",
+        "blog",
+        "news"
+      ],
+      "errors": 0
+    },
+    {
+      "company_id": "hugging_face",
+      "company_name": "Hugging Face",
+      "pages_refreshed": 0,
+      "changes_detected": [],
+      "errors": 8
+    },
+    {
+      "company_id": "coactive_ai",
+      "company_name": "Coactive AI",
+      "pages_refreshed": 0,
+      "changes_detected": [],
+      "errors": 8
+    },
+    {
+      "company_id": "suno",
+      "company_name": "Suno",
+      "pages_refreshed": 3,
+      "changes_detected": [
+        "about",
+        "careers",
+        "blog"
+      ],
+      "errors": 0
+    },
+    {
+      "company_id": "snorkel_ai",
+      "company_name": "Snorkel AI",
+      "pages_refreshed": 0,
+      "changes_detected": [],
+      "errors": 8
+    },
+    {
+      "company_id": "scale_ai",
+      "company_name": "Scale AI",
+      "pages_refreshed": 0,
+      "changes_detected": [],
+      "errors": 8
+    },
+    {
+      "company_id": "vannevar_labs",
+      "company_name": "Vannevar Labs",
+      "pages_refreshed": 4,
+      "changes_detected": [
+        "about",
+        "careers",
+        "blog",
+        "news"
+      ],
+      "errors": 0
+    },
+    {
+      "company_id": "openevidence",
+      "company_name": "Openevidence",
+      "pages_refreshed": 2,
+      "changes_detected": [
+        "about",
+        "news"
+      ],
+      "errors": 0
+    },
+    {
+      "company_id": "abridge",
+      "company_name": "Abridge",
+      "pages_refreshed": 3,
+      "changes_detected": [
+        "about",
+        "careers",
+        "blog"
+      ],
+      "errors": 0
+    },
+    {
+      "company_id": "openai",
+      "company_name": "Openai",
+      "pages_refreshed": 0,
+      "changes_detected": [],
+      "errors": 0
+    },
+    {
+      "company_id": "photoroom",
+      "company_name": "Photoroom",
+      "pages_refreshed": 3,
+      "changes_detected": [
+        "about",
+        "careers",
+        "blog"
+      ],
+      "errors": 0
+    }
+  ]
+}

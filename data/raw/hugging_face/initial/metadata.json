@@ -1,0 +1,82 @@
+{
+  "company_name": "Hugging Face",
+  "company_id": "hugging_face",
+  "base_url": "https://hugging-face.com",
+  "hq_city": "Brooklyn",
+  "hq_country": "United States",
+  "category": "AI research and products",
+  "linkedin": "https://www.linkedin.com/company/hugging-face/",
+  "crawled_at": "2025-11-01T21:47:17.111776Z",
+  "pages_scraped": [
+    {
+      "page": "homepage",
+      "url": "https://hugging-face.com",
+      "status": 200,
+      "size_bytes": 15534,
+      "html_file": "hugging_face/initial/homepage_raw.html",
+      "text_file": "hugging_face/initial/homepage_clean.txt"
+    }
+  ],
+  "errors": [
+    {
+      "page": "about",
+      "url": "https://hugging-face.com/about",
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+    },
+    {
+      "page": "about",
+      "url": "https://hugging-face.com/about-us",
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+    },
+    {
+      "page": "about",
+      "url": "https://hugging-face.com/company",
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+    },
+    {
+      "page": "product",
+      "url": "https://hugging-face.com/product",
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+    },
+    {
+      "page": "product",
+      "url": "https://hugging-face.com/products",
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+    },
+    {
+      "page": "platform",
+      "url": "https://hugging-face.com/platform",
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+    },
+    {
+      "page": "platform",
+      "url": "https://hugging-face.com/solutions",
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+    },
+    {
+      "page": "careers",
+      "url": "https://hugging-face.com/careers",
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+    },
+    {
+      "page": "careers",
+      "url": "https://hugging-face.com/jobs",
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+    },
+    {
+      "page": "blog",
+      "url": "https://hugging-face.com/blog",
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+    },
+    {
+      "page": "news",
+      "url": "https://hugging-face.com/news",
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+    },
+    {
+      "page": "news",
+      "url": "https://hugging-face.com/newsroom",
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+    }
+  ]
+}

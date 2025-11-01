@@ -1,0 +1,53 @@
+{
+  "company_name": "Clay",
+  "company_id": "clay",
+  "base_url": "https://clay.com",
+  "hq_city": "New York",
+  "hq_country": "United States",
+  "category": "Go-to-market tools",
+  "linkedin": "https://www.linkedin.com/company/clay/",
+  "crawled_at": "2025-11-01T21:49:36.135881Z",
+  "pages_scraped": [
+    {
+      "page": "homepage",
+      "url": "https://clay.com",
+      "status": 200,
+      "size_bytes": 188456,
+      "html_file": "clay/initial/homepage_raw.html",
+      "text_file": "clay/initial/homepage_clean.txt"
+    },
+    {
+      "page": "about",
+      "url": "https://clay.com/about",
+      "status": 200,
+      "size_bytes": 273727,
+      "html_file": "clay/initial/about_raw.html",
+      "text_file": "clay/initial/about_clean.txt"
+    },
+    {
+      "page": "careers",
+      "url": "https://clay.com/careers",
+      "status": 200,
+      "size_bytes": 177486,
+      "html_file": "clay/initial/careers_raw.html",
+      "text_file": "clay/initial/careers_clean.txt"
+    },
+    {
+      "page": "blog",
+      "url": "https://clay.com/blog",
+      "status": 200,
+      "size_bytes": 769400,
+      "html_file": "clay/initial/blog_raw.html",
+      "text_file": "clay/initial/blog_clean.txt"
+    },
+    {
+      "page": "news",
+      "url": "https://clay.com/newsroom",
+      "status": 200,
+      "size_bytes": 127916,
+      "html_file": "clay/initial/news_raw.html",
+      "text_file": "clay/initial/news_clean.txt"
+    }
+  ],
+  "errors": []
+}

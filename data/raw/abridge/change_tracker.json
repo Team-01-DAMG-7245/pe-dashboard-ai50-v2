@@ -1,0 +1,22 @@
+{
+  "company_id": "abridge",
+  "company_name": "Abridge",
+  "hashes": {
+    "about": "2a54620ab06ad95bf15b2194ab951060",
+    "careers": "2144177f42a039c4158c1b6f1209a56f",
+    "blog": "86543b88a9cc85b97e410acf7f6ab1be"
+  },
+  "history": [
+    {
+      "execution_date": "2025-10-31",
+      "crawled_at": "2025-11-01T21:54:29.501081Z",
+      "pages_checked": 3,
+      "changes_detected": [
+        "about",
+        "careers",
+        "blog"
+      ],
+      "errors": 0
+    }
+  ]
+}

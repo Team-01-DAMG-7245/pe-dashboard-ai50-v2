@@ -1,0 +1,24 @@
+{
+  "company_id": "world_labs",
+  "company_name": "World Labs",
+  "hashes": {
+    "about": "3a485a23cf513dadbdeaa91bf10c21b9",
+    "careers": "dec29c94d03cd9cea9f8b2c5906ecb8a",
+    "blog": "eaae6d5f95a078652c08801babf71a52",
+    "news": "dec29c94d03cd9cea9f8b2c5906ecb8a"
+  },
+  "history": [
+    {
+      "execution_date": "2025-10-31",
+      "crawled_at": "2025-11-01T21:54:31.470321Z",
+      "pages_checked": 4,
+      "changes_detected": [
+        "about",
+        "careers",
+        "blog",
+        "news"
+      ],
+      "errors": 0
+    }
+  ]
+}

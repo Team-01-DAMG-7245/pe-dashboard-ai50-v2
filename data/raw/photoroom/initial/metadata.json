@@ -1,0 +1,53 @@
+{
+  "company_name": "Photoroom",
+  "company_id": "photoroom",
+  "base_url": "https://photoroom.com",
+  "hq_city": "Paris",
+  "hq_country": "France",
+  "category": "Photo editing app",
+  "linkedin": "https://www.linkedin.com/company/photoroom/",
+  "crawled_at": "2025-11-01T21:47:43.049053Z",
+  "pages_scraped": [
+    {
+      "page": "homepage",
+      "url": "https://photoroom.com",
+      "status": 200,
+      "size_bytes": 361926,
+      "html_file": "photoroom/initial/homepage_raw.html",
+      "text_file": "photoroom/initial/homepage_clean.txt"
+    },
+    {
+      "page": "about",
+      "url": "https://photoroom.com/about",
+      "status": 200,
+      "size_bytes": 212378,
+      "html_file": "photoroom/initial/about_raw.html",
+      "text_file": "photoroom/initial/about_clean.txt"
+    },
+    {
+      "page": "platform",
+      "url": "https://photoroom.com/solutions",
+      "status": 200,
+      "size_bytes": 223733,
+      "html_file": "photoroom/initial/platform_raw.html",
+      "text_file": "photoroom/initial/platform_clean.txt"
+    },
+    {
+      "page": "careers",
+      "url": "https://photoroom.com/careers",
+      "status": 200,
+      "size_bytes": 38176,
+      "html_file": "photoroom/initial/careers_raw.html",
+      "text_file": "photoroom/initial/careers_clean.txt"
+    },
+    {
+      "page": "blog",
+      "url": "https://photoroom.com/blog",
+      "status": 200,
+      "size_bytes": 630434,
+      "html_file": "photoroom/initial/blog_raw.html",
+      "text_file": "photoroom/initial/blog_clean.txt"
+    }
+  ],
+  "errors": []
+}

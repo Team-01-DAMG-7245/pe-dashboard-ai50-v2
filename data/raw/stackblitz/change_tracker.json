@@ -1,0 +1,18 @@
+{
+  "company_id": "stackblitz",
+  "company_name": "Stackblitz",
+  "hashes": {
+    "careers": "ab7ae6cb32e4389a9abdb6d9818cf1d3"
+  },
+  "history": [
+    {
+      "execution_date": "2025-10-31",
+      "crawled_at": "2025-11-01T21:55:58.041918Z",
+      "pages_checked": 1,
+      "changes_detected": [
+        "careers"
+      ],
+      "errors": 0
+    }
+  ]
+}

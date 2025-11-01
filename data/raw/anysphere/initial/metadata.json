@@ -1,0 +1,21 @@
+{
+  "company_name": "Anysphere",
+  "company_id": "anysphere",
+  "base_url": "https://anysphere.com",
+  "hq_city": "San Francisco",
+  "hq_country": "United States",
+  "category": "AI coding tools",
+  "linkedin": "https://www.linkedin.com/company/anysphere/",
+  "crawled_at": "2025-11-01T21:49:28.640138Z",
+  "pages_scraped": [
+    {
+      "page": "homepage",
+      "url": "https://anysphere.com",
+      "status": 200,
+      "size_bytes": 1367,
+      "html_file": "anysphere/initial/homepage_raw.html",
+      "text_file": "anysphere/initial/homepage_clean.txt"
+    }
+  ],
+  "errors": []
+}

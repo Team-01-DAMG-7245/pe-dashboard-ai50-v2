@@ -1,0 +1,22 @@
+{
+  "company_id": "notion",
+  "company_name": "Notion",
+  "hashes": {
+    "about": "25998937cacc3f1373a02d7e45f345db",
+    "careers": "1f2356adcfdfae3aabc4d144e3d6edf9",
+    "blog": "a321a7d5f0bb783e5c9ffbdb35fb20d0"
+  },
+  "history": [
+    {
+      "execution_date": "2025-10-31",
+      "crawled_at": "2025-11-01T21:56:02.192186Z",
+      "pages_checked": 3,
+      "changes_detected": [
+        "about",
+        "careers",
+        "blog"
+      ],
+      "errors": 0
+    }
+  ]
+}

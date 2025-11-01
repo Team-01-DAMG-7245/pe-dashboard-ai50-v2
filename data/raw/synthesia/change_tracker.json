@@ -1,0 +1,22 @@
+{
+  "company_id": "synthesia",
+  "company_name": "Synthesia",
+  "hashes": {
+    "about": "8f9991d538d26e1d8baeee80f546702b",
+    "blog": "e5055d382e0ce21ff32dd49fa4e24833",
+    "news": "98b8adb3adb26399bb763318061bd23b"
+  },
+  "history": [
+    {
+      "execution_date": "2025-10-31",
+      "crawled_at": "2025-11-01T21:56:26.087233Z",
+      "pages_checked": 3,
+      "changes_detected": [
+        "about",
+        "blog",
+        "news"
+      ],
+      "errors": 0
+    }
+  ]
+}

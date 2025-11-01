@@ -1,0 +1,20 @@
+{
+  "company_id": "speak",
+  "company_name": "Speak",
+  "hashes": {
+    "careers": "39c540eb3fe6b7396c2094b1eadbeb1e",
+    "blog": "a0c3c329cebf522b97a8f549628764fa"
+  },
+  "history": [
+    {
+      "execution_date": "2025-10-31",
+      "crawled_at": "2025-11-01T21:55:56.761634Z",
+      "pages_checked": 2,
+      "changes_detected": [
+        "careers",
+        "blog"
+      ],
+      "errors": 0
+    }
+  ]
+}

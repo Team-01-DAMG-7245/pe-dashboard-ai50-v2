@@ -1,0 +1,24 @@
+{
+  "company_id": "vannevar_labs",
+  "company_name": "Vannevar Labs",
+  "hashes": {
+    "about": "4768e71f38a9fb252ff9fa92f9e2bc12",
+    "careers": "4768e71f38a9fb252ff9fa92f9e2bc12",
+    "blog": "4768e71f38a9fb252ff9fa92f9e2bc12",
+    "news": "4768e71f38a9fb252ff9fa92f9e2bc12"
+  },
+  "history": [
+    {
+      "execution_date": "2025-10-31",
+      "crawled_at": "2025-11-01T21:56:26.507006Z",
+      "pages_checked": 4,
+      "changes_detected": [
+        "about",
+        "careers",
+        "blog",
+        "news"
+      ],
+      "errors": 0
+    }
+  ]
+}

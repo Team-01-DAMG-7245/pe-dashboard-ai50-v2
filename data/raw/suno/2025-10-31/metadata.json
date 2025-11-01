@@ -1,0 +1,45 @@
+{
+  "company_name": "Suno",
+  "company_id": "suno",
+  "base_url": "https://suno.com",
+  "crawled_at": "2025-11-01T21:55:55.895367Z",
+  "execution_date": "2025-10-31",
+  "pages_refreshed": [
+    {
+      "page": "about",
+      "url": "https://suno.com/about",
+      "status": 200,
+      "size_bytes": 69214,
+      "content_hash": "7d7105f971dd25f1bae1417498fe720e",
+      "changed": true,
+      "html_file": "suno/2025-10-31/about_raw.html",
+      "text_file": "suno/2025-10-31/about_clean.txt"
+    },
+    {
+      "page": "careers",
+      "url": "https://suno.com/careers",
+      "status": 200,
+      "size_bytes": 70901,
+      "content_hash": "ecce09c54ac35c98865088cd0268c3ec",
+      "changed": true,
+      "html_file": "suno/2025-10-31/careers_raw.html",
+      "text_file": "suno/2025-10-31/careers_clean.txt"
+    },
+    {
+      "page": "blog",
+      "url": "https://suno.com/blog",
+      "status": 200,
+      "size_bytes": 411309,
+      "content_hash": "8942ff61eadf28a98f7452b6bf310bca",
+      "changed": true,
+      "html_file": "suno/2025-10-31/blog_raw.html",
+      "text_file": "suno/2025-10-31/blog_clean.txt"
+    }
+  ],
+  "changes_detected": [
+    "about",
+    "careers",
+    "blog"
+  ],
+  "errors": []
+}

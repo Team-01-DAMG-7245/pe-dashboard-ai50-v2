@@ -1,0 +1,53 @@
+{
+  "company_name": "Notion",
+  "company_id": "notion",
+  "base_url": "https://notion.com",
+  "hq_city": "San Francisco",
+  "hq_country": "United States",
+  "category": "Design collaboration software",
+  "linkedin": "https://www.linkedin.com/company/notion/",
+  "crawled_at": "2025-11-01T21:47:33.757166Z",
+  "pages_scraped": [
+    {
+      "page": "homepage",
+      "url": "https://notion.com",
+      "status": 200,
+      "size_bytes": 171052,
+      "html_file": "notion/initial/homepage_raw.html",
+      "text_file": "notion/initial/homepage_clean.txt"
+    },
+    {
+      "page": "about",
+      "url": "https://notion.com/about",
+      "status": 200,
+      "size_bytes": 87991,
+      "html_file": "notion/initial/about_raw.html",
+      "text_file": "notion/initial/about_clean.txt"
+    },
+    {
+      "page": "product",
+      "url": "https://notion.com/product",
+      "status": 200,
+      "size_bytes": 171052,
+      "html_file": "notion/initial/product_raw.html",
+      "text_file": "notion/initial/product_clean.txt"
+    },
+    {
+      "page": "careers",
+      "url": "https://notion.com/careers",
+      "status": 200,
+      "size_bytes": 201859,
+      "html_file": "notion/initial/careers_raw.html",
+      "text_file": "notion/initial/careers_clean.txt"
+    },
+    {
+      "page": "blog",
+      "url": "https://notion.com/blog",
+      "status": 200,
+      "size_bytes": 167675,
+      "html_file": "notion/initial/blog_raw.html",
+      "text_file": "notion/initial/blog_clean.txt"
+    }
+  ],
+  "errors": []
+}

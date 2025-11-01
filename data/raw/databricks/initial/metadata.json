@@ -1,0 +1,69 @@
+{
+  "company_name": "Databricks",
+  "company_id": "databricks",
+  "base_url": "https://databricks.com",
+  "hq_city": "San Francisco",
+  "hq_country": "United States",
+  "category": "Data and AI platform",
+  "linkedin": "https://www.linkedin.com/company/databricks/",
+  "crawled_at": "2025-11-01T21:48:48.528265Z",
+  "pages_scraped": [
+    {
+      "page": "homepage",
+      "url": "https://databricks.com",
+      "status": 200,
+      "size_bytes": 780615,
+      "html_file": "databricks/initial/homepage_raw.html",
+      "text_file": "databricks/initial/homepage_clean.txt"
+    },
+    {
+      "page": "about",
+      "url": "https://databricks.com/about",
+      "status": 200,
+      "size_bytes": 730671,
+      "html_file": "databricks/initial/about_raw.html",
+      "text_file": "databricks/initial/about_clean.txt"
+    },
+    {
+      "page": "product",
+      "url": "https://databricks.com/product",
+      "status": 200,
+      "size_bytes": 759915,
+      "html_file": "databricks/initial/product_raw.html",
+      "text_file": "databricks/initial/product_clean.txt"
+    },
+    {
+      "page": "platform",
+      "url": "https://databricks.com/solutions",
+      "status": 200,
+      "size_bytes": 729393,
+      "html_file": "databricks/initial/platform_raw.html",
+      "text_file": "databricks/initial/platform_clean.txt"
+    },
+    {
+      "page": "careers",
+      "url": "https://databricks.com/careers",
+      "status": 200,
+      "size_bytes": 750555,
+      "html_file": "databricks/initial/careers_raw.html",
+      "text_file": "databricks/initial/careers_clean.txt"
+    },
+    {
+      "page": "blog",
+      "url": "https://databricks.com/blog",
+      "status": 200,
+      "size_bytes": 730055,
+      "html_file": "databricks/initial/blog_raw.html",
+      "text_file": "databricks/initial/blog_clean.txt"
+    },
+    {
+      "page": "news",
+      "url": "https://databricks.com/newsroom",
+      "status": 200,
+      "size_bytes": 694104,
+      "html_file": "databricks/initial/news_raw.html",
+      "text_file": "databricks/initial/news_clean.txt"
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,22 @@
+{
+  "company_id": "photoroom",
+  "company_name": "Photoroom",
+  "hashes": {
+    "about": "eef66989ccb139317ae0226769a8afe3",
+    "careers": "549ff278b6a8ce2b138ace025def7aa8",
+    "blog": "4b1fa03538c6625db97fabc4a3c8013b"
+  },
+  "history": [
+    {
+      "execution_date": "2025-10-31",
+      "crawled_at": "2025-11-01T21:56:16.339323Z",
+      "pages_checked": 3,
+      "changes_detected": [
+        "about",
+        "careers",
+        "blog"
+      ],
+      "errors": 0
+    }
+  ]
+}

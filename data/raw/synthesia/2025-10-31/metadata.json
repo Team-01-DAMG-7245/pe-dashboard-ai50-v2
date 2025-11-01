@@ -1,0 +1,45 @@
+{
+  "company_name": "Synthesia",
+  "company_id": "synthesia",
+  "base_url": "https://synthesia.com",
+  "crawled_at": "2025-11-01T21:56:26.087233Z",
+  "execution_date": "2025-10-31",
+  "pages_refreshed": [
+    {
+      "page": "about",
+      "url": "https://synthesia.com/about",
+      "status": 200,
+      "size_bytes": 157285,
+      "content_hash": "8f9991d538d26e1d8baeee80f546702b",
+      "changed": true,
+      "html_file": "synthesia/2025-10-31/about_raw.html",
+      "text_file": "synthesia/2025-10-31/about_clean.txt"
+    },
+    {
+      "page": "blog",
+      "url": "https://synthesia.com/blog",
+      "status": 200,
+      "size_bytes": 35555,
+      "content_hash": "e5055d382e0ce21ff32dd49fa4e24833",
+      "changed": true,
+      "html_file": "synthesia/2025-10-31/blog_raw.html",
+      "text_file": "synthesia/2025-10-31/blog_clean.txt"
+    },
+    {
+      "page": "news",
+      "url": "https://synthesia.com/news",
+      "status": 200,
+      "size_bytes": 118657,
+      "content_hash": "98b8adb3adb26399bb763318061bd23b",
+      "changed": true,
+      "html_file": "synthesia/2025-10-31/news_raw.html",
+      "text_file": "synthesia/2025-10-31/news_clean.txt"
+    }
+  ],
+  "changes_detected": [
+    "about",
+    "blog",
+    "news"
+  ],
+  "errors": []
+}

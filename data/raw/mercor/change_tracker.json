@@ -1,0 +1,20 @@
+{
+  "company_id": "mercor",
+  "company_name": "Mercor",
+  "hashes": {
+    "careers": "77fa24aeffef29689fc7a2baf19a0df4",
+    "blog": "e16450d95888cb1527c3251a2565a8ae"
+  },
+  "history": [
+    {
+      "execution_date": "2025-10-31",
+      "crawled_at": "2025-11-01T21:55:54.185766Z",
+      "pages_checked": 2,
+      "changes_detected": [
+        "careers",
+        "blog"
+      ],
+      "errors": 0
+    }
+  ]
+}
