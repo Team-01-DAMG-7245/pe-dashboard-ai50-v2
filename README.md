@@ -215,6 +215,302 @@ Options:
 
 ### Checkpoint
 
+
+
+# Forbes AI50 PE Dashboard - Labs 4-7 Documentation
+
+## Overview
+This document covers the implementation of Labs 4-7 for the Forbes AI50 Private Equity Dashboard project. These labs focus on knowledge representation and dashboard generation.
+
+---
+
+## Lab 4: Vector DB & RAG Index
+**Status:** ✅ Complete  
+**Files:** `src/api_rag.py`, `src/vector_db.py`, `src/chunker.py`  
+**Port:** 8001
+
+### Description
+Implements a Retrieval-Augmented Generation (RAG) system using ChromaDB for vector storage and semantic search.
+
+### Key Components
+- **Text Chunker**: Splits company data into 500-1000 token chunks with overlap
+- **Vector Database**: ChromaDB persistent storage with embeddings
+- **Search API**: FastAPI endpoint for semantic search
+
+### Setup & Usage
+```bash
+# Install dependencies
+pip install chromadb sentence-transformers fastapi uvicorn tiktoken
+
+# Run the API
+python src/api_rag.py
+
+# Test search endpoint
+curl -X POST "http://localhost:8001/rag/search" \
+  -H "Content-Type: application/json" \
+  -d '{"query": "AI products", "company_id": "anthropic", "n_results": 5}'
+```
+
+### Implementation Details
+- Embedding Model: `all-MiniLM-L6-v2`
+- Chunk Size: 750 tokens (target), 1000 tokens (max)
+- Overlap: 100 tokens
+- Vector DB Path: `data/vector_db/`
+
+---
+
+## Lab 5: Structured Extraction with Pydantic
+**Status:** ✅ Complete  
+**Files:** `src/extract_structured.py`  
+**Output:** `data/structured/company_name.json`
+
+### Description
+Extracts structured information from raw company data using OpenAI GPT-4 and Pydantic models.
+
+### Key Components
+- **Pydantic Models**: Structured schemas for company information
+- **OpenAI Integration**: GPT-4 for intelligent extraction
+- **Instructor Library**: Ensures structured output compliance
+
+### Setup & Usage
+```bash
+# Install dependencies
+pip install openai instructor pydantic
+
+# Set OpenAI API key
+export OPENAI_API_KEY="your-key-here"
+
+# Run extraction for 5 test companies
+python src/extract_structured.py
+
+# Check output
+ls data/structured/
+```
+
+### Extracted Fields
+- Company overview (name, description, industry, location)
+- Leadership team (executives with roles and backgrounds)
+- Funding information (total raised, last round, valuation)
+- Products and services
+- Target customers
+- Recent news
+
+### Test Companies
+- anthropic
+- databricks
+- openevidence
+- cohere
+- glean
+
+---
+
+## Lab 6: Payload Assembly
+**Status:** ✅ Complete  
+**Files:** `src/assemble_payloads.py`  
+**Output:** `data/payloads/company_name.json`
+
+### Description
+Assembles complete structured payloads from extracted data components, validated against the pipeline schema.
+
+### Key Components
+- **Payload Assembly**: Combines all JSON components
+- **Validation**: Ensures schema compliance
+- **Test Suite**: Validates with `structured_pipeline.py`
+
+### Setup & Usage
+```bash
+# Run payload assembly
+python src/assemble_payloads.py
+
+# Validate payloads
+python src/structured_pipeline.py
+
+# Check assembled payloads
+ls data/payloads/
+```
+
+### Payload Structure
+```json
+{
+  "company_id": "string",
+  "overview": {...},
+  "leadership": [...],
+  "funding": {...},
+  "products": [...],
+  "customers": [...],
+  "news": [...]
+}
+```
+
+---
+
+## Lab 7: RAG Pipeline Dashboard
+**Status:** ✅ Complete  
+**Files:** `src/rag_dashboard.py`, `src/index_for_rag.py`  
+**Port:** 8002
+
+### Description
+Generates 8-section investor dashboards using vector DB retrieval and LLM synthesis.
+
+### Key Components
+- **Vector Retrieval**: Searches relevant chunks from ChromaDB
+- **Dashboard Generation**: Creates structured investor reports
+- **Prompt Engineering**: Follows strict 8-section format
+
+### Dashboard Sections
+1. Company Overview
+2. Business Model and GTM
+3. Funding & Investor Profile
+4. Growth Momentum
+5. Visibility & Market Sentiment
+6. Risks and Challenges
+7. Outlook
+8. Disclosure Gaps
+
+### Setup & Usage
+```bash
+# Ensure vector DB is populated
+python src/index_for_rag.py
+
+# Set OpenAI API key
+export OPENAI_API_KEY="your-key-here"
+
+# Run dashboard API
+python src/rag_dashboard.py
+
+# Generate dashboard
+curl -X POST "http://localhost:8002/dashboard/rag" \
+  -H "Content-Type: application/json" \
+  -d '{"company_id": "anthropic", "top_k": 10}'
+```
+
+### Configuration
+- Model: `gpt-4o-mini`
+- Temperature: 0.1 (for consistency)
+- Top-k chunks: 10 (default)
+- Max tokens: 2500
+
+---
+
+## Testing & Validation
+
+### Test All Labs
+```bash
+# Lab 4: Test vector search
+curl -X POST "http://localhost:8001/rag/search" \
+  -d '{"query": "AI safety", "n_results": 5}'
+
+# Lab 5: Check structured extraction
+ls -la data/structured/*.json
+
+# Lab 6: Validate payloads
+python src/structured_pipeline.py
+
+# Lab 7: Generate dashboards for multiple companies
+for company in anthropic databricks cohere openevidence glean; do
+  echo "Testing $company..."
+  curl -X POST "http://localhost:8002/dashboard/rag" \
+    -d "{\"company_id\": \"$company\"}" | jq -r '.chunks_used'
+done
+```
+
+### Expected Results
+- Lab 4: Returns relevant text chunks with metadata
+- Lab 5: Creates JSON files with structured company data
+- Lab 6: All payloads pass validation
+- Lab 7: Dashboards with 8 sections, using 3-10 chunks per company
+
+---
+
+## Data Flow
+
+```
+Raw HTML/Text (data/raw/)
+        ↓
+    Lab 4: Chunking & Embedding
+        ↓
+    Vector DB (data/vector_db/)
+        ↓
+    Lab 7: RAG Dashboard
+        ↓
+    8-Section Markdown Report
+
+Parallel Path:
+Raw HTML/Text (data/raw/)
+        ↓
+    Lab 5: Structured Extraction
+        ↓
+    JSON Files (data/structured/)
+        ↓
+    Lab 6: Payload Assembly
+        ↓
+    Validated Payloads (data/payloads/)
+```
+
+---
+
+## Troubleshooting
+
+### Common Issues
+
+1. **OpenAI API Key Error**
+   ```bash
+   export OPENAI_API_KEY="sk-..."
+   ```
+
+2. **Vector DB Not Found**
+   ```bash
+   python src/index_for_rag.py  # Rebuild vector DB
+   ```
+
+3. **Port Already in Use**
+   ```bash
+   lsof -i :8001  # or :8002
+   kill -9 <PID>
+   ```
+
+4. **Missing Dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+---
+
+## Performance Metrics
+
+| Lab | Companies Processed | Processing Time | Success Rate |
+|-----|-------------------|-----------------|--------------|
+| Lab 4 | 30 | ~5 min | 100% |
+| Lab 5 | 5 | ~3 min | 100% |
+| Lab 6 | 5 | <1 min | 100% |
+| Lab 7 | 5 tested | ~10 sec/dashboard | 100% |
+
+---
+
+## Dependencies
+
+```txt
+chromadb==0.4.22
+sentence-transformers==2.3.1
+fastapi==0.109.0
+uvicorn==0.27.0
+tiktoken==0.5.2
+openai==1.12.0
+instructor==0.5.2
+pydantic==2.5.3
+python-dotenv==1.0.0
+```
+
+---
+
+## Author
+- **Name:** Kundana
+- **Branch:** kundana
+- **Labs Completed:** 4, 5, 6, 7
+- **Date:** November 2025
+
+---
+
 After successful implementation:
 - ✅ Companies scraped into `data/raw/<company_id>/initial/...`
 - ✅ Each page type has both `.html` (raw) and `.txt` (clean text) files
