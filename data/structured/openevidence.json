@@ -15,7 +15,7 @@
     "last_round_name": null,
     "last_round_date": null,
     "schema_version": "2.0.0",
-    "as_of": "2025-11-01",
+    "as_of": "2025-11-02",
     "provenance": [
       {
         "source_url": "https://www.openevidence.com/",
@@ -28,7 +28,7 @@
   "snapshots": [
     {
       "company_id": "openevidence",
-      "as_of": "2025-11-01",
+      "as_of": "2025-11-02",
       "headcount_total": null,
       "headcount_growth_pct": null,
       "job_openings_count": null,
@@ -48,7 +48,7 @@
       "product_id": "openevidence_product_1",
       "company_id": "openevidence",
       "name": "OpenEvidence",
-      "description": "The leading medical information platform launched from the Mayo Clinic Platform Accelerate program. Featuring multimedia and clinical findings from The New England Journal of Medicine and JAMA, including the JAMA Network specialty journals. Supported by investors such as Sequoia, Google Ventures, Kleiner Perkins, and others. Available on iOS and Android for verified U.S. HCPs for free.",
+      "description": "The leading medical information platform launched from the Mayo Clinic Platform Accelerate program. Featuring multimedia and clinical findings from The New England Journal of Medicine and JAMA. Supported by investors including Sequoia, Google Ventures, Kleiner Perkins, and others. Free for verified U.S. HCPs.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -427,6 +427,6 @@
     }
   ],
   "visibility": [],
-  "notes": "Extracted from scraped data on 2025-11-01",
+  "notes": "Extracted from scraped data on 2025-11-02",
   "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
 }

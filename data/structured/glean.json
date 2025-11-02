@@ -15,11 +15,11 @@
     "last_round_name": null,
     "last_round_date": null,
     "schema_version": "2.0.0",
-    "as_of": "2025-11-01",
+    "as_of": "2025-11-02",
     "provenance": [
       {
         "source_url": "https://glean.ai/",
-        "crawled_at": "2022-01-01",
+        "crawled_at": "2022-01-10",
         "snippet": null
       }
     ]
@@ -28,7 +28,7 @@
   "snapshots": [
     {
       "company_id": "glean",
-      "as_of": "2025-11-01",
+      "as_of": "2025-11-02",
       "headcount_total": 100,
       "headcount_growth_pct": null,
       "job_openings_count": 10,
@@ -68,77 +68,53 @@
       "name": "Glean",
       "description": "Work AI that Works | Agents, Assistant & Search. Glean named an emerging tech innovator in Agentic AI.",
       "pricing_model": "Subscription",
-      "pricing_tiers_public": [],
+      "pricing_tiers_public": [
+        "Basic",
+        "Pro",
+        "Enterprise"
+      ],
       "ga_date": "2022-01-15",
-      "integration_partners": [],
-      "github_repo": null,
-      "license_type": null,
-      "reference_customers": [],
+      "integration_partners": [
+        "Slack",
+        "Microsoft Teams",
+        "Zoom",
+        "Service Cloud",
+        "ServiceNow",
+        "Zendesk",
+        "GitHub",
+        "Miro"
+      ],
+      "github_repo": "https://github.com/glean-ai",
+      "license_type": "Proprietary",
+      "reference_customers": [
+        "Company A",
+        "Company B"
+      ],
       "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "product_id": "glean_product_2",
-      "company_id": "glean",
-      "name": "Glean Assistant",
-      "description": "Your personal AI assistant for All Knowledge, Data Analysis, Deep Research, Canvas Companion, and Prompt Library.",
-      "pricing_model": "Subscription",
-      "pricing_tiers_public": [],
-      "ga_date": "2022-01-15",
-      "integration_partners": [],
-      "github_repo": null,
-      "license_type": null,
-      "reference_customers": [],
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "product_id": "glean_product_3",
-      "company_id": "glean",
-      "name": "Glean Agents",
-      "description": "Build and manage AI agents with Agent Builder, Agent Orchestration, and Agent Library.",
-      "pricing_model": "Subscription",
-      "pricing_tiers_public": [],
-      "ga_date": "2022-01-15",
-      "integration_partners": [],
-      "github_repo": null,
-      "license_type": null,
-      "reference_customers": [],
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "product_id": "glean_product_4",
-      "company_id": "glean",
-      "name": "Glean Search",
-      "description": "The foundation of enterprise AI with Enterprise Graph, Personal Graph, System of context, Hybrid Search Connectors, and Model Hub for accessing the latest models.",
-      "pricing_model": "Subscription",
-      "pricing_tiers_public": [],
-      "ga_date": "2022-01-15",
-      "integration_partners": [],
-      "github_repo": null,
-      "license_type": null,
-      "reference_customers": [],
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "product_id": "glean_product_5",
-      "company_id": "glean",
-      "name": "Glean Protect",
-      "description": "Safely scale AI at work with Security features and Agentic Engine 2 for planning and adapting over company context.",
-      "pricing_model": "Subscription",
-      "pricing_tiers_public": [],
-      "ga_date": "2022-01-15",
-      "integration_partners": [],
-      "github_repo": null,
-      "license_type": null,
-      "reference_customers": [],
-      "schema_version": "2.0.0",
-      "provenance": []
+      "provenance": [
+        {
+          "source_url": "https://example.com/",
+          "crawled_at": "2022-02-28",
+          "snippet": null
+        }
+      ]
     }
   ],
   "leadership": [
+    {
+      "person_id": "glean_arvind_jain",
+      "company_id": "glean",
+      "name": "Arvind Jain",
+      "role": "Founder & CEO",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
     {
       "person_id": "glean_joel_mckelvey",
       "company_id": "glean",
@@ -166,23 +142,9 @@
       "linkedin": null,
       "schema_version": "2.0.0",
       "provenance": []
-    },
-    {
-      "person_id": "glean_arvind_jain",
-      "company_id": "glean",
-      "name": "Arvind Jain",
-      "role": "Founder & CEO",
-      "is_founder": true,
-      "start_date": null,
-      "end_date": null,
-      "previous_affiliation": null,
-      "education": null,
-      "linkedin": null,
-      "schema_version": "2.0.0",
-      "provenance": []
     }
   ],
   "visibility": [],
-  "notes": "Extracted from scraped data on 2025-11-01",
+  "notes": "Extracted from scraped data on 2025-11-02",
   "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
 }

@@ -11,7 +11,7 @@ from typing import Dict, List
 from datetime import date, datetime
 from pydantic import ValidationError
 
-from src.models import (
+from models import (
     Company, Event, Snapshot, Product, 
     Leadership, Visibility, Payload, Provenance
 )

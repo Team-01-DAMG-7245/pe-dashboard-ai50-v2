@@ -6,7 +6,7 @@
     "website": "https://cohere.ai/",
     "hq_city": "North",
     "hq_state": null,
-    "hq_country": null,
+    "hq_country": "NEW",
     "founded_year": null,
     "categories": [],
     "related_companies": [],
@@ -15,14 +15,14 @@
     "last_round_name": null,
     "last_round_date": null,
     "schema_version": "2.0.0",
-    "as_of": "2025-11-01",
+    "as_of": "2025-11-02",
     "provenance": []
   },
   "events": [],
   "snapshots": [
     {
       "company_id": "cohere",
-      "as_of": "2025-11-01",
+      "as_of": "2025-11-02",
       "headcount_total": 100,
       "headcount_growth_pct": null,
       "job_openings_count": 10,
@@ -162,9 +162,49 @@
           "snippet": null
         }
       ]
+    },
+    {
+      "person_id": "cohere_dario_amodei",
+      "company_id": "cohere",
+      "name": "Dario Amodei",
+      "role": "Board Member",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://cohere.com/about",
+          "crawled_at": "2022-10-20",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "person_id": "cohere_daniela_amodei",
+      "company_id": "cohere",
+      "name": "Daniela Amodei",
+      "role": "Board Member",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://cohere.com/about",
+          "crawled_at": "2022-10-20",
+          "snippet": null
+        }
+      ]
     }
   ],
   "visibility": [],
-  "notes": "Extracted from scraped data on 2025-11-01",
+  "notes": "Extracted from scraped data on 2025-11-02",
   "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
 }

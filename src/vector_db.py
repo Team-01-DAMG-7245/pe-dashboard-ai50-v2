@@ -23,15 +23,13 @@ class VectorDB:
         # Initialize ChromaDB client (simpler approach)
         self.client = chromadb.PersistentClient(path=persist_directory)
         
-        # Delete and recreate collection for clean start
+        # Get or create collection (don't delete existing data!)
         try:
-            self.client.delete_collection("ai50_companies")
+            self.collection = self.client.get_collection("ai50_companies")
+            print(f"Connected to existing collection: ai50_companies")
         except:
-            pass
-        
-        # Create new collection
-        self.collection = self.client.create_collection("ai50_companies")
-        print("Created new collection: ai50_companies")
+            self.collection = self.client.create_collection("ai50_companies")
+            print("Created new collection: ai50_companies")
     
     def add_chunks(self, chunks: List[Dict], company_id: str):
         """Add text chunks to vector database"""

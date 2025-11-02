@@ -1,7 +1,7 @@
 """
 Lab 6 Checkpoint Test - Verify all payloads validate
 """
-from src.structured_pipeline import load_payload
+from structured_pipeline import load_payload
 
 test_companies = ['anthropic', 'databricks', 'glean', 'cohere', 'openevidence']
 
