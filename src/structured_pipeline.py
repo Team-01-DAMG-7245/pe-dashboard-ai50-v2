@@ -1,6 +1,6 @@
 from pathlib import Path
 from typing import Optional
-from .models import Payload
+from models import Payload
 
 DATA_DIR = Path(__file__).resolve().parents[1] / "data" / "payloads"
 

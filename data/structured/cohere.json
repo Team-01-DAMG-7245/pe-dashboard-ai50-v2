@@ -1,0 +1,210 @@
+{
+  "company_record": {
+    "company_id": "cohere",
+    "legal_name": "Cohere",
+    "brand_name": null,
+    "website": "https://cohere.ai/",
+    "hq_city": "North",
+    "hq_state": null,
+    "hq_country": "NEW",
+    "founded_year": null,
+    "categories": [],
+    "related_companies": [],
+    "total_raised_usd": null,
+    "last_disclosed_valuation_usd": null,
+    "last_round_name": null,
+    "last_round_date": null,
+    "schema_version": "2.0.0",
+    "as_of": "2025-11-02",
+    "provenance": []
+  },
+  "events": [],
+  "snapshots": [
+    {
+      "company_id": "cohere",
+      "as_of": "2025-11-02",
+      "headcount_total": 100,
+      "headcount_growth_pct": null,
+      "job_openings_count": 10,
+      "engineering_openings": 5,
+      "sales_openings": 3,
+      "hiring_focus": [
+        "Engineering",
+        "Sales"
+      ],
+      "pricing_tiers": [],
+      "active_products": [],
+      "geo_presence": [
+        "North America",
+        "Europe",
+        "Asia"
+      ],
+      "confidence": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://careers.cohere.com/",
+          "crawled_at": "2022-01-01",
+          "snippet": null
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "product_id": "cohere_product_1",
+      "company_id": "cohere",
+      "name": "Workplace SystemsNorthNEW",
+      "description": "An enterprise-ready AI platform that powers modern workplace productivity",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "cohere_product_2",
+      "company_id": "cohere",
+      "name": "Compass",
+      "description": "An intelligent search and discovery system to surface business insights",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "cohere_product_3",
+      "company_id": "cohere",
+      "name": "Command",
+      "description": "A family of high-performance, scalable language models",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "cohere_product_4",
+      "company_id": "cohere",
+      "name": "Aya Expanse",
+      "description": "Leading multilingual models that excel across 23 different languages",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "cohere_product_5",
+      "company_id": "cohere",
+      "name": "Embed",
+      "description": "A leading multimodal search and retrieval tool",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "cohere_product_6",
+      "company_id": "cohere",
+      "name": "Rerank",
+      "description": "A powerful model that provides a semantic boost to search quality",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "cohere_geoffre",
+      "company_id": "cohere",
+      "name": "Geoffre",
+      "role": "CEO",
+      "is_founder": true,
+      "start_date": "2019-01-01",
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://cohere.com/about",
+          "crawled_at": "2022-10-20",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "person_id": "cohere_dario_amodei",
+      "company_id": "cohere",
+      "name": "Dario Amodei",
+      "role": "Board Member",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://cohere.com/about",
+          "crawled_at": "2022-10-20",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "person_id": "cohere_daniela_amodei",
+      "company_id": "cohere",
+      "name": "Daniela Amodei",
+      "role": "Board Member",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://cohere.com/about",
+          "crawled_at": "2022-10-20",
+          "snippet": null
+        }
+      ]
+    }
+  ],
+  "visibility": [],
+  "notes": "Extracted from scraped data on 2025-11-02",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

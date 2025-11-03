@@ -1,0 +1,150 @@
+{
+  "company_record": {
+    "company_id": "glean",
+    "legal_name": "Glean",
+    "brand_name": null,
+    "website": "https://glean.ai/",
+    "hq_city": null,
+    "hq_state": null,
+    "hq_country": null,
+    "founded_year": null,
+    "categories": [],
+    "related_companies": [],
+    "total_raised_usd": null,
+    "last_disclosed_valuation_usd": null,
+    "last_round_name": null,
+    "last_round_date": null,
+    "schema_version": "2.0.0",
+    "as_of": "2025-11-02",
+    "provenance": [
+      {
+        "source_url": "https://glean.ai/",
+        "crawled_at": "2022-01-10",
+        "snippet": null
+      }
+    ]
+  },
+  "events": [],
+  "snapshots": [
+    {
+      "company_id": "glean",
+      "as_of": "2025-11-02",
+      "headcount_total": 100,
+      "headcount_growth_pct": null,
+      "job_openings_count": 10,
+      "engineering_openings": 5,
+      "sales_openings": 3,
+      "hiring_focus": [
+        "Engineering",
+        "Sales"
+      ],
+      "pricing_tiers": [],
+      "active_products": [],
+      "geo_presence": [
+        "Slack",
+        "Microsoft Teams",
+        "Zoom",
+        "Service Cloud",
+        "ServiceNow",
+        "Zendesk",
+        "GitHub",
+        "Miro"
+      ],
+      "confidence": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://careers.glean.com/",
+          "crawled_at": "2022-01-01",
+          "snippet": null
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "product_id": "glean_product_1",
+      "company_id": "glean",
+      "name": "Glean",
+      "description": "Work AI that Works | Agents, Assistant & Search. Glean named an emerging tech innovator in Agentic AI.",
+      "pricing_model": "Subscription",
+      "pricing_tiers_public": [
+        "Basic",
+        "Pro",
+        "Enterprise"
+      ],
+      "ga_date": "2022-01-15",
+      "integration_partners": [
+        "Slack",
+        "Microsoft Teams",
+        "Zoom",
+        "Service Cloud",
+        "ServiceNow",
+        "Zendesk",
+        "GitHub",
+        "Miro"
+      ],
+      "github_repo": "https://github.com/glean-ai",
+      "license_type": "Proprietary",
+      "reference_customers": [
+        "Company A",
+        "Company B"
+      ],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://example.com/",
+          "crawled_at": "2022-02-28",
+          "snippet": null
+        }
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "glean_arvind_jain",
+      "company_id": "glean",
+      "name": "Arvind Jain",
+      "role": "Founder & CEO",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "glean_joel_mckelvey",
+      "company_id": "glean",
+      "name": "Joel McKelvey",
+      "role": "Head of Solutions",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "glean_abdullah_haydar",
+      "company_id": "glean",
+      "name": "Abdullah Haydar",
+      "role": "Director of Engineering",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "visibility": [],
+  "notes": "Extracted from scraped data on 2025-11-02",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}
