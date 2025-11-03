@@ -606,15 +606,6 @@ instructor==0.5.2
 pydantic==2.5.3
 python-dotenv==1.0.0
 ```
-
----
-
-## Author
-- **Name:** Kundana
-- **Branch:** kundana
-- **Labs Completed:** 4, 5, 6, 7
-- **Date:** November 2025
-
 ---
 
 After successful implementation:
