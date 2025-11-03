@@ -7,8 +7,8 @@ from pydantic import BaseModel
 from typing import List, Optional, Dict
 import os
 
-from vector_db import VectorDB
-from chunker import chunk_company_data
+from lab4.vector_db import VectorDB
+from lab4.chunker import chunk_company_data
 
 app = FastAPI(title="Lab 4 RAG API", version="1.0.0")
 

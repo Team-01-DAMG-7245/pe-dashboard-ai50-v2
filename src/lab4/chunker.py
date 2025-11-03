@@ -79,8 +79,13 @@ class TextChunker:
         return chunks
 
 
-def chunk_company_data(company_id: str, raw_data_path: str = 'data/raw') -> List[Dict]:
+def chunk_company_data(company_id: str, raw_data_path: str = None) -> List[Dict]:
     """Chunk all text data for a company from initial folder"""
+    if raw_data_path is None:
+        # Get project root (4 levels up from lab4/chunker.py)
+        project_root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
+        raw_data_path = os.path.join(project_root, 'data', 'raw')
+    
     chunker = TextChunker()
     all_chunks = []
     

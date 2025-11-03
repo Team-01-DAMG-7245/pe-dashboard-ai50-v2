@@ -11,18 +11,21 @@ from typing import Dict, List
 from datetime import date, datetime
 from pydantic import ValidationError
 
-from models import (
+from lab5.models import (
     Company, Event, Snapshot, Product, 
     Leadership, Visibility, Payload, Provenance
 )
 
 # Initialize instructor with OpenAI
-client = instructor.from_openai(OpenAI())
+openai_client = OpenAI()
+client = instructor.patch(openai_client)
 
 def read_company_texts(company_id: str) -> Dict[str, str]:
     """Read all text files for a company"""
+    # Get project root (3 levels up from lab5/structured_extraction.py)
+    project_root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
     texts = {}
-    initial_path = f"data/raw/{company_id}/initial"
+    initial_path = os.path.join(project_root, "data", "raw", company_id, "initial")
     
     if not os.path.exists(initial_path):
         print(f"No data found for {company_id}")
@@ -248,7 +251,9 @@ def process_company(company_id: str) -> Dict:
     result = payload.model_dump(mode='json')
     
     # Save to file
-    output_dir = "data/structured"
+    # Get project root for output
+    project_root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
+    output_dir = os.path.join(project_root, "data", "structured")
     os.makedirs(output_dir, exist_ok=True)
     
     output_path = f"{output_dir}/{company_id}.json"
@@ -285,9 +290,9 @@ def main():
             results.append(result)
     
     print("\n" + "=" * 60)
-    print(f"✅ LAB 5 COMPLETE!")
+    print(f"[OK] LAB 5 COMPLETE!")
     print(f"   Processed {len(results)}/{len(test_companies)} companies")
-    print(f"   Output saved to data/structured/")
+    print(f"   Output saved to {output_dir}/")
     print("=" * 60)
 
 if __name__ == "__main__":

@@ -2,8 +2,8 @@ import sys
 import os
 sys.path.append('..')  # Add parent directory to path
 
-from chunker import chunk_company_data
-from vector_db import VectorDB
+from lab4.chunker import chunk_company_data
+from lab4.vector_db import VectorDB
 
 # Initialize vector DB
 vector_db = VectorDB()

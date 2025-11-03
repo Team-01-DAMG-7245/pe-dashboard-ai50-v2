@@ -9,8 +9,12 @@ import os
 
 
 class VectorDB:
-    def __init__(self, persist_directory: str = "data/vector_db"):
+    def __init__(self, persist_directory: str = None):
         """Initialize vector database with ChromaDB"""
+        if persist_directory is None:
+            # Get project root (3 levels up from lab4/vector_db.py)
+            project_root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
+            persist_directory = os.path.join(project_root, "data", "vector_db")
         self.persist_directory = persist_directory
         
         # Initialize embedding model
@@ -23,12 +27,16 @@ class VectorDB:
         # Initialize ChromaDB client (simpler approach)
         self.client = chromadb.PersistentClient(path=persist_directory)
         
-        # Get or create collection (don't delete existing data!)
+        # Get or create collection - use SentenceTransformer for consistency
+        # Note: We manually encode embeddings, so we don't need embedding function here
         try:
             self.collection = self.client.get_collection("ai50_companies")
             print(f"Connected to existing collection: ai50_companies")
         except:
-            self.collection = self.client.create_collection("ai50_companies")
+            self.collection = self.client.create_collection(
+                "ai50_companies",
+                metadata={"hnsw:space": "cosine"}
+            )
             print("Created new collection: ai50_companies")
     
     def add_chunks(self, chunks: List[Dict], company_id: str):
@@ -99,7 +107,7 @@ class VectorDB:
 
 
 if __name__ == "__main__":
-    from chunker import chunk_company_data
+    from lab4.chunker import chunk_company_data
     
     print("=" * 60)
     print("LAB 4 - TESTING WITH 5 COMPANIES")
