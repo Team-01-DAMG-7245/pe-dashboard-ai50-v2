@@ -84,7 +84,7 @@ $env:OPENAI_API_KEY = (Get-Content .env | Select-String "OPENAI_API_KEY" | ForEa
 python src\lab4\index_for_rag_all.py
 ```
 
-**Expected Output:** Vector DB should have 96+ chunks indexed.
+**Expected Output:** Vector DB should have 294+ chunks indexed.
 
 **Verify:**
 ```powershell
