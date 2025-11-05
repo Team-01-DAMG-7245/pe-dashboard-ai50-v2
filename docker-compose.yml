@@ -1,3 +1,5 @@
+version: '3.8'
+
 services:
   postgres:
     image: postgres:13
@@ -11,6 +13,8 @@ services:
       test: ["CMD", "pg_isready", "-U", "airflow"]
       interval: 5s
       retries: 5
+    networks:
+      - airflow-network
 
   airflow-init:
     image: apache/airflow:2.7.3
@@ -28,6 +32,8 @@ services:
       bash -c "pip install -r /opt/airflow/requirements.txt &&
                airflow db migrate &&
                airflow users create --username admin --password admin --firstname Admin --lastname User --role Admin --email admin@localhost || true"
+    networks:
+      - airflow-network
 
   airflow-webserver:
     image: apache/airflow:2.7.3
@@ -47,6 +53,8 @@ services:
     ports:
       - "8080:8080"
     command: airflow webserver
+    networks:
+      - airflow-network
 
   airflow-scheduler:
     image: apache/airflow:2.7.3
@@ -64,6 +72,51 @@ services:
       - ./src:/opt/airflow/src
       - ~/.aws:/home/airflow/.aws:ro
     command: airflow scheduler
+    networks:
+      - airflow-network
+
+  # FastAPI App
+  fastapi:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: pe-dashboard-api
+    ports:
+      - "8000:8000"
+    environment:
+      AWS_BUCKET_NAME: quanta-ai50-data
+    volumes:
+      - ./src:/app/src
+      - ./data:/app/data
+      - ~/.aws:/root/.aws:ro
+    command: uvicorn src.api:app --host 0.0.0.0 --port 8000 --reload
+    networks:
+      - airflow-network
+
+  # Streamlit UI
+  streamlit:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: pe-dashboard-ui
+    ports:
+      - "8501:8501"
+    environment:
+      AWS_BUCKET_NAME: quanta-ai50-data
+      FASTAPI_URL: http://fastapi:8000
+    volumes:
+      - ./src:/app/src
+      - ./data:/app/data
+      - ~/.aws:/root/.aws:ro
+    command: streamlit run src/streamlit_app.py --server.port 8501 --server.address 0.0.0.0
+    depends_on:
+      - fastapi
+    networks:
+      - airflow-network
+
+networks:
+  airflow-network:
+    driver: bridge
 
 volumes:
   postgres-db:
