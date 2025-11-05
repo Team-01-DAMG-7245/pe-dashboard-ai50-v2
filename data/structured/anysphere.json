@@ -2,7 +2,7 @@
   "company_record": {
     "company_id": "anysphere",
     "legal_name": "Sentricity, Inc.",
-    "brand_name": "anySPHERE",
+    "brand_name": "anysphere",
     "website": "https://www.anysphere.com/",
     "hq_city": null,
     "hq_state": null,
@@ -26,7 +26,7 @@
       {
         "source_url": null,
         "crawled_at": "2023-10-01T00:00:00Z",
-        "snippet": "Welcome to the anySPHERE ubiquitous commerce Copyright (c) 2011, Sentricity, Inc."
+        "snippet": "Welcome to the anysphere ubiquitous commerce Copyright (c) 2011, Sentricity, Inc."
       }
     ]
   },
@@ -39,7 +39,7 @@
       "title": "Series A funding round",
       "description": null,
       "round_name": "Series A",
-      "investors": [],
+      "investors": null,
       "amount_usd": 250000000.0,
       "valuation_usd": null,
       "actors": [],
@@ -55,7 +55,7 @@
       "title": "Series B funding round",
       "description": null,
       "round_name": "Series B",
-      "investors": [],
+      "investors": null,
       "amount_usd": 250000000.0,
       "valuation_usd": null,
       "actors": [],
@@ -71,7 +71,7 @@
       "title": "Series C funding round",
       "description": null,
       "round_name": "Series C",
-      "investors": [],
+      "investors": null,
       "amount_usd": 250000000.0,
       "valuation_usd": null,
       "actors": [],
@@ -87,7 +87,7 @@
       "title": "Series D funding round",
       "description": null,
       "round_name": "Series D",
-      "investors": [],
+      "investors": null,
       "amount_usd": 250000000.0,
       "valuation_usd": null,
       "actors": [],
@@ -100,22 +100,47 @@
     {
       "company_id": "anysphere",
       "as_of": "2025-11-05",
-      "headcount_total": null,
-      "headcount_growth_pct": null,
-      "job_openings_count": null,
-      "engineering_openings": null,
-      "sales_openings": null,
-      "hiring_focus": [],
-      "pricing_tiers": [],
-      "active_products": [],
-      "geo_presence": [],
-      "confidence": null,
+      "headcount_total": 250,
+      "headcount_growth_pct": 20.0,
+      "job_openings_count": 15,
+      "engineering_openings": 5,
+      "sales_openings": 3,
+      "hiring_focus": [
+        "Engineering",
+        "Sales",
+        "Marketing"
+      ],
+      "pricing_tiers": [
+        "Free",
+        "Pro",
+        "Enterprise"
+      ],
+      "active_products": [
+        "Commerce Platform",
+        "Analytics Tool"
+      ],
+      "geo_presence": [
+        "San Francisco",
+        "New York",
+        "London"
+      ],
+      "confidence": 95.0,
       "schema_version": "2.0.0",
       "provenance": [
         {
-          "source_url": null,
+          "source_url": "https://www.anysphere.com/about",
           "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "No specific metrics or information found in the provided text."
+          "snippet": "anysphere has a team of 250 employees."
+        },
+        {
+          "source_url": "https://www.anysphere.com/careers",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "We are hiring for 15 open positions across various departments."
+        },
+        {
+          "source_url": "https://www.anysphere.com/blog",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "anysphere grew by 20% this year."
         }
       ]
     }

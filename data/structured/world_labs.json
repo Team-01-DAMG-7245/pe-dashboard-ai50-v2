@@ -18,8 +18,8 @@
     "related_companies": [],
     "total_raised_usd": null,
     "last_disclosed_valuation_usd": null,
-    "last_round_name": "Series D",
-    "last_round_date": "2024-01-01",
+    "last_round_name": "Seed round",
+    "last_round_date": "2020-01-01",
     "schema_version": "2.0.0",
     "as_of": "2025-11-05",
     "provenance": [
@@ -32,11 +32,6 @@
         "source_url": "https://www.wlabs.sa",
         "crawled_at": "2023-10-01T00:00:00Z",
         "snippet": "World of Labs located in Riyadh the capital City of Saudi Arabia."
-      },
-      {
-        "source_url": "https://www.wlabs.sa",
-        "crawled_at": "2023-10-01T00:00:00Z",
-        "snippet": "We supply instruments to clinical and medical laboratories (Hospital and Medical Centers), Pharmaceutical, Chemical, Food Beverage, Research Institutions and Universities."
       }
     ]
   },
@@ -46,74 +41,10 @@
       "company_id": "world_labs",
       "occurred_on": "2020-01-01",
       "event_type": "funding",
-      "title": "Seed funding round",
+      "title": "Funding round",
       "description": null,
       "round_name": "Seed round",
-      "investors": [],
-      "amount_usd": 0.0,
-      "valuation_usd": 0.0,
-      "actors": [],
-      "tags": [],
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "event_id": "2",
-      "company_id": "world_labs",
-      "occurred_on": "2021-01-01",
-      "event_type": "funding",
-      "title": "Series A funding round",
-      "description": null,
-      "round_name": "Series A",
-      "investors": [],
-      "amount_usd": 0.0,
-      "valuation_usd": 0.0,
-      "actors": [],
-      "tags": [],
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "event_id": "3",
-      "company_id": "world_labs",
-      "occurred_on": "2022-01-01",
-      "event_type": "funding",
-      "title": "Series B funding round",
-      "description": null,
-      "round_name": "Series B",
-      "investors": [],
-      "amount_usd": 0.0,
-      "valuation_usd": 0.0,
-      "actors": [],
-      "tags": [],
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "event_id": "4",
-      "company_id": "world_labs",
-      "occurred_on": "2023-01-01",
-      "event_type": "funding",
-      "title": "Series C funding round",
-      "description": null,
-      "round_name": "Series C",
-      "investors": [],
-      "amount_usd": 0.0,
-      "valuation_usd": 0.0,
-      "actors": [],
-      "tags": [],
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "event_id": "5",
-      "company_id": "world_labs",
-      "occurred_on": "2024-01-01",
-      "event_type": "funding",
-      "title": "Series D funding round",
-      "description": null,
-      "round_name": "Series D",
-      "investors": [],
+      "investors": null,
       "amount_usd": 0.0,
       "valuation_usd": 0.0,
       "actors": [],
@@ -129,17 +60,33 @@
       "headcount_total": 387,
       "headcount_growth_pct": null,
       "job_openings_count": 0,
-      "engineering_openings": null,
-      "sales_openings": null,
-      "hiring_focus": [],
+      "engineering_openings": 0,
+      "sales_openings": 0,
+      "hiring_focus": [
+        "Medical Equipment",
+        "Analytical Equipment",
+        "Healthcare Solutions"
+      ],
       "pricing_tiers": [],
-      "active_products": [],
+      "active_products": [
+        "Analytical instrument",
+        "Process and Environment",
+        "Pharmaceutical Testing",
+        "Disposable & Consumables",
+        "Microbiology & Microscopy"
+      ],
       "geo_presence": [
         "Riyadh, Saudi Arabia"
       ],
       "confidence": null,
       "schema_version": "2.0.0",
-      "provenance": []
+      "provenance": [
+        {
+          "source_url": null,
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "World of Labs Trading Establishment, supplies Analytical, Medical Equipment, Solutions & Kits, as well as installing, operating and recommend the correct equipment and provide training for its use."
+        }
+      ]
     }
   ],
   "products": [
@@ -222,7 +169,7 @@
       "product_id": "world_labs_product_6",
       "company_id": "world_labs",
       "name": "Altus Science",
-      "description": "Altus Science is a company involved in scientific research and development.",
+      "description": "Altus Science is a company specializing in scientific solutions.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -265,6 +212,6 @@
     }
   ],
   "visibility": [],
-  "notes": "Extracted from scraped data on 2025-11-05. Events: 5 funding/announcement events found.",
+  "notes": "Extracted from scraped data on 2025-11-05. Events: 1 funding/announcement events found.",
   "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
 }

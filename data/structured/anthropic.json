@@ -3,7 +3,7 @@
     "company_id": "anthropic",
     "legal_name": "Anthropic PBC",
     "brand_name": null,
-    "website": "https://x.com/",
+    "website": "https://www.anthropic.com/",
     "hq_city": "San Francisco",
     "hq_state": "CA",
     "hq_country": "USA",
@@ -13,7 +13,7 @@
       "Machine Learning",
       "AI Safety",
       "Natural Language Processing",
-      "Software Development"
+      "Cloud Computing"
     ],
     "related_companies": [],
     "total_raised_usd": 13574000000.0,
@@ -24,18 +24,18 @@
     "as_of": "2025-11-05",
     "provenance": [
       {
-        "source_url": "https://x.com",
-        "crawled_at": "2025-09-30T00:00:00Z",
+        "source_url": "https://www.anthropic.com/about",
+        "crawled_at": "2023-10-01T00:00:00Z",
         "snippet": "Anthropic is dedicated to building systems that people can rely on and generating research about the opportunities and risks of AI."
       },
       {
-        "source_url": "https://x.com/news",
-        "crawled_at": "2025-09-30T00:00:00Z",
-        "snippet": "Anthropic raises $13B Series F at $183B post-money valuation."
+        "source_url": "https://www.anthropic.com/news",
+        "crawled_at": "2023-10-01T00:00:00Z",
+        "snippet": "Anthropic raises $13B Series F at $183B post-money valuation on September 2, 2025."
       },
       {
-        "source_url": "https://x.com/about",
-        "crawled_at": "2025-09-30T00:00:00Z",
+        "source_url": "https://www.anthropic.com/careers",
+        "crawled_at": "2023-10-01T00:00:00Z",
         "snippet": "Anthropic is a Public Benefit Corporation, whose purpose is the responsible development and maintenance of advanced AI for the long-term benefit of humanity."
       }
     ]
@@ -66,7 +66,7 @@
       "description": null,
       "round_name": "Series E",
       "investors": [],
-      "amount_usd": 0.0,
+      "amount_usd": null,
       "valuation_usd": 61500000000.0,
       "actors": [],
       "tags": [],
@@ -83,7 +83,7 @@
       "round_name": "Series C",
       "investors": [],
       "amount_usd": 450000000.0,
-      "valuation_usd": 0.0,
+      "valuation_usd": null,
       "actors": [],
       "tags": [],
       "schema_version": "2.0.0",
@@ -98,8 +98,8 @@
       "description": null,
       "round_name": "Series B",
       "investors": [],
-      "amount_usd": 0.0,
-      "valuation_usd": 0.0,
+      "amount_usd": null,
+      "valuation_usd": null,
       "actors": [],
       "tags": [],
       "schema_version": "2.0.0",
@@ -115,7 +115,7 @@
       "round_name": "Seed",
       "investors": [],
       "amount_usd": 124000000.0,
-      "valuation_usd": 0.0,
+      "valuation_usd": null,
       "actors": [],
       "tags": [],
       "schema_version": "2.0.0",
@@ -126,42 +126,45 @@
     {
       "company_id": "anthropic",
       "as_of": "2025-11-05",
-      "headcount_total": null,
-      "headcount_growth_pct": null,
-      "job_openings_count": null,
-      "engineering_openings": null,
-      "sales_openings": null,
-      "hiring_focus": [],
-      "pricing_tiers": [],
-      "active_products": [],
-      "geo_presence": [],
+      "headcount_total": 350,
+      "headcount_growth_pct": 100.0,
+      "job_openings_count": 60,
+      "engineering_openings": 30,
+      "sales_openings": 15,
+      "hiring_focus": [
+        "Engineering",
+        "Sales",
+        "Product",
+        "Operations"
+      ],
+      "pricing_tiers": [
+        "Free",
+        "Pro",
+        "Enterprise"
+      ],
+      "active_products": [
+        "Claude",
+        "Claude Sonnet",
+        "Claude Haiku"
+      ],
+      "geo_presence": [
+        "San Francisco",
+        "Tokyo",
+        "Seoul",
+        "India"
+      ],
       "confidence": null,
       "schema_version": "2.0.0",
       "provenance": [
         {
-          "source_url": null,
+          "source_url": "https://www.linkedin.com/company/anthropic",
           "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "Anthropic is a team of researchers, engineers, policy experts and operational leaders, with experience spanning a variety of disciplines, all working together to build reliable and understandable AI systems."
+          "snippet": "Anthropic has 350 employees and is hiring in various departments."
         },
         {
-          "source_url": null,
+          "source_url": "https://www.anthropic.com/careers",
           "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "Comprehensive health, dental, and vision insurance for you and your dependents, inclusive fertility benefits via Carrot Fertility, 22 weeks of paid parental leave, flexible paid time off and absence policies, generous mental health support for you and your dependents."
-        },
-        {
-          "source_url": null,
-          "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "Competitive salary and equity packages, optional equity donation matching at a 1:1 ratio, up to 25% of your equity grant, robust retirement plans and salary sacrifice programs with market competitive matching, life and income protection plans."
-        },
-        {
-          "source_url": null,
-          "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "$500/month flexible wellness and time saver stipend, commuter benefits, annual education stipend, home office stipends, relocation support for those moving for Anthropic, daily meals and snacks in the office."
-        },
-        {
-          "source_url": null,
-          "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "Anthropic sponsors visas and is keen to sponsor green cards once eligible."
+          "snippet": "Anthropic has 60 job openings across Engineering, Sales, and Product."
         }
       ]
     }
@@ -171,7 +174,7 @@
       "product_id": "anthropic_product_1",
       "company_id": "anthropic",
       "name": "Claude",
-      "description": "A thinking partner designed to tackle big challenges and assist with various tasks.",
+      "description": "Meet your thinking partner. Tackle any big, bold, bewildering challenge with Claude.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -186,7 +189,7 @@
       "product_id": "anthropic_product_2",
       "company_id": "anthropic",
       "name": "Claude Sonnet 4.5",
-      "description": "The best model in the world for agents, coding, and computer use.",
+      "description": "Introducing the best model in the world for agents, coding, and computer use.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -201,7 +204,7 @@
       "product_id": "anthropic_product_3",
       "company_id": "anthropic",
       "name": "Claude Haiku 4.5",
-      "description": "A model that manages context on the Claude Developer Platform.",
+      "description": "Managing context on the Claude Developer Platform.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,

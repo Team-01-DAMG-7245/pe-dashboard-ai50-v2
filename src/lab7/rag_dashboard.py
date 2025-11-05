@@ -252,19 +252,19 @@ The "Disclosure Gaps" section MUST be included as the final section and should l
         if missing_sections:
             # If sections are missing, regenerate with stronger emphasis
             print(f"Warning: Missing sections: {missing_sections}, regenerating...")
-            
+                
             stronger_prompt = user_prompt + f"\n\nCRITICAL: You MUST include all 8 sections with ## headers. Missing: {', '.join(missing_sections)}\n\nYour output MUST start with ## Company Overview and end with ## Disclosure Gaps."
-            
-            response = client.chat.completions.create(
-                model="gpt-4o-mini",
-                messages=[
-                    {"role": "system", "content": system_prompt},
-                    {"role": "user", "content": stronger_prompt}
-                ],
-                temperature=0.1,
+                
+                response = client.chat.completions.create(
+                    model="gpt-4o-mini",
+                    messages=[
+                        {"role": "system", "content": system_prompt},
+                        {"role": "user", "content": stronger_prompt}
+                    ],
+                    temperature=0.1,
                 max_tokens=3000  # Increased for complete sections
-            )
-            dashboard = response.choices[0].message.content
+                )
+                dashboard = response.choices[0].message.content
         
         # Final validation - ensure all sections present
         final_missing = [s for s in required_sections if s not in dashboard]

@@ -1,0 +1,22 @@
+LinkedIn Company Page: https://www.linkedin.com/company/luminance
+
+Company Size: [e.g., "201-500 employees" or exact number]
+LinkedIn Followers: [number if available]
+Active Job Postings: [count from LinkedIn jobs section]
+Total Employees: [exact number if available, or use midpoint of range]
+
+Hiring Departments:
+- [List departments with open roles, e.g., Engineering, Sales, Marketing]
+
+Recent Growth Information:
+- [Any growth percentages mentioned]
+- [Growth announcements]
+
+Job Openings Breakdown:
+- Engineering: [count]
+- Sales: [count]
+- Marketing: [count]
+- Other: [count]
+
+Notes:
+[Any additional information from LinkedIn]

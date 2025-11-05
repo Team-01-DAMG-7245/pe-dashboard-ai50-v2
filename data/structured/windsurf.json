@@ -32,36 +32,238 @@
         "source_url": "https://www.windsurf.com/careers",
         "crawled_at": "2025-10-29T00:00:00Z",
         "snippet": "$243M in funding"
-      },
-      {
-        "source_url": "https://www.windsurf.com/home",
-        "crawled_at": "2025-10-29T00:00:00Z",
-        "snippet": "Windsurf is the most intuitive AI coding experience, built to keep you\u2014and your team\u2014in flow."
-      },
-      {
-        "source_url": "https://www.windsurf.com/blog",
-        "crawled_at": "2025-10-29T00:00:00Z",
-        "snippet": "Introducing SWE-1.5: Our Fast Agent Model"
       }
     ]
   },
-  "events": [],
+  "events": [
+    {
+      "event_id": "1",
+      "company_id": "windsurf",
+      "occurred_on": "2025-10-29",
+      "event_type": "funding",
+      "title": "SWE-1.5 Launch Announcement",
+      "description": null,
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "2",
+      "company_id": "windsurf",
+      "occurred_on": "2025-09-17",
+      "event_type": "funding",
+      "title": "Cognition (Windsurf) Named a Leader in the 2025 Gartner\u00ae Magic Quadrant\u2122 for AI Code Assistants",
+      "description": null,
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "3",
+      "company_id": "windsurf",
+      "occurred_on": "2025-08-14",
+      "event_type": "funding",
+      "title": "Windsurf Wave 12 Announcement",
+      "description": null,
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "4",
+      "company_id": "windsurf",
+      "occurred_on": "2025-07-17",
+      "event_type": "funding",
+      "title": "Wave 11: Just Keep Shipping",
+      "description": null,
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "5",
+      "company_id": "windsurf",
+      "occurred_on": "2025-07-16",
+      "event_type": "funding",
+      "title": "Our Commitment to Windsurf",
+      "description": null,
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "6",
+      "company_id": "windsurf",
+      "occurred_on": "2025-06-30",
+      "event_type": "funding",
+      "title": "Windsurf's head of product engineering insights",
+      "description": null,
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "7",
+      "company_id": "windsurf",
+      "occurred_on": "2025-06-24",
+      "event_type": "funding",
+      "title": "Windsurf CEO Varun Mohan's insights on startup growth",
+      "description": null,
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "8",
+      "company_id": "windsurf",
+      "occurred_on": "2025-06-20",
+      "event_type": "funding",
+      "title": "How Windsurf turned its AI coding brand into something cool enough to wear",
+      "description": null,
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "9",
+      "company_id": "windsurf",
+      "occurred_on": "2025-05-15",
+      "event_type": "funding",
+      "title": "Windsurf launches in-house AI models",
+      "description": null,
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "10",
+      "company_id": "windsurf",
+      "occurred_on": "2025-05-02",
+      "event_type": "funding",
+      "title": "Windsurf CEO discusses AI Agents and coding future",
+      "description": null,
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "11",
+      "company_id": "windsurf",
+      "occurred_on": "2025-04-28",
+      "event_type": "funding",
+      "title": "Windsurf Founding Team member on Reinventing Software in the Age of AI",
+      "description": null,
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
   "snapshots": [
     {
       "company_id": "windsurf",
       "as_of": "2025-11-05",
-      "headcount_total": null,
+      "headcount_total": 350,
       "headcount_growth_pct": null,
-      "job_openings_count": null,
-      "engineering_openings": null,
-      "sales_openings": null,
-      "hiring_focus": [],
-      "pricing_tiers": [],
-      "active_products": [],
-      "geo_presence": [],
+      "job_openings_count": 1,
+      "engineering_openings": 1,
+      "sales_openings": 0,
+      "hiring_focus": [
+        "Engineering"
+      ],
+      "pricing_tiers": [
+        "Free"
+      ],
+      "active_products": [
+        "Windsurf Editor",
+        "SWE-1.5"
+      ],
+      "geo_presence": [
+        "Mountain View"
+      ],
       "confidence": null,
       "schema_version": "2.0.0",
-      "provenance": []
+      "provenance": [
+        {
+          "source_url": null,
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Windsurf has been developed by a team of researchers and engineers to build the future of software development."
+        },
+        {
+          "source_url": null,
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Join Windsurf to revolutionize software development with a creative, diverse team building innovative tools that empower developers globally."
+        },
+        {
+          "source_url": null,
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Windsurf is the most intuitive AI coding experience, built to keep you\u2014and your team\u2014in flow."
+        },
+        {
+          "source_url": null,
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Windsurf is trusted by over a million innovators, creators, and teams worldwide."
+        },
+        {
+          "source_url": null,
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Windsurf has 4,000+ enterprise customers."
+        }
+      ]
     }
   ],
   "products": [
@@ -146,7 +348,7 @@
       "person_id": "windsurf_varun_mohan",
       "company_id": "windsurf",
       "name": "Varun Mohan",
-      "role": "CEO",
+      "role": "CEO & Co-Founder",
       "is_founder": true,
       "start_date": null,
       "end_date": null,
@@ -160,21 +362,7 @@
       "person_id": "windsurf_anshul_ramachandran",
       "company_id": "windsurf",
       "name": "Anshul Ramachandran",
-      "role": "Founder",
-      "is_founder": true,
-      "start_date": null,
-      "end_date": null,
-      "previous_affiliation": null,
-      "education": null,
-      "linkedin": null,
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "person_id": "windsurf_garry_tan",
-      "company_id": "windsurf",
-      "name": "Garry Tan",
-      "role": "President & CEO",
+      "role": "Founding Team Member",
       "is_founder": false,
       "start_date": null,
       "end_date": null,
@@ -189,6 +377,20 @@
       "company_id": "windsurf",
       "name": "Sarah Perkel",
       "role": "Head of Product Engineering",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "windsurf_garry_tan",
+      "company_id": "windsurf",
+      "name": "Garry Tan",
+      "role": "President & CEO",
       "is_founder": false,
       "start_date": null,
       "end_date": null,
@@ -216,7 +418,7 @@
       "person_id": "windsurf_jesus_diaz",
       "company_id": "windsurf",
       "name": "Jesus Diaz",
-      "role": "Founder",
+      "role": "Team Member",
       "is_founder": false,
       "start_date": null,
       "end_date": null,
@@ -230,7 +432,7 @@
       "person_id": "windsurf_maxwell_zeff",
       "company_id": "windsurf",
       "name": "Maxwell Zeff",
-      "role": "Founder",
+      "role": "Team Member",
       "is_founder": false,
       "start_date": null,
       "end_date": null,
@@ -242,6 +444,6 @@
     }
   ],
   "visibility": [],
-  "notes": "Extracted from scraped data on 2025-11-05. Events: 0 funding/announcement events found.",
+  "notes": "Extracted from scraped data on 2025-11-05. Events: 11 funding/announcement events found.",
   "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
 }

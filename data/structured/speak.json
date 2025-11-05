@@ -26,12 +26,12 @@
       {
         "source_url": "https://www.speak.com",
         "crawled_at": "2025-06-17T00:00:00Z",
-        "snippet": "Speak - The language learning app that gets you speaking"
+        "snippet": "Speak - The language learning app that gets you speaking. The most effective way to learn a language."
       },
       {
         "source_url": "https://www.speak.com/blog",
         "crawled_at": "2025-06-17T00:00:00Z",
-        "snippet": "Speak named Google Play\u2019s \u201cBest App of 2024\u201d in Hong Kong, Korea and Taiwan"
+        "snippet": "Speak named Google Play\u2019s \u201cBest App of 2024\u201d in Hong Kong, Korea and Taiwan."
       },
       {
         "source_url": "https://www.speak.com/careers",
@@ -104,17 +104,17 @@
       "headcount_total": 130,
       "headcount_growth_pct": null,
       "job_openings_count": 0,
-      "engineering_openings": null,
-      "sales_openings": null,
+      "engineering_openings": 0,
+      "sales_openings": 0,
       "hiring_focus": [
-        "Marketing",
-        "Operations",
         "Engineering",
-        "Product",
-        "Design"
+        "Marketing",
+        "Operations"
       ],
-      "pricing_tiers": [],
-      "active_products": [],
+      "pricing_tiers": null,
+      "active_products": [
+        "Speak Tutor"
+      ],
       "geo_presence": [
         "San Francisco",
         "Seoul",
@@ -122,9 +122,30 @@
         "Taipei",
         "Ljubljana"
       ],
-      "confidence": 0.9,
+      "confidence": null,
       "schema_version": "2.0.0",
-      "provenance": []
+      "provenance": [
+        {
+          "source_url": null,
+          "crawled_at": "2025-06-17T00:00:00Z",
+          "snippet": "Team of 130 people across offices in San Francisco, Seoul, Tokyo, Taipei, and Ljubljana."
+        },
+        {
+          "source_url": null,
+          "crawled_at": "2025-06-17T00:00:00Z",
+          "snippet": "Open roles in Engineering, Marketing, and Operations."
+        },
+        {
+          "source_url": null,
+          "crawled_at": "2025-06-17T00:00:00Z",
+          "snippet": "Speak is on a journey to fix this. We're creating an AI-powered tutor that replicates the flow of a conversation."
+        },
+        {
+          "source_url": null,
+          "crawled_at": "2025-06-17T00:00:00Z",
+          "snippet": "We've quickly grown to become the #1 English app in our first market, South Korea, and now serve hundreds of thousands of subscribers in over 30 countries."
+        }
+      ]
     }
   ],
   "products": [

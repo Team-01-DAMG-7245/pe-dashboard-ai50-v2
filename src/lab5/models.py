@@ -34,7 +34,7 @@ class Event(BaseModel):
     title: str
     description: Optional[str] = None
     round_name: Optional[str] = None
-    investors: List[str] = []
+    investors: Optional[List[str]] = []  # Allow empty list as default
     amount_usd: Optional[float] = None
     valuation_usd: Optional[float] = None
     actors: List[str] = []
@@ -51,8 +51,8 @@ class Snapshot(BaseModel):
     engineering_openings: Optional[int] = None
     sales_openings: Optional[int] = None
     hiring_focus: List[str] = []
-    pricing_tiers: List[str] = []
-    active_products: List[str] = []
+    pricing_tiers: Optional[List[str]] = []  # Allow empty list as default
+    active_products: Optional[List[str]] = []  # Allow empty list as default
     geo_presence: List[str] = []
     confidence: Optional[float] = None
     schema_version: str = "2.0.0"

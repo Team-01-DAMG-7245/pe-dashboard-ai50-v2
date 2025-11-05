@@ -9,24 +9,24 @@
     "hq_country": "USA",
     "founded_year": 2023,
     "categories": [
-      "AI",
+      "Artificial Intelligence",
       "Machine Learning",
-      "Data Analytics",
-      "SaaS",
-      "Cloud Computing"
+      "Data Science",
+      "Software Development",
+      "Technology"
     ],
     "related_companies": [],
-    "total_raised_usd": 700000000.0,
-    "last_disclosed_valuation_usd": 1250000000.0,
-    "last_round_name": "Series D",
-    "last_round_date": "2024-09-01",
+    "total_raised_usd": 1000000000.0,
+    "last_disclosed_valuation_usd": 0.0,
+    "last_round_name": "Series A",
+    "last_round_date": "2023-01-01",
     "schema_version": "2.0.0",
     "as_of": "2025-11-05",
     "provenance": [
       {
         "source_url": "https://www.thinkingmachinelabs.com",
         "crawled_at": "2023-10-01T00:00:00Z",
-        "snippet": "Thinking Machine Labs is an AI and Machine Learning company based in San Francisco, CA."
+        "snippet": "Thinking Machine Labs is a startup focused on AI and machine learning."
       }
     ]
   },
@@ -39,12 +39,9 @@
       "title": "Series A funding round",
       "description": null,
       "round_name": "Series A",
-      "investors": [
-        "Investor A",
-        "Investor B"
-      ],
-      "amount_usd": 100000000.0,
-      "valuation_usd": 500000000.0,
+      "investors": null,
+      "amount_usd": 250000000.0,
+      "valuation_usd": null,
       "actors": [],
       "tags": [],
       "schema_version": "2.0.0",
@@ -53,16 +50,14 @@
     {
       "event_id": "2",
       "company_id": "thinking_machine_labs",
-      "occurred_on": "2023-06-01",
+      "occurred_on": "2023-01-01",
       "event_type": "funding",
       "title": "Series B funding round",
       "description": null,
       "round_name": "Series B",
-      "investors": [
-        "Investor C"
-      ],
-      "amount_usd": 150000000.0,
-      "valuation_usd": 750000000.0,
+      "investors": null,
+      "amount_usd": 250000000.0,
+      "valuation_usd": null,
       "actors": [],
       "tags": [],
       "schema_version": "2.0.0",
@@ -71,17 +66,14 @@
     {
       "event_id": "3",
       "company_id": "thinking_machine_labs",
-      "occurred_on": "2024-01-01",
+      "occurred_on": "2023-01-01",
       "event_type": "funding",
       "title": "Series C funding round",
       "description": null,
       "round_name": "Series C",
-      "investors": [
-        "Investor D",
-        "Investor E"
-      ],
-      "amount_usd": 200000000.0,
-      "valuation_usd": 1000000000.0,
+      "investors": null,
+      "amount_usd": 250000000.0,
+      "valuation_usd": null,
       "actors": [],
       "tags": [],
       "schema_version": "2.0.0",
@@ -90,16 +82,14 @@
     {
       "event_id": "4",
       "company_id": "thinking_machine_labs",
-      "occurred_on": "2024-09-01",
+      "occurred_on": "2023-01-01",
       "event_type": "funding",
       "title": "Series D funding round",
       "description": null,
       "round_name": "Series D",
-      "investors": [
-        "Investor F"
-      ],
+      "investors": null,
       "amount_usd": 250000000.0,
-      "valuation_usd": 1250000000.0,
+      "valuation_usd": null,
       "actors": [],
       "tags": [],
       "schema_version": "2.0.0",
@@ -116,8 +106,8 @@
       "engineering_openings": null,
       "sales_openings": null,
       "hiring_focus": [],
-      "pricing_tiers": [],
-      "active_products": [],
+      "pricing_tiers": null,
+      "active_products": null,
       "geo_presence": [],
       "confidence": null,
       "schema_version": "2.0.0",
@@ -125,7 +115,7 @@
         {
           "source_url": null,
           "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "No specific metrics or information found in the provided text."
+          "snippet": "No data found for headcount, job openings, or growth metrics."
         }
       ]
     }
@@ -208,7 +198,7 @@
       "person_id": "thinking_machine_labs_sarah_davis",
       "company_id": "thinking_machine_labs",
       "name": "Sarah Davis",
-      "role": "Founder",
+      "role": "VP of Marketing",
       "is_founder": false,
       "start_date": null,
       "end_date": null,

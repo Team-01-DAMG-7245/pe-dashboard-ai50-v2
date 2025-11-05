@@ -18,6 +18,13 @@ from lab5.models import (
     EventsList, LeadershipList, ProductsList
 )
 
+# Import job counting helper
+try:
+    from lab5.count_jobs_helper import count_jobs_from_careers_text
+    HAS_JOB_HELPER = True
+except ImportError:
+    HAS_JOB_HELPER = False
+
 # Initialize instructor with OpenAI
 openai_client = OpenAI()
 client = instructor.patch(openai_client)
@@ -40,7 +47,8 @@ def read_company_texts(company_id: str) -> Dict[str, str]:
         'careers': ['careers_clean.txt', 'careers.txt'],
         'blog': ['blog_clean.txt', 'blog.txt'],
         'product': ['product_clean.txt', 'product.txt'],
-        'news': ['news_clean.txt', 'news.txt']
+        'news': ['news_clean.txt', 'news.txt'],
+        'linkedin': ['linkedin_clean.txt', 'linkedin.txt']  # LinkedIn data if available
     }
     
     for key, file_options in file_mappings.items():
@@ -423,56 +431,130 @@ def extract_events(company_id: str, texts: Dict[str, str]) -> List[Event]:
         return []
 
 def extract_snapshot(company_id: str, texts: Dict[str, str]) -> Snapshot:
-    """Extract current snapshot information - MAXIMUM EXTRACTION"""
+    """Extract current snapshot information - MAXIMUM EXTRACTION with LinkedIn-aware extraction"""
     
     # Use FULL text from multiple sources
     careers_text = texts.get('careers', '')
     about_text = texts.get('about', '')
     homepage_text = texts.get('homepage', '')
+    blog_text = texts.get('blog', '')
+    news_text = texts.get('news', '')
+    linkedin_text = texts.get('linkedin', '')  # LinkedIn data if available
     
     combined = f"""
-    === CAREERS PAGE ===
+    === LINKEDIN DATA (Most Reliable for Growth Metrics) ===
+    {linkedin_text}
+    
+    === CAREERS PAGE (Primary Source for Job Listings) ===
     {careers_text}
     
-    === ABOUT PAGE (Company Info) ===
+    === ABOUT PAGE (Company Info & Team Size) ===
     {about_text}
     
     === HOMEPAGE (Company Info) ===
     {homepage_text}
+    
+    === BLOG (Growth Announcements) ===
+    {blog_text}
+    
+    === NEWS (Company Updates) ===
+    {news_text}
     """
     
-    prompt = f"""Extract current company metrics and information from the following text.
+    prompt = f"""Extract current company metrics and Growth Momentum information from the following text for {company_id}.
 
-    SEARCH THOROUGHLY for:
+    CRITICAL: This is for Growth Momentum analysis. Extract ALL available metrics!
+
+    SEARCH THOROUGHLY for Growth Momentum fields:
     
-    1. headcount_total: Number of employees or team size
-       - Look for: "X employees", "team of X", "X people", "X team members", "X+ employees"
-       - Also check: "we're a team of X", "X-person team", "over X employees"
-       - Extract the NUMBER (integer)
+    1. headcount_total: Number of employees or team size (CRITICAL FIELD)
+       - PRIORITY: Check LinkedIn data section first - it often has accurate company size
+       - Look for: "201-500 employees", "50-100 employees", "1000+ employees" (convert to midpoint or max)
+       - Look for EXACT patterns: "X employees", "team of X", "X people", "X team members", "X+ employees", "X-person team"
+       - Also check: "we're a team of X", "over X employees", "X colleagues", "X staff", "X workers"
+       - Look for: "company of X", "X-person company", "team size of X", "currently X employees"
+       - Check LinkedIn-style mentions: "X employees on LinkedIn", "X followers" (if mentioned with context)
+       - Look in: LinkedIn data (if available), About page, Careers page, company announcements, blog posts
+       - Extract the NUMBER (integer) - be precise!
+       - Examples: 
+         * "201-500 employees" → use midpoint (350) or max (500)
+         * "50 employees" → 50
+         * "team of 100+" → 100
+         * "over 200 employees" → 200
     
     2. headcount_growth_pct: Growth percentage if mentioned
-       - Look for: "grew X%", "X% growth", "growing X%", "X% increase"
+       - Look for: "grew X%", "X% growth", "growing X%", "X% increase", "grown X%", "X% YoY growth"
+       - Also check: "doubled in size", "tripled", "10x growth" (convert to percentages)
+       - Look for: "from X to Y employees" (calculate growth %)
+       - Examples: "grew 50%" → 50.0, "doubled" → 100.0, "from 50 to 150" → 200.0
     
-    3. job_openings_count: Number of open positions
-       - Look for: "X open positions", "X roles", "X jobs", "we're hiring X"
-       - Also count individual job listings if listed
+    3. job_openings_count: Number of open positions (CRITICAL FIELD - COUNT EVERY JOB!)
+       - COUNT EVERY job listing you see! Look for job titles followed by location and "Apply"
+       - Pattern: "Job Title" followed by "Location" followed by "Apply" = 1 job
+       - Look for: "X open positions", "X roles", "X jobs", "we're hiring X", "X openings" (but prefer counting actual listings)
+       - CRITICAL: Go through the careers page section by section and COUNT:
+         * Each unique job title (e.g., "Account Executive", "Software Engineer", "AI Strategist")
+         * Jobs are usually listed as: "Job Title" on one line, "Location" on next, "Apply" on next
+         * Count ALL job titles you see, even if they're in different departments
+       - Look for department sections (GTM, AI Strategy, Engineering, Sales, Marketing, Design, etc.) and count jobs in each
+       - Extract the NUMBER (integer) - count ALL unique positions individually!
+       - Examples: 
+         * If you see "Account Executive" → count 1
+         * If you see "Software Engineer" and "Frontend Engineer" → count 2
+         * If you see 20 different job titles → count 20
+         * If text says "56 open positions" but you count 60 jobs, use 60 (the actual count)
     
-    4. departments_hiring: List of departments/teams hiring
-       - Look for: "Engineering", "Sales", "Marketing", "Product", "Design", "Operations"
-       - Extract from: "hiring in Engineering", "open roles in Sales and Marketing"
+    4. engineering_openings: Number of engineering/technical roles
+       - Look for: "Software Engineer", "Engineering", "Developer", "Tech", "Engineering Manager", "Data Engineer", etc.
+       - Count all engineering-related positions
+       - Extract the NUMBER (integer)
     
-    5. geo_presence: Geographic locations/offices
-       - Look for: office locations, "offices in", "located in", city names
-       - Extract: ["San Francisco", "New York", "Toronto", "London", etc.]
+    5. sales_openings: Number of sales roles
+       - Look for: "Sales", "Account Executive", "Business Development", "Sales Manager", "Account Manager"
+       - Count all sales-related positions
+       - Extract the NUMBER (integer)
     
-    6. benefits_perks: Employee benefits and perks
-       - Look for: health insurance, dental, vision, PTO, parental leave, equity, 401k, etc.
-       - Extract comprehensive list of benefits mentioned
+    6. hiring_focus: List of departments/teams actively hiring (CRITICAL FIELD)
+       - Look for: "Engineering", "Sales", "Marketing", "Product", "Design", "Operations", "GTM", "AI Strategy"
+       - Extract from: "hiring in Engineering", "open roles in Sales and Marketing", department sections
+       - Look at job listings and group by department
+       - Extract: ["Engineering", "Sales", "Marketing", etc.] - list ALL departments hiring
+       - Examples: If you see Engineering jobs and Sales jobs → ["Engineering", "Sales"]
     
-    Text to analyze:
+    7. departments_hiring: (This is the same as hiring_focus - use hiring_focus)
+       - Same as hiring_focus above
+    
+    8. geo_presence: Geographic locations/offices
+       - Look for: office locations, "offices in", "located in", city names, "New York", "San Francisco", "London"
+       - Extract from: job listings (location field), About page, Careers page
+       - Extract: ["San Francisco", "New York", "Toronto", "London", etc.] - list ALL locations
+       - Examples: "New York City" → ["New York"], "London, UK; New York City" → ["London", "New York"]
+    
+    9. active_products: List of products/services
+       - Look for: product names, service offerings, platform names
+       - Extract from: About page, homepage, product page
+    
+    10. pricing_tiers: Pricing information if mentioned
+        - Look for: pricing plans, tiers, "Free", "Pro", "Enterprise", etc.
+        - Extract: ["Free", "Pro", "Enterprise"] or similar
+    
+    AGGRESSIVE EXTRACTION STRATEGY:
+    - For headcount: Search ALL sections, especially About and Careers pages
+    - For job_openings_count: COUNT every unique job listing you see - be thorough!
+    - For hiring_focus: Look at job categories and department names
+    - For growth_pct: Look in blog posts and news for growth announcements
+    - If you see "See open roles" or similar, look for actual job listings below
+    - Count job titles explicitly mentioned in the careers page
+    
+    LINKEDIN DATA INTEGRATION NOTE:
+    - If you see LinkedIn mentions (e.g., "X employees on LinkedIn", "LinkedIn shows X employees"), extract those numbers
+    - Look for company size mentions that might be from LinkedIn
+    
+    Text to analyze (search through ALL of this carefully):
     {combined}
     
-    Extract ALL metrics and information you find. Be comprehensive!
+    Extract ALL metrics and information you find. Be extremely thorough, especially for headcount and job openings!
+    Count every job listing you see. Extract all departments hiring. Be comprehensive!
     """
     
     try:
@@ -480,7 +562,7 @@ def extract_snapshot(company_id: str, texts: Dict[str, str]) -> Snapshot:
             model="gpt-4o-mini",
             response_model=Snapshot,
             messages=[
-                {"role": "system", "content": "Extract ALL company metrics, job counts, hiring information, benefits, and current company state. Search through ALL text sections thoroughly. Look for specific numbers, job opening counts, department names, locations, and benefits. Extract from explicit statements AND context clues. Be comprehensive - extract everything you find."},
+                {"role": "system", "content": "You are an expert at extracting Growth Momentum metrics from company pages. Your goal is MAXIMUM EXTRACTION - especially for headcount, job openings, and hiring focus. COUNT every job listing you see. Extract all departments hiring. Look for employee counts in all sections. Search for growth percentages. Be extremely thorough - extract everything related to company size, hiring, and growth. Only leave fields as None if you have searched EVERYWHERE and found NOTHING."},
                 {"role": "user", "content": prompt}
             ],
             temperature=0.0
@@ -488,6 +570,21 @@ def extract_snapshot(company_id: str, texts: Dict[str, str]) -> Snapshot:
         
         snapshot.company_id = company_id
         snapshot.as_of = date.today()
+        
+        # Use helper function to validate/improve job counts if available
+        if HAS_JOB_HELPER and careers_text:
+            job_counts = count_jobs_from_careers_text(careers_text)
+            # If helper found more jobs than LLM, use helper's count
+            if job_counts['total'] > 0:
+                if not snapshot.job_openings_count or job_counts['total'] > snapshot.job_openings_count:
+                    snapshot.job_openings_count = job_counts['total']
+                if not snapshot.engineering_openings or job_counts['engineering'] > snapshot.engineering_openings:
+                    snapshot.engineering_openings = job_counts['engineering']
+                if not snapshot.sales_openings or job_counts['sales'] > snapshot.sales_openings:
+                    snapshot.sales_openings = job_counts['sales']
+                # Update hiring_focus with departments found
+                if job_counts['departments'] and not snapshot.hiring_focus:
+                    snapshot.hiring_focus = job_counts['departments']
         
         # Fix provenance URLs to be full URLs
         for prov in snapshot.provenance:

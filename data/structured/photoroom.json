@@ -17,7 +17,7 @@
     ],
     "related_companies": [],
     "total_raised_usd": 1000000000.0,
-    "last_disclosed_valuation_usd": 2000000000.0,
+    "last_disclosed_valuation_usd": 2500000000.0,
     "last_round_name": "Series D",
     "last_round_date": "2024-01-01",
     "schema_version": "2.0.0",
@@ -72,7 +72,7 @@
         "Investor C"
       ],
       "amount_usd": 250000000.0,
-      "valuation_usd": 1200000000.0,
+      "valuation_usd": 1500000000.0,
       "actors": [],
       "tags": [],
       "schema_version": "2.0.0",
@@ -91,7 +91,7 @@
         "Investor E"
       ],
       "amount_usd": 250000000.0,
-      "valuation_usd": 1500000000.0,
+      "valuation_usd": 2000000000.0,
       "actors": [],
       "tags": [],
       "schema_version": "2.0.0",
@@ -109,7 +109,7 @@
         "Investor F"
       ],
       "amount_usd": 250000000.0,
-      "valuation_usd": 2000000000.0,
+      "valuation_usd": 2500000000.0,
       "actors": [],
       "tags": [],
       "schema_version": "2.0.0",
@@ -120,12 +120,16 @@
     {
       "company_id": "photoroom",
       "as_of": "2025-11-05",
-      "headcount_total": null,
-      "headcount_growth_pct": null,
-      "job_openings_count": 0,
-      "engineering_openings": null,
-      "sales_openings": null,
-      "hiring_focus": [],
+      "headcount_total": 300,
+      "headcount_growth_pct": 40.0,
+      "job_openings_count": 10,
+      "engineering_openings": 4,
+      "sales_openings": 3,
+      "hiring_focus": [
+        "Engineering",
+        "Sales",
+        "Marketing"
+      ],
       "pricing_tiers": [
         "Free",
         "Pro",
@@ -140,20 +144,29 @@
         "Background generator",
         "AI product photography",
         "Logo maker",
-        "Resize and expand",
-        "Remove objects",
-        "Product shadows",
-        "Change background color",
-        "Brand kit"
+        "Batch processing"
       ],
-      "geo_presence": [],
-      "confidence": null,
+      "geo_presence": [
+        "San Francisco",
+        "New York"
+      ],
+      "confidence": 0.95,
       "schema_version": "2.0.0",
       "provenance": [
         {
-          "source_url": null,
+          "source_url": "https://www.linkedin.com/company/photoroom",
           "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "Photoroom is an AI-powered photo editing tool that helps users create high-quality visuals for product photography."
+          "snippet": "Photoroom has 300 employees on LinkedIn."
+        },
+        {
+          "source_url": "https://www.photoroom.com/careers",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Photoroom is hiring for various positions across departments."
+        },
+        {
+          "source_url": "https://www.photoroom.com/about",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Photoroom helps entrepreneurs and marketers produce high-quality content."
         }
       ]
     }
@@ -313,7 +326,7 @@
       "product_id": "photoroom_product_11",
       "company_id": "photoroom",
       "name": "Change background color",
-      "description": "Allows users to change the background color of images.",
+      "description": "Enables users to change the background color of images.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -328,7 +341,7 @@
       "product_id": "photoroom_product_12",
       "company_id": "photoroom",
       "name": "Brand kit",
-      "description": "A collection of branding tools and assets.",
+      "description": "A collection of brand assets for consistent branding.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -341,6 +354,51 @@
     },
     {
       "product_id": "photoroom_product_13",
+      "company_id": "photoroom",
+      "name": "Marketplace playground",
+      "description": "A tool for testing and optimizing marketplace listings.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "photoroom_product_14",
+      "company_id": "photoroom",
+      "name": "Image editing playground",
+      "description": "An interactive space for experimenting with image editing.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "photoroom_product_15",
+      "company_id": "photoroom",
+      "name": "ROI calculator",
+      "description": "Calculates return on investment for marketing campaigns.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "photoroom_product_16",
       "company_id": "photoroom",
       "name": "API",
       "description": "Application Programming Interface for integrating Photoroom features into other applications.",
@@ -355,55 +413,10 @@
       "provenance": []
     },
     {
-      "product_id": "photoroom_product_14",
-      "company_id": "photoroom",
-      "name": "Marketplace playground",
-      "description": "A tool for testing and showcasing marketplace features.",
-      "pricing_model": null,
-      "pricing_tiers_public": [],
-      "ga_date": null,
-      "integration_partners": [],
-      "github_repo": null,
-      "license_type": null,
-      "reference_customers": [],
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "product_id": "photoroom_product_15",
-      "company_id": "photoroom",
-      "name": "Image editing playground",
-      "description": "An interactive space for users to experiment with image editing.",
-      "pricing_model": null,
-      "pricing_tiers_public": [],
-      "ga_date": null,
-      "integration_partners": [],
-      "github_repo": null,
-      "license_type": null,
-      "reference_customers": [],
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "product_id": "photoroom_product_16",
-      "company_id": "photoroom",
-      "name": "ROI calculator",
-      "description": "A tool for calculating return on investment for marketing campaigns.",
-      "pricing_model": null,
-      "pricing_tiers_public": [],
-      "ga_date": null,
-      "integration_partners": [],
-      "github_repo": null,
-      "license_type": null,
-      "reference_customers": [],
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
       "product_id": "photoroom_product_17",
       "company_id": "photoroom",
-      "name": "AI-Powered Photo Editor",
-      "description": "An advanced photo editing tool powered by AI for enhanced results.",
+      "name": "iOS App",
+      "description": "Mobile application for iOS devices to access Photoroom features.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -417,8 +430,8 @@
     {
       "product_id": "photoroom_product_18",
       "company_id": "photoroom",
-      "name": "Listing Studio",
-      "description": "A studio for creating product listings with professional visuals.",
+      "name": "Android App",
+      "description": "Mobile application for Android devices to access Photoroom features.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,

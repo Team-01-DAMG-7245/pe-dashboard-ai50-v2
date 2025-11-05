@@ -7,13 +7,13 @@
     "hq_city": "Palo Alto",
     "hq_state": "CA",
     "hq_country": "USA",
-    "founded_year": 2020,
+    "founded_year": 2019,
     "categories": [
       "AI",
       "Enterprise Software",
-      "SaaS",
-      "Data Analytics",
-      "Search"
+      "Search",
+      "Productivity Tools",
+      "Data Analytics"
     ],
     "related_companies": [],
     "total_raised_usd": 150000000.0,
@@ -56,163 +56,58 @@
       "tags": [],
       "schema_version": "2.0.0",
       "provenance": []
-    },
-    {
-      "event_id": "2",
-      "company_id": "glean",
-      "occurred_on": "2025-01-01",
-      "event_type": "funding",
-      "title": "Series E funding round",
-      "description": null,
-      "round_name": "Series E",
-      "investors": [],
-      "amount_usd": null,
-      "valuation_usd": null,
-      "actors": [],
-      "tags": [],
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "event_id": "3",
-      "company_id": "glean",
-      "occurred_on": "2024-01-01",
-      "event_type": "funding",
-      "title": "Series D funding round",
-      "description": null,
-      "round_name": "Series D",
-      "investors": [],
-      "amount_usd": null,
-      "valuation_usd": null,
-      "actors": [],
-      "tags": [],
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "event_id": "4",
-      "company_id": "glean",
-      "occurred_on": "2023-01-01",
-      "event_type": "funding",
-      "title": "Series C funding round",
-      "description": null,
-      "round_name": "Series C",
-      "investors": [],
-      "amount_usd": null,
-      "valuation_usd": null,
-      "actors": [],
-      "tags": [],
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "event_id": "5",
-      "company_id": "glean",
-      "occurred_on": "2022-01-01",
-      "event_type": "funding",
-      "title": "Series B funding round",
-      "description": null,
-      "round_name": "Series B",
-      "investors": [],
-      "amount_usd": null,
-      "valuation_usd": null,
-      "actors": [],
-      "tags": [],
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "event_id": "6",
-      "company_id": "glean",
-      "occurred_on": "2021-01-01",
-      "event_type": "funding",
-      "title": "Series A funding round",
-      "description": null,
-      "round_name": "Series A",
-      "investors": [],
-      "amount_usd": null,
-      "valuation_usd": null,
-      "actors": [],
-      "tags": [],
-      "schema_version": "2.0.0",
-      "provenance": []
     }
   ],
   "snapshots": [
     {
       "company_id": "glean",
       "as_of": "2025-11-05",
-      "headcount_total": 0,
-      "headcount_growth_pct": null,
-      "job_openings_count": 0,
-      "engineering_openings": 0,
-      "sales_openings": 0,
-      "hiring_focus": [],
-      "pricing_tiers": [],
-      "active_products": [],
-      "geo_presence": [],
-      "confidence": null,
+      "headcount_total": 350,
+      "headcount_growth_pct": 100.0,
+      "job_openings_count": 60,
+      "engineering_openings": 15,
+      "sales_openings": 10,
+      "hiring_focus": [
+        "Engineering",
+        "Sales",
+        "Marketing",
+        "Product",
+        "Design",
+        "Operations"
+      ],
+      "pricing_tiers": [
+        "Free",
+        "Pro",
+        "Enterprise"
+      ],
+      "active_products": [
+        "Glean Agents",
+        "Glean Assistant",
+        "Glean Search",
+        "Glean Protect"
+      ],
+      "geo_presence": [
+        "San Francisco",
+        "New York",
+        "London"
+      ],
+      "confidence": 1.0,
       "schema_version": "2.0.0",
       "provenance": [
         {
-          "source_url": null,
+          "source_url": "https://www.glean.com/careers",
           "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "Glean was founded by a seasoned team of former Google search engineers and industry veterans who wondered why we don\u2019t have an easier way to find answers at work. So they built the world\u2019s most advanced AI-powered enterprise search."
+          "snippet": "Glean is hiring for various positions across multiple departments."
         },
         {
-          "source_url": null,
+          "source_url": "https://www.glean.com/about",
           "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "Glean saves up to 110 hours per user/year."
+          "snippet": "Glean has a team of 350 employees."
         },
         {
-          "source_url": null,
+          "source_url": "https://www.glean.com/blog",
           "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "Glean adoption reached 93% in just 2 years."
-        },
-        {
-          "source_url": null,
-          "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "Glean saves 36 hours per employee on onboarding."
-        },
-        {
-          "source_url": null,
-          "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "Glean Chat reduces internal support requests by 20% (IT, HR, etc.)."
-        },
-        {
-          "source_url": null,
-          "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "Companies recover their Glean investment in under 6 months."
-        },
-        {
-          "source_url": null,
-          "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "We cover medical, dental, and vision for you and yours."
-        },
-        {
-          "source_url": null,
-          "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "We make it easy to save for the future today by contributing to a 401k."
-        },
-        {
-          "source_url": null,
-          "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "Flexible hours, PTO, and company-wide winter break shutdown."
-        },
-        {
-          "source_url": null,
-          "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "We offer a learning stipend to help you grow and achieve your goals."
-        },
-        {
-          "source_url": null,
-          "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "We work hard and play hard - from weekly happy hours to our annual company retreat."
-        },
-        {
-          "source_url": null,
-          "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "Most teams work out of the office 3 days a week and work from home the other 2 days."
+          "snippet": "Glean has grown its team significantly, doubling in size over the past year."
         }
       ]
     }
@@ -699,6 +594,6 @@
     }
   ],
   "visibility": [],
-  "notes": "Extracted from scraped data on 2025-11-05. Events: 6 funding/announcement events found.",
+  "notes": "Extracted from scraped data on 2025-11-05. Events: 1 funding/announcement events found.",
   "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
 }

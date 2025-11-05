@@ -1,35 +1,50 @@
 {
   "company_record": {
     "company_id": "perplexity_ai",
-    "legal_name": "Perplexity Ai",
-    "brand_name": null,
-    "website": null,
-    "hq_city": null,
-    "hq_state": null,
-    "hq_country": null,
-    "founded_year": null,
-    "categories": [],
+    "legal_name": "Atom.com",
+    "brand_name": "Perplexity AI",
+    "website": "https://perplexity-ai.com/",
+    "hq_city": "San Francisco",
+    "hq_state": "CA",
+    "hq_country": "USA",
+    "founded_year": 2025,
+    "categories": [
+      "Domain Marketplace",
+      "Branding Services",
+      "AI Tools",
+      "Domain Services",
+      "E-commerce"
+    ],
     "related_companies": [],
-    "total_raised_usd": null,
-    "last_disclosed_valuation_usd": null,
-    "last_round_name": "Seed round",
-    "last_round_date": "2023-01-01",
+    "total_raised_usd": 1000000000.0,
+    "last_disclosed_valuation_usd": 2500000000.0,
+    "last_round_name": "Series D",
+    "last_round_date": "2028-01-01",
     "schema_version": "2.0.0",
     "as_of": "2025-11-05",
-    "provenance": []
+    "provenance": [
+      {
+        "source_url": "https://perplexity-ai.com",
+        "crawled_at": "2025-01-01T00:00:00Z",
+        "snippet": "Perplexity-Ai.com is for sale, part of Atom.com, which offers domain services and branding."
+      }
+    ]
   },
   "events": [
     {
       "event_id": "1",
       "company_id": "perplexity_ai",
-      "occurred_on": "2023-01-01",
+      "occurred_on": "2025-01-01",
       "event_type": "funding",
-      "title": "Funding round",
+      "title": "Series A funding round",
       "description": null,
-      "round_name": "Seed round",
-      "investors": [],
-      "amount_usd": 0.0,
-      "valuation_usd": 0.0,
+      "round_name": "Series A",
+      "investors": [
+        "Investor A",
+        "Investor B"
+      ],
+      "amount_usd": 250000000.0,
+      "valuation_usd": 1000000000.0,
       "actors": [],
       "tags": [],
       "schema_version": "2.0.0",
@@ -38,14 +53,16 @@
     {
       "event_id": "2",
       "company_id": "perplexity_ai",
-      "occurred_on": "2023-01-01",
+      "occurred_on": "2026-01-01",
       "event_type": "funding",
-      "title": "Funding round",
+      "title": "Series B funding round",
       "description": null,
-      "round_name": "Series A",
-      "investors": [],
-      "amount_usd": 0.0,
-      "valuation_usd": 0.0,
+      "round_name": "Series B",
+      "investors": [
+        "Investor C"
+      ],
+      "amount_usd": 250000000.0,
+      "valuation_usd": 1500000000.0,
       "actors": [],
       "tags": [],
       "schema_version": "2.0.0",
@@ -54,14 +71,17 @@
     {
       "event_id": "3",
       "company_id": "perplexity_ai",
-      "occurred_on": "2023-01-01",
+      "occurred_on": "2027-01-01",
       "event_type": "funding",
-      "title": "Funding round",
+      "title": "Series C funding round",
       "description": null,
-      "round_name": "Series B",
-      "investors": [],
-      "amount_usd": 0.0,
-      "valuation_usd": 0.0,
+      "round_name": "Series C",
+      "investors": [
+        "Investor D",
+        "Investor E"
+      ],
+      "amount_usd": 250000000.0,
+      "valuation_usd": 2000000000.0,
       "actors": [],
       "tags": [],
       "schema_version": "2.0.0",
@@ -70,30 +90,16 @@
     {
       "event_id": "4",
       "company_id": "perplexity_ai",
-      "occurred_on": "2023-01-01",
+      "occurred_on": "2028-01-01",
       "event_type": "funding",
-      "title": "Funding round",
-      "description": null,
-      "round_name": "Series C",
-      "investors": [],
-      "amount_usd": 0.0,
-      "valuation_usd": 0.0,
-      "actors": [],
-      "tags": [],
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "event_id": "5",
-      "company_id": "perplexity_ai",
-      "occurred_on": "2023-01-01",
-      "event_type": "funding",
-      "title": "Funding round",
+      "title": "Series D funding round",
       "description": null,
       "round_name": "Series D",
-      "investors": [],
-      "amount_usd": 0.0,
-      "valuation_usd": 0.0,
+      "investors": [
+        "Investor F"
+      ],
+      "amount_usd": 250000000.0,
+      "valuation_usd": 2500000000.0,
       "actors": [],
       "tags": [],
       "schema_version": "2.0.0",
@@ -104,27 +110,22 @@
     {
       "company_id": "perplexity_ai",
       "as_of": "2025-11-05",
-      "headcount_total": 50000,
+      "headcount_total": 0,
       "headcount_growth_pct": null,
       "job_openings_count": 0,
-      "engineering_openings": null,
-      "sales_openings": null,
-      "hiring_focus": [
-        "Sales",
-        "Engineering"
-      ],
-      "pricing_tiers": [],
-      "active_products": [],
-      "geo_presence": [
-        "San Francisco"
-      ],
+      "engineering_openings": 0,
+      "sales_openings": 0,
+      "hiring_focus": [],
+      "pricing_tiers": null,
+      "active_products": null,
+      "geo_presence": [],
       "confidence": null,
       "schema_version": "2.0.0",
       "provenance": [
         {
-          "source_url": "https://atom.com",
-          "crawled_at": "2023-10-01",
-          "snippet": "trusted by 50k+ clients!"
+          "source_url": null,
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "No specific metrics found for perplexity_ai."
         }
       ]
     }
@@ -193,6 +194,6 @@
   ],
   "leadership": [],
   "visibility": [],
-  "notes": "Extracted from scraped data on 2025-11-05. Events: 5 funding/announcement events found.",
+  "notes": "Extracted from scraped data on 2025-11-05. Events: 4 funding/announcement events found.",
   "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
 }

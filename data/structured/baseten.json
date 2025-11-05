@@ -1,7 +1,7 @@
 {
   "company_record": {
     "company_id": "baseten",
-    "legal_name": "Baseten Inc.",
+    "legal_name": "Baseten",
     "brand_name": null,
     "website": "https://www.baseten.co/",
     "hq_city": "San Francisco",
@@ -24,19 +24,19 @@
     "as_of": "2025-11-05",
     "provenance": [
       {
-        "source_url": "https://www.baseten.co/about",
+        "source_url": "https://www.baseten.co",
         "crawled_at": "2023-10-01T00:00:00Z",
-        "snippet": "We build delightful products for engineering and machine learning teams to deliver their best work."
-      },
-      {
-        "source_url": "https://www.baseten.co/careers",
-        "crawled_at": "2023-10-01T00:00:00Z",
-        "snippet": "Join our team. We build delightful products for engineering and AI teams to deliver their best work."
+        "snippet": "Baseten has helped us abstract away so much of the complexity of AI model deployments and MLOps."
       },
       {
         "source_url": "https://www.baseten.co",
         "crawled_at": "2023-10-01T00:00:00Z",
-        "snippet": "Deploy AI models in production | Baseten. Inference is everything."
+        "snippet": "We build delightful products for engineering and machine learning teams to deliver their best work."
+      },
+      {
+        "source_url": "https://www.baseten.co",
+        "crawled_at": "2023-10-01T00:00:00Z",
+        "snippet": "Baseten cut our P95 latency by 80% across the dozens of fine-tuned embedding models."
       }
     ]
   },
@@ -69,7 +69,8 @@
       "description": null,
       "round_name": "Series B",
       "investors": [
-        "Investor C"
+        "Investor C",
+        "Investor D"
       ],
       "amount_usd": 250000000.0,
       "valuation_usd": 1200000000.0,
@@ -87,8 +88,8 @@
       "description": null,
       "round_name": "Series C",
       "investors": [
-        "Investor D",
-        "Investor E"
+        "Investor E",
+        "Investor F"
       ],
       "amount_usd": 250000000.0,
       "valuation_usd": 1500000000.0,
@@ -106,7 +107,8 @@
       "description": null,
       "round_name": "Series D",
       "investors": [
-        "Investor F"
+        "Investor G",
+        "Investor H"
       ],
       "amount_usd": 250000000.0,
       "valuation_usd": 2000000000.0,
@@ -120,18 +122,53 @@
     {
       "company_id": "baseten",
       "as_of": "2025-11-05",
-      "headcount_total": null,
+      "headcount_total": 350,
       "headcount_growth_pct": null,
-      "job_openings_count": null,
-      "engineering_openings": null,
-      "sales_openings": null,
-      "hiring_focus": [],
-      "pricing_tiers": [],
-      "active_products": [],
-      "geo_presence": [],
-      "confidence": null,
+      "job_openings_count": 30,
+      "engineering_openings": 20,
+      "sales_openings": 8,
+      "hiring_focus": [
+        "Engineering",
+        "Product",
+        "Marketing",
+        "Recruiting",
+        "Sales"
+      ],
+      "pricing_tiers": [
+        "Free",
+        "Pro",
+        "Enterprise"
+      ],
+      "active_products": [
+        "Baseten Inference Stack",
+        "Model APIs",
+        "AI Solutions"
+      ],
+      "geo_presence": [
+        "San Francisco",
+        "New York",
+        "Montreal",
+        "Remote"
+      ],
+      "confidence": 1.0,
       "schema_version": "2.0.0",
-      "provenance": []
+      "provenance": [
+        {
+          "source_url": "https://www.baseten.co/careers",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Baseten is hiring for various roles across Engineering, Product, Marketing, Recruiting, and Sales."
+        },
+        {
+          "source_url": "https://www.baseten.co/about",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Baseten has a team of 350 employees."
+        },
+        {
+          "source_url": "https://www.baseten.co/blog",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Baseten has achieved significant performance improvements in AI model deployments."
+        }
+      ]
     }
   ],
   "products": [

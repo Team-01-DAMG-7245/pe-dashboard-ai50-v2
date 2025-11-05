@@ -13,7 +13,7 @@
       "Remote Work",
       "Talent Matching",
       "Human Resources",
-      "Technology"
+      "Data Annotation"
     ],
     "related_companies": [],
     "total_raised_usd": 453600000.0,
@@ -26,7 +26,7 @@
       {
         "source_url": "https://www.mercor.com",
         "crawled_at": "2025-10-27T00:00:00Z",
-        "snippet": "Mercor is the global allocator for extraordinary human talent in the AI economy."
+        "snippet": "Mercor is based in San Francisco, CA and has raised a total of $450 million across multiple funding rounds."
       },
       {
         "source_url": "https://www.mercor.com/blog",
@@ -36,7 +36,7 @@
       {
         "source_url": "https://www.mercor.com/about",
         "crawled_at": "2025-10-27T00:00:00Z",
-        "snippet": "Mercor connects graduate-level experts with meaningful, well-paid work."
+        "snippet": "Mercor is redefining hiring with AI, founded in 2024."
       }
     ]
   },
@@ -49,7 +49,7 @@
       "title": "Series C funding round",
       "description": null,
       "round_name": "Series C",
-      "investors": [],
+      "investors": null,
       "amount_usd": 350000000.0,
       "valuation_usd": 10000000000.0,
       "actors": [],
@@ -65,7 +65,7 @@
       "title": "Series B funding round",
       "description": null,
       "round_name": "Series B",
-      "investors": [],
+      "investors": null,
       "amount_usd": 100000000.0,
       "valuation_usd": null,
       "actors": [],
@@ -80,7 +80,7 @@
       "event_type": "funding",
       "title": "Seed funding round",
       "description": null,
-      "round_name": "Seed",
+      "round_name": null,
       "investors": [
         "General Catalyst",
         "Scott Sandell"
@@ -97,23 +97,23 @@
     {
       "company_id": "mercor",
       "as_of": "2025-11-05",
-      "headcount_total": 2040,
-      "headcount_growth_pct": null,
-      "job_openings_count": 204,
+      "headcount_total": 350,
+      "headcount_growth_pct": 100.0,
+      "job_openings_count": 10,
       "engineering_openings": 0,
       "sales_openings": 0,
       "hiring_focus": [
-        "Legal",
+        "AI Experts",
         "Consulting",
         "Video Captioning",
         "Video Annotation",
         "Photography",
-        "Evaluation",
-        "Chemistry Labeling",
-        "Physics Labeling"
+        "Evaluation"
       ],
-      "pricing_tiers": [],
-      "active_products": [],
+      "pricing_tiers": null,
+      "active_products": [
+        "APEX: The AI Productivity Index"
+      ],
       "geo_presence": [
         "San Francisco, CA"
       ],
@@ -121,9 +121,9 @@
       "schema_version": "2.0.0",
       "provenance": [
         {
-          "source_url": null,
-          "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "Mercor is hiring for various roles including Legal Expert, Consulting Expert, and more."
+          "source_url": "https://www.linkedin.com/company/mercor",
+          "crawled_at": "2025-10-27T00:00:00Z",
+          "snippet": "Company Size: 201-500 employees"
         }
       ]
     }

@@ -26,7 +26,7 @@
       {
         "source_url": "https://huggingface.co",
         "crawled_at": "2023-10-01T00:00:00Z",
-        "snippet": "Hugging Face is an AI company based in New York, known for its contributions to natural language processing and machine learning."
+        "snippet": "Hugging Face is an AI company based in New York, specializing in Natural Language Processing."
       }
     ]
   },
@@ -39,7 +39,7 @@
       "title": "Series A funding round",
       "description": null,
       "round_name": "Series A",
-      "investors": [],
+      "investors": null,
       "amount_usd": 250000000.0,
       "valuation_usd": null,
       "actors": [],
@@ -55,7 +55,7 @@
       "title": "Series B funding round",
       "description": null,
       "round_name": "Series B",
-      "investors": [],
+      "investors": null,
       "amount_usd": 250000000.0,
       "valuation_usd": null,
       "actors": [],
@@ -71,7 +71,7 @@
       "title": "Series C funding round",
       "description": null,
       "round_name": "Series C",
-      "investors": [],
+      "investors": null,
       "amount_usd": 250000000.0,
       "valuation_usd": null,
       "actors": [],
@@ -87,7 +87,7 @@
       "title": "Series D funding round",
       "description": null,
       "round_name": "Series D",
-      "investors": [],
+      "investors": null,
       "amount_usd": 250000000.0,
       "valuation_usd": null,
       "actors": [],
@@ -106,7 +106,9 @@
       "engineering_openings": null,
       "sales_openings": null,
       "hiring_focus": [],
-      "pricing_tiers": [],
+      "pricing_tiers": [
+        "Free"
+      ],
       "active_products": [],
       "geo_presence": [],
       "confidence": null,
@@ -115,7 +117,7 @@
         {
           "source_url": null,
           "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "The domain you are trying to purchase is listed on spaceship.com."
+          "snippet": "No data available for headcount, job openings, or growth metrics."
         }
       ]
     }
@@ -140,7 +142,22 @@
       "product_id": "hugging_face_product_2",
       "company_id": "hugging_face",
       "name": "spaceship.com",
-      "description": "Platform for transaction support and secure payments.",
+      "description": "Platform for domain transaction support and secure payments.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "hugging_face_product_3",
+      "company_id": "hugging_face",
+      "name": "Spaceship",
+      "description": "Service for buying and finalizing domain purchases.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,

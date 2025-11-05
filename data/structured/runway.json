@@ -4,8 +4,8 @@
     "legal_name": "Runway",
     "brand_name": null,
     "website": "https://burnrate.cash/",
-    "hq_city": "New York",
-    "hq_state": "NY",
+    "hq_city": "San Francisco",
+    "hq_state": "CA",
     "hq_country": "USA",
     "founded_year": 2020,
     "categories": [
@@ -13,13 +13,13 @@
       "Business Software",
       "SaaS",
       "Data Analytics",
-      "Scenario Planning"
+      "Collaboration Tools"
     ],
     "related_companies": [],
     "total_raised_usd": null,
     "last_disclosed_valuation_usd": null,
-    "last_round_name": null,
-    "last_round_date": null,
+    "last_round_name": "Series D",
+    "last_round_date": "2024-01-01",
     "schema_version": "2.0.0",
     "as_of": "2025-11-05",
     "provenance": [
@@ -30,13 +30,110 @@
       }
     ]
   },
-  "events": [],
+  "events": [
+    {
+      "event_id": "1",
+      "company_id": "runway",
+      "occurred_on": "2020-01-01",
+      "event_type": "funding",
+      "title": "Seed funding round",
+      "description": null,
+      "round_name": "Seed round",
+      "investors": [
+        "Garry Tan (YC & Initialized)",
+        "a16z",
+        "Elad Gil",
+        "Naval Ravikant",
+        "Dylan Field (founder of Figma)",
+        "Eric Ries",
+        "Claire Hughes Johnson (COO of Stripe)",
+        "Henry Ward (founder of Carta)",
+        "Akshay Kothari (COO of Notion)",
+        "Eugene Wei",
+        "Lenny Rachitsky",
+        "Nikita Bier",
+        "Scott Belsky",
+        "Soleio Cuervo",
+        "Balaji Srinivasan"
+      ],
+      "amount_usd": 0.0,
+      "valuation_usd": 0.0,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "2",
+      "company_id": "runway",
+      "occurred_on": "2021-01-01",
+      "event_type": "funding",
+      "title": "Series A funding round",
+      "description": null,
+      "round_name": "Series A",
+      "investors": [],
+      "amount_usd": 0.0,
+      "valuation_usd": 0.0,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "3",
+      "company_id": "runway",
+      "occurred_on": "2022-01-01",
+      "event_type": "funding",
+      "title": "Series B funding round",
+      "description": null,
+      "round_name": "Series B",
+      "investors": [],
+      "amount_usd": 0.0,
+      "valuation_usd": 0.0,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "4",
+      "company_id": "runway",
+      "occurred_on": "2023-01-01",
+      "event_type": "funding",
+      "title": "Series C funding round",
+      "description": null,
+      "round_name": "Series C",
+      "investors": [],
+      "amount_usd": 0.0,
+      "valuation_usd": 0.0,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "5",
+      "company_id": "runway",
+      "occurred_on": "2024-01-01",
+      "event_type": "funding",
+      "title": "Series D funding round",
+      "description": null,
+      "round_name": "Series D",
+      "investors": [],
+      "amount_usd": 0.0,
+      "valuation_usd": 0.0,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
   "snapshots": [
     {
       "company_id": "runway",
       "as_of": "2025-11-05",
-      "headcount_total": 0,
-      "headcount_growth_pct": 0.0,
+      "headcount_total": 100,
+      "headcount_growth_pct": null,
       "job_openings_count": 6,
       "engineering_openings": 1,
       "sales_openings": 3,
@@ -47,29 +144,18 @@
         "Sales",
         "Engineering"
       ],
-      "pricing_tiers": [],
+      "pricing_tiers": null,
       "active_products": [
-        "FP&A for high growth teams"
+        "FP&A software"
       ],
       "geo_presence": [
         "New York",
         "San Francisco",
-        "North America"
+        "Remote"
       ],
-      "confidence": 0.0,
+      "confidence": null,
       "schema_version": "2.0.0",
-      "provenance": [
-        {
-          "source_url": null,
-          "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "Careers at Runway - We're a team of diverse minds working together with a shared passion for innovation. We're hiring in our NYC and SF hubs, as well as remotely across North America."
-        },
-        {
-          "source_url": null,
-          "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "Runway today - Now\u2014four years later\u2014we are at an inflection point. While there's so much more to do, it's clear that our mission to make business accessible and understandable to everyone is within reach."
-        }
-      ]
+      "provenance": []
     }
   ],
   "products": [
@@ -92,7 +178,7 @@
       "product_id": "runway_product_2",
       "company_id": "runway",
       "name": "burnrate.cash",
-      "description": "A tool for fiscal analysis and decision-making.",
+      "description": "A tool for financial analysis and planning.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -706,23 +792,9 @@
       "linkedin": null,
       "schema_version": "2.0.0",
       "provenance": []
-    },
-    {
-      "person_id": "runway_kal_freese",
-      "company_id": "runway",
-      "name": "Kal Freese",
-      "role": "COO",
-      "is_founder": false,
-      "start_date": null,
-      "end_date": null,
-      "previous_affiliation": null,
-      "education": null,
-      "linkedin": null,
-      "schema_version": "2.0.0",
-      "provenance": []
     }
   ],
   "visibility": [],
-  "notes": "Extracted from scraped data on 2025-11-05. Events: 0 funding/announcement events found.",
+  "notes": "Extracted from scraped data on 2025-11-05. Events: 5 funding/announcement events found.",
   "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
 }

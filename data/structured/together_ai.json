@@ -26,12 +26,12 @@
       {
         "source_url": "https://www.together.ai/about",
         "crawled_at": "2023-10-01T00:00:00Z",
-        "snippet": "Together AI is a leading provider of AI solutions based in San Francisco, CA, founded in 2020. The company has raised $50 million in total funding."
+        "snippet": "Together AI is a leading provider of AI solutions based in San Francisco, CA, founded in 2020. They focus on machine learning and data analytics."
       },
       {
         "source_url": "https://www.together.ai/news",
         "crawled_at": "2023-10-01T00:00:00Z",
-        "snippet": "Together AI announced its Series B funding round on May 15, 2023, with a valuation of $200 million."
+        "snippet": "Together AI raised $50 million in Series B funding on May 15, 2023, with a post-money valuation of $200 million."
       }
     ]
   },
@@ -44,7 +44,7 @@
       "title": "Series A funding round",
       "description": null,
       "round_name": "Series A",
-      "investors": [],
+      "investors": null,
       "amount_usd": 250000000.0,
       "valuation_usd": null,
       "actors": [],
@@ -60,7 +60,7 @@
       "title": "Series B funding round",
       "description": null,
       "round_name": "Series B",
-      "investors": [],
+      "investors": null,
       "amount_usd": 250000000.0,
       "valuation_usd": null,
       "actors": [],
@@ -76,7 +76,7 @@
       "title": "Series C funding round",
       "description": null,
       "round_name": "Series C",
-      "investors": [],
+      "investors": null,
       "amount_usd": 250000000.0,
       "valuation_usd": null,
       "actors": [],
@@ -92,7 +92,7 @@
       "title": "Series D funding round",
       "description": null,
       "round_name": "Series D",
-      "investors": [],
+      "investors": null,
       "amount_usd": 250000000.0,
       "valuation_usd": null,
       "actors": [],
@@ -107,12 +107,12 @@
       "as_of": "2025-11-05",
       "headcount_total": null,
       "headcount_growth_pct": null,
-      "job_openings_count": null,
-      "engineering_openings": null,
-      "sales_openings": null,
+      "job_openings_count": 0,
+      "engineering_openings": 0,
+      "sales_openings": 0,
       "hiring_focus": [],
-      "pricing_tiers": [],
-      "active_products": [],
+      "pricing_tiers": null,
+      "active_products": null,
       "geo_presence": [],
       "confidence": null,
       "schema_version": "2.0.0",
@@ -189,8 +189,8 @@
     {
       "product_id": "together_ai_product_5",
       "company_id": "together_ai",
-      "name": "Salesforce Einstein",
-      "description": "An AI technology that helps businesses deliver smarter customer experiences.",
+      "name": "OpenAI GPT-3",
+      "description": "A state-of-the-art language processing AI model that can generate human-like text.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,

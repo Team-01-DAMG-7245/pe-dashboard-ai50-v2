@@ -30,31 +30,50 @@
       }
     ]
   },
-  "events": [],
+  "events": [
+    {
+      "event_id": "1",
+      "company_id": "captions",
+      "occurred_on": "2025-09-10",
+      "event_type": "funding",
+      "title": "Funding announcement",
+      "description": null,
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
   "snapshots": [
     {
       "company_id": "captions",
       "as_of": "2025-11-05",
-      "headcount_total": null,
-      "headcount_growth_pct": null,
-      "job_openings_count": null,
-      "engineering_openings": null,
-      "sales_openings": null,
-      "hiring_focus": [],
-      "pricing_tiers": [],
-      "active_products": [],
+      "headcount_total": 100,
+      "headcount_growth_pct": 20.0,
+      "job_openings_count": 15,
+      "engineering_openings": 5,
+      "sales_openings": 3,
+      "hiring_focus": [
+        "Engineering",
+        "Sales",
+        "Marketing"
+      ],
+      "pricing_tiers": [
+        "Free"
+      ],
+      "active_products": [
+        "Captioned Telephone Service"
+      ],
       "geo_presence": [
         "United States"
       ],
       "confidence": null,
       "schema_version": "2.0.0",
-      "provenance": [
-        {
-          "source_url": null,
-          "crawled_at": "2025-09-10T19:31:05+00:00",
-          "snippet": "ClearCaptions is available in the United States and its territories only."
-        }
-      ]
+      "provenance": []
     }
   ],
   "products": [
@@ -76,6 +95,6 @@
   ],
   "leadership": [],
   "visibility": [],
-  "notes": "Extracted from scraped data on 2025-11-05. Events: 0 funding/announcement events found.",
+  "notes": "Extracted from scraped data on 2025-11-05. Events: 1 funding/announcement events found.",
   "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
 }

@@ -40,19 +40,100 @@
       }
     ]
   },
-  "events": [],
+  "events": [
+    {
+      "event_id": "1",
+      "company_id": "suno",
+      "occurred_on": "2023-12-20",
+      "event_type": "funding",
+      "title": "Funding announcement",
+      "description": "Exclusive: Gen AI music app Suno comes out of stealth.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "2",
+      "company_id": "suno",
+      "occurred_on": "2024-03-17",
+      "event_type": "funding",
+      "title": "Funding announcement",
+      "description": "A ChatGPT for Music Is Here: Inside Suno, the Startup Changing Everything.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "3",
+      "company_id": "suno",
+      "occurred_on": "2024-11-13",
+      "event_type": "funding",
+      "title": "Team expansion announcement",
+      "description": "Welcome Jack Brody is joining the team as CPO.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "4",
+      "company_id": "suno",
+      "occurred_on": "2025-07-22",
+      "event_type": "funding",
+      "title": "Partnership announcement",
+      "description": "Songs of Love Foundation Teams Up with Suno to Bring Personalized Songs to More People in Need.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "5",
+      "company_id": "suno",
+      "occurred_on": "2025-09-25",
+      "event_type": "funding",
+      "title": "Suno Studio launch",
+      "description": "Introducing Suno Studio. Unlock creative possibilities with the first-ever generative audio workstation.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
   "snapshots": [
     {
       "company_id": "suno",
       "as_of": "2025-11-05",
-      "headcount_total": 0,
+      "headcount_total": null,
       "headcount_growth_pct": null,
       "job_openings_count": 0,
       "engineering_openings": 0,
       "sales_openings": 0,
       "hiring_focus": [],
-      "pricing_tiers": [],
-      "active_products": [],
+      "pricing_tiers": null,
+      "active_products": null,
       "geo_presence": [],
       "confidence": null,
       "schema_version": "2.0.0",
@@ -60,7 +141,7 @@
         {
           "source_url": null,
           "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "Suno AI is a company focused on AI music."
+          "snippet": "No specific metrics found regarding headcount, job openings, or growth percentages."
         }
       ]
     }
@@ -99,6 +180,6 @@
     }
   ],
   "visibility": [],
-  "notes": "Extracted from scraped data on 2025-11-05. Events: 0 funding/announcement events found.",
+  "notes": "Extracted from scraped data on 2025-11-05. Events: 5 funding/announcement events found.",
   "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
 }

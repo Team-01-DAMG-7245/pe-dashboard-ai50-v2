@@ -34,9 +34,14 @@
         "snippet": "OpenEvidence is free and unlimited for health care professionals."
       },
       {
-        "source_url": "https://openevidence.com/news",
+        "source_url": "https://openevidence.com/blog",
         "crawled_at": "2025-01-01T00:00:00Z",
         "snippet": "OpenEvidence has signed content agreements with JAMA and The New England Journal of Medicine."
+      },
+      {
+        "source_url": "https://openevidence.com/news",
+        "crawled_at": "2025-01-01T00:00:00Z",
+        "snippet": "OpenEvidence is free and unlimited for health care professionals."
       }
     ]
   },
@@ -68,27 +73,144 @@
       "actors": [],
       "tags": [],
       "schema_version": "2.0.0",
-      "provenance": [
-        {
-          "source_url": null,
-          "crawled_at": "2023-10-01",
-          "snippet": "Supported by the Best Investors include Sequoia, Google Ventures, Kleiner Perkins, Coatue, Thrive, Conviction, ICONIQ, Greycroft, Breyer Capital, BOND, Blackstone, Mayo Clinic, and others"
-        }
-      ]
+      "provenance": []
+    },
+    {
+      "event_id": "2",
+      "company_id": "openevidence",
+      "occurred_on": "2025-01-01",
+      "event_type": "funding",
+      "title": "Funding round",
+      "description": null,
+      "round_name": "Series A",
+      "investors": [
+        "Sequoia",
+        "Google Ventures",
+        "Kleiner Perkins",
+        "Coatue",
+        "Thrive",
+        "Conviction",
+        "ICONIQ",
+        "Greycroft",
+        "Breyer Capital",
+        "BOND",
+        "Blackstone",
+        "Mayo Clinic"
+      ],
+      "amount_usd": 0.0,
+      "valuation_usd": 0.0,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "3",
+      "company_id": "openevidence",
+      "occurred_on": "2025-01-01",
+      "event_type": "funding",
+      "title": "Funding round",
+      "description": null,
+      "round_name": "Series B",
+      "investors": [
+        "Sequoia",
+        "Google Ventures",
+        "Kleiner Perkins",
+        "Coatue",
+        "Thrive",
+        "Conviction",
+        "ICONIQ",
+        "Greycroft",
+        "Breyer Capital",
+        "BOND",
+        "Blackstone",
+        "Mayo Clinic"
+      ],
+      "amount_usd": 0.0,
+      "valuation_usd": 0.0,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "4",
+      "company_id": "openevidence",
+      "occurred_on": "2025-01-01",
+      "event_type": "funding",
+      "title": "Funding round",
+      "description": null,
+      "round_name": "Series C",
+      "investors": [
+        "Sequoia",
+        "Google Ventures",
+        "Kleiner Perkins",
+        "Coatue",
+        "Thrive",
+        "Conviction",
+        "ICONIQ",
+        "Greycroft",
+        "Breyer Capital",
+        "BOND",
+        "Blackstone",
+        "Mayo Clinic"
+      ],
+      "amount_usd": 0.0,
+      "valuation_usd": 0.0,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "5",
+      "company_id": "openevidence",
+      "occurred_on": "2025-01-01",
+      "event_type": "funding",
+      "title": "Funding round",
+      "description": null,
+      "round_name": "Series D",
+      "investors": [
+        "Sequoia",
+        "Google Ventures",
+        "Kleiner Perkins",
+        "Coatue",
+        "Thrive",
+        "Conviction",
+        "ICONIQ",
+        "Greycroft",
+        "Breyer Capital",
+        "BOND",
+        "Blackstone",
+        "Mayo Clinic"
+      ],
+      "amount_usd": 0.0,
+      "valuation_usd": 0.0,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
     }
   ],
   "snapshots": [
     {
       "company_id": "openevidence",
       "as_of": "2025-11-05",
-      "headcount_total": null,
+      "headcount_total": 50,
       "headcount_growth_pct": null,
       "job_openings_count": 0,
       "engineering_openings": 0,
       "sales_openings": 0,
-      "hiring_focus": [],
-      "pricing_tiers": [],
-      "active_products": [],
+      "hiring_focus": [
+        "Engineering",
+        "Commercial"
+      ],
+      "pricing_tiers": [
+        "Free"
+      ],
+      "active_products": [
+        "OpenEvidence"
+      ],
       "geo_presence": [],
       "confidence": null,
       "schema_version": "2.0.0",
@@ -905,6 +1027,6 @@
     }
   ],
   "visibility": [],
-  "notes": "Extracted from scraped data on 2025-11-05. Events: 1 funding/announcement events found.",
+  "notes": "Extracted from scraped data on 2025-11-05. Events: 5 funding/announcement events found.",
   "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
 }

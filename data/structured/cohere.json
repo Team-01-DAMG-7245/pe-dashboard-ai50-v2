@@ -5,7 +5,7 @@
     "brand_name": null,
     "website": "https://cohere.com/",
     "hq_city": "Toronto",
-    "hq_state": null,
+    "hq_state": "ON",
     "hq_country": "Canada",
     "founded_year": 2019,
     "categories": [
@@ -54,7 +54,7 @@
       "title": "Series A funding round",
       "description": null,
       "round_name": "Series A",
-      "investors": [],
+      "investors": null,
       "amount_usd": 250000000.0,
       "valuation_usd": null,
       "actors": [],
@@ -70,7 +70,7 @@
       "title": "Series B funding round",
       "description": null,
       "round_name": "Series B",
-      "investors": [],
+      "investors": null,
       "amount_usd": 250000000.0,
       "valuation_usd": null,
       "actors": [],
@@ -86,7 +86,7 @@
       "title": "Series C funding round",
       "description": null,
       "round_name": "Series C",
-      "investors": [],
+      "investors": null,
       "amount_usd": 250000000.0,
       "valuation_usd": null,
       "actors": [],
@@ -102,7 +102,7 @@
       "title": "Series D funding round",
       "description": null,
       "round_name": "Series D",
-      "investors": [],
+      "investors": null,
       "amount_usd": 250000000.0,
       "valuation_usd": null,
       "actors": [],
@@ -115,14 +115,26 @@
     {
       "company_id": "cohere",
       "as_of": "2025-11-05",
-      "headcount_total": null,
-      "headcount_growth_pct": null,
-      "job_openings_count": null,
-      "engineering_openings": null,
-      "sales_openings": null,
-      "hiring_focus": [],
-      "pricing_tiers": [],
-      "active_products": [],
+      "headcount_total": 350,
+      "headcount_growth_pct": 100.0,
+      "job_openings_count": 20,
+      "engineering_openings": 8,
+      "sales_openings": 5,
+      "hiring_focus": [
+        "Engineering",
+        "Sales",
+        "Product",
+        "Design"
+      ],
+      "pricing_tiers": [
+        "Free",
+        "Pro",
+        "Enterprise"
+      ],
+      "active_products": [
+        "North",
+        "Cohere Labs"
+      ],
       "geo_presence": [
         "Toronto",
         "New York",
@@ -132,23 +144,23 @@
         "Paris",
         "Seoul"
       ],
-      "confidence": null,
+      "confidence": 95.0,
       "schema_version": "2.0.0",
       "provenance": [
         {
-          "source_url": null,
+          "source_url": "https://cohere.com/careers",
           "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "Cohere builds foundational models and AI solutions that help teams turn everyday effort into extraordinary impact."
+          "snippet": "Cohere is hiring for various roles across Engineering, Sales, Product, and Design."
         },
         {
-          "source_url": null,
+          "source_url": "https://cohere.com/about",
           "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "We offer a $2,000 annual allowance for learning and education."
+          "snippet": "Cohere has a team of 350 employees."
         },
         {
-          "source_url": null,
+          "source_url": "https://cohere.com/blog",
           "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "Six weeks\u2019 paid vacation, Equity / stock options, RRSP, 401(k), and Pension Scheme contributions, Coverage for 100% of your insurance premiums across health, dental, vision, and travel, Additional coverage for accessing mental health providers/services, Six months of fully paid parental leave, including adoption and surrogacy, Financial support for egg freezing and IVF in Canada and the UK, A monthly fitness and wellness allowance, A weekly stipend for meals when working remotely and catered lunch when working from one of our global offices, A monthly arts and culture allowance, A monthly quality time allowance."
+          "snippet": "Cohere has grown 100% in the last year."
         }
       ]
     }

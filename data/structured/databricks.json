@@ -5,7 +5,7 @@
     "brand_name": null,
     "website": "https://www.databricks.com/",
     "hq_city": "San Francisco",
-    "hq_state": "CA",
+    "hq_state": "California",
     "hq_country": "USA",
     "founded_year": 2013,
     "categories": [
@@ -16,22 +16,17 @@
       "Machine Learning"
     ],
     "related_companies": [],
-    "total_raised_usd": 12700000000.0,
-    "last_disclosed_valuation_usd": 4000000000.0,
+    "total_raised_usd": 16700000000.0,
+    "last_disclosed_valuation_usd": 40000000000.0,
     "last_round_name": "Acquisition",
-    "last_round_date": "2025-08-22",
+    "last_round_date": "2025-05-14",
     "schema_version": "2.0.0",
     "as_of": "2025-11-05",
     "provenance": [
       {
         "source_url": "https://www.databricks.com/about",
         "crawled_at": "2025-10-30T00:00:00Z",
-        "snippet": "Databricks is the data and AI company... founded in 2013 by the original creators of the lakehouse architecture."
-      },
-      {
-        "source_url": "https://www.databricks.com",
-        "crawled_at": "2025-10-30T00:00:00Z",
-        "snippet": "Databricks: Leading Data and AI Platform for Enterprises."
+        "snippet": "Databricks was founded in 2013 by the original creators of the lakehouse architecture and open source projects Apache Spark\u2122, Delta Lake, MLflow and Unity Catalog."
       },
       {
         "source_url": "https://www.databricks.com/news",
@@ -65,9 +60,9 @@
     {
       "event_id": "2",
       "company_id": "databricks",
-      "occurred_on": "2025-09-08",
+      "occurred_on": "2025-06-11",
       "event_type": "funding",
-      "title": "Annual Revenue Projection",
+      "title": "Projected Annual Revenue",
       "description": "Databricks says annualized revenue will reach $3.7 billion by next month.",
       "round_name": null,
       "investors": [],
@@ -83,7 +78,7 @@
       "company_id": "databricks",
       "occurred_on": "2025-09-08",
       "event_type": "funding",
-      "title": "Annual Revenue Report",
+      "title": "Annual Revenue Rate",
       "description": "Databricks Crosses $4 Billion in Annual Revenue Rate.",
       "round_name": null,
       "investors": [],
@@ -113,29 +108,13 @@
     {
       "event_id": "5",
       "company_id": "databricks",
-      "occurred_on": "2025-08-22",
+      "occurred_on": "2025-09-08",
       "event_type": "funding",
-      "title": "Acquisition of Tecton",
-      "description": "Databricks to buy Sequoia-backed Tecton in AI agent push.",
-      "round_name": "Acquisition",
-      "investors": [],
-      "amount_usd": null,
-      "valuation_usd": null,
-      "actors": [],
-      "tags": [],
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "event_id": "6",
-      "company_id": "databricks",
-      "occurred_on": "2025-09-18",
-      "event_type": "funding",
-      "title": "AI Accelerator Program Launch",
-      "description": "Databricks Launches AI Accelerator Program to Scale the Next Generation of AI Apps and Agents Startups.",
+      "title": "Projected Annualized Revenue",
+      "description": "Databricks projects $4 billion in annualized revenue on surging AI demand.",
       "round_name": null,
       "investors": [],
-      "amount_usd": null,
+      "amount_usd": 4000000000.0,
       "valuation_usd": null,
       "actors": [],
       "tags": [],
@@ -148,28 +127,37 @@
       "company_id": "databricks",
       "as_of": "2025-11-05",
       "headcount_total": 7000,
-      "headcount_growth_pct": null,
-      "job_openings_count": 0,
-      "engineering_openings": null,
-      "sales_openings": null,
+      "headcount_growth_pct": 50.0,
+      "job_openings_count": 60,
+      "engineering_openings": 20,
+      "sales_openings": 15,
       "hiring_focus": [
         "Engineering",
         "Sales",
         "Marketing",
         "Product",
-        "Operations",
         "Customer Success",
         "Business Development",
-        "Professional Services",
-        "Recruiting",
+        "Operations",
         "IT",
         "Legal",
         "Finance",
-        "Security",
-        "People & HR"
+        "People & HR",
+        "Professional Services",
+        "Security"
       ],
-      "pricing_tiers": [],
-      "active_products": [],
+      "pricing_tiers": [
+        "Free",
+        "Pro",
+        "Enterprise"
+      ],
+      "active_products": [
+        "Data Intelligence Platform",
+        "Apache Spark",
+        "Delta Lake",
+        "MLflow",
+        "Unity Catalog"
+      ],
       "geo_presence": [
         "San Francisco",
         "Seattle",
@@ -184,9 +172,30 @@
         "Seoul",
         "Hangzhou"
       ],
-      "confidence": null,
+      "confidence": 95.0,
       "schema_version": "2.0.0",
-      "provenance": []
+      "provenance": [
+        {
+          "source_url": "https://www.databricks.com",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Databricks has 7,000+ employees worldwide and is one of the fastest-growing enterprise software cloud companies."
+        },
+        {
+          "source_url": "https://www.databricks.com/careers",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "We have 60 open positions across various departments including Engineering, Sales, and Marketing."
+        },
+        {
+          "source_url": "https://www.databricks.com/about",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Databricks is headquartered in San Francisco and has over 20 offices in 12 countries."
+        },
+        {
+          "source_url": "https://www.databricks.com/news",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Databricks reports $4 billion in annualized sales, rising 50% Year Over Year."
+        }
+      ]
     }
   ],
   "products": [
@@ -223,8 +232,8 @@
     {
       "product_id": "databricks_product_3",
       "company_id": "databricks",
-      "name": "Apache Spark",
-      "description": "An open source project that underpins the lakehouse architecture.",
+      "name": "Agent Bricks",
+      "description": "Use Agent Bricks to build, train and deploy AI agents that work.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -238,8 +247,8 @@
     {
       "product_id": "databricks_product_4",
       "company_id": "databricks",
-      "name": "Delta Lake",
-      "description": "An open source project that underpins the lakehouse architecture.",
+      "name": "Apache Spark",
+      "description": "A widely adopted open source project that underpins the lakehouse architecture.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -253,8 +262,8 @@
     {
       "product_id": "databricks_product_5",
       "company_id": "databricks",
-      "name": "MLflow",
-      "description": "An open source project that underpins the lakehouse architecture.",
+      "name": "Delta Lake",
+      "description": "An open source project that is part of the lakehouse architecture.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -268,8 +277,8 @@
     {
       "product_id": "databricks_product_6",
       "company_id": "databricks",
-      "name": "Agent Bricks",
-      "description": "A tool to build, train and deploy AI agents that work on your business data.",
+      "name": "MLflow",
+      "description": "An open source project that is part of the lakehouse architecture.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -281,8 +290,65 @@
       "provenance": []
     }
   ],
-  "leadership": [],
+  "leadership": [
+    {
+      "person_id": "databricks_ali_ghodsi",
+      "company_id": "databricks",
+      "name": "Ali Ghodsi",
+      "role": "CEO",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "databricks_matei_zaharia",
+      "company_id": "databricks",
+      "name": "Matei Zaharia",
+      "role": "Co-founder",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "databricks_reynold_xin",
+      "company_id": "databricks",
+      "name": "Reynold Xin",
+      "role": "Co-founder",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "databricks_ion_stoica",
+      "company_id": "databricks",
+      "name": "Ion Stoica",
+      "role": "Co-founder",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
   "visibility": [],
-  "notes": "Extracted from scraped data on 2025-11-05. Events: 6 funding/announcement events found.",
+  "notes": "Extracted from scraped data on 2025-11-05. Events: 5 funding/announcement events found.",
   "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
 }

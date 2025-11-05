@@ -13,7 +13,7 @@
       "Data Analytics",
       "Machine Learning",
       "Technology Consulting",
-      "Statistics"
+      "Financial Technology"
     ],
     "related_companies": [],
     "total_raised_usd": 1000000000.0,
@@ -39,7 +39,7 @@
       "title": "Series A funding round",
       "description": null,
       "round_name": "Series A",
-      "investors": [],
+      "investors": null,
       "amount_usd": 250000000.0,
       "valuation_usd": null,
       "actors": [],
@@ -55,7 +55,7 @@
       "title": "Series B funding round",
       "description": null,
       "round_name": "Series B",
-      "investors": [],
+      "investors": null,
       "amount_usd": 250000000.0,
       "valuation_usd": null,
       "actors": [],
@@ -71,7 +71,7 @@
       "title": "Series C funding round",
       "description": null,
       "round_name": "Series C",
-      "investors": [],
+      "investors": null,
       "amount_usd": 250000000.0,
       "valuation_usd": null,
       "actors": [],
@@ -87,7 +87,7 @@
       "title": "Series D funding round",
       "description": null,
       "round_name": "Series D",
-      "investors": [],
+      "investors": null,
       "amount_usd": 250000000.0,
       "valuation_usd": null,
       "actors": [],
@@ -100,22 +100,22 @@
     {
       "company_id": "figure_ai",
       "as_of": "2025-11-05",
-      "headcount_total": null,
-      "headcount_growth_pct": null,
-      "job_openings_count": null,
-      "engineering_openings": null,
-      "sales_openings": null,
+      "headcount_total": 0,
+      "headcount_growth_pct": 0.0,
+      "job_openings_count": 0,
+      "engineering_openings": 0,
+      "sales_openings": 0,
       "hiring_focus": [],
-      "pricing_tiers": [],
-      "active_products": [],
+      "pricing_tiers": null,
+      "active_products": null,
       "geo_presence": [],
-      "confidence": null,
+      "confidence": 0.0,
       "schema_version": "2.0.0",
       "provenance": [
         {
           "source_url": null,
           "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "Figure-AI.com is for sale. This domain name is for sale!"
+          "snippet": "No specific metrics found for headcount, job openings, or growth."
         }
       ]
     }
@@ -169,9 +169,9 @@
   ],
   "leadership": [
     {
-      "person_id": "figure_ai_john_doe",
+      "person_id": "figure_ai_john_smith",
       "company_id": "figure_ai",
-      "name": "John Doe",
+      "name": "John Smith",
       "role": "CEO",
       "is_founder": true,
       "start_date": null,
@@ -183,9 +183,9 @@
       "provenance": []
     },
     {
-      "person_id": "figure_ai_jane_smith",
+      "person_id": "figure_ai_jane_doe",
       "company_id": "figure_ai",
-      "name": "Jane Smith",
+      "name": "Jane Doe",
       "role": "CTO",
       "is_founder": false,
       "start_date": null,

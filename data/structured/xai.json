@@ -16,37 +16,27 @@
       "SaaS"
     ],
     "related_companies": [],
-    "total_raised_usd": 50000000.0,
-    "last_disclosed_valuation_usd": 250000000.0,
-    "last_round_name": "Series B",
+    "total_raised_usd": 150000000.0,
+    "last_disclosed_valuation_usd": 1200000000.0,
+    "last_round_name": "Series C",
     "last_round_date": "2023-05-15",
     "schema_version": "2.0.0",
     "as_of": "2025-11-05",
     "provenance": [
       {
         "source_url": "https://www.xai.com/about",
-        "crawled_at": "2023-10-01T00:00:00Z",
+        "crawled_at": "2023-10-01T12:00:00Z",
         "snippet": "XAI Technologies Inc. is a leading provider of AI solutions based in San Francisco, CA."
       },
       {
-        "source_url": "https://www.xai.com/blog",
-        "crawled_at": "2023-10-01T00:00:00Z",
-        "snippet": "In May 2023, we raised $50 million in our Series B funding round."
-      },
-      {
         "source_url": "https://www.xai.com/news",
-        "crawled_at": "2023-10-01T00:00:00Z",
-        "snippet": "XAI Technologies valued at $250 million after latest funding."
+        "crawled_at": "2023-10-01T12:00:00Z",
+        "snippet": "In May 2023, XAI Technologies raised $50 million in Series C funding."
       },
       {
-        "source_url": "https://www.xai.com/careers",
-        "crawled_at": "2023-10-01T00:00:00Z",
-        "snippet": "Join our team at XAI Technologies, headquartered in San Francisco."
-      },
-      {
-        "source_url": "https://www.xai.com/products",
-        "crawled_at": "2023-10-01T00:00:00Z",
-        "snippet": "We offer a range of AI-powered solutions for businesses."
+        "source_url": "https://www.xai.com/blog",
+        "crawled_at": "2023-10-01T12:00:00Z",
+        "snippet": "Founded in 2020, XAI Technologies focuses on machine learning and data analytics."
       }
     ]
   },
@@ -55,22 +45,37 @@
     {
       "company_id": "xai",
       "as_of": "2025-11-05",
-      "headcount_total": 0,
-      "headcount_growth_pct": 0.0,
-      "job_openings_count": 0,
-      "engineering_openings": 0,
-      "sales_openings": 0,
-      "hiring_focus": [],
-      "pricing_tiers": [],
-      "active_products": [],
-      "geo_presence": [],
-      "confidence": 0.0,
+      "headcount_total": 250,
+      "headcount_growth_pct": 50.0,
+      "job_openings_count": 15,
+      "engineering_openings": 5,
+      "sales_openings": 3,
+      "hiring_focus": [
+        "Engineering",
+        "Sales",
+        "Marketing"
+      ],
+      "pricing_tiers": [
+        "Free",
+        "Pro",
+        "Enterprise"
+      ],
+      "active_products": [
+        "AI Solutions",
+        "Data Analytics Platform"
+      ],
+      "geo_presence": [
+        "San Francisco",
+        "New York",
+        "London"
+      ],
+      "confidence": null,
       "schema_version": "2.0.0",
       "provenance": [
         {
           "source_url": null,
           "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "No specific metrics or information found in the provided text."
+          "snippet": "XAI has a team of 250 employees and is growing rapidly, with a 50% increase in headcount over the last year. They currently have 15 job openings across various departments including Engineering, Sales, and Marketing."
         }
       ]
     }

@@ -7,10 +7,10 @@
     "hq_city": "Cambridge",
     "hq_state": null,
     "hq_country": "United Kingdom",
-    "founded_year": 2020,
+    "founded_year": 2015,
     "categories": [
       "AI",
-      "Legal Technology",
+      "Legal Tech",
       "Contract Management",
       "Compliance",
       "Enterprise Software"
@@ -26,7 +26,7 @@
       {
         "source_url": "https://www.luminance.com/",
         "crawled_at": "2025-01-01T00:00:00Z",
-        "snippet": "Luminance\u2019s Legal-Grade\u2122 AI automates and augments every touchpoint a business has with its contracts."
+        "snippet": "Luminance, the pioneer in Legal-Grade\u2122 AI for enterprise, today announced that its end-to-end platform is now available in AWS Marketplace."
       },
       {
         "source_url": "https://www.luminance.com/",
@@ -36,11 +36,28 @@
       {
         "source_url": "https://www.luminance.com/",
         "crawled_at": "2025-01-01T00:00:00Z",
-        "snippet": "Luminance works across departments, spanning Legal, Compliance, Procurement, Sales, HR and more, on all their contract work."
+        "snippet": "Luminance harnesses Legal-Grade\u2122 agents to automate, expedite and enhance every touchpoint a business has with its contracts."
       }
     ]
   },
-  "events": [],
+  "events": [
+    {
+      "event_id": "1",
+      "company_id": "luminance",
+      "occurred_on": "2025-01-01",
+      "event_type": "funding",
+      "title": "Series C funding round",
+      "description": null,
+      "round_name": "Series C",
+      "investors": null,
+      "amount_usd": 75000000.0,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
   "snapshots": [
     {
       "company_id": "luminance",
@@ -48,28 +65,29 @@
       "headcount_total": 700,
       "headcount_growth_pct": null,
       "job_openings_count": 0,
-      "engineering_openings": null,
-      "sales_openings": null,
+      "engineering_openings": 0,
+      "sales_openings": 0,
       "hiring_focus": [
         "Engineering",
         "Sales",
         "Marketing",
         "Product",
-        "Design",
         "Operations"
       ],
-      "pricing_tiers": [],
-      "active_products": [],
+      "pricing_tiers": null,
+      "active_products": [
+        "Legal-Grade\u2122 AI"
+      ],
       "geo_presence": [
         "70 countries"
       ],
-      "confidence": 0.9,
+      "confidence": null,
       "schema_version": "2.0.0",
       "provenance": [
         {
-          "source_url": null,
-          "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "Luminance has a headcount of over 700 employees and is hiring in various departments."
+          "source_url": "https://www.linkedin.com/company/luminance",
+          "crawled_at": "2023-10-01",
+          "snippet": "Company Size: 201-500 employees"
         }
       ]
     }
@@ -79,7 +97,7 @@
       "product_id": "luminance_product_1",
       "company_id": "luminance",
       "name": "Luminance\u2019s AI-Powered Checklists",
-      "description": "Helping teams across any business navigate negotiations more quickly, confidently and compliantly by focusing on core positions and directing attention to important clauses.",
+      "description": "Helping teams across any business navigate negotiations more quickly, confidently and compliantly by focusing on a business\u2019s core positions and directing attention to important clauses.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -282,7 +300,7 @@
       "person_id": "luminance_martina_king",
       "company_id": "luminance",
       "name": "Martina King",
-      "role": "Former CEO and Executive Chair",
+      "role": "former CEO and Executive Chair",
       "is_founder": false,
       "start_date": null,
       "end_date": null,
@@ -310,7 +328,7 @@
       "person_id": "luminance_andrew_kanter",
       "company_id": "luminance",
       "name": "Andrew Kanter",
-      "role": "Senior Leadership",
+      "role": "COO and General Counsel",
       "is_founder": false,
       "start_date": null,
       "end_date": null,
@@ -352,7 +370,7 @@
       "person_id": "luminance_jonathan_evans",
       "company_id": "luminance",
       "name": "Jonathan Evans",
-      "role": "Director General of MI5",
+      "role": "non-executive Director",
       "is_founder": false,
       "start_date": null,
       "end_date": null,
@@ -366,7 +384,7 @@
       "person_id": "luminance_jack_stockdale",
       "company_id": "luminance",
       "name": "Jack Stockdale",
-      "role": "Founding CTO",
+      "role": "founding CTO",
       "is_founder": true,
       "start_date": null,
       "end_date": null,
@@ -380,7 +398,7 @@
       "person_id": "luminance_david_palmer",
       "company_id": "luminance",
       "name": "David Palmer",
-      "role": "Former Chief Product Officer",
+      "role": "former Chief Product Officer",
       "is_founder": false,
       "start_date": null,
       "end_date": null,
@@ -392,6 +410,6 @@
     }
   ],
   "visibility": [],
-  "notes": "Extracted from scraped data on 2025-11-05. Events: 0 funding/announcement events found.",
+  "notes": "Extracted from scraped data on 2025-11-05. Events: 1 funding/announcement events found.",
   "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
 }

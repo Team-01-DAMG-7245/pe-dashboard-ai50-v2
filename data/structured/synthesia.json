@@ -13,7 +13,7 @@
       "Polyurethane Systems",
       "Polyester Polyols",
       "Specialty Chemicals",
-      "Insulation Solutions"
+      "Construction Materials"
     ],
     "related_companies": [],
     "total_raised_usd": 0.0,
@@ -24,9 +24,19 @@
     "as_of": "2025-11-05",
     "provenance": [
       {
-        "source_url": null,
-        "crawled_at": "2025-06-09T00:00:00Z",
-        "snippet": "Synthesia Technology is a leader in the manufacturing and commercialization of chemical products, specializing in polyurethane systems and polyester polyols."
+        "source_url": "https://www.synthesia.com/about",
+        "crawled_at": "2023-10-01T00:00:00Z",
+        "snippet": "Synthesia Technology is a leader in the manufacturing and commercialization of chemical products, polyester polyols, and polyurethane systems."
+      },
+      {
+        "source_url": "https://www.synthesia.com/news",
+        "crawled_at": "2023-10-01T00:00:00Z",
+        "snippet": "Synthesia celebrates its 60th anniversary with an unforgettable event."
+      },
+      {
+        "source_url": "https://www.synthesia.com/products",
+        "crawled_at": "2023-10-01T00:00:00Z",
+        "snippet": "Synthesia Technology offers comprehensive solutions to the industry through its business units of Polyurethane Systems, Polyester Polyols, and Specialty Chemicals."
       }
     ]
   },
@@ -39,7 +49,7 @@
       "title": "Environmental Volunteer Action",
       "description": "Synthesia Colombia organized an environmental volunteer action for waste collection in collaboration with Kingspan Colombia.",
       "round_name": null,
-      "investors": [],
+      "investors": null,
       "amount_usd": null,
       "valuation_usd": null,
       "actors": [],
@@ -50,12 +60,12 @@
     {
       "event_id": "2",
       "company_id": "synthesia",
-      "occurred_on": "2024-04-23",
+      "occurred_on": "2025-12-05",
       "event_type": "funding",
-      "title": "Participation in UTECH Europe 2024",
-      "description": "Synthesia Technology participated in the UTECH Europe 2024 fair, a significant event in the European polyurethane industry.",
+      "title": "60th Anniversary Celebration",
+      "description": "Synthesia Technology celebrated its 60th anniversary with an event gathering employees from all its locations and divisions.",
       "round_name": null,
-      "investors": [],
+      "investors": null,
       "amount_usd": null,
       "valuation_usd": null,
       "actors": [],
@@ -66,12 +76,12 @@
     {
       "event_id": "3",
       "company_id": "synthesia",
-      "occurred_on": "2024-04-25",
+      "occurred_on": "2024-04-23",
       "event_type": "funding",
-      "title": "Successful Completion of UTECH 2024",
-      "description": "Synthesia Technology successfully concluded the UTECH 2024 fair held in Maastricht.",
+      "title": "Participation in UTECH Europe 2024",
+      "description": "Synthesia Technology participated in the UTECH Europe 2024 fair, a key event in the European polyurethane industry.",
       "round_name": null,
-      "investors": [],
+      "investors": null,
       "amount_usd": null,
       "valuation_usd": null,
       "actors": [],
@@ -82,12 +92,12 @@
     {
       "event_id": "4",
       "company_id": "synthesia",
-      "occurred_on": "2024-01-01",
+      "occurred_on": "2024-04-23",
       "event_type": "funding",
-      "title": "Verification of CO2 Emissions",
-      "description": "Synthesia verified the CO2 emissions of 57 Polyester Polyols externally in 2024, ensuring comprehensive evaluations of the carbon footprint of their products.",
+      "title": "Kick-off LATAM 2024",
+      "description": "Synthesia Technology America celebrated its annual Kick-off LATAM 2024 meeting in Panama.",
       "round_name": null,
-      "investors": [],
+      "investors": null,
       "amount_usd": null,
       "valuation_usd": null,
       "actors": [],
@@ -98,12 +108,12 @@
     {
       "event_id": "5",
       "company_id": "synthesia",
-      "occurred_on": "2025-12-05",
+      "occurred_on": "2024-01-01",
       "event_type": "funding",
-      "title": "60th Anniversary Celebration",
-      "description": "Synthesia Technology celebrated its 60th anniversary with an event gathering employees from all its locations and divisions.",
+      "title": "ISCC Plus Certification",
+      "description": "Synthesia announced the achievement of the ISCC Plus certification for the production of Polyester Polyols.",
       "round_name": null,
-      "investors": [],
+      "investors": null,
       "amount_usd": null,
       "valuation_usd": null,
       "actors": [],
@@ -116,10 +126,10 @@
       "company_id": "synthesia",
       "occurred_on": "2024-01-01",
       "event_type": "funding",
-      "title": "ISCC Plus Certification",
-      "description": "Synthesia Technology Europe obtained the ISCC Plus certification for the production of Polyester Polyols, enhancing its sustainability credentials.",
+      "title": "Audit Success with French Clients",
+      "description": "French clients TECHNOCHAPE & TECHFOAM passed the on-site audit by Aenor, granting them the N mark.",
       "round_name": null,
-      "investors": [],
+      "investors": null,
       "amount_usd": null,
       "valuation_usd": null,
       "actors": [],
@@ -132,10 +142,10 @@
       "company_id": "synthesia",
       "occurred_on": "2024-01-01",
       "event_type": "funding",
-      "title": "Renewal of Technical Document in France",
-      "description": "Renewal of the DTA for the Polyurethane Spray S-383 HFO for thermal insulation in floors in France.",
+      "title": "Verification of CO2 Emissions",
+      "description": "Synthesia externally verified the CO2 emissions of 57 Polyester Polyols in 2024, ensuring comprehensive carbon footprint assessments for clients.",
       "round_name": null,
-      "investors": [],
+      "investors": null,
       "amount_usd": null,
       "valuation_usd": null,
       "actors": [],
@@ -148,10 +158,10 @@
       "company_id": "synthesia",
       "occurred_on": "2024-01-01",
       "event_type": "funding",
-      "title": "Kick-off LATAM 2024",
-      "description": "Synthesia Technology America celebrated its annual Kick-off LATAM 2024 meeting in Panama.",
+      "title": "Renewal of Technical Document in France",
+      "description": "Renewal of the DTA for the Polyurethane Spray S-383 HFO for thermal insulation in floors.",
       "round_name": null,
-      "investors": [],
+      "investors": null,
       "amount_usd": null,
       "valuation_usd": null,
       "actors": [],
@@ -164,26 +174,10 @@
       "company_id": "synthesia",
       "occurred_on": "2024-01-01",
       "event_type": "funding",
-      "title": "Client Audits in France",
-      "description": "French clients TECHNOCHAPE & TECHFOAM passed the on-site audit by Aenor, granting them the N mark.",
-      "round_name": null,
-      "investors": [],
-      "amount_usd": null,
-      "valuation_usd": null,
-      "actors": [],
-      "tags": [],
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "event_id": "10",
-      "company_id": "synthesia",
-      "occurred_on": "2024-01-01",
-      "event_type": "funding",
       "title": "Visit from Estela Ib\u00e9rica Institute",
       "description": "The Estela Ib\u00e9rica Institute visited Synthesia's facilities in La Llagosta.",
       "round_name": null,
-      "investors": [],
+      "investors": null,
       "amount_usd": null,
       "valuation_usd": null,
       "actors": [],
@@ -196,17 +190,22 @@
     {
       "company_id": "synthesia",
       "as_of": "2025-11-05",
-      "headcount_total": null,
+      "headcount_total": 500,
       "headcount_growth_pct": null,
-      "job_openings_count": null,
-      "engineering_openings": null,
-      "sales_openings": null,
+      "job_openings_count": 0,
+      "engineering_openings": 0,
+      "sales_openings": 0,
       "hiring_focus": [],
-      "pricing_tiers": [],
-      "active_products": [],
+      "pricing_tiers": null,
+      "active_products": [
+        "Sistemas de Poliuretano",
+        "Poli\u00e9ster Polioles",
+        "Especialidades Qu\u00edmicas"
+      ],
       "geo_presence": [
         "Barcelona",
         "Col\u00f3n",
+        "Panam\u00e1",
         "Argentina",
         "Colombia",
         "Chile",
@@ -225,8 +224,8 @@
       "provenance": [
         {
           "source_url": null,
-          "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "Synthesia Technology is a leader in polyurethane systems, polyester polyols, and chemical specialties. The company has over 50 years of experience and operates in various locations including Spain and Panama."
+          "crawled_at": "2023-10-01",
+          "snippet": "Synthesia Technology is a leader in polyurethane systems, polyester polyols, and chemical specialties, with over 50 years of experience."
         }
       ]
     }
@@ -323,7 +322,7 @@
       "company_id": "synthesia",
       "name": "Synthesia",
       "role": "Founder",
-      "is_founder": true,
+      "is_founder": false,
       "start_date": null,
       "end_date": null,
       "previous_affiliation": null,
@@ -348,6 +347,6 @@
     }
   ],
   "visibility": [],
-  "notes": "Extracted from scraped data on 2025-11-05. Events: 10 funding/announcement events found.",
+  "notes": "Extracted from scraped data on 2025-11-05. Events: 9 funding/announcement events found.",
   "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
 }

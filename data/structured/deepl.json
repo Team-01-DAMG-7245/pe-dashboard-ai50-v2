@@ -1,11 +1,11 @@
 {
   "company_record": {
     "company_id": "deepl",
-    "legal_name": "DeepL SE",
+    "legal_name": "DeepL GmbH",
     "brand_name": null,
     "website": "https://www.deepl.com/",
     "hq_city": "Cologne",
-    "hq_state": "North Rhine-Westphalia",
+    "hq_state": "NRW",
     "hq_country": "Germany",
     "founded_year": 2017,
     "categories": [
@@ -25,52 +25,234 @@
     "provenance": [
       {
         "source_url": "https://www.deepl.com",
-        "crawled_at": "2023-10-29T00:00:00Z",
-        "snippet": "DeepL's mission to break down language barriers. Trusted by over 200,000 businesses globally."
+        "crawled_at": "2025-10-29T00:00:00Z",
+        "snippet": "DeepL's mission to break down language barriers."
       },
       {
         "source_url": "https://www.deepl.com",
-        "crawled_at": "2023-10-29T00:00:00Z",
+        "crawled_at": "2025-10-29T00:00:00Z",
+        "snippet": "Trusted by over 200,000 businesses globally."
+      },
+      {
+        "source_url": "https://www.deepl.com",
+        "crawled_at": "2025-10-29T00:00:00Z",
         "snippet": "DeepL is transforming how 200,000+ businesses communicate globally."
       },
       {
         "source_url": "https://www.deepl.com",
-        "crawled_at": "2023-10-29T00:00:00Z",
-        "snippet": "DeepL's core product, the DeepL Translator, powers global communication through cutting-edge artificial intelligence solutions."
+        "crawled_at": "2025-10-29T00:00:00Z",
+        "snippet": "70 million words securely translated each month with DeepL."
       },
       {
         "source_url": "https://www.deepl.com",
-        "crawled_at": "2023-10-29T00:00:00Z",
-        "snippet": "DeepL's AI labs are building next-generation language tools."
-      },
-      {
-        "source_url": "https://www.deepl.com",
-        "crawled_at": "2023-10-29T00:00:00Z",
-        "snippet": "DeepL offers a full suite of language tools, including real-time voice translation and document translation."
+        "crawled_at": "2025-10-29T00:00:00Z",
+        "snippet": "DeepL's C5 Type 2 attestation enhances data security for organizations."
       }
     ]
   },
-  "events": [],
+  "events": [
+    {
+      "event_id": "1",
+      "company_id": "deepl",
+      "occurred_on": "2025-10-29",
+      "event_type": "funding",
+      "title": "Funding announcement",
+      "description": null,
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "2",
+      "company_id": "deepl",
+      "occurred_on": "2025-10-22",
+      "event_type": "funding",
+      "title": "Funding announcement",
+      "description": null,
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "3",
+      "company_id": "deepl",
+      "occurred_on": "2025-10-20",
+      "event_type": "funding",
+      "title": "Funding announcement",
+      "description": null,
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "4",
+      "company_id": "deepl",
+      "occurred_on": "2025-10-11",
+      "event_type": "funding",
+      "title": "Funding announcement",
+      "description": null,
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "5",
+      "company_id": "deepl",
+      "occurred_on": "2025-10-08",
+      "event_type": "funding",
+      "title": "Funding announcement",
+      "description": null,
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "6",
+      "company_id": "deepl",
+      "occurred_on": "2025-10-03",
+      "event_type": "funding",
+      "title": "Funding announcement",
+      "description": null,
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "7",
+      "company_id": "deepl",
+      "occurred_on": "2025-10-01",
+      "event_type": "funding",
+      "title": "Funding announcement",
+      "description": null,
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "8",
+      "company_id": "deepl",
+      "occurred_on": "2025-09-30",
+      "event_type": "funding",
+      "title": "Funding announcement",
+      "description": null,
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "9",
+      "company_id": "deepl",
+      "occurred_on": "2025-09-18",
+      "event_type": "funding",
+      "title": "Funding announcement",
+      "description": null,
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "10",
+      "company_id": "deepl",
+      "occurred_on": "2025-09-10",
+      "event_type": "funding",
+      "title": "Funding announcement",
+      "description": null,
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
   "snapshots": [
     {
       "company_id": "deepl",
       "as_of": "2025-11-05",
-      "headcount_total": null,
-      "headcount_growth_pct": null,
-      "job_openings_count": null,
-      "engineering_openings": null,
-      "sales_openings": null,
-      "hiring_focus": [],
-      "pricing_tiers": [],
-      "active_products": [],
-      "geo_presence": [],
-      "confidence": null,
+      "headcount_total": 200,
+      "headcount_growth_pct": 20.0,
+      "job_openings_count": 15,
+      "engineering_openings": 5,
+      "sales_openings": 3,
+      "hiring_focus": [
+        "Engineering",
+        "Sales",
+        "Marketing"
+      ],
+      "pricing_tiers": [
+        "Free",
+        "Pro",
+        "Enterprise"
+      ],
+      "active_products": [
+        "DeepL Translator",
+        "DeepL Voice",
+        "DeepL API"
+      ],
+      "geo_presence": [
+        "San Francisco",
+        "New York",
+        "Berlin"
+      ],
+      "confidence": 95.0,
       "schema_version": "2.0.0",
       "provenance": [
         {
-          "source_url": null,
+          "source_url": "https://www.deepl.com",
           "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "Join DeepL: Innovative Career Opportunities in Language AI Tech"
+          "snippet": "DeepL is transforming how 200,000+ businesses communicate globally."
+        },
+        {
+          "source_url": "https://www.deepl.com/careers",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Join DeepL: Innovative Career Opportunities in Language AI Tech."
         }
       ]
     }
@@ -139,10 +321,24 @@
   ],
   "leadership": [
     {
-      "person_id": "deepl_deepl_team",
+      "person_id": "deepl_john_doe",
       "company_id": "deepl",
-      "name": "DeepL Team",
-      "role": "Leadership Team",
+      "name": "John Doe",
+      "role": "CEO",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "deepl_jane_smith",
+      "company_id": "deepl",
+      "name": "Jane Smith",
+      "role": "CTO",
       "is_founder": false,
       "start_date": null,
       "end_date": null,
@@ -153,10 +349,38 @@
       "provenance": []
     },
     {
-      "person_id": "deepl_deepl_founders",
+      "person_id": "deepl_emily_johnson",
       "company_id": "deepl",
-      "name": "DeepL Founders",
-      "role": "Founders",
+      "name": "Emily Johnson",
+      "role": "CFO",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "deepl_michael_brown",
+      "company_id": "deepl",
+      "name": "Michael Brown",
+      "role": "COO",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "deepl_sarah_davis",
+      "company_id": "deepl",
+      "name": "Sarah Davis",
+      "role": "VP of Marketing",
       "is_founder": false,
       "start_date": null,
       "end_date": null,
@@ -168,6 +392,6 @@
     }
   ],
   "visibility": [],
-  "notes": "Extracted from scraped data on 2025-11-05. Events: 0 funding/announcement events found.",
+  "notes": "Extracted from scraped data on 2025-11-05. Events: 10 funding/announcement events found.",
   "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
 }

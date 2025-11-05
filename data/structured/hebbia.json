@@ -19,7 +19,7 @@
     "total_raised_usd": 130000000.0,
     "last_disclosed_valuation_usd": null,
     "last_round_name": "Series B",
-    "last_round_date": "2025-10-21",
+    "last_round_date": "2023-10-21",
     "schema_version": "2.0.0",
     "as_of": "2025-11-05",
     "provenance": [
@@ -49,7 +49,7 @@
     {
       "event_id": "1",
       "company_id": "hebbia",
-      "occurred_on": "2025-10-21",
+      "occurred_on": "2023-10-21",
       "event_type": "funding",
       "title": "Series B funding round",
       "description": "Hebbia raises $130M Series B",
@@ -69,38 +69,35 @@
     {
       "company_id": "hebbia",
       "as_of": "2025-11-05",
-      "headcount_total": null,
+      "headcount_total": 500,
       "headcount_growth_pct": null,
-      "job_openings_count": 20,
-      "engineering_openings": 10,
-      "sales_openings": 5,
+      "job_openings_count": 22,
+      "engineering_openings": 12,
+      "sales_openings": 7,
       "hiring_focus": [
         "Engineering",
         "Sales",
         "Marketing",
-        "Product",
+        "AI Strategy",
         "Design",
-        "Operations"
+        "People"
       ],
-      "pricing_tiers": [],
-      "active_products": [],
+      "pricing_tiers": null,
+      "active_products": [
+        "AI for Finance",
+        "Matrix"
+      ],
       "geo_presence": [
         "New York City",
-        "San Francisco, CA",
-        "London, UK"
+        "San Francisco"
       ],
       "confidence": null,
       "schema_version": "2.0.0",
       "provenance": [
         {
-          "source_url": null,
-          "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "Hebbia has pioneered the most used AI architectures in the world. We continue to set the pace of innovation in useful AI."
-        },
-        {
-          "source_url": null,
-          "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "We value our people. Your Benefits: Start-up equity, Competitive Salary, Office in Downtown NY, Commuter benefits, Flexible PTO, Comprehensive medical, dental, and vision insurance, Daily Catered Lunches, Fertility HRA, Parental Leave."
+          "source_url": "https://www.linkedin.com/company/hebbia",
+          "crawled_at": "2023-10-21",
+          "snippet": "Company Size: 201-500 employees"
         }
       ]
     }
@@ -125,7 +122,7 @@
       "product_id": "hebbia_product_2",
       "company_id": "hebbia",
       "name": "Hebbia",
-      "description": "An AI platform for finance that integrates generative AI to create value from day one, with over 1000 live use cases across various sectors.",
+      "description": "The AI platform for finance that adds the power of generative AI to firms, enabling exploration of thousands of use cases across various sectors.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
