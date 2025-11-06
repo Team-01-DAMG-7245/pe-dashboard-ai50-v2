@@ -1,0 +1,14 @@
+{
+  "company_id": "pika",
+  "company_name": "Pika",
+  "hashes": {},
+  "history": [
+    {
+      "execution_date": "2025-10-31",
+      "crawled_at": "2025-11-01T21:56:17.607851Z",
+      "pages_checked": 0,
+      "changes_detected": [],
+      "errors": 8
+    }
+  ]
+}

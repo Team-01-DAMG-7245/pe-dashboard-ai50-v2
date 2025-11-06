@@ -1,0 +1,24 @@
+{
+  "company_id": "writer",
+  "company_name": "Writer",
+  "hashes": {
+    "about": "576c1994ec4000c284765a63e3066900",
+    "careers": "3595510175388b38ca5d98e50af780c6",
+    "blog": "22d1d2fcb7d394cf5e6bf3d435d76fc9",
+    "news": "e43e7a59a53f31ea188ef8472a5b73d0"
+  },
+  "history": [
+    {
+      "execution_date": "2025-10-31",
+      "crawled_at": "2025-11-01T21:56:26.981230Z",
+      "pages_checked": 4,
+      "changes_detected": [
+        "about",
+        "careers",
+        "blog",
+        "news"
+      ],
+      "errors": 0
+    }
+  ]
+}

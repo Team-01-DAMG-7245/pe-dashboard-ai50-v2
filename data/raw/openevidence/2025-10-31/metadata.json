@@ -1,0 +1,34 @@
+{
+  "company_name": "Openevidence",
+  "company_id": "openevidence",
+  "base_url": "https://openevidence.com",
+  "crawled_at": "2025-11-01T21:56:03.860569Z",
+  "execution_date": "2025-10-31",
+  "pages_refreshed": [
+    {
+      "page": "about",
+      "url": "https://openevidence.com/about",
+      "status": 200,
+      "size_bytes": 259742,
+      "content_hash": "407659b9a4dacef9a4c760154a836083",
+      "changed": true,
+      "html_file": "openevidence/2025-10-31/about_raw.html",
+      "text_file": "openevidence/2025-10-31/about_clean.txt"
+    },
+    {
+      "page": "news",
+      "url": "https://openevidence.com/news",
+      "status": 200,
+      "size_bytes": 134996,
+      "content_hash": "8ff5de76334cbea67b920099df37b841",
+      "changed": true,
+      "html_file": "openevidence/2025-10-31/news_raw.html",
+      "text_file": "openevidence/2025-10-31/news_clean.txt"
+    }
+  ],
+  "changes_detected": [
+    "about",
+    "news"
+  ],
+  "errors": []
+}

@@ -1,0 +1,24 @@
+{
+  "company_id": "xai",
+  "company_name": "Xai",
+  "hashes": {
+    "about": "d41d8cd98f00b204e9800998ecf8427e",
+    "careers": "d41d8cd98f00b204e9800998ecf8427e",
+    "blog": "d41d8cd98f00b204e9800998ecf8427e",
+    "news": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "history": [
+    {
+      "execution_date": "2025-10-31",
+      "crawled_at": "2025-11-01T21:56:32.758534Z",
+      "pages_checked": 4,
+      "changes_detected": [
+        "about",
+        "careers",
+        "blog",
+        "news"
+      ],
+      "errors": 0
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "company_id": "openevidence",
+  "company_name": "Openevidence",
+  "hashes": {
+    "about": "407659b9a4dacef9a4c760154a836083",
+    "news": "8ff5de76334cbea67b920099df37b841"
+  },
+  "history": [
+    {
+      "execution_date": "2025-10-31",
+      "crawled_at": "2025-11-01T21:56:03.860569Z",
+      "pages_checked": 2,
+      "changes_detected": [
+        "about",
+        "news"
+      ],
+      "errors": 0
+    }
+  ]
+}

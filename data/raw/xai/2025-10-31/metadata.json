@@ -1,0 +1,56 @@
+{
+  "company_name": "Xai",
+  "company_id": "xai",
+  "base_url": "https://xai.com",
+  "crawled_at": "2025-11-01T21:56:32.758534Z",
+  "execution_date": "2025-10-31",
+  "pages_refreshed": [
+    {
+      "page": "about",
+      "url": "https://xai.com/about",
+      "status": 200,
+      "size_bytes": 17215,
+      "content_hash": "d41d8cd98f00b204e9800998ecf8427e",
+      "changed": true,
+      "html_file": "xai/2025-10-31/about_raw.html",
+      "text_file": "xai/2025-10-31/about_clean.txt"
+    },
+    {
+      "page": "careers",
+      "url": "https://xai.com/careers",
+      "status": 200,
+      "size_bytes": 17215,
+      "content_hash": "d41d8cd98f00b204e9800998ecf8427e",
+      "changed": true,
+      "html_file": "xai/2025-10-31/careers_raw.html",
+      "text_file": "xai/2025-10-31/careers_clean.txt"
+    },
+    {
+      "page": "blog",
+      "url": "https://xai.com/blog",
+      "status": 200,
+      "size_bytes": 17215,
+      "content_hash": "d41d8cd98f00b204e9800998ecf8427e",
+      "changed": true,
+      "html_file": "xai/2025-10-31/blog_raw.html",
+      "text_file": "xai/2025-10-31/blog_clean.txt"
+    },
+    {
+      "page": "news",
+      "url": "https://xai.com/news",
+      "status": 200,
+      "size_bytes": 17215,
+      "content_hash": "d41d8cd98f00b204e9800998ecf8427e",
+      "changed": true,
+      "html_file": "xai/2025-10-31/news_raw.html",
+      "text_file": "xai/2025-10-31/news_clean.txt"
+    }
+  ],
+  "changes_detected": [
+    "about",
+    "careers",
+    "blog",
+    "news"
+  ],
+  "errors": []
+}

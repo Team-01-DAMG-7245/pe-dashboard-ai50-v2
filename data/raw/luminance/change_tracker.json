@@ -1,0 +1,24 @@
+{
+  "company_id": "luminance",
+  "company_name": "Luminance",
+  "hashes": {
+    "about": "ee427164b595520d63d9fa78ba932fdb",
+    "careers": "a89f39d2951622d32417317cdb76e64f",
+    "blog": "c9faa0c78170eb26ccdd06a75fc85a44",
+    "news": "bdf13d29ff0c57d8a175c00d34fe7d87"
+  },
+  "history": [
+    {
+      "execution_date": "2025-10-31",
+      "crawled_at": "2025-11-01T21:55:53.926789Z",
+      "pages_checked": 4,
+      "changes_detected": [
+        "about",
+        "careers",
+        "blog",
+        "news"
+      ],
+      "errors": 0
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "company_name": "Stackblitz",
+  "company_id": "stackblitz",
+  "base_url": "https://stackblitz.com",
+  "hq_city": "San Francisco",
+  "hq_country": "United States",
+  "category": "Web and mobile app development",
+  "linkedin": "https://www.linkedin.com/company/stackblitz/",
+  "crawled_at": "2025-11-01T21:48:07.956739Z",
+  "pages_scraped": [
+    {
+      "page": "homepage",
+      "url": "https://stackblitz.com",
+      "status": 200,
+      "size_bytes": 35427,
+      "html_file": "stackblitz/initial/homepage_raw.html",
+      "text_file": "stackblitz/initial/homepage_clean.txt"
+    },
+    {
+      "page": "careers",
+      "url": "https://stackblitz.com/careers",
+      "status": 200,
+      "size_bytes": 122434,
+      "html_file": "stackblitz/initial/careers_raw.html",
+      "text_file": "stackblitz/initial/careers_clean.txt"
+    }
+  ],
+  "errors": []
+}

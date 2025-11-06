@@ -1,0 +1,78 @@
+{
+  "company_name": "Fireworks AI",
+  "company_id": "fireworks_ai",
+  "base_url": "https://fireworks-ai.com",
+  "hq_city": "Redwood City",
+  "hq_country": "United States",
+  "category": "App development software",
+  "linkedin": "https://www.linkedin.com/company/fireworks-ai/",
+  "crawled_at": "2025-11-01T21:47:15.941111Z",
+  "pages_scraped": [],
+  "errors": [
+    {
+      "page": "homepage",
+      "url": "https://fireworks-ai.com",
+      "error": "HTTPSConnectionPool(host='fireworks-ai.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fa09979d0d0>: Failed to establish a new connection: [Errno -2] Name or service not known'))"
+    },
+    {
+      "page": "about",
+      "url": "https://fireworks-ai.com/about",
+      "error": "HTTPSConnectionPool(host='fireworks-ai.com', port=443): Max retries exceeded with url: /about (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fa09979da00>: Failed to establish a new connection: [Errno -2] Name or service not known'))"
+    },
+    {
+      "page": "about",
+      "url": "https://fireworks-ai.com/about-us",
+      "error": "HTTPSConnectionPool(host='fireworks-ai.com', port=443): Max retries exceeded with url: /about-us (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fa09979d7c0>: Failed to establish a new connection: [Errno -2] Name or service not known'))"
+    },
+    {
+      "page": "about",
+      "url": "https://fireworks-ai.com/company",
+      "error": "HTTPSConnectionPool(host='fireworks-ai.com', port=443): Max retries exceeded with url: /company (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fa09979d220>: Failed to establish a new connection: [Errno -2] Name or service not known'))"
+    },
+    {
+      "page": "product",
+      "url": "https://fireworks-ai.com/product",
+      "error": "HTTPSConnectionPool(host='fireworks-ai.com', port=443): Max retries exceeded with url: /product (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fa09979dee0>: Failed to establish a new connection: [Errno -2] Name or service not known'))"
+    },
+    {
+      "page": "product",
+      "url": "https://fireworks-ai.com/products",
+      "error": "HTTPSConnectionPool(host='fireworks-ai.com', port=443): Max retries exceeded with url: /products (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fa09979deb0>: Failed to establish a new connection: [Errno -2] Name or service not known'))"
+    },
+    {
+      "page": "platform",
+      "url": "https://fireworks-ai.com/platform",
+      "error": "HTTPSConnectionPool(host='fireworks-ai.com', port=443): Max retries exceeded with url: /platform (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fa09979d430>: Failed to establish a new connection: [Errno -2] Name or service not known'))"
+    },
+    {
+      "page": "platform",
+      "url": "https://fireworks-ai.com/solutions",
+      "error": "HTTPSConnectionPool(host='fireworks-ai.com', port=443): Max retries exceeded with url: /solutions (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fa09979dfa0>: Failed to establish a new connection: [Errno -2] Name or service not known'))"
+    },
+    {
+      "page": "careers",
+      "url": "https://fireworks-ai.com/careers",
+      "error": "HTTPSConnectionPool(host='fireworks-ai.com', port=443): Max retries exceeded with url: /careers (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fa09979de50>: Failed to establish a new connection: [Errno -2] Name or service not known'))"
+    },
+    {
+      "page": "careers",
+      "url": "https://fireworks-ai.com/jobs",
+      "error": "HTTPSConnectionPool(host='fireworks-ai.com', port=443): Max retries exceeded with url: /jobs (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fa09979d130>: Failed to establish a new connection: [Errno -2] Name or service not known'))"
+    },
+    {
+      "page": "blog",
+      "url": "https://fireworks-ai.com/blog",
+      "error": "HTTPSConnectionPool(host='fireworks-ai.com', port=443): Max retries exceeded with url: /blog (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fa09979de20>: Failed to establish a new connection: [Errno -2] Name or service not known'))"
+    },
+    {
+      "page": "news",
+      "url": "https://fireworks-ai.com/news",
+      "error": "HTTPSConnectionPool(host='fireworks-ai.com', port=443): Max retries exceeded with url: /news (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fa09979db50>: Failed to establish a new connection: [Errno -2] Name or service not known'))"
+    },
+    {
+      "page": "news",
+      "url": "https://fireworks-ai.com/newsroom",
+      "error": "HTTPSConnectionPool(host='fireworks-ai.com', port=443): Max retries exceeded with url: /newsroom (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fa09979d250>: Failed to establish a new connection: [Errno -2] Name or service not known'))"
+    }
+  ]
+}

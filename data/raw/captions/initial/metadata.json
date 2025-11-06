@@ -1,0 +1,21 @@
+{
+  "company_name": "Captions",
+  "company_id": "captions",
+  "base_url": "https://captions.com",
+  "hq_city": "New York",
+  "hq_country": "United States",
+  "category": "Video editor",
+  "linkedin": "https://www.linkedin.com/company/captions/",
+  "crawled_at": "2025-11-01T21:49:34.119528Z",
+  "pages_scraped": [
+    {
+      "page": "homepage",
+      "url": "https://captions.com",
+      "status": 200,
+      "size_bytes": 211740,
+      "html_file": "captions/initial/homepage_raw.html",
+      "text_file": "captions/initial/homepage_clean.txt"
+    }
+  ],
+  "errors": []
+}

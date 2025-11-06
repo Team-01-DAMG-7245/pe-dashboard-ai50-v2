@@ -1,0 +1,53 @@
+{
+  "company_name": "Abridge",
+  "company_id": "abridge",
+  "base_url": "https://abridge.com",
+  "hq_city": "Pittsburgh",
+  "hq_country": "United States",
+  "category": "Clinical documentation platform",
+  "linkedin": "https://www.linkedin.com/company/abridge/",
+  "crawled_at": "2025-11-01T21:49:20.417235Z",
+  "pages_scraped": [
+    {
+      "page": "homepage",
+      "url": "https://abridge.com",
+      "status": 200,
+      "size_bytes": 193487,
+      "html_file": "abridge/initial/homepage_raw.html",
+      "text_file": "abridge/initial/homepage_clean.txt"
+    },
+    {
+      "page": "about",
+      "url": "https://abridge.com/about",
+      "status": 200,
+      "size_bytes": 44949,
+      "html_file": "abridge/initial/about_raw.html",
+      "text_file": "abridge/initial/about_clean.txt"
+    },
+    {
+      "page": "product",
+      "url": "https://abridge.com/product",
+      "status": 200,
+      "size_bytes": 120057,
+      "html_file": "abridge/initial/product_raw.html",
+      "text_file": "abridge/initial/product_clean.txt"
+    },
+    {
+      "page": "careers",
+      "url": "https://abridge.com/careers",
+      "status": 200,
+      "size_bytes": 87138,
+      "html_file": "abridge/initial/careers_raw.html",
+      "text_file": "abridge/initial/careers_clean.txt"
+    },
+    {
+      "page": "blog",
+      "url": "https://abridge.com/blog",
+      "status": 200,
+      "size_bytes": 37658,
+      "html_file": "abridge/initial/blog_raw.html",
+      "text_file": "abridge/initial/blog_clean.txt"
+    }
+  ],
+  "errors": []
+}

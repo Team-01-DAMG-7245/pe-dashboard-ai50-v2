@@ -1,0 +1,14 @@
+{
+  "company_id": "snorkel_ai",
+  "company_name": "Snorkel AI",
+  "hashes": {},
+  "history": [
+    {
+      "execution_date": "2025-10-31",
+      "crawled_at": "2025-11-01T21:54:31.572704Z",
+      "pages_checked": 0,
+      "changes_detected": [],
+      "errors": 8
+    }
+  ]
+}

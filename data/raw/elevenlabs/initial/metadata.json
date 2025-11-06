@@ -1,0 +1,45 @@
+{
+  "company_name": "Elevenlabs",
+  "company_id": "elevenlabs",
+  "base_url": "https://elevenlabs.com",
+  "hq_city": "London",
+  "hq_country": "United Kingdom",
+  "category": "AI research and products",
+  "linkedin": "https://www.linkedin.com/company/elevenlabs/",
+  "crawled_at": "2025-11-01T21:47:15.062904Z",
+  "pages_scraped": [
+    {
+      "page": "homepage",
+      "url": "https://elevenlabs.com",
+      "status": 200,
+      "size_bytes": 1222925,
+      "html_file": "elevenlabs/initial/homepage_raw.html",
+      "text_file": "elevenlabs/initial/homepage_clean.txt"
+    },
+    {
+      "page": "about",
+      "url": "https://elevenlabs.com/about",
+      "status": 200,
+      "size_bytes": 904409,
+      "html_file": "elevenlabs/initial/about_raw.html",
+      "text_file": "elevenlabs/initial/about_clean.txt"
+    },
+    {
+      "page": "careers",
+      "url": "https://elevenlabs.com/careers",
+      "status": 200,
+      "size_bytes": 1003125,
+      "html_file": "elevenlabs/initial/careers_raw.html",
+      "text_file": "elevenlabs/initial/careers_clean.txt"
+    },
+    {
+      "page": "blog",
+      "url": "https://elevenlabs.com/blog",
+      "status": 200,
+      "size_bytes": 915868,
+      "html_file": "elevenlabs/initial/blog_raw.html",
+      "text_file": "elevenlabs/initial/blog_clean.txt"
+    }
+  ],
+  "errors": []
+}

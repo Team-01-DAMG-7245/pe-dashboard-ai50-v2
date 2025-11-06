@@ -1,0 +1,78 @@
+{
+  "company_name": "Coactive AI",
+  "company_id": "coactive_ai",
+  "base_url": "https://coactive-ai.com",
+  "hq_city": "San Jose",
+  "hq_country": "United States",
+  "category": "Data labeling software",
+  "linkedin": "https://www.linkedin.com/company/coactive-ai/",
+  "crawled_at": "2025-11-01T21:49:02.952141Z",
+  "pages_scraped": [],
+  "errors": [
+    {
+      "page": "homepage",
+      "url": "https://coactive-ai.com",
+      "error": "HTTPSConnectionPool(host='coactive-ai.com', port=443): Max retries exceeded with url: / (Caused by SSLError(CertificateError(\"hostname 'coactive-ai.com' doesn't match either of '*.squarespace.com', 'squarespace.com', '*.campaign-preferences.com', 'campaign-preferences.com', '*.sqsp.net', 'sqsp.net', '*.sqspcdn.com', 'static1.1.sqspcdn.com', 'static2.1.sqspcdn.com', 'static1.2.sqspcdn.com', 'cdn1.1.sqspcdn.com', 'sqspcdn.com', '*.engage.squarespace-mail.com', 'engage.squarespace-mail.com'\")))"
+    },
+    {
+      "page": "about",
+      "url": "https://coactive-ai.com/about",
+      "error": "HTTPSConnectionPool(host='coactive-ai.com', port=443): Max retries exceeded with url: /about (Caused by SSLError(CertificateError(\"hostname 'coactive-ai.com' doesn't match either of '*.squarespace.com', 'squarespace.com', '*.campaign-preferences.com', 'campaign-preferences.com', '*.sqsp.net', 'sqsp.net', '*.sqspcdn.com', 'static1.1.sqspcdn.com', 'static2.1.sqspcdn.com', 'static1.2.sqspcdn.com', 'cdn1.1.sqspcdn.com', 'sqspcdn.com', '*.engage.squarespace-mail.com', 'engage.squarespace-mail.com'\")))"
+    },
+    {
+      "page": "about",
+      "url": "https://coactive-ai.com/about-us",
+      "error": "HTTPSConnectionPool(host='coactive-ai.com', port=443): Max retries exceeded with url: /about-us (Caused by SSLError(CertificateError(\"hostname 'coactive-ai.com' doesn't match either of '*.squarespace.com', 'squarespace.com', '*.campaign-preferences.com', 'campaign-preferences.com', '*.sqsp.net', 'sqsp.net', '*.sqspcdn.com', 'static1.1.sqspcdn.com', 'static2.1.sqspcdn.com', 'static1.2.sqspcdn.com', 'cdn1.1.sqspcdn.com', 'sqspcdn.com', '*.engage.squarespace-mail.com', 'engage.squarespace-mail.com'\")))"
+    },
+    {
+      "page": "about",
+      "url": "https://coactive-ai.com/company",
+      "error": "HTTPSConnectionPool(host='coactive-ai.com', port=443): Max retries exceeded with url: /company (Caused by SSLError(CertificateError(\"hostname 'coactive-ai.com' doesn't match either of '*.squarespace.com', 'squarespace.com', '*.campaign-preferences.com', 'campaign-preferences.com', '*.sqsp.net', 'sqsp.net', '*.sqspcdn.com', 'static1.1.sqspcdn.com', 'static2.1.sqspcdn.com', 'static1.2.sqspcdn.com', 'cdn1.1.sqspcdn.com', 'sqspcdn.com', '*.engage.squarespace-mail.com', 'engage.squarespace-mail.com'\")))"
+    },
+    {
+      "page": "product",
+      "url": "https://coactive-ai.com/product",
+      "error": "HTTPSConnectionPool(host='coactive-ai.com', port=443): Max retries exceeded with url: /product (Caused by SSLError(CertificateError(\"hostname 'coactive-ai.com' doesn't match either of '*.squarespace.com', 'squarespace.com', '*.campaign-preferences.com', 'campaign-preferences.com', '*.sqsp.net', 'sqsp.net', '*.sqspcdn.com', 'static1.1.sqspcdn.com', 'static2.1.sqspcdn.com', 'static1.2.sqspcdn.com', 'cdn1.1.sqspcdn.com', 'sqspcdn.com', '*.engage.squarespace-mail.com', 'engage.squarespace-mail.com'\")))"
+    },
+    {
+      "page": "product",
+      "url": "https://coactive-ai.com/products",
+      "error": "HTTPSConnectionPool(host='coactive-ai.com', port=443): Max retries exceeded with url: /products (Caused by SSLError(CertificateError(\"hostname 'coactive-ai.com' doesn't match either of '*.squarespace.com', 'squarespace.com', '*.campaign-preferences.com', 'campaign-preferences.com', '*.sqsp.net', 'sqsp.net', '*.sqspcdn.com', 'static1.1.sqspcdn.com', 'static2.1.sqspcdn.com', 'static1.2.sqspcdn.com', 'cdn1.1.sqspcdn.com', 'sqspcdn.com', '*.engage.squarespace-mail.com', 'engage.squarespace-mail.com'\")))"
+    },
+    {
+      "page": "platform",
+      "url": "https://coactive-ai.com/platform",
+      "error": "HTTPSConnectionPool(host='coactive-ai.com', port=443): Max retries exceeded with url: /platform (Caused by SSLError(CertificateError(\"hostname 'coactive-ai.com' doesn't match either of '*.squarespace.com', 'squarespace.com', '*.campaign-preferences.com', 'campaign-preferences.com', '*.sqsp.net', 'sqsp.net', '*.sqspcdn.com', 'static1.1.sqspcdn.com', 'static2.1.sqspcdn.com', 'static1.2.sqspcdn.com', 'cdn1.1.sqspcdn.com', 'sqspcdn.com', '*.engage.squarespace-mail.com', 'engage.squarespace-mail.com'\")))"
+    },
+    {
+      "page": "platform",
+      "url": "https://coactive-ai.com/solutions",
+      "error": "HTTPSConnectionPool(host='coactive-ai.com', port=443): Max retries exceeded with url: /solutions (Caused by SSLError(CertificateError(\"hostname 'coactive-ai.com' doesn't match either of '*.squarespace.com', 'squarespace.com', '*.campaign-preferences.com', 'campaign-preferences.com', '*.sqsp.net', 'sqsp.net', '*.sqspcdn.com', 'static1.1.sqspcdn.com', 'static2.1.sqspcdn.com', 'static1.2.sqspcdn.com', 'cdn1.1.sqspcdn.com', 'sqspcdn.com', '*.engage.squarespace-mail.com', 'engage.squarespace-mail.com'\")))"
+    },
+    {
+      "page": "careers",
+      "url": "https://coactive-ai.com/careers",
+      "error": "HTTPSConnectionPool(host='coactive-ai.com', port=443): Max retries exceeded with url: /careers (Caused by SSLError(CertificateError(\"hostname 'coactive-ai.com' doesn't match either of '*.squarespace.com', 'squarespace.com', '*.campaign-preferences.com', 'campaign-preferences.com', '*.sqsp.net', 'sqsp.net', '*.sqspcdn.com', 'static1.1.sqspcdn.com', 'static2.1.sqspcdn.com', 'static1.2.sqspcdn.com', 'cdn1.1.sqspcdn.com', 'sqspcdn.com', '*.engage.squarespace-mail.com', 'engage.squarespace-mail.com'\")))"
+    },
+    {
+      "page": "careers",
+      "url": "https://coactive-ai.com/jobs",
+      "error": "HTTPSConnectionPool(host='coactive-ai.com', port=443): Max retries exceeded with url: /jobs (Caused by SSLError(CertificateError(\"hostname 'coactive-ai.com' doesn't match either of '*.squarespace.com', 'squarespace.com', '*.campaign-preferences.com', 'campaign-preferences.com', '*.sqsp.net', 'sqsp.net', '*.sqspcdn.com', 'static1.1.sqspcdn.com', 'static2.1.sqspcdn.com', 'static1.2.sqspcdn.com', 'cdn1.1.sqspcdn.com', 'sqspcdn.com', '*.engage.squarespace-mail.com', 'engage.squarespace-mail.com'\")))"
+    },
+    {
+      "page": "blog",
+      "url": "https://coactive-ai.com/blog",
+      "error": "HTTPSConnectionPool(host='coactive-ai.com', port=443): Max retries exceeded with url: /blog (Caused by SSLError(CertificateError(\"hostname 'coactive-ai.com' doesn't match either of '*.squarespace.com', 'squarespace.com', '*.campaign-preferences.com', 'campaign-preferences.com', '*.sqsp.net', 'sqsp.net', '*.sqspcdn.com', 'static1.1.sqspcdn.com', 'static2.1.sqspcdn.com', 'static1.2.sqspcdn.com', 'cdn1.1.sqspcdn.com', 'sqspcdn.com', '*.engage.squarespace-mail.com', 'engage.squarespace-mail.com'\")))"
+    },
+    {
+      "page": "news",
+      "url": "https://coactive-ai.com/news",
+      "error": "HTTPSConnectionPool(host='coactive-ai.com', port=443): Max retries exceeded with url: /news (Caused by SSLError(CertificateError(\"hostname 'coactive-ai.com' doesn't match either of '*.squarespace.com', 'squarespace.com', '*.campaign-preferences.com', 'campaign-preferences.com', '*.sqsp.net', 'sqsp.net', '*.sqspcdn.com', 'static1.1.sqspcdn.com', 'static2.1.sqspcdn.com', 'static1.2.sqspcdn.com', 'cdn1.1.sqspcdn.com', 'sqspcdn.com', '*.engage.squarespace-mail.com', 'engage.squarespace-mail.com'\")))"
+    },
+    {
+      "page": "news",
+      "url": "https://coactive-ai.com/newsroom",
+      "error": "HTTPSConnectionPool(host='coactive-ai.com', port=443): Max retries exceeded with url: /newsroom (Caused by SSLError(CertificateError(\"hostname 'coactive-ai.com' doesn't match either of '*.squarespace.com', 'squarespace.com', '*.campaign-preferences.com', 'campaign-preferences.com', '*.sqsp.net', 'sqsp.net', '*.sqspcdn.com', 'static1.1.sqspcdn.com', 'static2.1.sqspcdn.com', 'static1.2.sqspcdn.com', 'cdn1.1.sqspcdn.com', 'sqspcdn.com', '*.engage.squarespace-mail.com', 'engage.squarespace-mail.com'\")))"
+    }
+  ]
+}

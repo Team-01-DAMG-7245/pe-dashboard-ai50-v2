@@ -1,0 +1,14 @@
+{
+  "company_id": "hugging_face",
+  "company_name": "Hugging Face",
+  "hashes": {},
+  "history": [
+    {
+      "execution_date": "2025-10-31",
+      "crawled_at": "2025-11-01T21:55:54.917843Z",
+      "pages_checked": 0,
+      "changes_detected": [],
+      "errors": 8
+    }
+  ]
+}

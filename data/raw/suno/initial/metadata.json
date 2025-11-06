@@ -1,0 +1,45 @@
+{
+  "company_name": "Suno",
+  "company_id": "suno",
+  "base_url": "https://suno.com",
+  "hq_city": "Cambridge",
+  "hq_country": "United States",
+  "category": "Music and sound generation",
+  "linkedin": "https://www.linkedin.com/company/suno/",
+  "crawled_at": "2025-11-01T21:48:09.733313Z",
+  "pages_scraped": [
+    {
+      "page": "homepage",
+      "url": "https://suno.com",
+      "status": 200,
+      "size_bytes": 80590,
+      "html_file": "suno/initial/homepage_raw.html",
+      "text_file": "suno/initial/homepage_clean.txt"
+    },
+    {
+      "page": "about",
+      "url": "https://suno.com/about",
+      "status": 200,
+      "size_bytes": 69214,
+      "html_file": "suno/initial/about_raw.html",
+      "text_file": "suno/initial/about_clean.txt"
+    },
+    {
+      "page": "careers",
+      "url": "https://suno.com/careers",
+      "status": 200,
+      "size_bytes": 70901,
+      "html_file": "suno/initial/careers_raw.html",
+      "text_file": "suno/initial/careers_clean.txt"
+    },
+    {
+      "page": "blog",
+      "url": "https://suno.com/blog",
+      "status": 200,
+      "size_bytes": 411309,
+      "html_file": "suno/initial/blog_raw.html",
+      "text_file": "suno/initial/blog_clean.txt"
+    }
+  ],
+  "errors": []
+}

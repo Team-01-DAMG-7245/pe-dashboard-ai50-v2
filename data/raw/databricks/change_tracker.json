@@ -1,0 +1,24 @@
+{
+  "company_id": "databricks",
+  "company_name": "Databricks",
+  "hashes": {
+    "about": "3496b25bce34df464962774bee095610",
+    "careers": "57da32de9219169fb1dde475ed1cd319",
+    "blog": "e93c8943cd2cb1db6c8cb99f13b7d4c1",
+    "news": "8c1ea0a9d02fefd4ac599e7ffa860b60"
+  },
+  "history": [
+    {
+      "execution_date": "2025-10-31",
+      "crawled_at": "2025-11-01T21:54:28.857006Z",
+      "pages_checked": 4,
+      "changes_detected": [
+        "about",
+        "careers",
+        "blog",
+        "news"
+      ],
+      "errors": 0
+    }
+  ]
+}

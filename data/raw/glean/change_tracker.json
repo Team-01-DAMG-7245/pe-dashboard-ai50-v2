@@ -1,0 +1,22 @@
+{
+  "company_id": "glean",
+  "company_name": "Glean",
+  "hashes": {
+    "about": "95f05f9798673fe8a7ce1b753643dac4",
+    "careers": "2233b604d4d5b4ee76cdec757c08fd35",
+    "blog": "dc6f6cab8e2f5cef72b1ecf074abad18"
+  },
+  "history": [
+    {
+      "execution_date": "2025-10-31",
+      "crawled_at": "2025-11-01T21:55:49.110354Z",
+      "pages_checked": 3,
+      "changes_detected": [
+        "about",
+        "careers",
+        "blog"
+      ],
+      "errors": 0
+    }
+  ]
+}

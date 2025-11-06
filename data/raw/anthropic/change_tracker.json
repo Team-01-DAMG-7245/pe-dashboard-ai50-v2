@@ -1,0 +1,24 @@
+{
+  "company_id": "anthropic",
+  "company_name": "Anthropic",
+  "hashes": {
+    "about": "1d8203a73d8515fe5bc5b9f76134a16f",
+    "careers": "1c75b2e7e135500b29065610a9d14e70",
+    "blog": "b01ff7aab53ac6eaaf81844c9850293a",
+    "news": "b01ff7aab53ac6eaaf81844c9850293a"
+  },
+  "history": [
+    {
+      "execution_date": "2025-10-31",
+      "crawled_at": "2025-11-01T21:54:40.994512Z",
+      "pages_checked": 4,
+      "changes_detected": [
+        "about",
+        "careers",
+        "blog",
+        "news"
+      ],
+      "errors": 0
+    }
+  ]
+}

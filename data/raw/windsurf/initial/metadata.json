@@ -1,0 +1,69 @@
+{
+  "company_name": "Windsurf",
+  "company_id": "windsurf",
+  "base_url": "https://windsurf.com",
+  "hq_city": "Mountain View",
+  "hq_country": "United States",
+  "category": "AI-powered coding tool",
+  "linkedin": "https://www.linkedin.com/company/windsurf/",
+  "crawled_at": "2025-11-01T21:48:49.241992Z",
+  "pages_scraped": [
+    {
+      "page": "homepage",
+      "url": "https://windsurf.com",
+      "status": 200,
+      "size_bytes": 1714201,
+      "html_file": "windsurf/initial/homepage_raw.html",
+      "text_file": "windsurf/initial/homepage_clean.txt"
+    },
+    {
+      "page": "about",
+      "url": "https://windsurf.com/about",
+      "status": 200,
+      "size_bytes": 154694,
+      "html_file": "windsurf/initial/about_raw.html",
+      "text_file": "windsurf/initial/about_clean.txt"
+    },
+    {
+      "page": "product",
+      "url": "https://windsurf.com/product",
+      "status": 200,
+      "size_bytes": 63954,
+      "html_file": "windsurf/initial/product_raw.html",
+      "text_file": "windsurf/initial/product_clean.txt"
+    },
+    {
+      "page": "platform",
+      "url": "https://windsurf.com/platform",
+      "status": 200,
+      "size_bytes": 63960,
+      "html_file": "windsurf/initial/platform_raw.html",
+      "text_file": "windsurf/initial/platform_clean.txt"
+    },
+    {
+      "page": "careers",
+      "url": "https://windsurf.com/careers",
+      "status": 200,
+      "size_bytes": 71965,
+      "html_file": "windsurf/initial/careers_raw.html",
+      "text_file": "windsurf/initial/careers_clean.txt"
+    },
+    {
+      "page": "blog",
+      "url": "https://windsurf.com/blog",
+      "status": 200,
+      "size_bytes": 159184,
+      "html_file": "windsurf/initial/blog_raw.html",
+      "text_file": "windsurf/initial/blog_clean.txt"
+    },
+    {
+      "page": "news",
+      "url": "https://windsurf.com/news",
+      "status": 200,
+      "size_bytes": 63936,
+      "html_file": "windsurf/initial/news_raw.html",
+      "text_file": "windsurf/initial/news_clean.txt"
+    }
+  ],
+  "errors": []
+}

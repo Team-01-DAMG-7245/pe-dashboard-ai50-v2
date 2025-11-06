@@ -1,0 +1,45 @@
+{
+  "company_name": "Notion",
+  "company_id": "notion",
+  "base_url": "https://notion.com",
+  "crawled_at": "2025-11-01T21:56:02.192186Z",
+  "execution_date": "2025-10-31",
+  "pages_refreshed": [
+    {
+      "page": "about",
+      "url": "https://notion.com/about",
+      "status": 200,
+      "size_bytes": 87991,
+      "content_hash": "25998937cacc3f1373a02d7e45f345db",
+      "changed": true,
+      "html_file": "notion/2025-10-31/about_raw.html",
+      "text_file": "notion/2025-10-31/about_clean.txt"
+    },
+    {
+      "page": "careers",
+      "url": "https://notion.com/careers",
+      "status": 200,
+      "size_bytes": 201859,
+      "content_hash": "1f2356adcfdfae3aabc4d144e3d6edf9",
+      "changed": true,
+      "html_file": "notion/2025-10-31/careers_raw.html",
+      "text_file": "notion/2025-10-31/careers_clean.txt"
+    },
+    {
+      "page": "blog",
+      "url": "https://notion.com/blog",
+      "status": 200,
+      "size_bytes": 167675,
+      "content_hash": "a321a7d5f0bb783e5c9ffbdb35fb20d0",
+      "changed": true,
+      "html_file": "notion/2025-10-31/blog_raw.html",
+      "text_file": "notion/2025-10-31/blog_clean.txt"
+    }
+  ],
+  "changes_detected": [
+    "about",
+    "careers",
+    "blog"
+  ],
+  "errors": []
+}

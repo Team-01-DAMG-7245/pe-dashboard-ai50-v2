@@ -1,0 +1,37 @@
+{
+  "company_name": "Langchain",
+  "company_id": "langchain",
+  "base_url": "https://langchain.com",
+  "hq_city": "San Francisco",
+  "hq_country": "United States",
+  "category": "AI app development tools",
+  "linkedin": "https://www.linkedin.com/company/langchain/",
+  "crawled_at": "2025-11-01T21:47:25.209177Z",
+  "pages_scraped": [
+    {
+      "page": "homepage",
+      "url": "https://langchain.com",
+      "status": 200,
+      "size_bytes": 87911,
+      "html_file": "langchain/initial/homepage_raw.html",
+      "text_file": "langchain/initial/homepage_clean.txt"
+    },
+    {
+      "page": "about",
+      "url": "https://langchain.com/about",
+      "status": 200,
+      "size_bytes": 40086,
+      "html_file": "langchain/initial/about_raw.html",
+      "text_file": "langchain/initial/about_clean.txt"
+    },
+    {
+      "page": "careers",
+      "url": "https://langchain.com/careers",
+      "status": 200,
+      "size_bytes": 44657,
+      "html_file": "langchain/initial/careers_raw.html",
+      "text_file": "langchain/initial/careers_clean.txt"
+    }
+  ],
+  "errors": []
+}

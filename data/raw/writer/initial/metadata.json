@@ -1,0 +1,61 @@
+{
+  "company_name": "Writer",
+  "company_id": "writer",
+  "base_url": "https://writer.com",
+  "hq_city": "San Francisco",
+  "hq_country": "United States",
+  "category": "Enterprise AI software",
+  "linkedin": "https://www.linkedin.com/company/writer/",
+  "crawled_at": "2025-11-01T21:48:49.470751Z",
+  "pages_scraped": [
+    {
+      "page": "homepage",
+      "url": "https://writer.com",
+      "status": 200,
+      "size_bytes": 282365,
+      "html_file": "writer/initial/homepage_raw.html",
+      "text_file": "writer/initial/homepage_clean.txt"
+    },
+    {
+      "page": "about",
+      "url": "https://writer.com/about",
+      "status": 200,
+      "size_bytes": 346302,
+      "html_file": "writer/initial/about_raw.html",
+      "text_file": "writer/initial/about_clean.txt"
+    },
+    {
+      "page": "platform",
+      "url": "https://writer.com/platform",
+      "status": 200,
+      "size_bytes": 282365,
+      "html_file": "writer/initial/platform_raw.html",
+      "text_file": "writer/initial/platform_clean.txt"
+    },
+    {
+      "page": "careers",
+      "url": "https://writer.com/careers",
+      "status": 200,
+      "size_bytes": 210976,
+      "html_file": "writer/initial/careers_raw.html",
+      "text_file": "writer/initial/careers_clean.txt"
+    },
+    {
+      "page": "blog",
+      "url": "https://writer.com/blog",
+      "status": 200,
+      "size_bytes": 253097,
+      "html_file": "writer/initial/blog_raw.html",
+      "text_file": "writer/initial/blog_clean.txt"
+    },
+    {
+      "page": "news",
+      "url": "https://writer.com/newsroom",
+      "status": 200,
+      "size_bytes": 270137,
+      "html_file": "writer/initial/news_raw.html",
+      "text_file": "writer/initial/news_clean.txt"
+    }
+  ],
+  "errors": []
+}

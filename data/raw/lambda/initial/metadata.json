@@ -1,0 +1,78 @@
+{
+  "company_name": "Lambda",
+  "company_id": "lambda",
+  "base_url": "https://lambda.com",
+  "hq_city": "San Jose",
+  "hq_country": "United States",
+  "category": "AI cloud provider",
+  "linkedin": "https://www.linkedin.com/company/lambda/",
+  "crawled_at": "2025-11-01T21:47:20.490388Z",
+  "pages_scraped": [],
+  "errors": [
+    {
+      "page": "homepage",
+      "url": "https://lambda.com",
+      "error": "HTTPSConnectionPool(host='lambda.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)')))"
+    },
+    {
+      "page": "about",
+      "url": "https://lambda.com/about",
+      "error": "HTTPSConnectionPool(host='lambda.com', port=443): Max retries exceeded with url: /about (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)')))"
+    },
+    {
+      "page": "about",
+      "url": "https://lambda.com/about-us",
+      "error": "HTTPSConnectionPool(host='lambda.com', port=443): Max retries exceeded with url: /about-us (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)')))"
+    },
+    {
+      "page": "about",
+      "url": "https://lambda.com/company",
+      "error": "HTTPSConnectionPool(host='lambda.com', port=443): Max retries exceeded with url: /company (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)')))"
+    },
+    {
+      "page": "product",
+      "url": "https://lambda.com/product",
+      "error": "HTTPSConnectionPool(host='lambda.com', port=443): Max retries exceeded with url: /product (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)')))"
+    },
+    {
+      "page": "product",
+      "url": "https://lambda.com/products",
+      "error": "HTTPSConnectionPool(host='lambda.com', port=443): Max retries exceeded with url: /products (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)')))"
+    },
+    {
+      "page": "platform",
+      "url": "https://lambda.com/platform",
+      "error": "HTTPSConnectionPool(host='lambda.com', port=443): Max retries exceeded with url: /platform (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)')))"
+    },
+    {
+      "page": "platform",
+      "url": "https://lambda.com/solutions",
+      "error": "HTTPSConnectionPool(host='lambda.com', port=443): Max retries exceeded with url: /solutions (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)')))"
+    },
+    {
+      "page": "careers",
+      "url": "https://lambda.com/careers",
+      "error": "HTTPSConnectionPool(host='lambda.com', port=443): Max retries exceeded with url: /careers (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)')))"
+    },
+    {
+      "page": "careers",
+      "url": "https://lambda.com/jobs",
+      "error": "HTTPSConnectionPool(host='lambda.com', port=443): Max retries exceeded with url: /jobs (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)')))"
+    },
+    {
+      "page": "blog",
+      "url": "https://lambda.com/blog",
+      "error": "HTTPSConnectionPool(host='lambda.com', port=443): Max retries exceeded with url: /blog (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)')))"
+    },
+    {
+      "page": "news",
+      "url": "https://lambda.com/news",
+      "error": "HTTPSConnectionPool(host='lambda.com', port=443): Max retries exceeded with url: /news (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)')))"
+    },
+    {
+      "page": "news",
+      "url": "https://lambda.com/newsroom",
+      "error": "HTTPSConnectionPool(host='lambda.com', port=443): Max retries exceeded with url: /newsroom (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)')))"
+    }
+  ]
+}

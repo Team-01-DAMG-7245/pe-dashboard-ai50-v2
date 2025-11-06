@@ -1,0 +1,20 @@
+{
+  "company_id": "langchain",
+  "company_name": "Langchain",
+  "hashes": {
+    "about": "928c8e4203f6e0a47f7c5854675c8e04",
+    "careers": "8d443a8fbc11b4dd64eafb8ae42d1c87"
+  },
+  "history": [
+    {
+      "execution_date": "2025-10-31",
+      "crawled_at": "2025-11-01T21:55:58.031671Z",
+      "pages_checked": 2,
+      "changes_detected": [
+        "about",
+        "careers"
+      ],
+      "errors": 0
+    }
+  ]
+}

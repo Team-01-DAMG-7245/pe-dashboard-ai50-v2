@@ -1,0 +1,78 @@
+{
+  "company_name": "Scale AI",
+  "company_id": "scale_ai",
+  "base_url": "https://scale-ai.com",
+  "hq_city": "San Francisco",
+  "hq_country": "United States",
+  "category": "Data labeling and AI infrastructure",
+  "linkedin": "https://www.linkedin.com/company/scale-ai/",
+  "crawled_at": "2025-11-01T21:47:52.039337Z",
+  "pages_scraped": [],
+  "errors": [
+    {
+      "page": "homepage",
+      "url": "https://scale-ai.com",
+      "error": "HTTPSConnectionPool(host='scale-ai.com', port=443): Max retries exceeded with url: / (Caused by SSLError(CertificateError(\"hostname 'scale-ai.com' doesn't match 'parking1.whc.ca'\")))"
+    },
+    {
+      "page": "about",
+      "url": "https://scale-ai.com/about",
+      "error": "HTTPSConnectionPool(host='scale-ai.com', port=443): Max retries exceeded with url: /about (Caused by SSLError(CertificateError(\"hostname 'scale-ai.com' doesn't match 'parking1.whc.ca'\")))"
+    },
+    {
+      "page": "about",
+      "url": "https://scale-ai.com/about-us",
+      "error": "HTTPSConnectionPool(host='scale-ai.com', port=443): Max retries exceeded with url: /about-us (Caused by SSLError(CertificateError(\"hostname 'scale-ai.com' doesn't match 'parking1.whc.ca'\")))"
+    },
+    {
+      "page": "about",
+      "url": "https://scale-ai.com/company",
+      "error": "HTTPSConnectionPool(host='scale-ai.com', port=443): Max retries exceeded with url: /company (Caused by SSLError(CertificateError(\"hostname 'scale-ai.com' doesn't match 'parking1.whc.ca'\")))"
+    },
+    {
+      "page": "product",
+      "url": "https://scale-ai.com/product",
+      "error": "HTTPSConnectionPool(host='scale-ai.com', port=443): Max retries exceeded with url: /product (Caused by SSLError(CertificateError(\"hostname 'scale-ai.com' doesn't match 'parking1.whc.ca'\")))"
+    },
+    {
+      "page": "product",
+      "url": "https://scale-ai.com/products",
+      "error": "HTTPSConnectionPool(host='scale-ai.com', port=443): Max retries exceeded with url: /products (Caused by SSLError(CertificateError(\"hostname 'scale-ai.com' doesn't match 'parking1.whc.ca'\")))"
+    },
+    {
+      "page": "platform",
+      "url": "https://scale-ai.com/platform",
+      "error": "HTTPSConnectionPool(host='scale-ai.com', port=443): Max retries exceeded with url: /platform (Caused by SSLError(CertificateError(\"hostname 'scale-ai.com' doesn't match 'parking1.whc.ca'\")))"
+    },
+    {
+      "page": "platform",
+      "url": "https://scale-ai.com/solutions",
+      "error": "HTTPSConnectionPool(host='scale-ai.com', port=443): Max retries exceeded with url: /solutions (Caused by SSLError(CertificateError(\"hostname 'scale-ai.com' doesn't match 'parking1.whc.ca'\")))"
+    },
+    {
+      "page": "careers",
+      "url": "https://scale-ai.com/careers",
+      "error": "HTTPSConnectionPool(host='scale-ai.com', port=443): Max retries exceeded with url: /careers (Caused by SSLError(CertificateError(\"hostname 'scale-ai.com' doesn't match 'parking1.whc.ca'\")))"
+    },
+    {
+      "page": "careers",
+      "url": "https://scale-ai.com/jobs",
+      "error": "HTTPSConnectionPool(host='scale-ai.com', port=443): Max retries exceeded with url: /jobs (Caused by SSLError(CertificateError(\"hostname 'scale-ai.com' doesn't match 'parking1.whc.ca'\")))"
+    },
+    {
+      "page": "blog",
+      "url": "https://scale-ai.com/blog",
+      "error": "HTTPSConnectionPool(host='scale-ai.com', port=443): Max retries exceeded with url: /blog (Caused by SSLError(CertificateError(\"hostname 'scale-ai.com' doesn't match 'parking1.whc.ca'\")))"
+    },
+    {
+      "page": "news",
+      "url": "https://scale-ai.com/news",
+      "error": "HTTPSConnectionPool(host='scale-ai.com', port=443): Max retries exceeded with url: /news (Caused by SSLError(CertificateError(\"hostname 'scale-ai.com' doesn't match 'parking1.whc.ca'\")))"
+    },
+    {
+      "page": "news",
+      "url": "https://scale-ai.com/newsroom",
+      "error": "HTTPSConnectionPool(host='scale-ai.com', port=443): Max retries exceeded with url: /newsroom (Caused by SSLError(CertificateError(\"hostname 'scale-ai.com' doesn't match 'parking1.whc.ca'\")))"
+    }
+  ]
+}

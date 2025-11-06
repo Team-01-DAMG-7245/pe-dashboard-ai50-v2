@@ -1,0 +1,61 @@
+{
+  "company_name": "Anthropic",
+  "company_id": "anthropic",
+  "base_url": "https://anthropic.com",
+  "hq_city": "San Francisco",
+  "hq_country": "United States",
+  "category": "AI research and products",
+  "linkedin": "https://www.linkedin.com/company/anthropic/",
+  "crawled_at": "2025-11-01T21:49:20.609151Z",
+  "pages_scraped": [
+    {
+      "page": "homepage",
+      "url": "https://anthropic.com",
+      "status": 200,
+      "size_bytes": 272839,
+      "html_file": "anthropic/initial/homepage_raw.html",
+      "text_file": "anthropic/initial/homepage_clean.txt"
+    },
+    {
+      "page": "about",
+      "url": "https://anthropic.com/company",
+      "status": 200,
+      "size_bytes": 232485,
+      "html_file": "anthropic/initial/about_raw.html",
+      "text_file": "anthropic/initial/about_clean.txt"
+    },
+    {
+      "page": "product",
+      "url": "https://anthropic.com/product",
+      "status": 200,
+      "size_bytes": 1226630,
+      "html_file": "anthropic/initial/product_raw.html",
+      "text_file": "anthropic/initial/product_clean.txt"
+    },
+    {
+      "page": "careers",
+      "url": "https://anthropic.com/careers",
+      "status": 200,
+      "size_bytes": 244040,
+      "html_file": "anthropic/initial/careers_raw.html",
+      "text_file": "anthropic/initial/careers_clean.txt"
+    },
+    {
+      "page": "blog",
+      "url": "https://anthropic.com/blog",
+      "status": 200,
+      "size_bytes": 622377,
+      "html_file": "anthropic/initial/blog_raw.html",
+      "text_file": "anthropic/initial/blog_clean.txt"
+    },
+    {
+      "page": "news",
+      "url": "https://anthropic.com/news",
+      "status": 200,
+      "size_bytes": 622377,
+      "html_file": "anthropic/initial/news_raw.html",
+      "text_file": "anthropic/initial/news_clean.txt"
+    }
+  ],
+  "errors": []
+}

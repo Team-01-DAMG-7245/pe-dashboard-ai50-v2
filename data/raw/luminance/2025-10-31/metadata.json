@@ -1,0 +1,56 @@
+{
+  "company_name": "Luminance",
+  "company_id": "luminance",
+  "base_url": "https://luminance.com",
+  "crawled_at": "2025-11-01T21:55:53.926789Z",
+  "execution_date": "2025-10-31",
+  "pages_refreshed": [
+    {
+      "page": "about",
+      "url": "https://luminance.com/about",
+      "status": 200,
+      "size_bytes": 130839,
+      "content_hash": "ee427164b595520d63d9fa78ba932fdb",
+      "changed": true,
+      "html_file": "luminance/2025-10-31/about_raw.html",
+      "text_file": "luminance/2025-10-31/about_clean.txt"
+    },
+    {
+      "page": "careers",
+      "url": "https://luminance.com/careers",
+      "status": 200,
+      "size_bytes": 50505,
+      "content_hash": "a89f39d2951622d32417317cdb76e64f",
+      "changed": true,
+      "html_file": "luminance/2025-10-31/careers_raw.html",
+      "text_file": "luminance/2025-10-31/careers_clean.txt"
+    },
+    {
+      "page": "blog",
+      "url": "https://luminance.com/blog",
+      "status": 200,
+      "size_bytes": 118884,
+      "content_hash": "c9faa0c78170eb26ccdd06a75fc85a44",
+      "changed": true,
+      "html_file": "luminance/2025-10-31/blog_raw.html",
+      "text_file": "luminance/2025-10-31/blog_clean.txt"
+    },
+    {
+      "page": "news",
+      "url": "https://luminance.com/news",
+      "status": 200,
+      "size_bytes": 43218,
+      "content_hash": "bdf13d29ff0c57d8a175c00d34fe7d87",
+      "changed": true,
+      "html_file": "luminance/2025-10-31/news_raw.html",
+      "text_file": "luminance/2025-10-31/news_clean.txt"
+    }
+  ],
+  "changes_detected": [
+    "about",
+    "careers",
+    "blog",
+    "news"
+  ],
+  "errors": []
+}

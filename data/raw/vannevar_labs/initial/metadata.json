@@ -1,0 +1,69 @@
+{
+  "company_name": "Vannevar Labs",
+  "company_id": "vannevar_labs",
+  "base_url": "https://vannevar-labs.com",
+  "hq_city": "Palo Alto",
+  "hq_country": "United States",
+  "category": "Defense intelligence software",
+  "linkedin": "https://www.linkedin.com/company/vannevar-labs/",
+  "crawled_at": "2025-11-01T21:48:46.648591Z",
+  "pages_scraped": [
+    {
+      "page": "homepage",
+      "url": "https://vannevar-labs.com",
+      "status": 200,
+      "size_bytes": 3138,
+      "html_file": "vannevar_labs/initial/homepage_raw.html",
+      "text_file": "vannevar_labs/initial/homepage_clean.txt"
+    },
+    {
+      "page": "about",
+      "url": "https://vannevar-labs.com/about",
+      "status": 200,
+      "size_bytes": 3138,
+      "html_file": "vannevar_labs/initial/about_raw.html",
+      "text_file": "vannevar_labs/initial/about_clean.txt"
+    },
+    {
+      "page": "product",
+      "url": "https://vannevar-labs.com/product",
+      "status": 200,
+      "size_bytes": 3138,
+      "html_file": "vannevar_labs/initial/product_raw.html",
+      "text_file": "vannevar_labs/initial/product_clean.txt"
+    },
+    {
+      "page": "platform",
+      "url": "https://vannevar-labs.com/platform",
+      "status": 200,
+      "size_bytes": 3138,
+      "html_file": "vannevar_labs/initial/platform_raw.html",
+      "text_file": "vannevar_labs/initial/platform_clean.txt"
+    },
+    {
+      "page": "careers",
+      "url": "https://vannevar-labs.com/careers",
+      "status": 200,
+      "size_bytes": 3138,
+      "html_file": "vannevar_labs/initial/careers_raw.html",
+      "text_file": "vannevar_labs/initial/careers_clean.txt"
+    },
+    {
+      "page": "blog",
+      "url": "https://vannevar-labs.com/blog",
+      "status": 200,
+      "size_bytes": 3138,
+      "html_file": "vannevar_labs/initial/blog_raw.html",
+      "text_file": "vannevar_labs/initial/blog_clean.txt"
+    },
+    {
+      "page": "news",
+      "url": "https://vannevar-labs.com/news",
+      "status": 200,
+      "size_bytes": 3138,
+      "html_file": "vannevar_labs/initial/news_raw.html",
+      "text_file": "vannevar_labs/initial/news_clean.txt"
+    }
+  ],
+  "errors": []
+}

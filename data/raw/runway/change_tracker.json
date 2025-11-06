@@ -1,0 +1,22 @@
+{
+  "company_id": "runway",
+  "company_name": "Runway",
+  "hashes": {
+    "about": "317ba195f37cb8d6924426558f9d62fd",
+    "careers": "c91b0d39bc300c6386f99efe569c1239",
+    "blog": "f50780c6c92a177c6ebe364fce7f5e08"
+  },
+  "history": [
+    {
+      "execution_date": "2025-10-31",
+      "crawled_at": "2025-11-01T21:56:17.858591Z",
+      "pages_checked": 3,
+      "changes_detected": [
+        "about",
+        "careers",
+        "blog"
+      ],
+      "errors": 0
+    }
+  ]
+}

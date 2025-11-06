@@ -1,0 +1,14 @@
+{
+  "company_id": "sambanova",
+  "company_name": "Sambanova",
+  "hashes": {},
+  "history": [
+    {
+      "execution_date": "2025-10-31",
+      "crawled_at": "2025-11-01T21:56:22.732271Z",
+      "pages_checked": 0,
+      "changes_detected": [],
+      "errors": 8
+    }
+  ]
+}

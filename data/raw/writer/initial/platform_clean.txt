@@ -1,0 +1,236 @@
+WRITER - End-to-end agent builder platform that unites IT & business
+PLATFORM
+Action Agent
+AI Studio
+Palmyra LLMs
+Knowledge Graph
+Trust & security
+Capabilities
+Build
+Create agents with shared tools for IT and business
+Activate
+Find and use AI agents all in one place
+Supervise
+Govern and observe agents at scale
+NEW FOR 2025
+The big book of agentic enterprise AI use cases
+Read now
+INDUSTRIES
+Financial services
+Healthcare & life sciences
+Retail & consumer goods
+Technology
+DEPARTMENTS
+Finance
+HR
+Legal
+Marketing
+Sales
+Support
+USE CASES
+Content supply chain
+Customized portfolio reporting
+Generative search and GEO
+Inventory management
+Automated invoice processing
+Field productivity
+NEW FOR 2025
+How SCAN Health balances AI innovation and member trust
+Register now
+NEW FOR 2025
+The big book of agentic enterprise AI use cases
+Read now
+RESOURCES
+Writer’s Room blog
+Engineering blog
+Guides
+Podcast: Humans of AI
+Events & webinars
+AI Agent Library
+Dream big.
+Build fast.
+The only end-to-end agent builder
+platform that unites IT & business
+Collaborative tools
+to build, activate, and supervise AI agents
+#1 AI research lab for enterprises
+with leading LLMs and RAG
+Hands-on programs
+to train your builders
+Request a demo
+Try for free
+Play with sound
+World-class enterprises trust WRITER
+Agents that actually work
+They know the job, know their limits, and self-orchestrate—without the guesswork.
+Sales
+Marketing
+Operations
+Support
+Sales
+engagement
+agent
+Pull customer data
+Generate next steps
+Create follow up email
+Create account summary
+Explore more sales agents
+Content
+pipeline agent
+Upload strategy brief
+Generate messaging
+Create a project plan
+Generate copy and images
+Review for legal & compliance
+Explore more marketing agents
+RFP bid
+agent
+Pull data from email
+Creates opportunity record
+Generate bid recommendation
+Create & send RFP response
+Explore more operations agents
+Retail
+returns agent
+Search for return tickets
+Fix formatting errors
+Create return label
+Create personalized message
+Close ticket
+Explore more support agents
+Proven in pilots. Scaled in production. Delivering real ROI.
+See the case study
+See the case study
+Platform
+IT & business, united at last
+Eliminate silos with one end-to-end platform, designed for collaboration—without compromise.
+Build
+Activate
+Supervise
+For technical & business builders
+Build faster, together.
+Flexible, composable building blocks
+Process blueprints to guide agents
+Intuitive, drag-and-drop UI builder, and more
+Explore AI HQ
+WRITER enables us to co-build, combining IT’s technical skills and the business’ domain knowledge to drive greater impact than we could alone.
+Anna Griffin
+Chief Market Officer at Commvault
+For users
+Activate
+every team.
+100+ pre-built agents for fast time to value
+Centralized hub for easy discoverability
+Consumer-grade user experience, and more.
+Explore AI HQ
+WRITER has AI agents that help elevate everything from marketing to product development — with a strong focus on security, and real-world.
+Ori Klein
+VP, Digital Marketing and Product
+For IT
+Scale agents with confidence.
+Observability with traces, logs, and metrics
+Evaluations to test and optimize performance
+Granular access controls, and more
+Explore AI HQ
+WRITER stood out in our due diligence process to meet our privacy and compliance requirements.
+Ajay Dhaul
+SVP of Data & Applied AI
+TECHNOLOGY
+#1 AI research lab for enterprises
+State-of-the-art LLMs
+Our family of specialized LLMs, built for any industry and adaptable to any agent.
+Agent-ready
+Advanced reasoning, tool-calling, and more
+Trusted
+Transparent, secure, IP friendly and commercially safe
+Efficient and reliable
+Proactive deprecation policies and no LLM quantization
+Explore Palmyra LLMs
+Knowledge Graph
+Connect LLMs to your data to ground generative AI in your business context
+Uncompromising accuracy
+Data retrieval of semantic relationships
+Business-user friendly
+Setup via no-code interfaces and connectors
+Transparent & explainable
+Decomposed thought process and clear citations
+Explore Knowledge Graph
+INDUSTRIES
+Reimagine work across the enterprise
+Financial services
+& insurance
+Healthcare
+& life sciences
+Retail &
+consumer goods
+Technology
+EMPOWERMENT
+We build your builders
+Your team knows the work best. We upskill your
+next generation of AI builders to reimagine
+how work gets done—with AI at the center.
+Self-paced training
+WRITER AI Academy certifications, on-demand courses, and more
+Proven methodology
+Hands-on change management and AI transformation programs
+Dedicated team
+Experts who assess AI maturity, train your technical teams, and more
+Talk to an expert
+CUSTOMERS
+See how companies run faster with WRITER
+Across industries and functions, world-class teams transform work with the Writer generative AI platform.
+Learn more
+60%-80%
+time savings
+“There are all sorts of metrics that can and should be adopted, but one that’s hard to put into numbers is the elevation of employee confidence and the empowerment that comes from being able to create marketing assets faster and with more autonomy.”
+Lauren Boyman
+CMO, KPMG Americas
+“WRITER’s full-stack platform enables Vanguard to combine the expertise, creativity, and knowledge of our teams with the latest advancements in generative AI technology, boosting productivity.”
+Nitin Tandon
+Chief Information Officer
+“WRITER has helped create happier employees here at Qualcomm. Happier employees are more productive, more creative, and more satisfied with their job.”
+Don McGuire
+Chief Marketing Officer
+15x
+benefits engagement
+“WRITER is truly revolutionizing how we scale care. It enables us to maintain personalized care for our members and creating a more streamlined, enjoyable experience for our physicians.”
+Tanya Dillard
+SVP of Product Management and Innovation
+“We selected WRITER because it had the fastest speed-to-market and robust capabilities, in addition to being able to scale with us as we grow.”
+Hadley Ferguson
+Director of Global Community Operations
+50-70%
+time savings
+“I’d caution other AI leaders considering building their own AI stack to think twice. It quickly becomes very expensive and hard to maintain, and lacks the flexibility that a full-stack solution like WRITER can offer.”
+Albert Primo
+CIO
+“Generative AI tools like WRITER can drive greater creativity. As we continue to expand the use of AI, the opportunities to enhance content creation, productivity and our entire marketing model are boundless.”
+Jill Kramer
+Chief Marketing and Communications Officer
+“WRITER is onto something amazing. Their full-stack platform, deep customer-centricity, and high-touch approach to services truly sets them apart. Post our due diligence, partnering with WRITER was an easy decision for us.”
+Ajay Dhaul
+SVP of Data & Applied AI
+50%
+increase in output
+“With WRITER, we rewrote 100 blogs from an acquired company in 100 minutes, bringing them into the 6sense brand.”
+Latané Conant
+Chief Revenue Officer
+40%
+increase in non-branded search
+“WRITER doesn’t follow trends that are happening in the industry, but actually creates products and infrastructure that lead the way.”
+Ranjan Roy
+SVP of Strategy
+“We need to punch above our weight. Generative AI is a way to help us be more efficient.”
+Kate Pluth
+Head of Content Strategy
+Weeks
+Instead of months to deploy custom chat app
+“With WRITER Knowledge Graph, we’ve built digital assistants that enable sales people in real time.”
+Anna Griffin
+Chief Market Officer
+“WRITER helps our team not just work faster but more confidently. They feel that they’re making better decisions.”
+Jonathon Colman
+Senior Design Manager
+Start building your AI HQ
+Request a demo
+Try for free

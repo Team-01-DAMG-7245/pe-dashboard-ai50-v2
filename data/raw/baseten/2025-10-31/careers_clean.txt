@@ -1,0 +1,209 @@
+Careers | Baseten
+Come build with us
+We build delightful products for engineering and machine learning teams to deliver their best work.
+See open roles
+‌
+Our team spent weeks researching and vetting inference providers. It was a thorough process and we confidently believe Baseten was a clear winner. Baseten has helped us abstract away so much of the complexity of AI model deployments and MLOps. On Baseten, things just work out of the box - this has saved us countless engineering hours. It’s made a huge difference in our productivity as a team - most of our engineers have experience now in training and deploying models on Baseten. Every time we start an ML project, we think about how quickly we can get things going through Baseten.
+Baseten cut our P95 latency by 80% across the dozens of fine-tuned embedding models that power core features in Superhuman's AI-native email app. Superhuman is all about saving time. With Baseten, we're delivering a faster product for our customers while reducing engineering time spent on infrastructure.
+Loïc Houssier
+,
+CTO
+Our team spent weeks researching and vetting inference providers. It was a thorough process and we confidently believe Baseten was a clear winner. Baseten has helped us abstract away so much of the complexity of AI model deployments and MLOps. On Baseten, things just work out of the box - this has saved us countless engineering hours. It’s made a huge difference in our productivity as a team - most of our engineers have experience now in training and deploying models on Baseten. Every time we start an ML project, we think about how quickly we can get things going through Baseten.
+Baseten cut our P95 latency by 80% across the dozens of fine-tuned embedding models that power core features in Superhuman's AI-native email app. Superhuman is all about saving time. With Baseten, we're delivering a faster product for our customers while reducing engineering time spent on infrastructure.
+Join our team
+We build delightful products for engineering and AI teams to deliver their best work.
+Open roles
+All
+Engineering
+Product
+Marketing
+Recruiting
+Sales
+Other
+Engineering
+Engineering
+Engineering / Model API's
+Engineering / Model API's
+Software Engineer - Model API's
+San Francisco / New York
+San Francisco / New York
+Apply now
+Engineering / Model Training
+Engineering / Model Training
+Machine Learning Engineer
+San Francisco / New York
+San Francisco / New York
+Apply now
+Senior Software Engineer - Model Training
+San Francisco / New York
+San Francisco / New York
+Apply now
+Engineering / Forward Deployed Engineering
+Engineering / Forward Deployed Engineering
+AI Support Engineer
+San Francisco / New York
+San Francisco / New York
+Apply now
+Forward Deployed Engineer
+San Francisco / New York
+San Francisco / New York
+Apply now
+AI Solutions Engineer
+San Francisco / New York
+San Francisco / New York
+Apply now
+Applied AI Inference Engineer
+San Francisco / New York
+San Francisco / New York
+Apply now
+Engineering / Infrastructure
+Engineering / Infrastructure
+Security Engineer
+San Francisco / New York
+San Francisco / New York
+Apply now
+Site Reliability Engineer
+San Francisco / New York / Remote
+San Francisco / New York / Remote
+Apply now
+Software Engineer - Internal Platform
+San Francisco / New York / Montreal
+San Francisco / New York / Montreal
+Apply now
+Software Engineer - Infrastructure
+San Francisco / New York / Remote
+San Francisco / New York / Remote
+Apply now
+Senior Software Engineer - Infrastructure
+San Francisco / New York / Remote
+San Francisco / New York / Remote
+Apply now
+Senior Software Engineer - Enterprise Platform
+San Francisco / New York / Remote
+San Francisco / New York / Remote
+Apply now
+Engineering / Model Performance
+Engineering / Model Performance
+GPU Kernel Engineer
+San Francisco / New York
+San Francisco / New York
+Apply now
+Software Engineer - Model Performance
+San Francisco / New York / Remote
+San Francisco / New York / Remote
+Apply now
+Engineering Manager - Model Performance
+San Francisco / New York
+San Francisco / New York
+Apply now
+Engineering / Core Product
+Engineering / Core Product
+Senior Software Engineer - Core Product
+San Francisco / New York
+San Francisco / New York
+Apply now
+Software Engineer - Core Product
+San Francisco / New York
+San Francisco / New York
+Apply now
+Senior Frontend Engineer - Core Product
+San Francisco / New York
+San Francisco / New York
+Apply now
+Product
+Product
+Documentation Engineer / Technical Writer
+San Francisco / New York / Remote
+San Francisco / New York / Remote
+Apply now
+Product Manager
+San Francisco / New York
+San Francisco / New York
+Apply now
+Senior Product Designer
+San Francisco / New York
+San Francisco / New York
+Apply now
+Senior Brand Designer
+San Francisco / New York
+San Francisco / New York
+Apply now
+Marketing
+Marketing
+Sales Development Representative
+San Francisco
+San Francisco
+Apply now
+Field Marketing Manager
+New York
+New York
+Apply now
+Recruiting
+Recruiting
+Business Recruiter
+San Francisco / New York
+San Francisco / New York
+Apply now
+Sales Recruiter
+San Francisco / New York
+San Francisco / New York
+Apply now
+Technical Recruiter
+San Francisco / New York
+San Francisco / New York
+Apply now
+Recruiting Coordinator
+San Francisco
+San Francisco
+Apply now
+Sales
+Sales
+Sales Enablement Onboarding Manager
+San Francisco
+San Francisco
+Apply now
+Sales Manager - AI Native: Strategic
+San Francisco
+San Francisco
+Apply now
+Account Executive - AI Native: Emerging
+New York
+New York
+Apply now
+Account Executive - AI Native: Emerging
+San Francisco
+San Francisco
+Apply now
+Account Executive - AI Native: Strategic
+New York
+New York
+Apply now
+Account Executive - AI Native: Strategic
+San Francisco
+San Francisco
+Apply now
+Account Executive - Enterprise
+San Francisco
+San Francisco
+Apply now
+Other
+Other
+Workplace Experience Coordinator
+San Francisco
+San Francisco
+Apply now
+People Operations Manager
+San Francisco / New York / Remote
+San Francisco / New York / Remote
+Apply now
+Controller
+San Francisco
+San Francisco
+Apply now
+Don't see a fitting open role?
+Join our Talent Community!
+Don't see a fitting open role?
+Join our Talent Community!
+Explore Baseten today
+Start deploying
+Talk to an engineer

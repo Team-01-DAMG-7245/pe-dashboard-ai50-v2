@@ -1,0 +1,21 @@
+{
+  "company_name": "Perplexity AI",
+  "company_id": "perplexity_ai",
+  "base_url": "https://perplexity-ai.com",
+  "hq_city": "San Francisco",
+  "hq_country": "United States",
+  "category": "AI search engine",
+  "linkedin": "https://www.linkedin.com/company/perplexity-ai/",
+  "crawled_at": "2025-11-01T21:47:41.968048Z",
+  "pages_scraped": [
+    {
+      "page": "homepage",
+      "url": "https://perplexity-ai.com",
+      "status": 200,
+      "size_bytes": 239465,
+      "html_file": "perplexity_ai/initial/homepage_raw.html",
+      "text_file": "perplexity_ai/initial/homepage_clean.txt"
+    }
+  ],
+  "errors": []
+}

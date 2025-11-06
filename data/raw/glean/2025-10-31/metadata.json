@@ -1,0 +1,45 @@
+{
+  "company_name": "Glean",
+  "company_id": "glean",
+  "base_url": "https://glean.com",
+  "crawled_at": "2025-11-01T21:55:49.110354Z",
+  "execution_date": "2025-10-31",
+  "pages_refreshed": [
+    {
+      "page": "about",
+      "url": "https://glean.com/about",
+      "status": 200,
+      "size_bytes": 238195,
+      "content_hash": "95f05f9798673fe8a7ce1b753643dac4",
+      "changed": true,
+      "html_file": "glean/2025-10-31/about_raw.html",
+      "text_file": "glean/2025-10-31/about_clean.txt"
+    },
+    {
+      "page": "careers",
+      "url": "https://glean.com/careers",
+      "status": 200,
+      "size_bytes": 150656,
+      "content_hash": "2233b604d4d5b4ee76cdec757c08fd35",
+      "changed": true,
+      "html_file": "glean/2025-10-31/careers_raw.html",
+      "text_file": "glean/2025-10-31/careers_clean.txt"
+    },
+    {
+      "page": "blog",
+      "url": "https://glean.com/blog",
+      "status": 200,
+      "size_bytes": 444074,
+      "content_hash": "dc6f6cab8e2f5cef72b1ecf074abad18",
+      "changed": true,
+      "html_file": "glean/2025-10-31/blog_raw.html",
+      "text_file": "glean/2025-10-31/blog_clean.txt"
+    }
+  ],
+  "changes_detected": [
+    "about",
+    "careers",
+    "blog"
+  ],
+  "errors": []
+}

@@ -1,0 +1,8 @@
+{
+  "companies_scraped": 50,
+  "companies_with_errors": 12,
+  "total_pages_scraped": 145,
+  "files_uploaded_to_s3": 685,
+  "s3_bucket": "quanta-ai50-data",
+  "completed_at": "2025-11-01T21:51:25.044555Z"
+}

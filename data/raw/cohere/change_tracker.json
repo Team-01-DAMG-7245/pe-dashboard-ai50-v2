@@ -1,0 +1,24 @@
+{
+  "company_id": "cohere",
+  "company_name": "Cohere",
+  "hashes": {
+    "about": "bc9c0de68036c18a2c59f2651c47fd9f",
+    "careers": "3f7b4b42bb8c088ab41f1f6607b2d7b4",
+    "blog": "0f2937c39f6a6c69dceae151b754ee9d",
+    "news": "9c628014a1da76f0edd29d7d11641077"
+  },
+  "history": [
+    {
+      "execution_date": "2025-10-31",
+      "crawled_at": "2025-11-01T21:54:29.251434Z",
+      "pages_checked": 4,
+      "changes_detected": [
+        "about",
+        "careers",
+        "blog",
+        "news"
+      ],
+      "errors": 0
+    }
+  ]
+}

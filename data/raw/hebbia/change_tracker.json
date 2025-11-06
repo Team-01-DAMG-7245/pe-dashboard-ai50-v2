@@ -1,0 +1,24 @@
+{
+  "company_id": "hebbia",
+  "company_name": "Hebbia",
+  "hashes": {
+    "about": "3358ddef8549bf00cfe275128df857a9",
+    "careers": "cc6d2c9fa742f15ba77347511286b457",
+    "blog": "bc9cdce8c8a0816d794f0a97cc095424",
+    "news": "1b9d3cac3f41378e5302b972880d0461"
+  },
+  "history": [
+    {
+      "execution_date": "2025-10-31",
+      "crawled_at": "2025-11-01T21:55:58.048835Z",
+      "pages_checked": 4,
+      "changes_detected": [
+        "about",
+        "careers",
+        "blog",
+        "news"
+      ],
+      "errors": 0
+    }
+  ]
+}

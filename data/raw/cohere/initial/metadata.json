@@ -1,0 +1,61 @@
+{
+  "company_name": "Cohere",
+  "company_id": "cohere",
+  "base_url": "https://cohere.com",
+  "hq_city": "Toronto",
+  "hq_country": "Canada",
+  "category": "AI model developer",
+  "linkedin": "https://www.linkedin.com/company/cohere/",
+  "crawled_at": "2025-11-01T21:48:59.940312Z",
+  "pages_scraped": [
+    {
+      "page": "homepage",
+      "url": "https://cohere.com",
+      "status": 200,
+      "size_bytes": 889313,
+      "html_file": "cohere/initial/homepage_raw.html",
+      "text_file": "cohere/initial/homepage_clean.txt"
+    },
+    {
+      "page": "about",
+      "url": "https://cohere.com/about",
+      "status": 200,
+      "size_bytes": 756926,
+      "html_file": "cohere/initial/about_raw.html",
+      "text_file": "cohere/initial/about_clean.txt"
+    },
+    {
+      "page": "product",
+      "url": "https://cohere.com/products",
+      "status": 200,
+      "size_bytes": 785131,
+      "html_file": "cohere/initial/product_raw.html",
+      "text_file": "cohere/initial/product_clean.txt"
+    },
+    {
+      "page": "careers",
+      "url": "https://cohere.com/careers",
+      "status": 200,
+      "size_bytes": 685277,
+      "html_file": "cohere/initial/careers_raw.html",
+      "text_file": "cohere/initial/careers_clean.txt"
+    },
+    {
+      "page": "blog",
+      "url": "https://cohere.com/blog",
+      "status": 200,
+      "size_bytes": 322467,
+      "html_file": "cohere/initial/blog_raw.html",
+      "text_file": "cohere/initial/blog_clean.txt"
+    },
+    {
+      "page": "news",
+      "url": "https://cohere.com/news",
+      "status": 200,
+      "size_bytes": 607366,
+      "html_file": "cohere/initial/news_raw.html",
+      "text_file": "cohere/initial/news_clean.txt"
+    }
+  ],
+  "errors": []
+}
