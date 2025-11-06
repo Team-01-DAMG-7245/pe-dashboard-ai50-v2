@@ -1,6 +1,6 @@
 {
-  "glean": {
-    "company_id": "glean",
+  "writer": {
+    "company_id": "writer",
     "rag": null,
     "structured": {
       "has_8_sections": true,
@@ -15,8 +15,8 @@
         "Disclosure Gaps"
       ],
       "sections_count": 8,
-      "not_disclosed_count": 13,
-      "word_count": 397,
+      "not_disclosed_count": 2,
+      "word_count": 488,
       "has_provenance": true
     }
   },
@@ -36,13 +36,13 @@
         "Disclosure Gaps"
       ],
       "sections_count": 8,
-      "not_disclosed_count": 10,
-      "word_count": 363,
+      "not_disclosed_count": 1,
+      "word_count": 350,
       "has_provenance": true
     }
   },
-  "cohere": {
-    "company_id": "cohere",
+  "photoroom": {
+    "company_id": "photoroom",
     "rag": null,
     "structured": {
       "has_8_sections": true,
@@ -57,13 +57,13 @@
         "Disclosure Gaps"
       ],
       "sections_count": 8,
-      "not_disclosed_count": 16,
-      "word_count": 362,
+      "not_disclosed_count": 1,
+      "word_count": 350,
       "has_provenance": true
     }
   },
-  "clay": {
-    "company_id": "clay",
+  "abridge": {
+    "company_id": "abridge",
     "rag": {
       "has_8_sections": true,
       "sections_found": [
@@ -78,7 +78,7 @@
       ],
       "sections_count": 8,
       "not_disclosed_count": 3,
-      "word_count": 445,
+      "word_count": 412,
       "has_provenance": true
     },
     "structured": {
@@ -94,13 +94,13 @@
         "Disclosure Gaps"
       ],
       "sections_count": 8,
-      "not_disclosed_count": 20,
-      "word_count": 347,
+      "not_disclosed_count": 2,
+      "word_count": 414,
       "has_provenance": true
     }
   },
-  "hebbia": {
-    "company_id": "hebbia",
+  "xai": {
+    "company_id": "xai",
     "rag": null,
     "structured": {
       "has_8_sections": true,
@@ -115,8 +115,8 @@
         "Disclosure Gaps"
       ],
       "sections_count": 8,
-      "not_disclosed_count": 21,
-      "word_count": 311,
+      "not_disclosed_count": 1,
+      "word_count": 304,
       "has_provenance": true
     }
   }

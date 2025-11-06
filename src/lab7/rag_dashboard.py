@@ -336,7 +336,7 @@ async def generate_structured_dashboard(request: StructuredDashboardRequest):
         system_prompt = load_dashboard_prompt()
         
         # Step 4: Create user prompt
-        user_prompt = f"""Generate an investor-facing diligence dashboard for {request.company_id}.
+        user_prompt = f'''Generate an investor-facing diligence dashboard for {request.company_id}.
 
 Here is the structured payload (JSON) with normalized, validated data:
 
@@ -362,7 +362,7 @@ CRITICAL REQUIREMENTS:
    - Focus on specific gaps: missing financial metrics, incomplete leadership data, unclear product details, etc.
    - List specific data points that are not available using bullet points (e.g., "• Revenue figures not disclosed", "• Customer retention metrics unavailable")
    - Format as specific bullet points or short statements about what data is missing
-   - If no specific gaps, simply state "No significant disclosure gaps identified." or "All key information appears to be disclosed.""""
+   - If no specific gaps, simply state "No significant disclosure gaps identified." or "All key information appears to be disclosed."'''
         
         # Step 5: Generate dashboard
         response = client.chat.completions.create(
@@ -413,11 +413,47 @@ CRITICAL REQUIREMENTS:
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error generating structured dashboard: {str(e)}")
 
+@app.get("/companies")
+async def list_companies():
+    """List available companies for dashboard generation.
+    Sources:
+    - data/payloads/*.json filenames (preferred)
+    - Chroma collection metadatas (fallback if available)
+    """
+    companies = set()
+
+    # From structured payloads
+    try:
+        project_root_local = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
+        payloads_dir = os.path.join(project_root_local, "data", "payloads")
+        if os.path.isdir(payloads_dir):
+            for name in os.listdir(payloads_dir):
+                if name.lower().endswith(".json"):
+                    companies.add(os.path.splitext(name)[0])
+    except Exception:
+        pass
+
+    # From vector DB collection metadata (best-effort)
+    try:
+        if collection is not None:
+            # Query a sample to collect company_id values
+            sample = collection.get(include=["metadatas"], limit=1000)
+            for meta in (sample.get("metadatas") or []):
+                for m in meta or []:
+                    cid = (m or {}).get("company_id")
+                    if cid:
+                        companies.add(cid)
+    except Exception:
+        pass
+
+    return {"companies": sorted(companies)}
+
 @app.get("/")
 async def root():
     return {
         "message": "Dashboard API - Labs 7 & 8",
         "endpoints": {
+            "/companies": "List available companies (from payloads and/or vector DB)",
             "/dashboard/rag": "Lab 7 - RAG pipeline (vector DB → LLM → dashboard)",
             "/dashboard/structured": "Lab 8 - Structured pipeline (JSON payload → LLM → dashboard)"
         },

@@ -1,0 +1,197 @@
+[
+  {
+    "company": "anthropic",
+    "result": {
+      "rag": {
+        "metrics": {
+          "has_8_sections": true,
+          "sections_count": 8,
+          "not_disclosed_count": 2,
+          "word_count": 489,
+          "has_provenance": true
+        },
+        "scores": {
+          "factual": 2,
+          "schema": 1,
+          "provenance": 2,
+          "hallucination": 1,
+          "readability": 1
+        },
+        "total": 7
+      },
+      "structured": {
+        "metrics": {
+          "has_8_sections": true,
+          "sections_count": 8,
+          "not_disclosed_count": 3,
+          "word_count": 320,
+          "has_provenance": false
+        },
+        "scores": {
+          "factual": 2,
+          "schema": 2,
+          "provenance": 0,
+          "hallucination": 2,
+          "readability": 1
+        },
+        "total": 7
+      }
+    }
+  },
+  {
+    "company": "abridge",
+    "result": {
+      "rag": {
+        "metrics": {
+          "has_8_sections": true,
+          "sections_count": 8,
+          "not_disclosed_count": 3,
+          "word_count": 412,
+          "has_provenance": true
+        },
+        "scores": {
+          "factual": 3,
+          "schema": 1,
+          "provenance": 2,
+          "hallucination": 2,
+          "readability": 0
+        },
+        "total": 8
+      },
+      "structured": {
+        "metrics": {
+          "has_8_sections": true,
+          "sections_count": 8,
+          "not_disclosed_count": 2,
+          "word_count": 414,
+          "has_provenance": true
+        },
+        "scores": {
+          "factual": 3,
+          "schema": 2,
+          "provenance": 2,
+          "hallucination": 1,
+          "readability": 1
+        },
+        "total": 9
+      }
+    }
+  },
+  {
+    "company": "anysphere",
+    "result": {
+      "rag": {
+        "metrics": {
+          "has_8_sections": true,
+          "sections_count": 8,
+          "not_disclosed_count": 7,
+          "word_count": 130,
+          "has_provenance": true
+        },
+        "scores": {
+          "factual": 3,
+          "schema": 1,
+          "provenance": 2,
+          "hallucination": 2,
+          "readability": 0
+        },
+        "total": 8
+      },
+      "structured": {
+        "metrics": {
+          "has_8_sections": true,
+          "sections_count": 8,
+          "not_disclosed_count": 2,
+          "word_count": 267,
+          "has_provenance": true
+        },
+        "scores": {
+          "factual": 3,
+          "schema": 2,
+          "provenance": 2,
+          "hallucination": 1,
+          "readability": 0
+        },
+        "total": 8
+      }
+    }
+  },
+  {
+    "company": "baseten",
+    "result": {
+      "rag": {
+        "metrics": {
+          "has_8_sections": true,
+          "sections_count": 8,
+          "not_disclosed_count": 4,
+          "word_count": 275,
+          "has_provenance": true
+        },
+        "scores": {
+          "factual": 3,
+          "schema": 1,
+          "provenance": 2,
+          "hallucination": 2,
+          "readability": 0
+        },
+        "total": 8
+      },
+      "structured": {
+        "metrics": {
+          "has_8_sections": true,
+          "sections_count": 8,
+          "not_disclosed_count": 5,
+          "word_count": 368,
+          "has_provenance": true
+        },
+        "scores": {
+          "factual": 3,
+          "schema": 2,
+          "provenance": 2,
+          "hallucination": 2,
+          "readability": 1
+        },
+        "total": 10
+      }
+    }
+  },
+  {
+    "company": "clay",
+    "result": {
+      "rag": {
+        "metrics": {
+          "has_8_sections": true,
+          "sections_count": 8,
+          "not_disclosed_count": 1,
+          "word_count": 465,
+          "has_provenance": true
+        },
+        "scores": {
+          "factual": 2,
+          "schema": 1,
+          "provenance": 2,
+          "hallucination": 1,
+          "readability": 1
+        },
+        "total": 7
+      },
+      "structured": {
+        "metrics": {
+          "has_8_sections": true,
+          "sections_count": 8,
+          "not_disclosed_count": 5,
+          "word_count": 408,
+          "has_provenance": true
+        },
+        "scores": {
+          "factual": 3,
+          "schema": 2,
+          "provenance": 2,
+          "hallucination": 2,
+          "readability": 1
+        },
+        "total": 10
+      }
+    }
+  }
+]
