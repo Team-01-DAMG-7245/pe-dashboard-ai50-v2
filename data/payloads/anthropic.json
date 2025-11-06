@@ -21,21 +21,21 @@
     "last_round_name": "Series F",
     "last_round_date": "2025-09-02",
     "schema_version": "2.0.0",
-    "as_of": "2025-11-05",
+    "as_of": "2025-11-06",
     "provenance": [
       {
         "source_url": "https://www.anthropic.com",
-        "crawled_at": "2023-10-01T00:00:00Z",
+        "crawled_at": "2025-09-29T00:00:00Z",
         "snippet": "Anthropic is dedicated to building systems that people can rely on and generating research about the opportunities and risks of AI."
       },
       {
         "source_url": "https://www.anthropic.com/newsroom",
-        "crawled_at": "2023-10-01T00:00:00Z",
-        "snippet": "Anthropic raises $13B Series F at $183B post-money valuation on September 2, 2025."
+        "crawled_at": "2025-09-29T00:00:00Z",
+        "snippet": "Anthropic raises $13B Series F at $183B post-money valuation."
       },
       {
         "source_url": "https://www.anthropic.com/careers",
-        "crawled_at": "2023-10-01T00:00:00Z",
+        "crawled_at": "2025-09-29T00:00:00Z",
         "snippet": "Anthropic is a Public Benefit Corporation, whose purpose is the responsible development and maintenance of advanced AI for the long-term benefit of humanity."
       }
     ]
@@ -125,11 +125,11 @@
   "snapshots": [
     {
       "company_id": "anthropic",
-      "as_of": "2025-11-05",
+      "as_of": "2025-11-06",
       "headcount_total": 350,
       "headcount_growth_pct": 100.0,
       "job_openings_count": 60,
-      "engineering_openings": 20,
+      "engineering_openings": 25,
       "sales_openings": 15,
       "hiring_focus": [
         "Engineering",
@@ -143,9 +143,9 @@
         "Enterprise"
       ],
       "active_products": [
-        "Claude",
-        "Claude Sonnet",
-        "Claude Haiku"
+        "Claude Sonnet 4.5",
+        "Claude Haiku 4.5",
+        "Claude Code"
       ],
       "geo_presence": [
         "San Francisco",
@@ -159,8 +159,12 @@
       "headcount_growth_rate": 100.0,
       "release_velocity": "Low",
       "products_released_last_12m": 0,
-      "geography_expansion": [],
-      "geography_expansion_rate": null,
+      "geography_expansion": [
+        "Tokyo",
+        "Seoul",
+        "India"
+      ],
+      "geography_expansion_rate": "Rapid",
       "notable_customers": [
         "Deloitte",
         "Salesforce",
@@ -168,26 +172,26 @@
       ],
       "customer_quality_score": "Enterprise",
       "churn_signals": [],
-      "regulatory_exposure": [],
+      "regulatory_exposure": [
+        "GDPR",
+        "AI Safety"
+      ],
       "leadership_stability": "Stable",
-      "leadership_changes_last_12m": 0,
-      "layoffs_mentioned": null,
+      "leadership_changes_last_12m": 2,
+      "layoffs_mentioned": false,
       "layoffs_count": null,
       "layoffs_date": null,
       "layoffs_percentage": null,
       "positive_signals": [
         "Raised $13B Series F",
         "Opened Tokyo office",
-        "Expanded to Seoul",
-        "New product launches"
+        "Expanded to Seoul"
       ],
-      "negative_signals": [
-        "None"
-      ],
+      "negative_signals": [],
       "positive_events_count": 5,
       "negative_events_count": 0,
-      "risk_score": 25.0,
-      "risk_level": "Low",
+      "risk_score": 33.0,
+      "risk_level": "Medium",
       "key_challenges": [
         "Regulatory compliance",
         "Market competition"
@@ -195,12 +199,13 @@
       "transparency_score": 100.0,
       "transparency_level": "High",
       "marketed_info_available": [
-        "AI for safe and reliable systems",
-        "Enterprise AI solutions"
+        "Enterprise AI platform",
+        "Serves Fortune 500",
+        "99.9% uptime"
       ],
       "actual_case_studies": [
-        "Deloitte will make Claude available to 470,000 people",
-        "Claude for Financial Services"
+        "Case study with Deloitte",
+        "Customer testimonial from Salesforce"
       ],
       "disclosure_gaps": [
         "Claims enterprise customers but no case studies"
@@ -390,6 +395,6 @@
     }
   ],
   "visibility": [],
-  "notes": "Extracted from scraped data on 2025-11-05. Events: 5 funding/announcement events found.",
+  "notes": "Extracted from scraped data on 2025-11-06. Events: 5 funding/announcement events found.",
   "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
 }

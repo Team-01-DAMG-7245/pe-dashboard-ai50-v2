@@ -1,6 +1,6 @@
 # Structured Dashboard: CAPTIONS
 
-Generated: 2025-11-05T18:58:16.157417
+Generated: 2025-11-06T10:28:57.487040
 Source: Structured Payload (data/payloads/captions.json)
 
 ---
@@ -15,48 +15,48 @@ Source: Structured Payload (data/payloads/captions.json)
 ## Business Model and GTM
 - **Active Products:** Captioned Telephone Service
 - **Pricing Tiers:** Free
-- **Market Offering:** The company states that ClearCaptions is available to qualified, hard-of-hearing U.S. residents at no cost as part of the Title IV of the Americans with Disabilities Act (ADA).
+- **Target Market:** Qualified, hard-of-hearing U.S. residents
+- **Marketing Claim:** The company states that ClearCaptions is available to qualified, hard-of-hearing U.S. residents at no cost as part of the Title IV of the Americans with Disabilities Act (ADA).
 
 ## Funding & Investor Profile
-- **Total Raised (USD):** Not disclosed
-- **Last Disclosed Valuation (USD):** Not disclosed
+- **Total Raised:** Not disclosed
+- **Last Disclosed Valuation:** Not disclosed
 - **Last Round Name:** Not disclosed
 - **Last Round Date:** Not disclosed
-- **Investors:** Not disclosed
+- **Funding Events:** One funding announcement on September 10, 2025, with no disclosed amount or investors.
 
 ## Growth Momentum
 - **Total Headcount:** 100
 - **Headcount Growth Rate:** 20.0%
 - **Job Openings Count:** 15
 - **Hiring Focus:** Engineering, Sales, Customer Support
+- **Headcount Velocity:** Rapid
 - **Products Released in Last 12 Months:** 2
+- **Geography Expansion:** United States
 - **Geography Expansion Rate:** Stable
-- **Notable Customers:** Fortune 500 Companies
+- **Notable Customers:** FCC, ADA
 - **Customer Quality Score:** Mixed
-- **Positive Signals:** Expanded service offerings, Partnership with major telecom providers
-- **Negative Signals:** Not disclosed
+- **Positive Signals:** Expanded service availability, Partnership with FCC
+- **Negative Signals:** None reported
 
 ## Visibility & Market Sentiment
-- **Churn Signals:** Not disclosed
-- **Regulatory Exposure:** ADA Compliance
+- **Regulatory Exposure:** ADA, FCC
 - **Leadership Stability:** Stable
 - **Leadership Changes in Last 12 Months:** 1
-- **Layoffs Mentioned:** No
-- **Risk Score:** 47.0 (Medium)
-- **Transparency Score:** 62.0 (Medium)
-- **Marketed Information Available:** Free captioning service for hearing loss, Accessible communication solutions
-- **Actual Case Studies:** Case study with major telecom provider
+- **Churn Signals:** None reported
+- **Risk Score:** 51.0 (High)
+- **Transparency Score:** 57.0 (Low)
+- **Marketing vs. Reality Gap:** Well-supported (claims backed by proof)
 
 ## Risks and Challenges
-- **Key Challenges:** Market competition, Regulatory compliance
-- **Negative Events Count:** 0
+- **Key Challenges:** Regulatory compliance
+- **Layoffs Mentioned:** No
+- **Layoffs Count:** Not disclosed
 
 ## Outlook
-- **Headcount Velocity:** Rapid
-- **Release Velocity:** Medium
-- **Positive Events Count:** 1
-- **Marketing vs Reality Gap:** Well-supported (claims backed by proof)
+- The company is positioned to continue its growth in the assistive technology market, particularly in the U.S. with its free captioning service. However, it faces challenges related to regulatory compliance and maintaining customer satisfaction amidst mixed quality scores.
 
 ## Disclosure Gaps
-- **Claims enterprise customers but no case studies.**
-- **Customer count not available.**
+- • Revenue figures not disclosed
+- • Customer count not available
+- • Detailed customer testimonials not provided

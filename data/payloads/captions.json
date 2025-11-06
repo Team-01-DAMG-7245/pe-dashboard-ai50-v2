@@ -21,7 +21,7 @@
     "last_round_name": null,
     "last_round_date": null,
     "schema_version": "2.0.0",
-    "as_of": "2025-11-05",
+    "as_of": "2025-11-06",
     "provenance": [
       {
         "source_url": "https://www.clearcaptions.com",
@@ -51,7 +51,7 @@
   "snapshots": [
     {
       "company_id": "captions",
-      "as_of": "2025-11-05",
+      "as_of": "2025-11-06",
       "headcount_total": 100,
       "headcount_growth_pct": 20.0,
       "job_openings_count": 15,
@@ -82,12 +82,14 @@
       ],
       "geography_expansion_rate": "Stable",
       "notable_customers": [
-        "Fortune 500 Companies"
+        "FCC",
+        "ADA"
       ],
       "customer_quality_score": "Mixed",
       "churn_signals": [],
       "regulatory_exposure": [
-        "ADA Compliance"
+        "ADA",
+        "FCC"
       ],
       "leadership_stability": "Stable",
       "leadership_changes_last_12m": 1,
@@ -96,31 +98,31 @@
       "layoffs_date": null,
       "layoffs_percentage": null,
       "positive_signals": [
-        "Expanded service offerings",
-        "Partnership with major telecom providers"
+        "Expanded service availability",
+        "Partnership with FCC"
       ],
       "negative_signals": [],
       "positive_events_count": 1,
       "negative_events_count": 0,
-      "risk_score": 47.0,
-      "risk_level": "Medium",
+      "risk_score": 51.0,
+      "risk_level": "High",
       "key_challenges": [
-        "Market competition",
         "Regulatory compliance"
       ],
-      "transparency_score": 62.0,
-      "transparency_level": "Medium",
+      "transparency_score": 57.0,
+      "transparency_level": "Low",
       "marketed_info_available": [
-        "Free captioning service for hearing loss",
-        "Accessible communication solutions"
+        "Free captioning service",
+        "Accessible for hard-of-hearing individuals"
       ],
       "actual_case_studies": [
-        "Case study with major telecom provider"
+        "Case study with a major telecommunications provider"
       ],
       "disclosure_gaps": [
-        "Claims enterprise customers but no case studies"
+        "Claims free service but lacks detailed customer testimonials"
       ],
       "missing_key_info": [
+        "Revenue not disclosed",
         "Customer count not available"
       ],
       "marketing_vs_reality_gap": "Well-supported (claims backed by proof)",
@@ -147,6 +149,6 @@
   ],
   "leadership": [],
   "visibility": [],
-  "notes": "Extracted from scraped data on 2025-11-05. Events: 1 funding/announcement events found.",
+  "notes": "Extracted from scraped data on 2025-11-06. Events: 1 funding/announcement events found.",
   "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
 }

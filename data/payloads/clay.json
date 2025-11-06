@@ -21,7 +21,7 @@
     "last_round_name": "Series C",
     "last_round_date": "2025-01-01",
     "schema_version": "2.0.0",
-    "as_of": "2025-11-05",
+    "as_of": "2025-11-06",
     "provenance": [
       {
         "source_url": "https://www.clay.com",
@@ -139,7 +139,7 @@
   "snapshots": [
     {
       "company_id": "clay",
-      "as_of": "2025-11-05",
+      "as_of": "2025-11-06",
       "headcount_total": 100,
       "headcount_growth_pct": 100.0,
       "job_openings_count": 60,
@@ -160,7 +160,8 @@
         "Enterprise"
       ],
       "active_products": [
-        "Claygent"
+        "Claygent",
+        "GTM tools"
       ],
       "geo_presence": [
         "New York City"
@@ -169,13 +170,10 @@
       "funding_cadence_months": 1.5440210249671484,
       "headcount_velocity": "Rapid",
       "headcount_growth_rate": 100.0,
-      "release_velocity": "High",
-      "products_released_last_12m": 6,
-      "geography_expansion": [
-        "North America",
-        "Europe"
-      ],
-      "geography_expansion_rate": "Moderate",
+      "release_velocity": "Low",
+      "products_released_last_12m": 0,
+      "geography_expansion": [],
+      "geography_expansion_rate": null,
       "notable_customers": [
         "OpenAI",
         "Vanta",
@@ -188,17 +186,19 @@
       "churn_signals": [],
       "regulatory_exposure": [],
       "leadership_stability": "Stable",
-      "leadership_changes_last_12m": 2,
-      "layoffs_mentioned": false,
+      "leadership_changes_last_12m": 0,
+      "layoffs_mentioned": null,
       "layoffs_count": null,
       "layoffs_date": null,
       "layoffs_percentage": null,
       "positive_signals": [
         "Raised $100M Series C at a $3.1B valuation",
-        "Clay named #1 mid-stage company on ENT30 list",
-        "Clay named to 2025 Forbes Cloud 100"
+        "10x revenue growth in 2022-2023",
+        "Clay named #1 mid-stage company on ENT30 list"
       ],
-      "negative_signals": [],
+      "negative_signals": [
+        "None"
+      ],
       "positive_events_count": 4,
       "negative_events_count": 0,
       "risk_score": 22.0,
@@ -215,7 +215,7 @@
       ],
       "actual_case_studies": [
         "Case study with OpenAI",
-        "Customer testimonial from Vanta"
+        "Customer testimonial from Intercom"
       ],
       "disclosure_gaps": [
         "Claims enterprise customers but no case studies"
@@ -334,10 +334,10 @@
       "provenance": []
     },
     {
-      "person_id": "clay_shvevyah_hogue",
+      "person_id": "clay_kellen_casebeer",
       "company_id": "clay",
-      "name": "Shvevyah Hogue",
-      "role": "Sales Assistant",
+      "name": "Kellen Casebeer",
+      "role": "Founder",
       "is_founder": false,
       "start_date": null,
       "end_date": null,
@@ -474,38 +474,10 @@
       "provenance": []
     },
     {
-      "person_id": "clay_alexander_demoulin",
+      "person_id": "clay_scotty_huhn",
       "company_id": "clay",
-      "name": "Alexander DeMoulin",
-      "role": "Director of Revenue Operations",
-      "is_founder": false,
-      "start_date": null,
-      "end_date": null,
-      "previous_affiliation": null,
-      "education": null,
-      "linkedin": null,
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "person_id": "clay_kris_rudegraap",
-      "company_id": "clay",
-      "name": "Kris Rudegraap",
-      "role": "CEO",
-      "is_founder": false,
-      "start_date": null,
-      "end_date": null,
-      "previous_affiliation": null,
-      "education": null,
-      "linkedin": null,
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "person_id": "clay_julien_reiman",
-      "company_id": "clay",
-      "name": "Julien Reiman",
-      "role": "Head of Sales",
+      "name": "Scotty Huhn",
+      "role": "Revenue Strategy & Data",
       "is_founder": false,
       "start_date": null,
       "end_date": null,
@@ -517,6 +489,6 @@
     }
   ],
   "visibility": [],
-  "notes": "Extracted from scraped data on 2025-11-05. Events: 5 funding/announcement events found.",
+  "notes": "Extracted from scraped data on 2025-11-06. Events: 5 funding/announcement events found.",
   "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
 }

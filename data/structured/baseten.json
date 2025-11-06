@@ -1,13 +1,13 @@
 {
   "company_record": {
     "company_id": "baseten",
-    "legal_name": "Baseten",
+    "legal_name": "Baseten Inc.",
     "brand_name": null,
     "website": "https://www.baseten.co/",
     "hq_city": "San Francisco",
     "hq_state": "CA",
     "hq_country": "USA",
-    "founded_year": null,
+    "founded_year": 2020,
     "categories": [
       "AI",
       "Machine Learning",
@@ -17,26 +17,26 @@
     ],
     "related_companies": [],
     "total_raised_usd": 1000000000.0,
-    "last_disclosed_valuation_usd": null,
+    "last_disclosed_valuation_usd": 0.0,
     "last_round_name": "Series D",
     "last_round_date": "2024-01-01",
     "schema_version": "2.0.0",
-    "as_of": "2025-11-05",
+    "as_of": "2025-11-06",
     "provenance": [
       {
-        "source_url": "https://www.baseten.co/about",
+        "source_url": "https://www.baseten.co",
         "crawled_at": "2023-10-01T00:00:00Z",
-        "snippet": "We build delightful products for engineering and machine learning teams to deliver their best work."
+        "snippet": "Baseten has helped us abstract away so much of the complexity of AI model deployments and MLOps."
       },
       {
         "source_url": "https://www.baseten.co/careers",
         "crawled_at": "2023-10-01T00:00:00Z",
-        "snippet": "Join our team. We build delightful products for engineering and AI teams to deliver their best work."
+        "snippet": "We build delightful products for engineering and machine learning teams to deliver their best work."
       },
       {
-        "source_url": "https://www.baseten.co",
+        "source_url": "https://www.baseten.co/blog",
         "crawled_at": "2023-10-01T00:00:00Z",
-        "snippet": "Deploy AI models in production | Baseten"
+        "snippet": "Expert guides and engineering deep dives to help you ship faster, scale easier, and learn along the way."
       }
     ]
   },
@@ -109,11 +109,11 @@
   "snapshots": [
     {
       "company_id": "baseten",
-      "as_of": "2025-11-05",
+      "as_of": "2025-11-06",
       "headcount_total": 350,
       "headcount_growth_pct": null,
-      "job_openings_count": 36,
-      "engineering_openings": 20,
+      "job_openings_count": 30,
+      "engineering_openings": 15,
       "sales_openings": 8,
       "hiring_focus": [
         "Engineering",
@@ -165,7 +165,7 @@
       "positive_signals": [
         "Launched Baseten Training",
         "Achieved 2x faster inference",
-        "Partnership with NVIDIA"
+        "Expanded to new markets"
       ],
       "negative_signals": [],
       "positive_events_count": 4,
@@ -176,7 +176,7 @@
         "Market competition",
         "Scaling challenges"
       ],
-      "transparency_score": 82.0,
+      "transparency_score": 87.0,
       "transparency_level": "High",
       "marketed_info_available": [
         "High-performance AI model deployment",
@@ -380,7 +380,7 @@
       "person_id": "baseten_waseem_alshikh",
       "company_id": "baseten",
       "name": "Waseem Alshikh",
-      "role": "CTO and Co-Founder",
+      "role": "CTO and Co-Founder of Writer",
       "is_founder": false,
       "start_date": null,
       "end_date": null,
@@ -392,6 +392,6 @@
     }
   ],
   "visibility": [],
-  "notes": "Extracted from scraped data on 2025-11-05. Events: 4 funding/announcement events found.",
+  "notes": "Extracted from scraped data on 2025-11-06. Events: 4 funding/announcement events found.",
   "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
 }

@@ -1,8 +1,8 @@
 {
   "company_record": {
     "company_id": "abridge",
-    "legal_name": "Abridge",
-    "brand_name": null,
+    "legal_name": "Abridge, Inc.",
+    "brand_name": "Abridge",
     "website": "https://www.abridge.com/",
     "hq_city": "Pittsburgh",
     "hq_state": "PA",
@@ -16,31 +16,31 @@
       "Natural Language Processing"
     ],
     "related_companies": [],
-    "total_raised_usd": 0.0,
-    "last_disclosed_valuation_usd": 0.0,
-    "last_round_name": "Series A",
-    "last_round_date": "2025-08-12",
+    "total_raised_usd": null,
+    "last_disclosed_valuation_usd": null,
+    "last_round_name": null,
+    "last_round_date": null,
     "schema_version": "2.0.0",
-    "as_of": "2025-11-05",
+    "as_of": "2025-11-06",
     "provenance": [
       {
         "source_url": "https://www.abridge.com/about",
-        "crawled_at": "2023-10-31T00:00:00Z",
+        "crawled_at": "2023-10-01T00:00:00Z",
         "snippet": "Pioneers in Generative AI for Healthcare | About Abridge"
       },
       {
         "source_url": "https://www.abridge.com",
-        "crawled_at": "2023-10-31T00:00:00Z",
+        "crawled_at": "2023-10-01T00:00:00Z",
         "snippet": "Generative AI for Clinical Conversations | Abridge"
       },
       {
         "source_url": "https://www.abridge.com/blog",
-        "crawled_at": "2023-10-31T00:00:00Z",
+        "crawled_at": "2023-10-01T00:00:00Z",
         "snippet": "Insights and Innovations in AI for Healthcare | Abridge Blog"
       },
       {
         "source_url": "https://www.abridge.com/news",
-        "crawled_at": "2023-10-31T00:00:00Z",
+        "crawled_at": "2023-10-01T00:00:00Z",
         "snippet": "Abridge in the Press"
       }
     ]
@@ -98,7 +98,7 @@
   "snapshots": [
     {
       "company_id": "abridge",
-      "as_of": "2025-11-05",
+      "as_of": "2025-11-06",
       "headcount_total": 100,
       "headcount_growth_pct": 50.0,
       "job_openings_count": 15,
@@ -107,7 +107,6 @@
       "hiring_focus": [
         "Engineering",
         "Sales",
-        "Product",
         "Marketing"
       ],
       "pricing_tiers": [
@@ -127,8 +126,8 @@
       "funding_cadence_months": null,
       "headcount_velocity": "Rapid",
       "headcount_growth_rate": 50.0,
-      "release_velocity": "Medium",
-      "products_released_last_12m": 3,
+      "release_velocity": "High",
+      "products_released_last_12m": 5,
       "geography_expansion": [
         "Europe",
         "Asia-Pacific"
@@ -142,22 +141,26 @@
       ],
       "customer_quality_score": "Enterprise",
       "churn_signals": [],
-      "regulatory_exposure": [],
+      "regulatory_exposure": [
+        "GDPR"
+      ],
       "leadership_stability": "Stable",
       "leadership_changes_last_12m": 1,
       "layoffs_mentioned": false,
-      "layoffs_count": 0,
+      "layoffs_count": null,
       "layoffs_date": null,
       "layoffs_percentage": null,
       "positive_signals": [
         "Partnership with Kaiser Permanente",
-        "Named Market Leader in Ambient AI KLAS Report",
-        "#1 Most Innovative in Healthcare by Fast Company"
+        "Raised $10M funding",
+        "Launched new AI feature"
       ],
-      "negative_signals": [],
+      "negative_signals": [
+        "None"
+      ],
       "positive_events_count": 2,
       "negative_events_count": 0,
-      "risk_score": 31.0,
+      "risk_score": 35.0,
       "risk_level": "Medium",
       "key_challenges": [
         "Market competition",
@@ -166,8 +169,8 @@
       "transparency_score": 92.0,
       "transparency_level": "High",
       "marketed_info_available": [
-        "Enterprise-grade AI for clinical conversations",
-        "Measurably improving outcomes for clinicians"
+        "Enterprise AI for clinical conversations",
+        "Trusted by leading healthcare systems"
       ],
       "actual_case_studies": [
         "Case study with Johns Hopkins",
@@ -319,6 +322,6 @@
     }
   ],
   "visibility": [],
-  "notes": "Extracted from scraped data on 2025-11-05. Events: 3 funding/announcement events found.",
+  "notes": "Extracted from scraped data on 2025-11-06. Events: 3 funding/announcement events found.",
   "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
 }

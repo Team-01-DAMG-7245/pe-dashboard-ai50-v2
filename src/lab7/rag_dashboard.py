@@ -362,7 +362,33 @@ CRITICAL REQUIREMENTS:
    - Focus on specific gaps: missing financial metrics, incomplete leadership data, unclear product details, etc.
    - List specific data points that are not available using bullet points (e.g., "• Revenue figures not disclosed", "• Customer retention metrics unavailable")
    - Format as specific bullet points or short statements about what data is missing
-   - If no specific gaps, simply state "No significant disclosure gaps identified." or "All key information appears to be disclosed."'''
+   - If no specific gaps, simply state "No significant disclosure gaps identified." or "All key information appears to be disclosed."
+
+6. For the following three sections, include these details strictly from the structured payload (do NOT invent; use "Not disclosed."):
+
+   A) Visibility & Market Sentiment
+      - Summarize recent visibility from VisibilityMetrics using:
+        • news_mentions_30d
+        • avg_sentiment (−1 to 1)
+        • github_stars
+        • glassdoor_rating
+      - Conclude with: "Attention: accelerating | stable | unclear" based on available signals.
+
+   B) Risks and Challenges
+      - List downside signals using only provided data (neutral tone):
+        • layoffs
+        • regulatory / security incidents
+        • executive churn
+        • pricing pressure / commoditization
+        • GTM concentration risk
+
+   C) Outlook
+      - Give a restrained investor readout focusing on:
+        • moat (data advantage, integrations, founder pedigree)
+        • GTM scaling (compare sales_openings vs engineering_openings if available)
+        • macro fit
+      - Do not hype. Do not invent.
+'''
         
         # Step 5: Generate dashboard
         response = client.chat.completions.create(

@@ -1,15 +1,15 @@
 # RAG Dashboard: CAPTIONS
 
-Generated: 2025-11-05T18:58:03.959372
+Generated: 2025-11-06T10:28:45.648428
 Chunks Used: 2
 
 ---
 
 ## Company Overview
-ClearCaptions, LLC provides a captioning service that generates real-time captions of what the other party says during phone calls. This service is specifically designed for individuals with hearing loss, allowing them to read captions on their phones.
+ClearCaptions, LLC provides a captioning service for individuals with hearing loss, allowing them to see on-screen captions of what the other party to the call says in near-real time. The service is available exclusively in the United States and its territories.
 
 ## Business Model and GTM
-The company operates under a model where the captioning service is provided at no cost to qualified users. The costs incurred for each minute of captions generated are covered by a federally administered fund, specifically the Telecommunications Relay Services (TRS) fund, which is managed by the Federal Communications Commission (FCC). ClearCaptions is available only to U.S. residents who meet specific eligibility criteria, including having hearing loss, living in the U.S., and having internet access.
+ClearCaptions operates under a model where the service is provided at no cost to qualified users, funded through a federally administered Telecommunications Relay Services (TRS) fund. Individuals must certify their hearing loss and have home internet access to qualify for the service. The company states that a ClearCaptions specialist will install the phone and provide training at no charge.
 
 ## Funding & Investor Profile
 Not disclosed.
@@ -18,7 +18,7 @@ Not disclosed.
 Not disclosed.
 
 ## Visibility & Market Sentiment
-The company states that its service is free for customers who qualify, as mandated by Title IV of the Americans with Disabilities Act (ADA). This legislation ensures that individuals with disabilities, such as hearing loss, have equal access to phone calls. The company emphasizes its commitment to providing captioned calls as a right for those who qualify.
+The company states that ClearCaptions is making an impact by providing captioned calls to individuals with hearing loss, ensuring they have equal opportunities and access to phone calls as mandated by the Americans with Disabilities Act (ADA).
 
 ## Risks and Challenges
 Not disclosed.
@@ -30,5 +30,5 @@ Not disclosed.
 - Funding and investor profile information is not disclosed.
 - Growth momentum details are not disclosed.
 - Visibility and market sentiment specifics beyond the company's claims are not disclosed.
-- Risks and challenges associated with the business are not disclosed.
+- Risks and challenges faced by the company are not disclosed.
 - Outlook for future growth or strategic direction is not disclosed.

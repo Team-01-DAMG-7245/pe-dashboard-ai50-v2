@@ -1,3 +1,10 @@
+# Structured Dashboard: ANTHROPIC
+
+Generated: 2025-11-06T10:27:55.569975
+Source: Structured Payload (data/payloads/anthropic.json)
+
+---
+
 ## Company Overview
 - **Legal Name:** Anthropic PBC
 - **Founded Year:** 2021
@@ -10,45 +17,50 @@
 - **Last Round Date:** September 2, 2025
 
 ## Business Model and GTM
-- **Active Products:** Claude, Claude Sonnet, Claude Haiku
+- **Active Products:** Claude Sonnet 4.5, Claude Haiku 4.5, Claude Code
 - **Pricing Tiers:** Free, Pro, Enterprise
 - **Notable Customers:** Deloitte, Salesforce, Lyft
 - **Customer Quality Score:** Enterprise
 - **Hiring Focus:** Engineering, Sales, Product, Operations
-- **Job Openings Count:** 60 (20 in Engineering, 15 in Sales)
+- **Geographic Presence:** San Francisco, Tokyo, Seoul, India
+- **Marketing Claims:** The company states it serves Fortune 500 companies and offers a 99.9% uptime.
 
 ## Funding & Investor Profile
 - **Funding Events:**
-  - **Series F:** $13 billion on September 2, 2025
-  - **Series E:** Amount not disclosed, valuation $61.5 billion on March 3, 2025
-  - **Series C:** $450 million on May 23, 2023
-  - **Series B:** $124 million on April 29, 2022
-  - **Seed Round:** $124 million on May 28, 2021
-- **Investors:** Not disclosed.
+  - **Series F:** $13 billion at a $183 billion valuation (September 2, 2025)
+  - **Series E:** Amount not disclosed, $61.5 billion valuation (March 3, 2025)
+  - **Series C:** $450 million (May 23, 2023)
+  - **Series B:** $124 million (April 29, 2022)
+  - **Seed Round:** $124 million (May 28, 2021)
 
 ## Growth Momentum
 - **Total Headcount:** 350
 - **Headcount Growth Rate:** 100%
+- **Job Openings:** 60
 - **Headcount Velocity:** Rapid
-- **Positive Signals:** Raised $13B Series F, Opened Tokyo office, Expanded to Seoul, New product launches
-- **Negative Signals:** None
-- **Risk Score:** 25 (Low risk level)
+- **Geography Expansion Rate:** Rapid
+- **Positive Signals:** Raised $13B Series F, opened Tokyo office, expanded to Seoul
+- **Negative Signals:** None reported
+- **Risk Score:** 33 (Medium risk level)
 
 ## Visibility & Market Sentiment
 - **Transparency Score:** 100 (High transparency level)
-- **Marketing Claims:** The company states it focuses on AI for safe and reliable systems and offers enterprise AI solutions.
-- **Actual Case Studies:** Deloitte will make Claude available to 470,000 people; Claude for Financial Services.
+- **Leadership Stability:** Stable
+- **Leadership Changes in Last 12 Months:** 2
+- **Churn Signals:** None reported
+- **Regulatory Exposure:** GDPR, AI Safety
+- **Marketing vs. Reality Gap:** Well-supported (claims backed by proof)
 
 ## Risks and Challenges
-- **Key Challenges:** Regulatory compliance, Market competition
+- **Key Challenges:**
+  - Regulatory compliance
+  - Market competition
 
 ## Outlook
-- **Release Velocity:** Low
-- **Products Released in Last 12 Months:** 0
-- **Leadership Stability:** Stable
-- **Leadership Changes in Last 12 Months:** 0
+- The company is positioned for continued growth with a strong funding base and a focus on responsible AI development. The expansion into new geographic markets and a robust hiring strategy indicate a proactive approach to scaling operations.
 
 ## Disclosure Gaps
 - • Revenue figures not disclosed
 - • Customer count not available
-- • Claims enterprise customers but no case studies provided
+- • Specific details on product pricing models not disclosed
+- • No case studies provided for claimed enterprise customers

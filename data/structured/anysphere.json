@@ -21,10 +21,10 @@
     "last_round_name": "Series D",
     "last_round_date": "2024-01-01",
     "schema_version": "2.0.0",
-    "as_of": "2025-11-05",
+    "as_of": "2025-11-06",
     "provenance": [
       {
-        "source_url": "https://www.anysphere.com",
+        "source_url": null,
         "crawled_at": "2023-10-01T00:00:00Z",
         "snippet": "Welcome to the anySPHERE ubiquitous commerce Copyright (c) 2011, Sentricity, Inc."
       }
@@ -99,90 +99,59 @@
   "snapshots": [
     {
       "company_id": "anysphere",
-      "as_of": "2025-11-05",
-      "headcount_total": 250,
-      "headcount_growth_pct": 25.0,
-      "job_openings_count": 15,
-      "engineering_openings": 5,
-      "sales_openings": 3,
-      "hiring_focus": [
-        "Engineering",
-        "Sales",
-        "Marketing"
-      ],
-      "pricing_tiers": [
-        "Free",
-        "Pro",
-        "Enterprise"
-      ],
-      "active_products": [
-        "Commerce Platform",
-        "AI Solutions"
-      ],
-      "geo_presence": [
-        "San Francisco",
-        "New York",
-        "London"
-      ],
+      "as_of": "2025-11-06",
+      "headcount_total": 0,
+      "headcount_growth_pct": 0.0,
+      "job_openings_count": 0,
+      "engineering_openings": 0,
+      "sales_openings": 0,
+      "hiring_focus": [],
+      "pricing_tiers": [],
+      "active_products": [],
+      "geo_presence": [],
       "confidence": null,
       "funding_cadence_months": 11.990801576872535,
-      "headcount_velocity": "Moderate",
-      "headcount_growth_rate": 25.0,
-      "release_velocity": "Medium",
-      "products_released_last_12m": 3,
-      "geography_expansion": [
-        "Europe",
-        "Asia"
-      ],
-      "geography_expansion_rate": "Moderate",
-      "notable_customers": [
-        "Company A",
-        "Company B"
-      ],
-      "customer_quality_score": "Enterprise",
+      "headcount_velocity": "Stable",
+      "headcount_growth_rate": 0.0,
+      "release_velocity": "Low",
+      "products_released_last_12m": 0,
+      "geography_expansion": [],
+      "geography_expansion_rate": "Slow",
+      "notable_customers": [],
+      "customer_quality_score": "Mixed",
       "churn_signals": [],
-      "regulatory_exposure": [
-        "GDPR"
-      ],
+      "regulatory_exposure": [],
       "leadership_stability": "Stable",
-      "leadership_changes_last_12m": 1,
+      "leadership_changes_last_12m": 0,
       "layoffs_mentioned": false,
-      "layoffs_count": null,
+      "layoffs_count": 0,
       "layoffs_date": null,
-      "layoffs_percentage": null,
+      "layoffs_percentage": 0.0,
       "positive_signals": [
-        "Raised $5M in funding",
-        "Launched new product"
+        "Series A funding round",
+        "Series B funding round",
+        "Series C funding round",
+        "Series D funding round"
       ],
-      "negative_signals": [
-        "Lost major customer"
-      ],
+      "negative_signals": [],
       "positive_events_count": 4,
       "negative_events_count": 0,
-      "risk_score": 36.0,
+      "risk_score": 37.0,
       "risk_level": "Medium",
       "key_challenges": [
-        "Market competition",
-        "Regulatory compliance"
+        "Limited enterprise customer base"
       ],
-      "transparency_score": 87.0,
-      "transparency_level": "High",
-      "marketed_info_available": [
-        "AI-powered commerce solutions",
-        "Serves Fortune 500 companies"
-      ],
-      "actual_case_studies": [
-        "Case study with Company A",
-        "Customer testimonial from Company B"
-      ],
+      "transparency_score": 65.0,
+      "transparency_level": "Medium",
+      "marketed_info_available": [],
+      "actual_case_studies": [],
       "disclosure_gaps": [
-        "Claims enterprise customers but no case studies"
+        "Team size not disclosed",
+        "Pricing information not disclosed",
+        "Customer names/references not disclosed"
       ],
-      "missing_key_info": [
-        "Revenue not disclosed",
-        "Customer count not available"
-      ],
-      "marketing_vs_reality_gap": "Well-supported (claims backed by proof)",
+      "missing_key_info": [],
+      "marketing_vs_reality_gap": "Limited information available",
       "schema_version": "2.0.0",
       "provenance": []
     }
@@ -192,7 +161,7 @@
       "product_id": "anysphere_product_1",
       "company_id": "anysphere",
       "name": "SPHERE",
-      "description": "ubiquitious commerce",
+      "description": "ubiquitous commerce platform by Sentricity, Inc.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -277,6 +246,6 @@
     }
   ],
   "visibility": [],
-  "notes": "Extracted from scraped data on 2025-11-05. Events: 4 funding/announcement events found.",
+  "notes": "Extracted from scraped data on 2025-11-06. Events: 4 funding/announcement events found.",
   "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
 }
