@@ -3,24 +3,42 @@
     "company_id": "openevidence",
     "legal_name": "OpenEvidence",
     "brand_name": null,
-    "website": "https://www.openevidence.com/",
+    "website": "https://openevidence.com/",
     "hq_city": null,
     "hq_state": null,
     "hq_country": null,
     "founded_year": 2025,
-    "categories": [],
-    "related_companies": [],
+    "categories": [
+      "medical information",
+      "healthcare",
+      "AI",
+      "machine learning"
+    ],
+    "related_companies": [
+      "Sequoia",
+      "Google Ventures",
+      "Kleiner Perkins",
+      "Coatue",
+      "Thrive",
+      "Conviction",
+      "ICONIQ",
+      "Greycroft",
+      "Breyer Capital",
+      "BOND",
+      "Blackstone",
+      "Mayo Clinic"
+    ],
     "total_raised_usd": null,
     "last_disclosed_valuation_usd": null,
     "last_round_name": null,
     "last_round_date": null,
     "schema_version": "2.0.0",
-    "as_of": "2025-11-02",
+    "as_of": "2025-11-06",
     "provenance": [
       {
-        "source_url": "https://www.openevidence.com/",
-        "crawled_at": "2023-10-15T08:00:00Z",
-        "snippet": null
+        "source_url": "https://openevidence.com/",
+        "crawled_at": "2023-10-01T00:00:00Z",
+        "snippet": "OpenEvidence is the leading medical information platform."
       }
     ]
   },
@@ -28,16 +46,23 @@
   "snapshots": [
     {
       "company_id": "openevidence",
-      "as_of": "2025-11-02",
-      "headcount_total": null,
+      "as_of": "2025-11-06",
+      "headcount_total": 100,
       "headcount_growth_pct": null,
-      "job_openings_count": null,
+      "job_openings_count": 0,
       "engineering_openings": null,
       "sales_openings": null,
-      "hiring_focus": [],
+      "hiring_focus": [
+        "Engineering",
+        "Product"
+      ],
       "pricing_tiers": [],
-      "active_products": [],
-      "geo_presence": [],
+      "active_products": [
+        "OpenEvidence"
+      ],
+      "geo_presence": [
+        "United States"
+      ],
       "confidence": null,
       "schema_version": "2.0.0",
       "provenance": []
@@ -48,19 +73,58 @@
       "product_id": "openevidence_product_1",
       "company_id": "openevidence",
       "name": "OpenEvidence",
-      "description": "The leading medical information platform launched from the Mayo Clinic Platform Accelerate program. Featuring multimedia and clinical findings from The New England Journal of Medicine and JAMA. Supported by investors including Sequoia, Google Ventures, Kleiner Perkins, and others. Free for verified U.S. HCPs.",
-      "pricing_model": null,
+      "description": "A leading medical information platform that organizes and expands the world's collective medical knowledge, featuring multimedia and clinical findings from major medical journals.",
+      "pricing_model": "Free for verified U.S. healthcare professionals",
       "pricing_tiers_public": [],
       "ga_date": null,
-      "integration_partners": [],
+      "integration_partners": [
+        "JAMA",
+        "The New England Journal of Medicine"
+      ],
       "github_repo": null,
       "license_type": null,
-      "reference_customers": [],
+      "reference_customers": [
+        "Mayo Clinic"
+      ],
       "schema_version": "2.0.0",
-      "provenance": []
+      "provenance": [
+        {
+          "source_url": "https://www.openevidence.com/",
+          "crawled_at": "2023-10-01",
+          "snippet": "OpenEvidence has signed content agreements with JAMA and The New England Journal of Medicine."
+        }
+      ]
     }
   ],
   "leadership": [
+    {
+      "person_id": "openevidence_dario_amodei",
+      "company_id": "openevidence",
+      "name": "Dario Amodei",
+      "role": "Board Member",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "openevidence_daniela_amodei",
+      "company_id": "openevidence",
+      "name": "Daniela Amodei",
+      "role": "Board Member",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
     {
       "person_id": "openevidence_daniel_nadler",
       "company_id": "openevidence",
@@ -177,7 +241,7 @@
       "person_id": "openevidence_andy_yoon",
       "company_id": "openevidence",
       "name": "Andy Yoon",
-      "role": "BS, Computer Science, UCLA",
+      "role": "BS, Computer Science, UCL",
       "is_founder": false,
       "start_date": null,
       "end_date": null,
@@ -332,7 +396,7 @@
       "company_id": "openevidence",
       "name": "Kush Khosla",
       "role": "MS, Computer Science, Stanford",
-      "is_founder": false,
+      "is_founder": true,
       "start_date": null,
       "end_date": null,
       "previous_affiliation": null,
@@ -346,7 +410,7 @@
       "company_id": "openevidence",
       "name": "Sauren Khosla",
       "role": "MS, Computer Science, Stanford",
-      "is_founder": false,
+      "is_founder": true,
       "start_date": null,
       "end_date": null,
       "previous_affiliation": null,
@@ -424,9 +488,205 @@
       "linkedin": null,
       "schema_version": "2.0.0",
       "provenance": []
+    },
+    {
+      "person_id": "openevidence_jeff_eaton",
+      "company_id": "openevidence",
+      "name": "Jeff Eaton",
+      "role": "Commercial Team",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "openevidence_jim_longley",
+      "company_id": "openevidence",
+      "name": "Jim Longley",
+      "role": "Commercial Team",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "openevidence_jack_lindeman",
+      "company_id": "openevidence",
+      "name": "Jack Lindeman",
+      "role": "Commercial Team",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "openevidence_nick_lumley",
+      "company_id": "openevidence",
+      "name": "Nick Lumley",
+      "role": "Commercial Team",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "openevidence_greg_lloyd",
+      "company_id": "openevidence",
+      "name": "Greg Lloyd",
+      "role": "Commercial Team",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "openevidence_jack_ladd",
+      "company_id": "openevidence",
+      "name": "Jack Ladd",
+      "role": "Commercial Team",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "openevidence_brett_baxter",
+      "company_id": "openevidence",
+      "name": "Brett Baxter",
+      "role": "Commercial Team",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "openevidence_nick_dibisceglia",
+      "company_id": "openevidence",
+      "name": "Nick DiBisceglia",
+      "role": "Commercial Team",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "openevidence_frank_dziobczynski",
+      "company_id": "openevidence",
+      "name": "Frank Dziobczynski",
+      "role": "Commercial Team",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "openevidence_billy_sountornsorn",
+      "company_id": "openevidence",
+      "name": "Billy Sountornsorn",
+      "role": "Commercial Team",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "openevidence_jessica_koury",
+      "company_id": "openevidence",
+      "name": "Jessica Koury",
+      "role": "Commercial Team",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "openevidence_kate_eucker",
+      "company_id": "openevidence",
+      "name": "Kate Eucker",
+      "role": "Commercial Team",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "openevidence_lindsay_merkle",
+      "company_id": "openevidence",
+      "name": "Lindsay Merkle",
+      "role": "Commercial Team",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "openevidence_haipeng_ch",
+      "company_id": "openevidence",
+      "name": "Haipeng Ch",
+      "role": "Commercial Team",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
     }
   ],
   "visibility": [],
-  "notes": "Extracted from scraped data on 2025-11-02",
+  "notes": "Extracted from scraped data on 2025-11-06",
   "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
 }
