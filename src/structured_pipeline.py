@@ -3,7 +3,7 @@ Structured pipeline - loads payload from disk
 """
 from pathlib import Path
 from typing import Optional
-from .models import Payload
+from .lab5.models import Payload
 
 # Simple path for Docker container
 DATA_DIR = Path("/app/data/payloads")

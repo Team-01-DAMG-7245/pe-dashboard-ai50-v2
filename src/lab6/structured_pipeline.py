@@ -1,6 +1,6 @@
 from pathlib import Path
 from typing import Optional
-from lab5.models import Payload
+from .lab5.models import Payload
 
 # Get project root (3 levels up from lab6/structured_pipeline.py)
 project_root = Path(__file__).resolve().parents[2]

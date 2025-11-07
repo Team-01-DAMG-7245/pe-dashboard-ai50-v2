@@ -3,7 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from pathlib import Path
 import json
 from .structured_pipeline import load_payload
-from .rag_pipeline import retrieve_context
+from .lab7.rag_pipeline import retrieve_context
 
 app = FastAPI(title="PE Dashboard API", version="0.1.0")
 
