@@ -31,6 +31,20 @@
         "news"
       ],
       "errors": 1
+    },
+    {
+      "execution_date": "2025-11-07",
+      "crawled_at": "2025-11-07T00:45:00.818776Z",
+      "pages_checked": 4,
+      "changes_detected": [],
+      "errors": 0
+    },
+    {
+      "execution_date": "2025-11-07",
+      "crawled_at": "2025-11-07T00:58:38.977957Z",
+      "pages_checked": 4,
+      "changes_detected": [],
+      "errors": 1
     }
   ]
 }

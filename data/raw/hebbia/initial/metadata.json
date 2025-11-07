@@ -6,7 +6,7 @@
   "hq_country": "United States",
   "category": "General purpose AI for finance and legal",
   "linkedin": "https://www.linkedin.com/company/hebbia/",
-  "crawled_at": "2025-11-07T00:14:53.800815Z",
+  "crawled_at": "2025-11-07T00:59:07.240465Z",
   "pages_scraped": [
     {
       "page": "homepage",
@@ -52,7 +52,7 @@
       "page": "blog",
       "url": "https://hebbia.com/blog",
       "status": 200,
-      "size_bytes": 205340,
+      "size_bytes": 205383,
       "html_file": "hebbia/initial/blog_raw.html",
       "text_file": "hebbia/initial/blog_clean.txt"
     },

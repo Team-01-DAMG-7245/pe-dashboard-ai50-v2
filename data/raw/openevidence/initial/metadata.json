@@ -6,13 +6,13 @@
   "hq_country": "United States",
   "category": "ChatGPT for doctors",
   "linkedin": "https://www.linkedin.com/company/openevidence/",
-  "crawled_at": "2025-11-07T00:15:42.239149Z",
+  "crawled_at": "2025-11-07T01:01:09.069470Z",
   "pages_scraped": [
     {
       "page": "homepage",
       "url": "https://openevidence.com",
       "status": 200,
-      "size_bytes": 287758,
+      "size_bytes": 287760,
       "html_file": "openevidence/initial/homepage_raw.html",
       "text_file": "openevidence/initial/homepage_clean.txt"
     },

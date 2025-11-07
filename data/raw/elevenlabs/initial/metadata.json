@@ -6,7 +6,7 @@
   "hq_country": "United Kingdom",
   "category": "AI research and products",
   "linkedin": "https://www.linkedin.com/company/elevenlabs/",
-  "crawled_at": "2025-11-07T00:14:00.154691Z",
+  "crawled_at": "2025-11-07T00:56:58.637478Z",
   "pages_scraped": [
     {
       "page": "homepage",
@@ -20,7 +20,7 @@
       "page": "about",
       "url": "https://elevenlabs.com/about",
       "status": 200,
-      "size_bytes": 918541,
+      "size_bytes": 918542,
       "html_file": "elevenlabs/initial/about_raw.html",
       "text_file": "elevenlabs/initial/about_clean.txt"
     },
@@ -28,7 +28,7 @@
       "page": "careers",
       "url": "https://elevenlabs.com/careers",
       "status": 200,
-      "size_bytes": 1020842,
+      "size_bytes": 1020677,
       "html_file": "elevenlabs/initial/careers_raw.html",
       "text_file": "elevenlabs/initial/careers_clean.txt"
     },

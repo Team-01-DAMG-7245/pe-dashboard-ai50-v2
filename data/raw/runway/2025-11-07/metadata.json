@@ -1,0 +1,41 @@
+{
+  "company_name": "Runway",
+  "company_id": "runway",
+  "base_url": "https://runway.com",
+  "crawled_at": "2025-11-07T01:02:00.437694Z",
+  "execution_date": "2025-11-07",
+  "pages_refreshed": [
+    {
+      "page": "about",
+      "url": "https://runway.com/about",
+      "status": 200,
+      "size_bytes": 100069,
+      "content_hash": "317ba195f37cb8d6924426558f9d62fd",
+      "changed": false,
+      "html_file": "runway/2025-11-07/about_raw.html",
+      "text_file": "runway/2025-11-07/about_clean.txt"
+    },
+    {
+      "page": "careers",
+      "url": "https://runway.com/careers",
+      "status": 200,
+      "size_bytes": 97537,
+      "content_hash": "d917fccc16113de7139e64890147c1ee",
+      "changed": false,
+      "html_file": "runway/2025-11-07/careers_raw.html",
+      "text_file": "runway/2025-11-07/careers_clean.txt"
+    },
+    {
+      "page": "blog",
+      "url": "https://runway.com/blog",
+      "status": 200,
+      "size_bytes": 100026,
+      "content_hash": "f50780c6c92a177c6ebe364fce7f5e08",
+      "changed": false,
+      "html_file": "runway/2025-11-07/blog_raw.html",
+      "text_file": "runway/2025-11-07/blog_clean.txt"
+    }
+  ],
+  "changes_detected": [],
+  "errors": []
+}

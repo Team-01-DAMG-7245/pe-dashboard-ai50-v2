@@ -6,13 +6,13 @@
   "hq_country": "United States",
   "category": "Music and sound generation",
   "linkedin": "https://www.linkedin.com/company/suno/",
-  "crawled_at": "2025-11-07T00:17:20.462219Z",
+  "crawled_at": "2025-11-07T01:02:19.999781Z",
   "pages_scraped": [
     {
       "page": "homepage",
       "url": "https://suno.com",
       "status": 200,
-      "size_bytes": 80606,
+      "size_bytes": 80596,
       "html_file": "suno/initial/homepage_raw.html",
       "text_file": "suno/initial/homepage_clean.txt"
     },
