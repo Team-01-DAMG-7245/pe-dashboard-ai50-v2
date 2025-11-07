@@ -9,6 +9,27 @@
       "pages_checked": 0,
       "changes_detected": [],
       "errors": 0
+    },
+    {
+      "execution_date": "2025-11-05",
+      "crawled_at": "2025-11-07T00:17:13.761878Z",
+      "pages_checked": 0,
+      "changes_detected": [],
+      "errors": 0
+    },
+    {
+      "execution_date": "2025-11-07",
+      "crawled_at": "2025-11-07T00:44:56.248613Z",
+      "pages_checked": 0,
+      "changes_detected": [],
+      "errors": 0
+    },
+    {
+      "execution_date": "2025-11-07",
+      "crawled_at": "2025-11-07T00:57:52.860447Z",
+      "pages_checked": 0,
+      "changes_detected": [],
+      "errors": 1
     }
   ]
 }

@@ -15,6 +15,27 @@
         "careers"
       ],
       "errors": 0
+    },
+    {
+      "execution_date": "2025-11-05",
+      "crawled_at": "2025-11-07T00:15:24.277719Z",
+      "pages_checked": 2,
+      "changes_detected": [],
+      "errors": 0
+    },
+    {
+      "execution_date": "2025-11-07",
+      "crawled_at": "2025-11-07T00:44:35.185678Z",
+      "pages_checked": 2,
+      "changes_detected": [],
+      "errors": 0
+    },
+    {
+      "execution_date": "2025-11-07",
+      "crawled_at": "2025-11-07T00:56:29.812376Z",
+      "pages_checked": 2,
+      "changes_detected": [],
+      "errors": 0
     }
   ]
 }

@@ -1,0 +1,57 @@
+{
+  "company_name": "Writer",
+  "company_id": "writer",
+  "base_url": "https://writer.com",
+  "crawled_at": "2025-11-07T00:58:38.977957Z",
+  "execution_date": "2025-11-07",
+  "pages_refreshed": [
+    {
+      "page": "about",
+      "url": "https://writer.com/company",
+      "status": 200,
+      "size_bytes": 346343,
+      "content_hash": "e66412d092958d968f814e5cae584609",
+      "changed": false,
+      "html_file": "writer/2025-11-07/about_raw.html",
+      "text_file": "writer/2025-11-07/about_clean.txt"
+    },
+    {
+      "page": "careers",
+      "url": "https://writer.com/careers",
+      "status": 200,
+      "size_bytes": 211017,
+      "content_hash": "08ea57d0fdfe577cbffcc2b1cc19fdc3",
+      "changed": false,
+      "html_file": "writer/2025-11-07/careers_raw.html",
+      "text_file": "writer/2025-11-07/careers_clean.txt"
+    },
+    {
+      "page": "blog",
+      "url": "https://writer.com/blog",
+      "status": 200,
+      "size_bytes": 253991,
+      "content_hash": "8cdab7c54f0c64205a4b1801369ef3c1",
+      "changed": false,
+      "html_file": "writer/2025-11-07/blog_raw.html",
+      "text_file": "writer/2025-11-07/blog_clean.txt"
+    },
+    {
+      "page": "news",
+      "url": "https://writer.com/newsroom",
+      "status": 200,
+      "size_bytes": 270178,
+      "content_hash": "b3cc43d050eb30573e379dc83f31ef87",
+      "changed": false,
+      "html_file": "writer/2025-11-07/news_raw.html",
+      "text_file": "writer/2025-11-07/news_clean.txt"
+    }
+  ],
+  "changes_detected": [],
+  "errors": [
+    {
+      "page": "about",
+      "url": "https://writer.com/about",
+      "error": "HTTPSConnectionPool(host='writer.com', port=443): Max retries exceeded with url: /about (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)')))"
+    }
+  ]
+}

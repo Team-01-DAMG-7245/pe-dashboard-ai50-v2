@@ -4,8 +4,8 @@
   "hashes": {
     "about": "1d8203a73d8515fe5bc5b9f76134a16f",
     "careers": "1c75b2e7e135500b29065610a9d14e70",
-    "blog": "b01ff7aab53ac6eaaf81844c9850293a",
-    "news": "b01ff7aab53ac6eaaf81844c9850293a"
+    "blog": "df239983211c900e38b3945168445ad4",
+    "news": "df239983211c900e38b3945168445ad4"
   },
   "history": [
     {
@@ -18,6 +18,30 @@
         "blog",
         "news"
       ],
+      "errors": 0
+    },
+    {
+      "execution_date": "2025-11-05",
+      "crawled_at": "2025-11-07T00:16:59.017690Z",
+      "pages_checked": 4,
+      "changes_detected": [
+        "blog",
+        "news"
+      ],
+      "errors": 0
+    },
+    {
+      "execution_date": "2025-11-07",
+      "crawled_at": "2025-11-07T00:44:03.871792Z",
+      "pages_checked": 4,
+      "changes_detected": [],
+      "errors": 0
+    },
+    {
+      "execution_date": "2025-11-07",
+      "crawled_at": "2025-11-07T00:59:16.972665Z",
+      "pages_checked": 4,
+      "changes_detected": [],
       "errors": 0
     }
   ]

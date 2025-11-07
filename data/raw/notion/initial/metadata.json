@@ -6,13 +6,13 @@
   "hq_country": "United States",
   "category": "Design collaboration software",
   "linkedin": "https://www.linkedin.com/company/notion/",
-  "crawled_at": "2025-11-01T21:47:33.757166Z",
+  "crawled_at": "2025-11-07T01:00:58.608127Z",
   "pages_scraped": [
     {
       "page": "homepage",
       "url": "https://notion.com",
       "status": 200,
-      "size_bytes": 171052,
+      "size_bytes": 171181,
       "html_file": "notion/initial/homepage_raw.html",
       "text_file": "notion/initial/homepage_clean.txt"
     },
@@ -28,7 +28,7 @@
       "page": "product",
       "url": "https://notion.com/product",
       "status": 200,
-      "size_bytes": 171052,
+      "size_bytes": 171181,
       "html_file": "notion/initial/product_raw.html",
       "text_file": "notion/initial/product_clean.txt"
     },
@@ -36,7 +36,7 @@
       "page": "careers",
       "url": "https://notion.com/careers",
       "status": 200,
-      "size_bytes": 201859,
+      "size_bytes": 202429,
       "html_file": "notion/initial/careers_raw.html",
       "text_file": "notion/initial/careers_clean.txt"
     },

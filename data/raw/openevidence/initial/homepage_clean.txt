@@ -1,9 +1,12 @@
 OpenEvidence
 Explore More Capabilities
 The leading medical information platform
-Launched from the Mayo Clinic Platform Accelerate program
 Featuring multimedia and clinical findings from The New England Journal of Medicine
 Featuring multimedia and clinical findings from JAMA and the JAMA Network specialty journals
+Featuring NCCN Guidelines®, multimedia, and Clinical Pathways from the National Comprehensive Cancer Network
+Launched from the Mayo Clinic Platform Accelerate program
+Society Partners
+Partnerships include ADA, AAFP, AAOS, AAOHNS, and more
 Get OpenEvidence on iOS and Android
 OpenEvidence is FREE for verified U.S. HCPs.
 Download_on_the_App_Store_Badge_US-UK_RGB_blk_4SVG_092917

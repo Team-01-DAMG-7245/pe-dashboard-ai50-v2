@@ -1,5 +1,4 @@
 Overview | Claude
-/
 Explore here
 Meet your thinking partner
 Tackle any big, bold, bewildering challenge with Claude.
@@ -1079,6 +1078,9 @@ Console login
 Console login
 Console login
 Learn
+Blog
+Blog
+Blog
 Courses
 Courses
 Courses

@@ -2,7 +2,7 @@
   "company_id": "photoroom",
   "company_name": "Photoroom",
   "hashes": {
-    "about": "eef66989ccb139317ae0226769a8afe3",
+    "about": "9bcdd91b785cade33e196a35e4c5a0e0",
     "careers": "549ff278b6a8ce2b138ace025def7aa8",
     "blog": "4b1fa03538c6625db97fabc4a3c8013b"
   },
@@ -16,6 +16,29 @@
         "careers",
         "blog"
       ],
+      "errors": 0
+    },
+    {
+      "execution_date": "2025-11-05",
+      "crawled_at": "2025-11-07T00:15:28.888831Z",
+      "pages_checked": 3,
+      "changes_detected": [
+        "about"
+      ],
+      "errors": 0
+    },
+    {
+      "execution_date": "2025-11-07",
+      "crawled_at": "2025-11-07T00:44:42.774464Z",
+      "pages_checked": 3,
+      "changes_detected": [],
+      "errors": 0
+    },
+    {
+      "execution_date": "2025-11-07",
+      "crawled_at": "2025-11-07T01:01:16.989527Z",
+      "pages_checked": 3,
+      "changes_detected": [],
       "errors": 0
     }
   ]

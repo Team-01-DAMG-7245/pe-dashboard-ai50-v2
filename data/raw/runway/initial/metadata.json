@@ -6,13 +6,13 @@
   "hq_country": "United States",
   "category": "Generative video",
   "linkedin": "https://www.linkedin.com/company/runway/",
-  "crawled_at": "2025-11-01T21:47:47.824683Z",
+  "crawled_at": "2025-11-07T01:01:37.734473Z",
   "pages_scraped": [
     {
       "page": "homepage",
       "url": "https://runway.com",
       "status": 200,
-      "size_bytes": 133697,
+      "size_bytes": 142427,
       "html_file": "runway/initial/homepage_raw.html",
       "text_file": "runway/initial/homepage_clean.txt"
     },
@@ -20,7 +20,7 @@
       "page": "about",
       "url": "https://runway.com/about",
       "status": 200,
-      "size_bytes": 95889,
+      "size_bytes": 100069,
       "html_file": "runway/initial/about_raw.html",
       "text_file": "runway/initial/about_clean.txt"
     },
@@ -28,7 +28,7 @@
       "page": "careers",
       "url": "https://runway.com/careers",
       "status": 200,
-      "size_bytes": 91464,
+      "size_bytes": 97537,
       "html_file": "runway/initial/careers_raw.html",
       "text_file": "runway/initial/careers_clean.txt"
     },
@@ -36,7 +36,7 @@
       "page": "blog",
       "url": "https://runway.com/blog",
       "status": 200,
-      "size_bytes": 91418,
+      "size_bytes": 100026,
       "html_file": "runway/initial/blog_raw.html",
       "text_file": "runway/initial/blog_clean.txt"
     }

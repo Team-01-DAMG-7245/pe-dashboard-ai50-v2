@@ -3,7 +3,7 @@
   "company_name": "Runway",
   "hashes": {
     "about": "317ba195f37cb8d6924426558f9d62fd",
-    "careers": "c91b0d39bc300c6386f99efe569c1239",
+    "careers": "d917fccc16113de7139e64890147c1ee",
     "blog": "f50780c6c92a177c6ebe364fce7f5e08"
   },
   "history": [
@@ -16,6 +16,29 @@
         "careers",
         "blog"
       ],
+      "errors": 0
+    },
+    {
+      "execution_date": "2025-11-05",
+      "crawled_at": "2025-11-07T00:16:28.718194Z",
+      "pages_checked": 3,
+      "changes_detected": [
+        "careers"
+      ],
+      "errors": 0
+    },
+    {
+      "execution_date": "2025-11-07",
+      "crawled_at": "2025-11-07T00:44:46.672752Z",
+      "pages_checked": 3,
+      "changes_detected": [],
+      "errors": 0
+    },
+    {
+      "execution_date": "2025-11-07",
+      "crawled_at": "2025-11-07T01:02:00.437694Z",
+      "pages_checked": 3,
+      "changes_detected": [],
       "errors": 0
     }
   ]

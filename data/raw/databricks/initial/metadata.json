@@ -6,7 +6,7 @@
   "hq_country": "United States",
   "category": "Data and AI platform",
   "linkedin": "https://www.linkedin.com/company/databricks/",
-  "crawled_at": "2025-11-01T21:48:48.528265Z",
+  "crawled_at": "2025-11-07T00:56:00.121849Z",
   "pages_scraped": [
     {
       "page": "homepage",
@@ -52,7 +52,7 @@
       "page": "blog",
       "url": "https://databricks.com/blog",
       "status": 200,
-      "size_bytes": 730055,
+      "size_bytes": 732706,
       "html_file": "databricks/initial/blog_raw.html",
       "text_file": "databricks/initial/blog_clean.txt"
     },

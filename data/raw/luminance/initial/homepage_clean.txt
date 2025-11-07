@@ -96,10 +96,11 @@ First Name
 *
 Last Name
 *
-Email Address
+Work Email Address
+*
+Company
 *
 Role
-*
 Phone Number
 By submitting these details you agree to our
 privacy policy

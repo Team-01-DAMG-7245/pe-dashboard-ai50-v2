@@ -1,0 +1,54 @@
+{
+  "company_name": "Clay",
+  "company_id": "clay",
+  "base_url": "https://clay.com",
+  "crawled_at": "2025-11-07T00:14:23.699963Z",
+  "execution_date": "2025-11-05",
+  "pages_refreshed": [
+    {
+      "page": "about",
+      "url": "https://clay.com/about",
+      "status": 200,
+      "size_bytes": 275710,
+      "content_hash": "aa144eb3e1fcbadc05a2cb625f4de576",
+      "changed": true,
+      "html_file": "clay/2025-11-05/about_raw.html",
+      "text_file": "clay/2025-11-05/about_clean.txt"
+    },
+    {
+      "page": "careers",
+      "url": "https://clay.com/careers",
+      "status": 200,
+      "size_bytes": 179475,
+      "content_hash": "140346c0dc90509b579291e0c7f4dbe6",
+      "changed": false,
+      "html_file": "clay/2025-11-05/careers_raw.html",
+      "text_file": "clay/2025-11-05/careers_clean.txt"
+    },
+    {
+      "page": "blog",
+      "url": "https://clay.com/blog",
+      "status": 200,
+      "size_bytes": 798863,
+      "content_hash": "0cae976f7c0c6ce87635171f972a17c5",
+      "changed": true,
+      "html_file": "clay/2025-11-05/blog_raw.html",
+      "text_file": "clay/2025-11-05/blog_clean.txt"
+    },
+    {
+      "page": "news",
+      "url": "https://clay.com/newsroom",
+      "status": 200,
+      "size_bytes": 129860,
+      "content_hash": "15888675b937e227fb8255636f710f87",
+      "changed": false,
+      "html_file": "clay/2025-11-05/news_raw.html",
+      "text_file": "clay/2025-11-05/news_clean.txt"
+    }
+  ],
+  "changes_detected": [
+    "about",
+    "blog"
+  ],
+  "errors": []
+}

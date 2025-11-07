@@ -1,0 +1,13 @@
+# Docker app requirements - FastAPI + Streamlit only
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+streamlit==1.38.0
+pydantic>=2.4.2
+requests==2.31.0
+python-multipart==0.0.9
+boto3>=1.28.64
+python-dotenv>=1.0.0
+
+# Add later for Labs 7-8 when generating dashboards:
+openai>=1.0.0
+anthropic>=0.7.0

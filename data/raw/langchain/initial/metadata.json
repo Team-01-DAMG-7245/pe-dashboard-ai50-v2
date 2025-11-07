@@ -6,13 +6,13 @@
   "hq_country": "United States",
   "category": "AI app development tools",
   "linkedin": "https://www.linkedin.com/company/langchain/",
-  "crawled_at": "2025-11-01T21:47:25.209177Z",
+  "crawled_at": "2025-11-07T00:59:14.857852Z",
   "pages_scraped": [
     {
       "page": "homepage",
       "url": "https://langchain.com",
       "status": 200,
-      "size_bytes": 87911,
+      "size_bytes": 97763,
       "html_file": "langchain/initial/homepage_raw.html",
       "text_file": "langchain/initial/homepage_clean.txt"
     },
@@ -28,7 +28,7 @@
       "page": "careers",
       "url": "https://langchain.com/careers",
       "status": 200,
-      "size_bytes": 44657,
+      "size_bytes": 45155,
       "html_file": "langchain/initial/careers_raw.html",
       "text_file": "langchain/initial/careers_clean.txt"
     }

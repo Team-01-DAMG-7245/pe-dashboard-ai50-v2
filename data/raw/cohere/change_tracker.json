@@ -2,7 +2,7 @@
   "company_id": "cohere",
   "company_name": "Cohere",
   "hashes": {
-    "about": "bc9c0de68036c18a2c59f2651c47fd9f",
+    "about": "d440f39218b68957b0b14744294bdcf4",
     "careers": "3f7b4b42bb8c088ab41f1f6607b2d7b4",
     "blog": "0f2937c39f6a6c69dceae151b754ee9d",
     "news": "9c628014a1da76f0edd29d7d11641077"
@@ -18,6 +18,29 @@
         "blog",
         "news"
       ],
+      "errors": 0
+    },
+    {
+      "execution_date": "2025-11-05",
+      "crawled_at": "2025-11-07T00:14:28.034382Z",
+      "pages_checked": 4,
+      "changes_detected": [
+        "about"
+      ],
+      "errors": 0
+    },
+    {
+      "execution_date": "2025-11-07",
+      "crawled_at": "2025-11-07T00:44:04.350416Z",
+      "pages_checked": 4,
+      "changes_detected": [],
+      "errors": 0
+    },
+    {
+      "execution_date": "2025-11-07",
+      "crawled_at": "2025-11-07T00:56:29.607247Z",
+      "pages_checked": 4,
+      "changes_detected": [],
       "errors": 0
     }
   ]

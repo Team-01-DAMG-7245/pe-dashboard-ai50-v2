@@ -6,13 +6,13 @@
   "hq_country": "United States",
   "category": "Clinical documentation platform",
   "linkedin": "https://www.linkedin.com/company/abridge/",
-  "crawled_at": "2025-11-01T21:49:20.417235Z",
+  "crawled_at": "2025-11-07T00:55:55.545399Z",
   "pages_scraped": [
     {
       "page": "homepage",
       "url": "https://abridge.com",
       "status": 200,
-      "size_bytes": 193487,
+      "size_bytes": 196949,
       "html_file": "abridge/initial/homepage_raw.html",
       "text_file": "abridge/initial/homepage_clean.txt"
     },
@@ -36,7 +36,7 @@
       "page": "careers",
       "url": "https://abridge.com/careers",
       "status": 200,
-      "size_bytes": 87138,
+      "size_bytes": 86304,
       "html_file": "abridge/initial/careers_raw.html",
       "text_file": "abridge/initial/careers_clean.txt"
     },
@@ -44,7 +44,7 @@
       "page": "blog",
       "url": "https://abridge.com/blog",
       "status": 200,
-      "size_bytes": 37658,
+      "size_bytes": 37718,
       "html_file": "abridge/initial/blog_raw.html",
       "text_file": "abridge/initial/blog_clean.txt"
     }

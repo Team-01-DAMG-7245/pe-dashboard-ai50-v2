@@ -1,15 +1,15 @@
-Careers | Baseten
+Careers
 Come build with us
 We build delightful products for engineering and machine learning teams to deliver their best work.
 See open roles
 ‌
 Our team spent weeks researching and vetting inference providers. It was a thorough process and we confidently believe Baseten was a clear winner. Baseten has helped us abstract away so much of the complexity of AI model deployments and MLOps. On Baseten, things just work out of the box - this has saved us countless engineering hours. It’s made a huge difference in our productivity as a team - most of our engineers have experience now in training and deploying models on Baseten. Every time we start an ML project, we think about how quickly we can get things going through Baseten.
-Baseten cut our P95 latency by 80% across the dozens of fine-tuned embedding models that power core features in Superhuman's AI-native email app. Superhuman is all about saving time. With Baseten, we're delivering a faster product for our customers while reducing engineering time spent on infrastructure.
-Loïc Houssier
+With the launch of Brain MAX we’ve discovered how addictive speech-to-text is - we use it every day and want it everywhere. But it’s difficult to get reliable, performant, and scalable inference. Baseten helped us unlock sub-300ms transcription with no unpredictable latency spikes. It’s been a game-changer for us and our users.
+Mahendan Karunakaran
 ,
-CTO
+Head of Mobile Engineering
 Our team spent weeks researching and vetting inference providers. It was a thorough process and we confidently believe Baseten was a clear winner. Baseten has helped us abstract away so much of the complexity of AI model deployments and MLOps. On Baseten, things just work out of the box - this has saved us countless engineering hours. It’s made a huge difference in our productivity as a team - most of our engineers have experience now in training and deploying models on Baseten. Every time we start an ML project, we think about how quickly we can get things going through Baseten.
-Baseten cut our P95 latency by 80% across the dozens of fine-tuned embedding models that power core features in Superhuman's AI-native email app. Superhuman is all about saving time. With Baseten, we're delivering a faster product for our customers while reducing engineering time spent on infrastructure.
+With the launch of Brain MAX we’ve discovered how addictive speech-to-text is - we use it every day and want it everywhere. But it’s difficult to get reliable, performant, and scalable inference. Baseten helped us unlock sub-300ms transcription with no unpredictable latency spikes. It’s been a game-changer for us and our users.
 Join our team
 We build delightful products for engineering and AI teams to deliver their best work.
 Open roles
@@ -22,6 +22,46 @@ Sales
 Other
 Engineering
 Engineering
+Engineering / Forward Deployed Engineering
+Engineering / Forward Deployed Engineering
+Engineering Manager, AI Inference Infrastructure
+San Francisco / New York
+San Francisco / New York
+Apply now
+Applied AI Inference Engineer
+San Francisco / New York
+San Francisco / New York
+Apply now
+AI Solutions Engineer
+San Francisco / New York
+San Francisco / New York
+Apply now
+Technical Customer Success Engineer
+San Francisco / New York
+San Francisco / New York
+Apply now
+Sr. Post-Sales Customer Engineer
+San Francisco / New York
+San Francisco / New York
+Apply now
+Strategic AI Support Engineer
+San Francisco / New York
+San Francisco / New York
+Apply now
+Forward Deployed Engineer
+San Francisco / New York
+San Francisco / New York
+Apply now
+Engineering / Security
+Engineering / Security
+GRC Manager
+San Francisco / New York / Remote
+San Francisco / New York / Remote
+Apply now
+Security Engineer
+San Francisco / New York / Remote
+San Francisco / New York / Remote
+Apply now
 Engineering / Model API's
 Engineering / Model API's
 Software Engineer - Model API's
@@ -38,30 +78,8 @@ Senior Software Engineer - Model Training
 San Francisco / New York
 San Francisco / New York
 Apply now
-Engineering / Forward Deployed Engineering
-Engineering / Forward Deployed Engineering
-AI Support Engineer
-San Francisco / New York
-San Francisco / New York
-Apply now
-Forward Deployed Engineer
-San Francisco / New York
-San Francisco / New York
-Apply now
-AI Solutions Engineer
-San Francisco / New York
-San Francisco / New York
-Apply now
-Applied AI Inference Engineer
-San Francisco / New York
-San Francisco / New York
-Apply now
 Engineering / Infrastructure
 Engineering / Infrastructure
-Security Engineer
-San Francisco / New York
-San Francisco / New York
-Apply now
 Site Reliability Engineer
 San Francisco / New York / Remote
 San Francisco / New York / Remote
@@ -151,10 +169,6 @@ Apply now
 Technical Recruiter
 San Francisco / New York
 San Francisco / New York
-Apply now
-Recruiting Coordinator
-San Francisco
-San Francisco
 Apply now
 Sales
 Sales

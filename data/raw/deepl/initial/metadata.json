@@ -6,13 +6,13 @@
   "hq_country": "Germany",
   "category": "AI translation service",
   "linkedin": "https://www.linkedin.com/company/deepl/",
-  "crawled_at": "2025-11-01T21:48:20.425227Z",
+  "crawled_at": "2025-11-07T00:56:59.070558Z",
   "pages_scraped": [
     {
       "page": "homepage",
       "url": "https://deepl.com",
       "status": 200,
-      "size_bytes": 206112,
+      "size_bytes": 213898,
       "html_file": "deepl/initial/homepage_raw.html",
       "text_file": "deepl/initial/homepage_clean.txt"
     },
@@ -20,7 +20,7 @@
       "page": "about",
       "url": "https://deepl.com/about-us",
       "status": 200,
-      "size_bytes": 101417,
+      "size_bytes": 102867,
       "html_file": "deepl/initial/about_raw.html",
       "text_file": "deepl/initial/about_clean.txt"
     },
@@ -28,7 +28,7 @@
       "page": "careers",
       "url": "https://deepl.com/careers",
       "status": 200,
-      "size_bytes": 104432,
+      "size_bytes": 105820,
       "html_file": "deepl/initial/careers_raw.html",
       "text_file": "deepl/initial/careers_clean.txt"
     },
@@ -36,7 +36,7 @@
       "page": "blog",
       "url": "https://deepl.com/blog",
       "status": 200,
-      "size_bytes": 129999,
+      "size_bytes": 130777,
       "html_file": "deepl/initial/blog_raw.html",
       "text_file": "deepl/initial/blog_clean.txt"
     }

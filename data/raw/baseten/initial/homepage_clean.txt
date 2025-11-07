@@ -1,4 +1,4 @@
-Deploy AI models in production | Baseten
+Inference Platform: Deploy AI models in production | Baseten
 Inference is everything
 Performant model runtimes, cross-cloud high availability, and seamless developer workflows. Powered by the Baseten Inference Stack
 Get started
@@ -17,8 +17,6 @@ Learn more
 Build with Model APIs
 Test new workloads, prototype new products, or evaluate the latest models with production-grade performance — instantly.
 Learn more
-Kimi K2 0905
-Try It
 DeepSeek V3.1
 Try It
 Qwen3 Coder 480B
@@ -99,10 +97,10 @@ Sahaj Garg
 ,
 Co-Founder and CTO
 With Baseten, we gained a lot of control over our entire inference pipeline and worked with Baseten's team to optimize each step.
-Lily Clifford
+Mahendan Karunakaran
 ,
-Co-founder and CEO
-Rime's state-of-the-art p99 latency and 100% uptime is driven by our shared laser focus on fundamentals, and we're excited to push the frontier even further with Baseten.
+Head of Mobile Engineering
+With the launch of Brain MAX we've discovered how addictive speech-to-text is - we use it every day and want it everywhere. But it's difficult to get reliable, performant, and scalable inference. Baseten helped us unlock sub-300ms transcription with no unpredictable latency spikes. It's been a game-changer for us and our users.
 Isaiah Granet
 ,
 CEO and Co-Founder

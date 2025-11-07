@@ -1,0 +1,33 @@
+{
+  "company_name": "Mercor",
+  "company_id": "mercor",
+  "base_url": "https://mercor.com",
+  "crawled_at": "2025-11-07T00:15:28.222697Z",
+  "execution_date": "2025-11-05",
+  "pages_refreshed": [
+    {
+      "page": "careers",
+      "url": "https://mercor.com/careers",
+      "status": 200,
+      "size_bytes": 3736,
+      "content_hash": "77fa24aeffef29689fc7a2baf19a0df4",
+      "changed": false,
+      "html_file": "mercor/2025-11-05/careers_raw.html",
+      "text_file": "mercor/2025-11-05/careers_clean.txt"
+    },
+    {
+      "page": "blog",
+      "url": "https://mercor.com/blog",
+      "status": 200,
+      "size_bytes": 29911,
+      "content_hash": "073ebace22cfc4f9c38bb908d6d0bb0b",
+      "changed": true,
+      "html_file": "mercor/2025-11-05/blog_raw.html",
+      "text_file": "mercor/2025-11-05/blog_clean.txt"
+    }
+  ],
+  "changes_detected": [
+    "blog"
+  ],
+  "errors": []
+}

@@ -1,5 +1,6 @@
 import streamlit as st
 import requests
+import os
 
 API_BASE = "http://localhost:8002"
 

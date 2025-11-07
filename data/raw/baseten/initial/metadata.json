@@ -6,13 +6,13 @@
   "hq_country": "United States",
   "category": "AI app deployment software",
   "linkedin": "https://www.linkedin.com/company/baseten/",
-  "crawled_at": "2025-11-01T21:49:31.659019Z",
+  "crawled_at": "2025-11-07T00:56:00.701858Z",
   "pages_scraped": [
     {
       "page": "homepage",
       "url": "https://baseten.com",
       "status": 200,
-      "size_bytes": 424160,
+      "size_bytes": 416029,
       "html_file": "baseten/initial/homepage_raw.html",
       "text_file": "baseten/initial/homepage_clean.txt"
     },
@@ -20,7 +20,7 @@
       "page": "about",
       "url": "https://baseten.com/about",
       "status": 200,
-      "size_bytes": 373884,
+      "size_bytes": 380819,
       "html_file": "baseten/initial/about_raw.html",
       "text_file": "baseten/initial/about_clean.txt"
     },
@@ -28,7 +28,7 @@
       "page": "careers",
       "url": "https://baseten.com/careers",
       "status": 200,
-      "size_bytes": 373884,
+      "size_bytes": 380819,
       "html_file": "baseten/initial/careers_raw.html",
       "text_file": "baseten/initial/careers_clean.txt"
     },
@@ -36,7 +36,7 @@
       "page": "blog",
       "url": "https://baseten.com/blog",
       "status": 200,
-      "size_bytes": 322259,
+      "size_bytes": 323853,
       "html_file": "baseten/initial/blog_raw.html",
       "text_file": "baseten/initial/blog_clean.txt"
     }

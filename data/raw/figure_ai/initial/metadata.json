@@ -6,13 +6,13 @@
   "hq_country": "United States",
   "category": "Humanoid robots",
   "linkedin": "https://www.linkedin.com/company/figure-ai/",
-  "crawled_at": "2025-11-01T21:47:15.132173Z",
+  "crawled_at": "2025-11-07T00:57:01.318768Z",
   "pages_scraped": [
     {
       "page": "homepage",
       "url": "https://figure-ai.com",
       "status": 200,
-      "size_bytes": 261908,
+      "size_bytes": 262787,
       "html_file": "figure_ai/initial/homepage_raw.html",
       "text_file": "figure_ai/initial/homepage_clean.txt"
     }

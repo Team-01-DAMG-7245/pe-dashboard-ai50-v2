@@ -3,7 +3,7 @@
   "company_name": "Mercor",
   "hashes": {
     "careers": "77fa24aeffef29689fc7a2baf19a0df4",
-    "blog": "e16450d95888cb1527c3251a2565a8ae"
+    "blog": "073ebace22cfc4f9c38bb908d6d0bb0b"
   },
   "history": [
     {
@@ -14,6 +14,29 @@
         "careers",
         "blog"
       ],
+      "errors": 0
+    },
+    {
+      "execution_date": "2025-11-05",
+      "crawled_at": "2025-11-07T00:15:28.222697Z",
+      "pages_checked": 2,
+      "changes_detected": [
+        "blog"
+      ],
+      "errors": 0
+    },
+    {
+      "execution_date": "2025-11-07",
+      "crawled_at": "2025-11-07T00:44:39.669472Z",
+      "pages_checked": 2,
+      "changes_detected": [],
+      "errors": 0
+    },
+    {
+      "execution_date": "2025-11-07",
+      "crawled_at": "2025-11-07T01:00:45.997208Z",
+      "pages_checked": 2,
+      "changes_detected": [],
       "errors": 0
     }
   ]

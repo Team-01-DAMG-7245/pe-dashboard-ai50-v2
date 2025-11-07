@@ -6,13 +6,13 @@
   "hq_country": "France",
   "category": "Photo editing app",
   "linkedin": "https://www.linkedin.com/company/photoroom/",
-  "crawled_at": "2025-11-01T21:47:43.049053Z",
+  "crawled_at": "2025-11-07T01:01:18.955900Z",
   "pages_scraped": [
     {
       "page": "homepage",
       "url": "https://photoroom.com",
       "status": 200,
-      "size_bytes": 361926,
+      "size_bytes": 358846,
       "html_file": "photoroom/initial/homepage_raw.html",
       "text_file": "photoroom/initial/homepage_clean.txt"
     },
@@ -20,7 +20,7 @@
       "page": "about",
       "url": "https://photoroom.com/about",
       "status": 200,
-      "size_bytes": 212378,
+      "size_bytes": 244946,
       "html_file": "photoroom/initial/about_raw.html",
       "text_file": "photoroom/initial/about_clean.txt"
     },
@@ -28,7 +28,7 @@
       "page": "platform",
       "url": "https://photoroom.com/solutions",
       "status": 200,
-      "size_bytes": 223733,
+      "size_bytes": 223858,
       "html_file": "photoroom/initial/platform_raw.html",
       "text_file": "photoroom/initial/platform_clean.txt"
     },
@@ -36,7 +36,7 @@
       "page": "careers",
       "url": "https://photoroom.com/careers",
       "status": 200,
-      "size_bytes": 38176,
+      "size_bytes": 41764,
       "html_file": "photoroom/initial/careers_raw.html",
       "text_file": "photoroom/initial/careers_clean.txt"
     },
@@ -44,7 +44,7 @@
       "page": "blog",
       "url": "https://photoroom.com/blog",
       "status": 200,
-      "size_bytes": 630434,
+      "size_bytes": 630559,
       "html_file": "photoroom/initial/blog_raw.html",
       "text_file": "photoroom/initial/blog_clean.txt"
     }

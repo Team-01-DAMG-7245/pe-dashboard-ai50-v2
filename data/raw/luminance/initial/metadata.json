@@ -6,13 +6,13 @@
   "hq_country": "United Kingdom",
   "category": "Enterprise contract automation",
   "linkedin": "https://www.linkedin.com/company/luminance/",
-  "crawled_at": "2025-11-01T21:47:24.745272Z",
+  "crawled_at": "2025-11-07T00:59:49.052369Z",
   "pages_scraped": [
     {
       "page": "homepage",
       "url": "https://luminance.com",
       "status": 200,
-      "size_bytes": 148934,
+      "size_bytes": 149017,
       "html_file": "luminance/initial/homepage_raw.html",
       "text_file": "luminance/initial/homepage_clean.txt"
     },
@@ -20,7 +20,7 @@
       "page": "about",
       "url": "https://luminance.com/about",
       "status": 200,
-      "size_bytes": 130839,
+      "size_bytes": 130417,
       "html_file": "luminance/initial/about_raw.html",
       "text_file": "luminance/initial/about_clean.txt"
     },
@@ -28,7 +28,7 @@
       "page": "product",
       "url": "https://luminance.com/product",
       "status": 200,
-      "size_bytes": 69468,
+      "size_bytes": 69046,
       "html_file": "luminance/initial/product_raw.html",
       "text_file": "luminance/initial/product_clean.txt"
     },
@@ -36,7 +36,7 @@
       "page": "platform",
       "url": "https://luminance.com/solutions",
       "status": 200,
-      "size_bytes": 40483,
+      "size_bytes": 40061,
       "html_file": "luminance/initial/platform_raw.html",
       "text_file": "luminance/initial/platform_clean.txt"
     },
@@ -44,7 +44,7 @@
       "page": "careers",
       "url": "https://luminance.com/careers",
       "status": 200,
-      "size_bytes": 50505,
+      "size_bytes": 50083,
       "html_file": "luminance/initial/careers_raw.html",
       "text_file": "luminance/initial/careers_clean.txt"
     },
@@ -52,7 +52,7 @@
       "page": "blog",
       "url": "https://luminance.com/blog",
       "status": 200,
-      "size_bytes": 118884,
+      "size_bytes": 118462,
       "html_file": "luminance/initial/blog_raw.html",
       "text_file": "luminance/initial/blog_clean.txt"
     },
@@ -60,7 +60,7 @@
       "page": "news",
       "url": "https://luminance.com/news",
       "status": 200,
-      "size_bytes": 43218,
+      "size_bytes": 42793,
       "html_file": "luminance/initial/news_raw.html",
       "text_file": "luminance/initial/news_clean.txt"
     }
