@@ -7,9 +7,9 @@ Automated data pipeline for scraping and analyzing Forbes AI 50 companies for pr
 ## Submission Deliverables
 1. **GitHub repo** : https://github.com/Team-01-DAMG-7245/pe-dashboard-ai50
 2. **EVAL.md** : https://github.com/Team-01-DAMG-7245/pe-dashboard-ai50/blob/swara/EVAL.md
-3. **Demo video** : 
-4. **Reflection.md for Evaluation** : https://github.com/Team-01-DAMG-7245/pe-dashboard-ai50/blob/swara/REFLECTION.md 
----
+3. **Demo video** : https://drive.google.com/file/d/1abFljwrx1lSxF5LOVPup7tTnjKDvDKF8/view?usp=sharing
+4. **Youtube video** : https://youtu.be/BzeN0LC2-8Q
+5. **Reflection.md for Evaluation** : https://github.com/Team-01-DAMG-7245/pe-dashboard-ai50/blob/main/REFLECTION.md
 ## Quick Start
 
 ### Run Airflow (Docker)
