@@ -1,27 +1,18 @@
-"""
-Structured pipeline - loads payload from disk
-"""
 from pathlib import Path
 from typing import Optional
-from .models import Payload  # Fixed: added dot for relative import
+from lab5.models import Payload
 
-DATA_DIR = Path(__file__).resolve().parents[1] / "data" / "payloads"
+# Get project root (3 levels up from lab6/structured_pipeline.py)
+project_root = Path(__file__).resolve().parents[2]
+DATA_DIR = project_root / "data" / "payloads"
+starter_payload_path = project_root / "data" / "starter_payload.json"
 
 def load_payload(company_id: str) -> Optional[Payload]:
-    """
-    Load structured payload for a company
-    
-    Args:
-        company_id: Company identifier
-        
-    Returns:
-        Payload object or None if fallback to starter
-    """
     fp = DATA_DIR / f"{company_id}.json"
     if not fp.exists():
-        # fallback to starter
-        starter = Path(__file__).resolve().parents[1] / "data" / "starter_payload.json"
-        if starter.exists():
-            return Payload.model_validate_json(starter.read_text())
-        return None
+        # fallback to starter if exists
+        if starter_payload_path.exists():
+            return Payload.model_validate_json(starter_payload_path.read_text())
+        else:
+            raise FileNotFoundError(f"Payload not found for {company_id} and no starter_payload.json available")
     return Payload.model_validate_json(fp.read_text())

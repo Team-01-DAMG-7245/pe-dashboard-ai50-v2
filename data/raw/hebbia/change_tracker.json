@@ -3,8 +3,8 @@
   "company_name": "Hebbia",
   "hashes": {
     "about": "3358ddef8549bf00cfe275128df857a9",
-    "careers": "cc6d2c9fa742f15ba77347511286b457",
-    "blog": "bc9cdce8c8a0816d794f0a97cc095424",
+    "careers": "295cfddb7d21c893d1ed57637b3f1d5c",
+    "blog": "63feb15def9e2053ec8021b82bf9a1dc",
     "news": "1b9d3cac3f41378e5302b972880d0461"
   },
   "history": [
@@ -17,6 +17,16 @@
         "careers",
         "blog",
         "news"
+      ],
+      "errors": 0
+    },
+    {
+      "execution_date": "2025-11-05",
+      "crawled_at": "2025-11-07T00:14:23.880506Z",
+      "pages_checked": 4,
+      "changes_detected": [
+        "careers",
+        "blog"
       ],
       "errors": 0
     }

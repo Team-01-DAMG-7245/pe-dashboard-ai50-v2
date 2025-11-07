@@ -6,13 +6,13 @@
   "hq_country": "United States",
   "category": "General purpose AI for finance and legal",
   "linkedin": "https://www.linkedin.com/company/hebbia/",
-  "crawled_at": "2025-11-01T21:47:57.855932Z",
+  "crawled_at": "2025-11-07T00:14:53.800815Z",
   "pages_scraped": [
     {
       "page": "homepage",
       "url": "https://hebbia.com",
       "status": 200,
-      "size_bytes": 187479,
+      "size_bytes": 187843,
       "html_file": "hebbia/initial/homepage_raw.html",
       "text_file": "hebbia/initial/homepage_clean.txt"
     },
@@ -36,7 +36,7 @@
       "page": "platform",
       "url": "https://hebbia.com/solutions",
       "status": 200,
-      "size_bytes": 187479,
+      "size_bytes": 187843,
       "html_file": "hebbia/initial/platform_raw.html",
       "text_file": "hebbia/initial/platform_clean.txt"
     },
@@ -44,7 +44,7 @@
       "page": "careers",
       "url": "https://hebbia.com/careers",
       "status": 200,
-      "size_bytes": 345883,
+      "size_bytes": 344276,
       "html_file": "hebbia/initial/careers_raw.html",
       "text_file": "hebbia/initial/careers_clean.txt"
     },
@@ -52,7 +52,7 @@
       "page": "blog",
       "url": "https://hebbia.com/blog",
       "status": 200,
-      "size_bytes": 216989,
+      "size_bytes": 205340,
       "html_file": "hebbia/initial/blog_raw.html",
       "text_file": "hebbia/initial/blog_clean.txt"
     },

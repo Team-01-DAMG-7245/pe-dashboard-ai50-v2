@@ -3,7 +3,7 @@
   "company_name": "Notion",
   "hashes": {
     "about": "25998937cacc3f1373a02d7e45f345db",
-    "careers": "1f2356adcfdfae3aabc4d144e3d6edf9",
+    "careers": "cc90773423eb41877bc7212538359b32",
     "blog": "a321a7d5f0bb783e5c9ffbdb35fb20d0"
   },
   "history": [
@@ -15,6 +15,15 @@
         "about",
         "careers",
         "blog"
+      ],
+      "errors": 0
+    },
+    {
+      "execution_date": "2025-11-05",
+      "crawled_at": "2025-11-07T00:15:27.136941Z",
+      "pages_checked": 3,
+      "changes_detected": [
+        "careers"
       ],
       "errors": 0
     }

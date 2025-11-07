@@ -20,54 +20,54 @@ Find top-tier, remote, AI roles for your expertise. Available only on Mercor.
 Start working
 Search roles
 Latest roles
-Legal Expert
-$110-$130/hr
-204
-hired recently
-Apply
-Consulting Expert
-$80-$120/hr
-297
-hired recently
-Apply
 Generalist Video Captioning Expert
 $45/hr
-185
+182
 hired recently
 Apply
 Generalist Video Annotators
 $45/hr
-386
+355
 hired recently
 Apply
 Photography Experts
 $45/hr
-228
+272
 hired recently
 Apply
 Visual Annotation Expert
 $40/hr
-465
+315
 hired recently
 Apply
 Generalist Evaluator Expert
 $35-$40/hr
-276
+313
+hired recently
+Apply
+Multimedia Expert
+$40/hr
+132
+hired recently
+Apply
+High School Teachers (Sciences & Math)
+$40/hr
+124
 hired recently
 Apply
 Short Video Captioning / Description Expert
 $35/hr
-145
+141
 hired recently
 Apply
 Chemistry Labeling Experts - India
 $20-$30/hr
-242
+280
 hired recently
 Apply
 Physics Labeling expert - India
 $20-$30/hr
-190
+206
 hired recently
 Apply
 APEX
@@ -105,9 +105,9 @@ Apply
 Opportunities
 Payment
 Support
-support@mercor.com
-press@mercor.com
-gtm@mercor.com
+[email protected]
+[email protected]
+[email protected]
 Resources
 Careers
 Blog

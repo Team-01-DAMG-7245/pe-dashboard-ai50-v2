@@ -6,7 +6,7 @@
   "hq_country": "United Kingdom",
   "category": "AI video generation",
   "linkedin": "https://www.linkedin.com/company/synthesia/",
-  "crawled_at": "2025-11-01T21:48:19.823180Z",
+  "crawled_at": "2025-11-07T00:17:21.615053Z",
   "pages_scraped": [
     {
       "page": "homepage",
@@ -44,7 +44,7 @@
       "page": "news",
       "url": "https://synthesia.com/news",
       "status": 200,
-      "size_bytes": 118657,
+      "size_bytes": 118677,
       "html_file": "synthesia/initial/news_raw.html",
       "text_file": "synthesia/initial/news_clean.txt"
     }

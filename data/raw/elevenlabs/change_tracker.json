@@ -3,8 +3,8 @@
   "company_name": "Elevenlabs",
   "hashes": {
     "about": "8cb79f78724ad5b23d39897de5aafcf4",
-    "careers": "b04314d828facf14539774edbf09b586",
-    "blog": "d8dee5a5f5643f945585806d21cdddde"
+    "careers": "977e3b2cd374146adeb95559a744d9c5",
+    "blog": "fa0ad7578fe6cbdd58c5a803fe5838cf"
   },
   "history": [
     {
@@ -13,6 +13,16 @@
       "pages_checked": 3,
       "changes_detected": [
         "about",
+        "careers",
+        "blog"
+      ],
+      "errors": 0
+    },
+    {
+      "execution_date": "2025-11-05",
+      "crawled_at": "2025-11-07T00:14:22.948470Z",
+      "pages_checked": 3,
+      "changes_detected": [
         "careers",
         "blog"
       ],

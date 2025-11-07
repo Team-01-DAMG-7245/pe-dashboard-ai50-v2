@@ -4,8 +4,8 @@
   "hashes": {
     "about": "3496b25bce34df464962774bee095610",
     "careers": "57da32de9219169fb1dde475ed1cd319",
-    "blog": "e93c8943cd2cb1db6c8cb99f13b7d4c1",
-    "news": "8c1ea0a9d02fefd4ac599e7ffa860b60"
+    "blog": "eb0132f43c06cacb78ddf4b52242e1ea",
+    "news": "e264331992c39f3191e515e110eb44ca"
   },
   "history": [
     {
@@ -15,6 +15,16 @@
       "changes_detected": [
         "about",
         "careers",
+        "blog",
+        "news"
+      ],
+      "errors": 0
+    },
+    {
+      "execution_date": "2025-11-05",
+      "crawled_at": "2025-11-07T00:14:22.901619Z",
+      "pages_checked": 4,
+      "changes_detected": [
         "blog",
         "news"
       ],

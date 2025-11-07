@@ -6,13 +6,13 @@
   "hq_country": "United States",
   "category": "AI-powered hiring platform",
   "linkedin": "https://www.linkedin.com/company/mercor/",
-  "crawled_at": "2025-11-01T21:47:30.646930Z",
+  "crawled_at": "2025-11-07T00:15:39.242846Z",
   "pages_scraped": [
     {
       "page": "homepage",
       "url": "https://mercor.com",
       "status": 200,
-      "size_bytes": 65404,
+      "size_bytes": 66488,
       "html_file": "mercor/initial/homepage_raw.html",
       "text_file": "mercor/initial/homepage_clean.txt"
     },
@@ -20,7 +20,7 @@
       "page": "careers",
       "url": "https://mercor.com/careers",
       "status": 200,
-      "size_bytes": 3234,
+      "size_bytes": 3736,
       "html_file": "mercor/initial/careers_raw.html",
       "text_file": "mercor/initial/careers_clean.txt"
     },
@@ -28,7 +28,7 @@
       "page": "blog",
       "url": "https://mercor.com/blog",
       "status": 200,
-      "size_bytes": 28914,
+      "size_bytes": 29911,
       "html_file": "mercor/initial/blog_raw.html",
       "text_file": "mercor/initial/blog_clean.txt"
     }

@@ -1,0 +1,54 @@
+{
+  "company_name": "Anthropic",
+  "company_id": "anthropic",
+  "base_url": "https://anthropic.com",
+  "crawled_at": "2025-11-07T00:16:59.017690Z",
+  "execution_date": "2025-11-05",
+  "pages_refreshed": [
+    {
+      "page": "about",
+      "url": "https://anthropic.com/company",
+      "status": 200,
+      "size_bytes": 238076,
+      "content_hash": "1d8203a73d8515fe5bc5b9f76134a16f",
+      "changed": false,
+      "html_file": "anthropic/2025-11-05/about_raw.html",
+      "text_file": "anthropic/2025-11-05/about_clean.txt"
+    },
+    {
+      "page": "careers",
+      "url": "https://anthropic.com/careers",
+      "status": 200,
+      "size_bytes": 249634,
+      "content_hash": "1c75b2e7e135500b29065610a9d14e70",
+      "changed": false,
+      "html_file": "anthropic/2025-11-05/careers_raw.html",
+      "text_file": "anthropic/2025-11-05/careers_clean.txt"
+    },
+    {
+      "page": "blog",
+      "url": "https://anthropic.com/blog",
+      "status": 200,
+      "size_bytes": 494938,
+      "content_hash": "df239983211c900e38b3945168445ad4",
+      "changed": true,
+      "html_file": "anthropic/2025-11-05/blog_raw.html",
+      "text_file": "anthropic/2025-11-05/blog_clean.txt"
+    },
+    {
+      "page": "news",
+      "url": "https://anthropic.com/news",
+      "status": 200,
+      "size_bytes": 494938,
+      "content_hash": "df239983211c900e38b3945168445ad4",
+      "changed": true,
+      "html_file": "anthropic/2025-11-05/news_raw.html",
+      "text_file": "anthropic/2025-11-05/news_clean.txt"
+    }
+  ],
+  "changes_detected": [
+    "blog",
+    "news"
+  ],
+  "errors": []
+}

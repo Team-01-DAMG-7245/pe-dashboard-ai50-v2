@@ -6,13 +6,13 @@
   "hq_country": "United States",
   "category": "Enterprise AI platform",
   "linkedin": "https://www.linkedin.com/company/glean/",
-  "crawled_at": "2025-11-01T21:48:57.833489Z",
+  "crawled_at": "2025-11-07T00:14:00.222263Z",
   "pages_scraped": [
     {
       "page": "homepage",
       "url": "https://glean.com",
       "status": 200,
-      "size_bytes": 345025,
+      "size_bytes": 345747,
       "html_file": "glean/initial/homepage_raw.html",
       "text_file": "glean/initial/homepage_clean.txt"
     },
@@ -28,7 +28,7 @@
       "page": "platform",
       "url": "https://glean.com/solutions",
       "status": 200,
-      "size_bytes": 345025,
+      "size_bytes": 345747,
       "html_file": "glean/initial/platform_raw.html",
       "text_file": "glean/initial/platform_clean.txt"
     },
@@ -36,7 +36,7 @@
       "page": "careers",
       "url": "https://glean.com/careers",
       "status": 200,
-      "size_bytes": 150656,
+      "size_bytes": 150628,
       "html_file": "glean/initial/careers_raw.html",
       "text_file": "glean/initial/careers_clean.txt"
     },
@@ -44,7 +44,7 @@
       "page": "blog",
       "url": "https://glean.com/blog",
       "status": 200,
-      "size_bytes": 444074,
+      "size_bytes": 445341,
       "html_file": "glean/initial/blog_raw.html",
       "text_file": "glean/initial/blog_clean.txt"
     }
