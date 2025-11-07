@@ -1,0 +1,240 @@
+{
+  "company_record": {
+    "company_id": "suno",
+    "legal_name": "Suno AI",
+    "brand_name": null,
+    "website": "https://www.suno.ai/",
+    "hq_city": "San Francisco",
+    "hq_state": "CA",
+    "hq_country": "USA",
+    "founded_year": 2023,
+    "categories": [
+      "AI",
+      "Music Technology",
+      "Generative Audio",
+      "Creative Tools",
+      "Software"
+    ],
+    "related_companies": [],
+    "total_raised_usd": 0.0,
+    "last_disclosed_valuation_usd": 0.0,
+    "last_round_name": "Series A",
+    "last_round_date": "2025-09-25",
+    "schema_version": "2.0.0",
+    "as_of": "2025-11-05",
+    "provenance": [
+      {
+        "source_url": "https://www.suno.ai",
+        "crawled_at": "2025-09-25T00:00:00Z",
+        "snippet": "Suno AI is a company focused on generative audio technology."
+      },
+      {
+        "source_url": "https://www.suno.ai/blog",
+        "crawled_at": "2025-09-25T00:00:00Z",
+        "snippet": "Suno Studio is the first-ever generative audio workstation."
+      },
+      {
+        "source_url": "https://www.suno.ai/news",
+        "crawled_at": "2025-09-25T00:00:00Z",
+        "snippet": "Suno partners with Songs of Love Foundation to create personalized songs."
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "1",
+      "company_id": "suno",
+      "occurred_on": "2025-09-25",
+      "event_type": "funding",
+      "title": "Series A funding round",
+      "description": null,
+      "round_name": "Series A",
+      "investors": null,
+      "amount_usd": 0.0,
+      "valuation_usd": 0.0,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "2",
+      "company_id": "suno",
+      "occurred_on": "2025-07-22",
+      "event_type": "funding",
+      "title": "Series B funding round",
+      "description": null,
+      "round_name": "Series B",
+      "investors": null,
+      "amount_usd": 0.0,
+      "valuation_usd": 0.0,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "3",
+      "company_id": "suno",
+      "occurred_on": "2024-11-13",
+      "event_type": "funding",
+      "title": "Series C funding round",
+      "description": null,
+      "round_name": "Series C",
+      "investors": null,
+      "amount_usd": 0.0,
+      "valuation_usd": 0.0,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "4",
+      "company_id": "suno",
+      "occurred_on": "2024-03-17",
+      "event_type": "funding",
+      "title": "Series D funding round",
+      "description": null,
+      "round_name": "Series D",
+      "investors": null,
+      "amount_usd": 0.0,
+      "valuation_usd": 0.0,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "5",
+      "company_id": "suno",
+      "occurred_on": "2024-01-03",
+      "event_type": "funding",
+      "title": "Series E funding round",
+      "description": null,
+      "round_name": "Series E",
+      "investors": null,
+      "amount_usd": 0.0,
+      "valuation_usd": 0.0,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "6",
+      "company_id": "suno",
+      "occurred_on": "2023-12-20",
+      "event_type": "funding",
+      "title": "Series F funding round",
+      "description": null,
+      "round_name": "Series F",
+      "investors": null,
+      "amount_usd": 0.0,
+      "valuation_usd": 0.0,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "snapshots": [
+    {
+      "company_id": "suno",
+      "as_of": "2025-11-05",
+      "headcount_total": null,
+      "headcount_growth_pct": null,
+      "job_openings_count": 0,
+      "engineering_openings": 0,
+      "sales_openings": 0,
+      "hiring_focus": [],
+      "pricing_tiers": [],
+      "active_products": [],
+      "geo_presence": [],
+      "confidence": null,
+      "funding_cadence_months": 4.23784494086728,
+      "headcount_velocity": null,
+      "headcount_growth_rate": null,
+      "release_velocity": "Low",
+      "products_released_last_12m": 0,
+      "geography_expansion": [],
+      "geography_expansion_rate": null,
+      "notable_customers": [],
+      "customer_quality_score": null,
+      "churn_signals": [],
+      "regulatory_exposure": [],
+      "leadership_stability": "Stable",
+      "leadership_changes_last_12m": 0,
+      "layoffs_mentioned": false,
+      "layoffs_count": 0,
+      "layoffs_date": null,
+      "layoffs_percentage": 0.0,
+      "positive_signals": [
+        "Series A funding round",
+        "Series B funding round",
+        "Series C funding round",
+        "Series D funding round",
+        "Series E funding round",
+        "Series F funding round"
+      ],
+      "negative_signals": [],
+      "positive_events_count": 6,
+      "negative_events_count": 0,
+      "risk_score": 33.0,
+      "risk_level": "Medium",
+      "key_challenges": [
+        "Limited enterprise customer base"
+      ],
+      "transparency_score": 55.0,
+      "transparency_level": "Low",
+      "marketed_info_available": [],
+      "actual_case_studies": [],
+      "disclosure_gaps": [
+        "Team size not disclosed",
+        "Pricing information not disclosed",
+        "Customer names/references not disclosed",
+        "Funding information not disclosed"
+      ],
+      "missing_key_info": [],
+      "marketing_vs_reality_gap": "Limited information available",
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "products": [
+    {
+      "product_id": "suno_product_1",
+      "company_id": "suno",
+      "name": "Suno",
+      "description": "AI Music",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "suno_suno_ai",
+      "company_id": "suno",
+      "name": "Suno AI",
+      "role": "Leadership Team",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "visibility": [],
+  "notes": "Extracted from scraped data on 2025-11-05. Events: 6 funding/announcement events found.",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

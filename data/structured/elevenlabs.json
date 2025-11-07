@@ -1,0 +1,414 @@
+{
+  "company_record": {
+    "company_id": "elevenlabs",
+    "legal_name": "ElevenLabs",
+    "brand_name": null,
+    "website": "https://www.elevenlabs.io/",
+    "hq_city": "London",
+    "hq_state": null,
+    "hq_country": "United Kingdom",
+    "founded_year": 2022,
+    "categories": [
+      "AI",
+      "Audio Technology",
+      "Voice Generation",
+      "Natural Language Processing",
+      "Speech Synthesis"
+    ],
+    "related_companies": [],
+    "total_raised_usd": null,
+    "last_disclosed_valuation_usd": null,
+    "last_round_name": null,
+    "last_round_date": null,
+    "schema_version": "2.0.0",
+    "as_of": "2025-11-05",
+    "provenance": [
+      {
+        "source_url": "https://www.elevenlabs.io",
+        "crawled_at": "2023-10-01T00:00:00Z",
+        "snippet": "ElevenLabs is an AI audio research and deployment company."
+      },
+      {
+        "source_url": "https://www.elevenlabs.io/about",
+        "crawled_at": "2023-10-01T00:00:00Z",
+        "snippet": "ElevenLabs opens European HQ in London."
+      },
+      {
+        "source_url": "https://www.elevenlabs.io/blog",
+        "crawled_at": "2023-10-01T00:00:00Z",
+        "snippet": "ElevenLabs scales UK and US presence."
+      },
+      {
+        "source_url": "https://www.elevenlabs.io/careers",
+        "crawled_at": "2023-10-01T00:00:00Z",
+        "snippet": "Our diverse team spans 30+ countries with hubs in New York, London, and Warsaw."
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "1",
+      "company_id": "elevenlabs",
+      "occurred_on": "2025-09-27",
+      "event_type": "funding",
+      "title": "Funding round for partnership with Ukrainian Public Services",
+      "description": null,
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "2",
+      "company_id": "elevenlabs",
+      "occurred_on": "2025-09-18",
+      "event_type": "funding",
+      "title": "Funding round for voice ID system launch",
+      "description": null,
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "3",
+      "company_id": "elevenlabs",
+      "occurred_on": "2025-09-15",
+      "event_type": "funding",
+      "title": "Funding round for Productions service launch",
+      "description": null,
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "4",
+      "company_id": "elevenlabs",
+      "occurred_on": "2025-09-16",
+      "event_type": "funding",
+      "title": "Funding round for scaling UK and US presence",
+      "description": null,
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "5",
+      "company_id": "elevenlabs",
+      "occurred_on": "2025-09-08",
+      "event_type": "funding",
+      "title": "Funding round for partnership in Brazil",
+      "description": null,
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "6",
+      "company_id": "elevenlabs",
+      "occurred_on": "2025-08-20",
+      "event_type": "funding",
+      "title": "Funding round for Eleven v3 (alpha) launch",
+      "description": null,
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "7",
+      "company_id": "elevenlabs",
+      "occurred_on": "2025-08-18",
+      "event_type": "funding",
+      "title": "Funding round for Eleven Music API launch",
+      "description": null,
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "8",
+      "company_id": "elevenlabs",
+      "occurred_on": "2025-08-12",
+      "event_type": "funding",
+      "title": "Funding round for Air Mail audio integration",
+      "description": null,
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "snapshots": [
+    {
+      "company_id": "elevenlabs",
+      "as_of": "2025-11-05",
+      "headcount_total": 300,
+      "headcount_growth_pct": 100.0,
+      "job_openings_count": 25,
+      "engineering_openings": 10,
+      "sales_openings": 5,
+      "hiring_focus": [
+        "Engineering",
+        "Sales",
+        "Marketing",
+        "Product",
+        "Design"
+      ],
+      "pricing_tiers": [
+        "Free",
+        "Pro",
+        "Enterprise"
+      ],
+      "active_products": [
+        "AI voice models",
+        "Agents Platform",
+        "Creative Platform"
+      ],
+      "geo_presence": [
+        "New York",
+        "London",
+        "Warsaw",
+        "Brazil"
+      ],
+      "confidence": null,
+      "funding_cadence_months": null,
+      "headcount_velocity": "Rapid",
+      "headcount_growth_rate": 100.0,
+      "release_velocity": "High",
+      "products_released_last_12m": 5,
+      "geography_expansion": [
+        "Brazil",
+        "UK",
+        "US"
+      ],
+      "geography_expansion_rate": "Rapid",
+      "notable_customers": [
+        "Audacy",
+        "Synthflow",
+        "Topview"
+      ],
+      "customer_quality_score": "Enterprise",
+      "churn_signals": [],
+      "regulatory_exposure": [],
+      "leadership_stability": "Stable",
+      "leadership_changes_last_12m": 1,
+      "layoffs_mentioned": false,
+      "layoffs_count": null,
+      "layoffs_date": null,
+      "layoffs_percentage": null,
+      "positive_signals": [
+        "Opened European HQ in London",
+        "Partnership with Ministry of Digital Transformation",
+        "Launched voice ID system for actors"
+      ],
+      "negative_signals": [],
+      "positive_events_count": 8,
+      "negative_events_count": 0,
+      "risk_score": 19.0,
+      "risk_level": "Low",
+      "key_challenges": [
+        "Market competition",
+        "Regulatory compliance"
+      ],
+      "transparency_score": 92.0,
+      "transparency_level": "High",
+      "marketed_info_available": [
+        "AI audio solutions",
+        "Voice technology",
+        "High-quality AI audio"
+      ],
+      "actual_case_studies": [
+        "Partnership with Stroke Onward",
+        "AI-powered teaching assistant for Cornell",
+        "Voice AI for India Scale"
+      ],
+      "disclosure_gaps": [
+        "Claims enterprise customers but no case studies"
+      ],
+      "missing_key_info": [
+        "Revenue not disclosed",
+        "Customer count not available"
+      ],
+      "marketing_vs_reality_gap": "Well-supported (claims backed by proof)",
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "products": [
+    {
+      "product_id": "elevenlabs_product_1",
+      "company_id": "elevenlabs",
+      "name": "ElevenLabs",
+      "description": "The most realistic voice AI platform powering millions of developers, creators, and enterprises.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "elevenlabs_product_2",
+      "company_id": "elevenlabs",
+      "name": "ElevenReader",
+      "description": "A tool for narrating stories.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "elevenlabs_product_3",
+      "company_id": "elevenlabs",
+      "name": "Samara",
+      "description": "A voice model used for narrating stories and creating dialogues.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "elevenlabs_product_4",
+      "company_id": "elevenlabs",
+      "name": "Announcer",
+      "description": "A voice model designed for voiceover work in games.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "elevenlabs_product_5",
+      "company_id": "elevenlabs",
+      "name": "Sergeant",
+      "description": "A voice model that mimics a drill sergeant.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "elevenlabs_product_6",
+      "company_id": "elevenlabs",
+      "name": "Spuds",
+      "description": "A voice model that recounts old stories.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "elevenlabs_product_7",
+      "company_id": "elevenlabs",
+      "name": "Jessica",
+      "description": "A voice model used for providing customer support.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "elevenlabs_dr._chen_ching-hui",
+      "company_id": "elevenlabs",
+      "name": "Dr. Chen Ching-Hui",
+      "role": "AI Researcher",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "elevenlabs_bill_weihl",
+      "company_id": "elevenlabs",
+      "name": "Bill Weihl",
+      "role": "Climate Policy Advocate",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "visibility": [],
+  "notes": "Extracted from scraped data on 2025-11-05. Events: 8 funding/announcement events found.",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

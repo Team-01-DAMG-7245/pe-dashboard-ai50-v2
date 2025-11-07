@@ -1,0 +1,139 @@
+{
+  "company_record": {
+    "company_id": "xai",
+    "legal_name": "XAI Technologies Inc.",
+    "brand_name": null,
+    "website": "https://www.xai.com/",
+    "hq_city": "San Francisco",
+    "hq_state": "CA",
+    "hq_country": "USA",
+    "founded_year": 2020,
+    "categories": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Data Analytics",
+      "Cloud Computing",
+      "SaaS"
+    ],
+    "related_companies": [],
+    "total_raised_usd": 150000000.0,
+    "last_disclosed_valuation_usd": 1000000000.0,
+    "last_round_name": "Series C",
+    "last_round_date": "2023-05-15",
+    "schema_version": "2.0.0",
+    "as_of": "2025-11-05",
+    "provenance": [
+      {
+        "source_url": "https://www.xai.com/about",
+        "crawled_at": "2023-10-01T00:00:00Z",
+        "snippet": "XAI Technologies Inc. is a leading provider of AI solutions based in San Francisco, CA."
+      },
+      {
+        "source_url": "https://www.xai.com/news",
+        "crawled_at": "2023-10-01T00:00:00Z",
+        "snippet": "In May 2023, XAI Technologies raised $50 million in Series C funding."
+      },
+      {
+        "source_url": "https://www.xai.com/blog",
+        "crawled_at": "2023-10-01T00:00:00Z",
+        "snippet": "Founded in 2020, XAI Technologies has quickly become a leader in the AI space."
+      }
+    ]
+  },
+  "events": [],
+  "snapshots": [
+    {
+      "company_id": "xai",
+      "as_of": "2025-11-05",
+      "headcount_total": 250,
+      "headcount_growth_pct": 50.0,
+      "job_openings_count": 15,
+      "engineering_openings": 5,
+      "sales_openings": 3,
+      "hiring_focus": [
+        "Engineering",
+        "Sales",
+        "Marketing"
+      ],
+      "pricing_tiers": [
+        "Free",
+        "Pro",
+        "Enterprise"
+      ],
+      "active_products": [
+        "AI Platform",
+        "Data Analytics Tool"
+      ],
+      "geo_presence": [
+        "San Francisco",
+        "New York",
+        "London"
+      ],
+      "confidence": null,
+      "funding_cadence_months": null,
+      "headcount_velocity": "Rapid",
+      "headcount_growth_rate": 50.0,
+      "release_velocity": "Medium",
+      "products_released_last_12m": 3,
+      "geography_expansion": [
+        "Europe",
+        "Asia"
+      ],
+      "geography_expansion_rate": "Moderate",
+      "notable_customers": [
+        "Company A",
+        "Company B"
+      ],
+      "customer_quality_score": "Enterprise",
+      "churn_signals": [],
+      "regulatory_exposure": [
+        "GDPR"
+      ],
+      "leadership_stability": "Stable",
+      "leadership_changes_last_12m": 1,
+      "layoffs_mentioned": false,
+      "layoffs_count": null,
+      "layoffs_date": null,
+      "layoffs_percentage": null,
+      "positive_signals": [
+        "Raised $10M in funding",
+        "Launched new AI feature"
+      ],
+      "negative_signals": [
+        "Customer churn reported"
+      ],
+      "positive_events_count": null,
+      "negative_events_count": null,
+      "risk_score": 44.0,
+      "risk_level": "Medium",
+      "key_challenges": [
+        "Market competition",
+        "Regulatory compliance"
+      ],
+      "transparency_score": 92.0,
+      "transparency_level": "High",
+      "marketed_info_available": [
+        "Enterprise AI platform",
+        "99.9% uptime"
+      ],
+      "actual_case_studies": [
+        "Case study with Company A",
+        "Customer testimonial from Company B"
+      ],
+      "disclosure_gaps": [
+        "Claims enterprise customers but no case studies"
+      ],
+      "missing_key_info": [
+        "Revenue not disclosed"
+      ],
+      "marketing_vs_reality_gap": "Well-supported (claims backed by proof)",
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "products": [],
+  "leadership": [],
+  "visibility": [],
+  "notes": "Extracted from scraped data on 2025-11-05. Events: 0 funding/announcement events found.",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

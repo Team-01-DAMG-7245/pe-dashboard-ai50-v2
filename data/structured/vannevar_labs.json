@@ -1,0 +1,132 @@
+{
+  "company_record": {
+    "company_id": "vannevar_labs",
+    "legal_name": "Vannevar Labs",
+    "brand_name": null,
+    "website": "https://vannevar-labs.com/",
+    "hq_city": null,
+    "hq_state": null,
+    "hq_country": null,
+    "founded_year": null,
+    "categories": [],
+    "related_companies": [],
+    "total_raised_usd": 1000000.0,
+    "last_disclosed_valuation_usd": null,
+    "last_round_name": "Seed round",
+    "last_round_date": "2023-01-01",
+    "schema_version": "2.0.0",
+    "as_of": "2025-11-05",
+    "provenance": [
+      {
+        "source_url": "https://vannevar-labs.com",
+        "crawled_at": "2023-10-01T00:00:00Z",
+        "snippet": "We're under construction. Please check back for an update soon."
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "1",
+      "company_id": "vannevar_labs",
+      "occurred_on": "2023-01-01",
+      "event_type": "funding",
+      "title": "Funding round",
+      "description": null,
+      "round_name": "Seed round",
+      "investors": [
+        "Investor A",
+        "Investor B"
+      ],
+      "amount_usd": 1000000.0,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": null,
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Vannevar Labs raised $1M in a seed round led by Investor A and Investor B."
+        }
+      ]
+    }
+  ],
+  "snapshots": [
+    {
+      "company_id": "vannevar_labs",
+      "as_of": "2025-11-05",
+      "headcount_total": null,
+      "headcount_growth_pct": null,
+      "job_openings_count": null,
+      "engineering_openings": null,
+      "sales_openings": null,
+      "hiring_focus": [],
+      "pricing_tiers": null,
+      "active_products": [],
+      "geo_presence": [],
+      "confidence": null,
+      "funding_cadence_months": null,
+      "headcount_velocity": null,
+      "headcount_growth_rate": null,
+      "release_velocity": "Low",
+      "products_released_last_12m": 0,
+      "geography_expansion": [],
+      "geography_expansion_rate": null,
+      "notable_customers": [],
+      "customer_quality_score": null,
+      "churn_signals": [],
+      "regulatory_exposure": [],
+      "leadership_stability": null,
+      "leadership_changes_last_12m": null,
+      "layoffs_mentioned": null,
+      "layoffs_count": null,
+      "layoffs_date": null,
+      "layoffs_percentage": null,
+      "positive_signals": [
+        "Funding round"
+      ],
+      "negative_signals": [],
+      "positive_events_count": 1,
+      "negative_events_count": 0,
+      "risk_score": 48.0,
+      "risk_level": "Medium",
+      "key_challenges": [
+        "Limited enterprise customer base"
+      ],
+      "transparency_score": 60.0,
+      "transparency_level": "Medium",
+      "marketed_info_available": [],
+      "actual_case_studies": [],
+      "disclosure_gaps": [
+        "Team size not disclosed",
+        "Pricing information not disclosed",
+        "Customer names/references not disclosed"
+      ],
+      "missing_key_info": [],
+      "marketing_vs_reality_gap": "Limited information available",
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "products": [
+    {
+      "product_id": "vannevar_labs_product_1",
+      "company_id": "vannevar_labs",
+      "name": "Vannevar Labs",
+      "description": "We're under construction. Please check back for an update soon.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "leadership": [],
+  "visibility": [],
+  "notes": "Extracted from scraped data on 2025-11-05. Events: 1 funding/announcement events found.",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

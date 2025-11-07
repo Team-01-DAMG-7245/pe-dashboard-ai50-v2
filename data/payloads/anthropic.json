@@ -1,46 +1,222 @@
 {
   "company_record": {
     "company_id": "anthropic",
-    "legal_name": "Anthropic",
+    "legal_name": "Anthropic PBC",
     "brand_name": null,
-    "website": null,
-    "hq_city": null,
-    "hq_state": null,
-    "hq_country": null,
-    "founded_year": null,
-    "categories": [],
+    "website": "https://www.anthropic.com/",
+    "hq_city": "San Francisco",
+    "hq_state": "CA",
+    "hq_country": "USA",
+    "founded_year": 2021,
+    "categories": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "AI Safety",
+      "Natural Language Processing",
+      "Software Development"
+    ],
     "related_companies": [],
-    "total_raised_usd": null,
-    "last_disclosed_valuation_usd": null,
-    "last_round_name": null,
-    "last_round_date": null,
+    "total_raised_usd": 13698000000.0,
+    "last_disclosed_valuation_usd": 183000000000.0,
+    "last_round_name": "Series F",
+    "last_round_date": "2025-09-02",
     "schema_version": "2.0.0",
-    "as_of": "2025-11-01",
-    "provenance": []
+    "as_of": "2025-11-06",
+    "provenance": [
+      {
+        "source_url": "https://www.anthropic.com",
+        "crawled_at": "2025-09-29T00:00:00Z",
+        "snippet": "Anthropic is dedicated to building systems that people can rely on and generating research about the opportunities and risks of AI."
+      },
+      {
+        "source_url": "https://www.anthropic.com/newsroom",
+        "crawled_at": "2025-09-29T00:00:00Z",
+        "snippet": "Anthropic raises $13B Series F at $183B post-money valuation."
+      },
+      {
+        "source_url": "https://www.anthropic.com/careers",
+        "crawled_at": "2025-09-29T00:00:00Z",
+        "snippet": "Anthropic is a Public Benefit Corporation, whose purpose is the responsible development and maintenance of advanced AI for the long-term benefit of humanity."
+      }
+    ]
   },
-  "events": [],
+  "events": [
+    {
+      "event_id": "1",
+      "company_id": "anthropic",
+      "occurred_on": "2025-09-02",
+      "event_type": "funding",
+      "title": "Series F funding round",
+      "description": null,
+      "round_name": "Series F",
+      "investors": [],
+      "amount_usd": 13000000000.0,
+      "valuation_usd": 183000000000.0,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "2",
+      "company_id": "anthropic",
+      "occurred_on": "2025-03-03",
+      "event_type": "funding",
+      "title": "Series E funding round",
+      "description": null,
+      "round_name": "Series E",
+      "investors": [],
+      "amount_usd": null,
+      "valuation_usd": 61500000000.0,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "3",
+      "company_id": "anthropic",
+      "occurred_on": "2023-05-23",
+      "event_type": "funding",
+      "title": "Series C funding round",
+      "description": null,
+      "round_name": "Series C",
+      "investors": [],
+      "amount_usd": 450000000.0,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "4",
+      "company_id": "anthropic",
+      "occurred_on": "2022-04-29",
+      "event_type": "funding",
+      "title": "Series B funding round",
+      "description": null,
+      "round_name": "Series B",
+      "investors": [],
+      "amount_usd": 124000000.0,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "5",
+      "company_id": "anthropic",
+      "occurred_on": "2021-05-28",
+      "event_type": "funding",
+      "title": "Seed funding round",
+      "description": null,
+      "round_name": "Seed",
+      "investors": [],
+      "amount_usd": 124000000.0,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
   "snapshots": [
     {
       "company_id": "anthropic",
-      "as_of": "2025-11-01",
-      "headcount_total": null,
-      "headcount_growth_pct": null,
-      "job_openings_count": null,
-      "engineering_openings": null,
-      "sales_openings": null,
-      "hiring_focus": [],
-      "pricing_tiers": [],
-      "active_products": [],
-      "geo_presence": [],
+      "as_of": "2025-11-06",
+      "headcount_total": 350,
+      "headcount_growth_pct": 100.0,
+      "job_openings_count": 60,
+      "engineering_openings": 25,
+      "sales_openings": 15,
+      "hiring_focus": [
+        "Engineering",
+        "Sales",
+        "Product",
+        "Operations"
+      ],
+      "pricing_tiers": [
+        "Free",
+        "Pro",
+        "Enterprise"
+      ],
+      "active_products": [
+        "Claude Sonnet 4.5",
+        "Claude Haiku 4.5",
+        "Claude Code"
+      ],
+      "geo_presence": [
+        "San Francisco",
+        "Tokyo",
+        "Seoul",
+        "India"
+      ],
       "confidence": null,
+      "funding_cadence_months": 12.795663600525623,
+      "headcount_velocity": "Rapid",
+      "headcount_growth_rate": 100.0,
+      "release_velocity": "Low",
+      "products_released_last_12m": 0,
+      "geography_expansion": [
+        "Tokyo",
+        "Seoul",
+        "India"
+      ],
+      "geography_expansion_rate": "Rapid",
+      "notable_customers": [
+        "Deloitte",
+        "Salesforce",
+        "Lyft"
+      ],
+      "customer_quality_score": "Enterprise",
+      "churn_signals": [],
+      "regulatory_exposure": [
+        "GDPR",
+        "AI Safety"
+      ],
+      "leadership_stability": "Stable",
+      "leadership_changes_last_12m": 2,
+      "layoffs_mentioned": false,
+      "layoffs_count": null,
+      "layoffs_date": null,
+      "layoffs_percentage": null,
+      "positive_signals": [
+        "Raised $13B Series F",
+        "Opened Tokyo office",
+        "Expanded to Seoul"
+      ],
+      "negative_signals": [],
+      "positive_events_count": 5,
+      "negative_events_count": 0,
+      "risk_score": 33.0,
+      "risk_level": "Medium",
+      "key_challenges": [
+        "Regulatory compliance",
+        "Market competition"
+      ],
+      "transparency_score": 100.0,
+      "transparency_level": "High",
+      "marketed_info_available": [
+        "Enterprise AI platform",
+        "Serves Fortune 500",
+        "99.9% uptime"
+      ],
+      "actual_case_studies": [
+        "Case study with Deloitte",
+        "Customer testimonial from Salesforce"
+      ],
+      "disclosure_gaps": [
+        "Claims enterprise customers but no case studies"
+      ],
+      "missing_key_info": [
+        "Revenue not disclosed",
+        "Customer count not available"
+      ],
+      "marketing_vs_reality_gap": "Well-supported (claims backed by proof)",
       "schema_version": "2.0.0",
-      "provenance": [
-        {
-          "source_url": "https://anthropic.com/careers",
-          "crawled_at": "2022-01-01",
-          "snippet": null
-        }
-      ]
+      "provenance": []
     }
   ],
   "products": [
@@ -48,7 +224,7 @@
       "product_id": "anthropic_product_1",
       "company_id": "anthropic",
       "name": "Claude",
-      "description": "Tackle any big, bold, bewildering challenge with Claude. Meet your thinking partner. Ask questions, develop a unique voice for an audience, and more.",
+      "description": "Meet your thinking partner. Tackle any big, bold, bewildering challenge with Claude.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -62,8 +238,8 @@
     {
       "product_id": "anthropic_product_2",
       "company_id": "anthropic",
-      "name": "Claude Code",
-      "description": "Claude Code is a feature of Claude that allows coding and modernization of code. It integrates with Slack and Excel for seamless workflow.",
+      "name": "Claude Sonnet 4.5",
+      "description": "Introducing the best model in the world for agents, coding, and computer use.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -77,38 +253,8 @@
     {
       "product_id": "anthropic_product_3",
       "company_id": "anthropic",
-      "name": "Opus",
-      "description": "Opus is a model available on the Claude platform for specific use cases in industries like customer support, education, financial services, and more.",
-      "pricing_model": null,
-      "pricing_tiers_public": [],
-      "ga_date": null,
-      "integration_partners": [],
-      "github_repo": null,
-      "license_type": null,
-      "reference_customers": [],
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "product_id": "anthropic_product_4",
-      "company_id": "anthropic",
-      "name": "Sonnet",
-      "description": "Sonnet is another model on the Claude platform designed for AI agents and coding tasks. It offers solutions for modernizing code and improving efficiency.",
-      "pricing_model": null,
-      "pricing_tiers_public": [],
-      "ga_date": null,
-      "integration_partners": [],
-      "github_repo": null,
-      "license_type": null,
-      "reference_customers": [],
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "product_id": "anthropic_product_5",
-      "company_id": "anthropic",
-      "name": "Haiku",
-      "description": "Haiku is a model on Claude that caters to industries like government and life sciences. It provides unique solutions for various challenges.",
+      "name": "Claude Haiku 4.5",
+      "description": "Managing context on the Claude Developer Platform.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -150,10 +296,10 @@
       "provenance": []
     },
     {
-      "person_id": "anthropic_claude",
+      "person_id": "anthropic_yasmin_razavi",
       "company_id": "anthropic",
-      "name": "Claude",
-      "role": "CEO",
+      "name": "Yasmin Razavi",
+      "role": "Board Member",
       "is_founder": false,
       "start_date": null,
       "end_date": null,
@@ -164,10 +310,10 @@
       "provenance": []
     },
     {
-      "person_id": "anthropic_opus",
+      "person_id": "anthropic_jay_kreps",
       "company_id": "anthropic",
-      "name": "Opus",
-      "role": "CTO",
+      "name": "Jay Kreps",
+      "role": "Board Member",
       "is_founder": false,
       "start_date": null,
       "end_date": null,
@@ -178,10 +324,66 @@
       "provenance": []
     },
     {
-      "person_id": "anthropic_sonnet",
+      "person_id": "anthropic_reed_hastings",
       "company_id": "anthropic",
-      "name": "Sonnet",
-      "role": "CFO",
+      "name": "Reed Hastings",
+      "role": "Board Member",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "anthropic_neil_buddy_shah",
+      "company_id": "anthropic",
+      "name": "Neil Buddy Shah",
+      "role": "LTBT Trustee",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "anthropic_kanika_bahl",
+      "company_id": "anthropic",
+      "name": "Kanika Bahl",
+      "role": "LTBT Trustee",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "anthropic_zach_robinson",
+      "company_id": "anthropic",
+      "name": "Zach Robinson",
+      "role": "LTBT Trustee",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "anthropic_richard_fontaine",
+      "company_id": "anthropic",
+      "name": "Richard Fontaine",
+      "role": "LTBT Trustee",
       "is_founder": false,
       "start_date": null,
       "end_date": null,
@@ -193,6 +395,6 @@
     }
   ],
   "visibility": [],
-  "notes": "Extracted from scraped data on 2025-11-01",
+  "notes": "Extracted from scraped data on 2025-11-06. Events: 5 funding/announcement events found.",
   "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
 }

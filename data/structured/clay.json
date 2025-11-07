@@ -1,0 +1,494 @@
+{
+  "company_record": {
+    "company_id": "clay",
+    "legal_name": "Clay",
+    "brand_name": null,
+    "website": "https://www.clay.com/",
+    "hq_city": "New York",
+    "hq_state": "NY",
+    "hq_country": "USA",
+    "founded_year": 2017,
+    "categories": [
+      "Sales Automation",
+      "Data Enrichment",
+      "AI Tools",
+      "Customer Relationship Management (CRM)",
+      "Go-To-Market Strategies"
+    ],
+    "related_companies": [],
+    "total_raised_usd": 1678000000.0,
+    "last_disclosed_valuation_usd": 3100000000.0,
+    "last_round_name": "Series C",
+    "last_round_date": "2025-01-01",
+    "schema_version": "2.0.0",
+    "as_of": "2025-11-06",
+    "provenance": [
+      {
+        "source_url": "https://www.clay.com",
+        "crawled_at": "2025-01-01T00:00:00Z",
+        "snippet": "Clay raised $100M Series C at a $3.1B valuation."
+      },
+      {
+        "source_url": "https://www.forbes.com",
+        "crawled_at": "2025-01-01T00:00:00Z",
+        "snippet": "Clay, A Secret Weapon For Anthropic And OpenAI, Boosts Valuation To $1.3 Billion."
+      },
+      {
+        "source_url": "https://techcrunch.com",
+        "crawled_at": "2025-01-01T00:00:00Z",
+        "snippet": "Sequoia leads $1.5B tender offer for sales automation startup Clay."
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "1",
+      "company_id": "clay",
+      "occurred_on": "2025-01-01",
+      "event_type": "funding",
+      "title": "Series C funding round",
+      "description": null,
+      "round_name": "Series C",
+      "investors": [
+        "Sequoia"
+      ],
+      "amount_usd": 100000000.0,
+      "valuation_usd": 3100000000.0,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "2",
+      "company_id": "clay",
+      "occurred_on": "2025-01-01",
+      "event_type": "funding",
+      "title": "Tender offer",
+      "description": null,
+      "round_name": "Tender offer",
+      "investors": [
+        "Sequoia"
+      ],
+      "amount_usd": 1500000000.0,
+      "valuation_usd": 1500000000.0,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "3",
+      "company_id": "clay",
+      "occurred_on": "2024-06-27",
+      "event_type": "funding",
+      "title": "Series B funding round",
+      "description": null,
+      "round_name": "Series B",
+      "investors": [
+        "Meritech Capital",
+        "Sequoia",
+        "First Round",
+        "Box Group",
+        "Boldstart"
+      ],
+      "amount_usd": 62000000.0,
+      "valuation_usd": 500000000.0,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "4",
+      "company_id": "clay",
+      "occurred_on": "2024-06-27",
+      "event_type": "funding",
+      "title": "Series A funding round",
+      "description": null,
+      "round_name": "Series A",
+      "investors": [
+        "Sequoia"
+      ],
+      "amount_usd": 13500000.0,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "5",
+      "company_id": "clay",
+      "occurred_on": "2024-06-27",
+      "event_type": "funding",
+      "title": "Seed funding round",
+      "description": null,
+      "round_name": "Seed",
+      "investors": [
+        "First Round"
+      ],
+      "amount_usd": 2500000.0,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "snapshots": [
+    {
+      "company_id": "clay",
+      "as_of": "2025-11-06",
+      "headcount_total": 100,
+      "headcount_growth_pct": 100.0,
+      "job_openings_count": 60,
+      "engineering_openings": 20,
+      "sales_openings": 15,
+      "hiring_focus": [
+        "Engineering",
+        "Sales",
+        "Marketing",
+        "Product Design",
+        "Customer Experience",
+        "GTM",
+        "People"
+      ],
+      "pricing_tiers": [
+        "Free",
+        "Pro",
+        "Enterprise"
+      ],
+      "active_products": [
+        "Claygent",
+        "GTM tools"
+      ],
+      "geo_presence": [
+        "New York City"
+      ],
+      "confidence": null,
+      "funding_cadence_months": 1.5440210249671484,
+      "headcount_velocity": "Rapid",
+      "headcount_growth_rate": 100.0,
+      "release_velocity": "Low",
+      "products_released_last_12m": 0,
+      "geography_expansion": [],
+      "geography_expansion_rate": null,
+      "notable_customers": [
+        "OpenAI",
+        "Vanta",
+        "Intercom",
+        "Ramp",
+        "Anthropic",
+        "Verkada"
+      ],
+      "customer_quality_score": "Enterprise",
+      "churn_signals": [],
+      "regulatory_exposure": [],
+      "leadership_stability": "Stable",
+      "leadership_changes_last_12m": 0,
+      "layoffs_mentioned": null,
+      "layoffs_count": null,
+      "layoffs_date": null,
+      "layoffs_percentage": null,
+      "positive_signals": [
+        "Raised $100M Series C at a $3.1B valuation",
+        "10x revenue growth in 2022-2023",
+        "Clay named #1 mid-stage company on ENT30 list"
+      ],
+      "negative_signals": [
+        "None"
+      ],
+      "positive_events_count": 4,
+      "negative_events_count": 0,
+      "risk_score": 22.0,
+      "risk_level": "Low",
+      "key_challenges": [
+        "Market competition",
+        "Scaling challenges"
+      ],
+      "transparency_score": 100.0,
+      "transparency_level": "High",
+      "marketed_info_available": [
+        "Creative tools for business growth",
+        "AI-powered data enrichment"
+      ],
+      "actual_case_studies": [
+        "Case study with OpenAI",
+        "Customer testimonial from Intercom"
+      ],
+      "disclosure_gaps": [
+        "Claims enterprise customers but no case studies"
+      ],
+      "missing_key_info": [
+        "Revenue not disclosed",
+        "Customer count not available"
+      ],
+      "marketing_vs_reality_gap": "Well-supported (claims backed by proof)",
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "products": [
+    {
+      "product_id": "clay_product_1",
+      "company_id": "clay",
+      "name": "Clay",
+      "description": "Go to market with unique data and the ability to act on it. Bring AI agents, enrichment, and intent data together and turn insights into relevant, timely action.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "clay_product_2",
+      "company_id": "clay",
+      "name": "Vanta",
+      "description": "Clay should be an essential pillar of every company's GTM stack, enabling outbound built on the highest quality data foundation possible.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "clay_product_3",
+      "company_id": "clay",
+      "name": "OpenAI",
+      "description": "Clay enables our team to rapidly experiment with trigger driven workflows, and 3rd party enrichment data.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "clay_collin_stewart",
+      "company_id": "clay",
+      "name": "Collin Stewart",
+      "role": "CEO",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "clay_xavier_caffrey",
+      "company_id": "clay",
+      "name": "Xavier Caffrey",
+      "role": "Founder",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "clay_brian_swichkow",
+      "company_id": "clay",
+      "name": "Brian Swichkow",
+      "role": "Co-Founder",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "clay_michel_lieben",
+      "company_id": "clay",
+      "name": "Michel Lieben",
+      "role": "CEO",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "clay_kellen_casebeer",
+      "company_id": "clay",
+      "name": "Kellen Casebeer",
+      "role": "Founder",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "clay_eric_nowoslawski",
+      "company_id": "clay",
+      "name": "Eric Nowoslawski",
+      "role": "Founder",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "clay_patrick_spychalski",
+      "company_id": "clay",
+      "name": "Patrick Spychalski",
+      "role": "Co-Founder",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "clay_andrea_popova",
+      "company_id": "clay",
+      "name": "Andrea Popova",
+      "role": "CEO",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "clay_jacob_tuwiner",
+      "company_id": "clay",
+      "name": "Jacob Tuwiner",
+      "role": "Founder",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "clay_adam_wall",
+      "company_id": "clay",
+      "name": "Adam Wall",
+      "role": "Head of Sales Operations",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "clay_davide_grieco",
+      "company_id": "clay",
+      "name": "Davide Grieco",
+      "role": "Director of Growth",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "clay_josh_kim",
+      "company_id": "clay",
+      "name": "Josh Kim",
+      "role": "Head of Growth Programs",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "clay_ryan_narod",
+      "company_id": "clay",
+      "name": "Ryan Narod",
+      "role": "VP, Corporate and Integrated Marketing",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "clay_stevie_case",
+      "company_id": "clay",
+      "name": "Stevie Case",
+      "role": "CRO",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "clay_scotty_huhn",
+      "company_id": "clay",
+      "name": "Scotty Huhn",
+      "role": "Revenue Strategy & Data",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "visibility": [],
+  "notes": "Extracted from scraped data on 2025-11-06. Events: 5 funding/announcement events found.",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

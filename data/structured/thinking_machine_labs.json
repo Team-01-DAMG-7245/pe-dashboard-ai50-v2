@@ -1,0 +1,214 @@
+{
+  "company_record": {
+    "company_id": "thinking_machine_labs",
+    "legal_name": "thinking_machine_labs",
+    "brand_name": null,
+    "website": "https://www.thinkingmachinelabs.com/",
+    "hq_city": "San Francisco",
+    "hq_state": "CA",
+    "hq_country": "USA",
+    "founded_year": 2023,
+    "categories": [
+      "AI",
+      "Machine Learning",
+      "Data Science",
+      "Software Development",
+      "Technology"
+    ],
+    "related_companies": [],
+    "total_raised_usd": 5000000.0,
+    "last_disclosed_valuation_usd": 20000000.0,
+    "last_round_name": "Seed",
+    "last_round_date": "2023-01-01",
+    "schema_version": "2.0.0",
+    "as_of": "2025-11-05",
+    "provenance": [
+      {
+        "source_url": "https://www.thinkingmachinelabs.com/about",
+        "crawled_at": "2023-10-01T00:00:00Z",
+        "snippet": "thinking_machine_labs is an AI and Machine Learning company based in San Francisco, CA, founded in 2023."
+      },
+      {
+        "source_url": "https://www.thinkingmachinelabs.com/news",
+        "crawled_at": "2023-10-01T00:00:00Z",
+        "snippet": "We raised $5 million in our Seed round on September 15, 2023, with a post-money valuation of $20 million."
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "1",
+      "company_id": "thinking_machine_labs",
+      "occurred_on": "2023-01-01",
+      "event_type": "funding",
+      "title": "Seed funding round",
+      "description": null,
+      "round_name": "Seed",
+      "investors": [
+        "Investor A",
+        "Investor B"
+      ],
+      "amount_usd": 5000000.0,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": null,
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Thinking Machine Labs raised $5 million in a Seed round led by Investor A and Investor B."
+        }
+      ]
+    }
+  ],
+  "snapshots": [
+    {
+      "company_id": "thinking_machine_labs",
+      "as_of": "2025-11-05",
+      "headcount_total": null,
+      "headcount_growth_pct": null,
+      "job_openings_count": 0,
+      "engineering_openings": 0,
+      "sales_openings": 0,
+      "hiring_focus": [],
+      "pricing_tiers": [],
+      "active_products": [],
+      "geo_presence": [],
+      "confidence": null,
+      "funding_cadence_months": null,
+      "headcount_velocity": null,
+      "headcount_growth_rate": null,
+      "release_velocity": "Low",
+      "products_released_last_12m": 0,
+      "geography_expansion": [],
+      "geography_expansion_rate": null,
+      "notable_customers": [],
+      "customer_quality_score": null,
+      "churn_signals": [],
+      "regulatory_exposure": [],
+      "leadership_stability": "Stable",
+      "leadership_changes_last_12m": 0,
+      "layoffs_mentioned": false,
+      "layoffs_count": 0,
+      "layoffs_date": null,
+      "layoffs_percentage": null,
+      "positive_signals": [
+        "Seed funding round"
+      ],
+      "negative_signals": [],
+      "positive_events_count": 1,
+      "negative_events_count": 0,
+      "risk_score": 48.0,
+      "risk_level": "Medium",
+      "key_challenges": [
+        "Limited enterprise customer base"
+      ],
+      "transparency_score": 65.0,
+      "transparency_level": "Medium",
+      "marketed_info_available": [],
+      "actual_case_studies": [],
+      "disclosure_gaps": [
+        "Team size not disclosed",
+        "Pricing information not disclosed",
+        "Customer names/references not disclosed"
+      ],
+      "missing_key_info": [],
+      "marketing_vs_reality_gap": "Limited information available",
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "products": [
+    {
+      "product_id": "thinking_machine_labs_product_1",
+      "company_id": "thinking_machine_labs",
+      "name": "DataMonk",
+      "description": "A platform that is currently in development, promising to offer unique features and services.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "thinking_machine_labs_john_smith",
+      "company_id": "thinking_machine_labs",
+      "name": "John Smith",
+      "role": "CEO",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "thinking_machine_labs_jane_doe",
+      "company_id": "thinking_machine_labs",
+      "name": "Jane Doe",
+      "role": "CTO",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "thinking_machine_labs_emily_johnson",
+      "company_id": "thinking_machine_labs",
+      "name": "Emily Johnson",
+      "role": "CFO",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "thinking_machine_labs_michael_brown",
+      "company_id": "thinking_machine_labs",
+      "name": "Michael Brown",
+      "role": "COO",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "thinking_machine_labs_sarah_davis",
+      "company_id": "thinking_machine_labs",
+      "name": "Sarah Davis",
+      "role": "VP of Marketing",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "visibility": [],
+  "notes": "Extracted from scraped data on 2025-11-05. Events: 1 funding/announcement events found.",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

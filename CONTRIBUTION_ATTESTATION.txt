@@ -1,6 +1,11 @@
 WE ATTEST THAT WE HAVEN’T USED ANY OTHER STUDENTS’ WORK IN OUR ASSIGNMENT AND ABIDE BY THE
 POLICIES LISTED IN THE STUDENT HANDBOOK
 
-member1: __%
-member2: __%
-member3: __%
+member1 (Swara): 40%
+member2 (Natnicha): 40%
+member3 (Kundana): 20%
+
+Roles Summary:
+ - Nat: Airflow DAGs deployment and frontend (Streamlit) work
+ - Swara: Scraping, structured extraction, report and dashboard generation
+ - Kundana: RAG-based extraction and retrieval

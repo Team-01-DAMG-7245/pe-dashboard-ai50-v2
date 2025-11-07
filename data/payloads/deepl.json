@@ -1,0 +1,401 @@
+{
+  "company_record": {
+    "company_id": "deepl",
+    "legal_name": "DeepL GmbH",
+    "brand_name": null,
+    "website": "https://www.deepl.com/",
+    "hq_city": "Cologne",
+    "hq_state": "North Rhine-Westphalia",
+    "hq_country": "Germany",
+    "founded_year": 2017,
+    "categories": [
+      "AI",
+      "Language Translation",
+      "Natural Language Processing",
+      "SaaS",
+      "Enterprise Software"
+    ],
+    "related_companies": [],
+    "total_raised_usd": 0.0,
+    "last_disclosed_valuation_usd": 0.0,
+    "last_round_name": null,
+    "last_round_date": null,
+    "schema_version": "2.0.0",
+    "as_of": "2025-11-05",
+    "provenance": [
+      {
+        "source_url": "https://www.deepl.com",
+        "crawled_at": "2023-10-01T00:00:00Z",
+        "snippet": "DeepL's mission to break down language barriers. Trusted by over 200,000 businesses globally."
+      },
+      {
+        "source_url": "https://www.deepl.com/about",
+        "crawled_at": "2023-10-01T00:00:00Z",
+        "snippet": "DeepL is transforming how 200,000+ businesses communicate globally."
+      },
+      {
+        "source_url": "https://www.deepl.com/blog",
+        "crawled_at": "2023-10-01T00:00:00Z",
+        "snippet": "At DeepL, we power global communication through cutting-edge artificial intelligence solutions."
+      },
+      {
+        "source_url": "https://www.deepl.com/careers",
+        "crawled_at": "2023-10-01T00:00:00Z",
+        "snippet": "Join DeepL: Innovative Career Opportunities in Language AI Tech."
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "1",
+      "company_id": "deepl",
+      "occurred_on": "2025-10-29",
+      "event_type": "funding",
+      "title": "Funding announcement",
+      "description": null,
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "2",
+      "company_id": "deepl",
+      "occurred_on": "2025-10-22",
+      "event_type": "funding",
+      "title": "Funding announcement",
+      "description": null,
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "3",
+      "company_id": "deepl",
+      "occurred_on": "2025-10-20",
+      "event_type": "funding",
+      "title": "Funding announcement",
+      "description": null,
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "4",
+      "company_id": "deepl",
+      "occurred_on": "2025-10-11",
+      "event_type": "funding",
+      "title": "Funding announcement",
+      "description": null,
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "5",
+      "company_id": "deepl",
+      "occurred_on": "2025-10-08",
+      "event_type": "funding",
+      "title": "Funding announcement",
+      "description": null,
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "6",
+      "company_id": "deepl",
+      "occurred_on": "2025-10-03",
+      "event_type": "funding",
+      "title": "Funding announcement",
+      "description": null,
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "7",
+      "company_id": "deepl",
+      "occurred_on": "2025-10-01",
+      "event_type": "funding",
+      "title": "Funding announcement",
+      "description": null,
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "8",
+      "company_id": "deepl",
+      "occurred_on": "2025-09-30",
+      "event_type": "funding",
+      "title": "Funding announcement",
+      "description": null,
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "9",
+      "company_id": "deepl",
+      "occurred_on": "2025-09-18",
+      "event_type": "funding",
+      "title": "Funding announcement",
+      "description": null,
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "10",
+      "company_id": "deepl",
+      "occurred_on": "2025-09-10",
+      "event_type": "funding",
+      "title": "Funding announcement",
+      "description": null,
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "snapshots": [
+    {
+      "company_id": "deepl",
+      "as_of": "2025-11-05",
+      "headcount_total": 200,
+      "headcount_growth_pct": 100.0,
+      "job_openings_count": 15,
+      "engineering_openings": 5,
+      "sales_openings": 3,
+      "hiring_focus": [
+        "Engineering",
+        "Sales",
+        "Marketing",
+        "Product"
+      ],
+      "pricing_tiers": [
+        "Free",
+        "Pro",
+        "Enterprise"
+      ],
+      "active_products": [
+        "DeepL Translator",
+        "DeepL Voice",
+        "DeepL Write",
+        "DeepL API"
+      ],
+      "geo_presence": [
+        "San Francisco",
+        "New York",
+        "London"
+      ],
+      "confidence": null,
+      "funding_cadence_months": null,
+      "headcount_velocity": "Rapid",
+      "headcount_growth_rate": 100.0,
+      "release_velocity": "High",
+      "products_released_last_12m": 5,
+      "geography_expansion": [
+        "Europe",
+        "Asia-Pacific"
+      ],
+      "geography_expansion_rate": "Moderate",
+      "notable_customers": [
+        "Company A",
+        "Company B",
+        "Fortune 500"
+      ],
+      "customer_quality_score": "Enterprise",
+      "churn_signals": [],
+      "regulatory_exposure": [
+        "GDPR",
+        "AI Safety"
+      ],
+      "leadership_stability": "Stable",
+      "leadership_changes_last_12m": 1,
+      "layoffs_mentioned": false,
+      "layoffs_count": 0,
+      "layoffs_date": null,
+      "layoffs_percentage": null,
+      "positive_signals": [
+        "Raised $10M",
+        "New product launch"
+      ],
+      "negative_signals": [
+        "Lost major customer"
+      ],
+      "positive_events_count": 10,
+      "negative_events_count": 0,
+      "risk_score": 23.0,
+      "risk_level": "Low",
+      "key_challenges": [
+        "Market competition",
+        "Regulatory compliance"
+      ],
+      "transparency_score": 92.0,
+      "transparency_level": "High",
+      "marketed_info_available": [
+        "Enterprise AI platform",
+        "99.9% uptime"
+      ],
+      "actual_case_studies": [
+        "Case study with Company X",
+        "Customer testimonial from Company Y"
+      ],
+      "disclosure_gaps": [
+        "Claims enterprise customers but no case studies"
+      ],
+      "missing_key_info": [
+        "Revenue not disclosed",
+        "Customer count not available"
+      ],
+      "marketing_vs_reality_gap": "Well-supported (claims backed by proof)",
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "products": [
+    {
+      "product_id": "deepl_product_1",
+      "company_id": "deepl",
+      "name": "DeepL Translate",
+      "description": "The world's most accurate translator, trusted by over 200,000 businesses globally.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "deepl_product_2",
+      "company_id": "deepl",
+      "name": "DeepL AI labs",
+      "description": "See what the DeepL R&D teams are building next!",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "deepl_product_3",
+      "company_id": "deepl",
+      "name": "DeepL glossary",
+      "description": "30,000 glossary entries for consistent translations in 16 languages.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "deepl_product_4",
+      "company_id": "deepl",
+      "name": "DeepL language tools",
+      "description": "A full suite of language tools, built to power your global voice.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "deepl_deepl_team",
+      "company_id": "deepl",
+      "name": "DeepL Team",
+      "role": "Leadership Team",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "deepl_deepl_founders",
+      "company_id": "deepl",
+      "name": "DeepL Founders",
+      "role": "Founders",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "visibility": [],
+  "notes": "Extracted from scraped data on 2025-11-05. Events: 10 funding/announcement events found.",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

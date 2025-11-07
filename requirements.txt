@@ -1,44 +1,56 @@
 # Core Web Framework & API
+
 fastapi==0.115.0
 uvicorn[standard]==0.30.6
 python-multipart==0.0.9
 
 # Data Validation & Models
+
 pydantic==2.4.2
 email-validator
 
 # Dashboard & UI
+
 streamlit==1.38.0
 
 # Workflow Orchestration (Airflow) - using 2.7.3 constraint versions
+
 apache-airflow==2.7.3 --constraint "https://raw.githubusercontent.com/apache/airflow/constraints-2.7.3/constraints-3.11.txt"
 flask-session==0.5.0
 
 # postgres Database
+
 psycopg2-binary==2.9.7
 
 # Web Scraping & Data Collection
+
 requests==2.31.0
 beautifulsoup4==4.12.2
 lxml==4.9.3
 selenium>=4.15.0
 
 # Cloud Storage 
+
 boto3==1.28.64
 python-dotenv==1.0.0
 
 # NumPy - Pin to 1.x for compatibility with ChromaDB and sentence-transformers
+
 numpy>=1.22.0,<2.0.0
 
 # Vector Database & RAG
+
 chromadb>=0.4.22
 sentence-transformers>=2.3.1
 tiktoken==0.5.2
 openai>=1.12.0
+
 # anthropic>=0.7.0
 
 # Structured Extraction
+
 instructor==0.5.2
 
 # Logging
+
 python-json-logger==2.0.7

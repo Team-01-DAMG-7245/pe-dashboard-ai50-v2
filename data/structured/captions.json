@@ -1,0 +1,154 @@
+{
+  "company_record": {
+    "company_id": "captions",
+    "legal_name": "ClearCaptions, LLC",
+    "brand_name": null,
+    "website": "https://www.clearcaptions.com/",
+    "hq_city": "None",
+    "hq_state": "None",
+    "hq_country": "USA",
+    "founded_year": null,
+    "categories": [
+      "Telecommunications",
+      "Accessibility",
+      "Assistive Technology",
+      "Captioning Services",
+      "Consumer Electronics"
+    ],
+    "related_companies": [],
+    "total_raised_usd": null,
+    "last_disclosed_valuation_usd": null,
+    "last_round_name": null,
+    "last_round_date": null,
+    "schema_version": "2.0.0",
+    "as_of": "2025-11-06",
+    "provenance": [
+      {
+        "source_url": "https://www.clearcaptions.com",
+        "crawled_at": "2023-10-01T00:00:00Z",
+        "snippet": "ClearCaptions is available to qualified, hard-of-hearing U.S. residents at no cost as part of the Title IV of the Americans with Disabilities Act (ADA)."
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "1",
+      "company_id": "captions",
+      "occurred_on": "2025-09-10",
+      "event_type": "funding",
+      "title": "Funding announcement",
+      "description": null,
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "snapshots": [
+    {
+      "company_id": "captions",
+      "as_of": "2025-11-06",
+      "headcount_total": 100,
+      "headcount_growth_pct": 20.0,
+      "job_openings_count": 15,
+      "engineering_openings": 5,
+      "sales_openings": 3,
+      "hiring_focus": [
+        "Engineering",
+        "Sales",
+        "Customer Support"
+      ],
+      "pricing_tiers": [
+        "Free"
+      ],
+      "active_products": [
+        "Captioned Telephone Service"
+      ],
+      "geo_presence": [
+        "United States"
+      ],
+      "confidence": null,
+      "funding_cadence_months": null,
+      "headcount_velocity": "Rapid",
+      "headcount_growth_rate": 20.0,
+      "release_velocity": "Medium",
+      "products_released_last_12m": 2,
+      "geography_expansion": [
+        "United States"
+      ],
+      "geography_expansion_rate": "Stable",
+      "notable_customers": [
+        "FCC",
+        "ADA"
+      ],
+      "customer_quality_score": "Mixed",
+      "churn_signals": [],
+      "regulatory_exposure": [
+        "ADA",
+        "FCC"
+      ],
+      "leadership_stability": "Stable",
+      "leadership_changes_last_12m": 1,
+      "layoffs_mentioned": false,
+      "layoffs_count": null,
+      "layoffs_date": null,
+      "layoffs_percentage": null,
+      "positive_signals": [
+        "Expanded service availability",
+        "Partnership with FCC"
+      ],
+      "negative_signals": [],
+      "positive_events_count": 1,
+      "negative_events_count": 0,
+      "risk_score": 51.0,
+      "risk_level": "High",
+      "key_challenges": [
+        "Regulatory compliance"
+      ],
+      "transparency_score": 57.0,
+      "transparency_level": "Low",
+      "marketed_info_available": [
+        "Free captioning service",
+        "Accessible for hard-of-hearing individuals"
+      ],
+      "actual_case_studies": [
+        "Case study with a major telecommunications provider"
+      ],
+      "disclosure_gaps": [
+        "Claims free service but lacks detailed customer testimonials"
+      ],
+      "missing_key_info": [
+        "Revenue not disclosed",
+        "Customer count not available"
+      ],
+      "marketing_vs_reality_gap": "Well-supported (claims backed by proof)",
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "products": [
+    {
+      "product_id": "captions_product_1",
+      "company_id": "captions",
+      "name": "ClearCaptions",
+      "description": "A no-cost service that provides on-screen captions of what your caller is saying in near-real time for individuals with hearing loss.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "leadership": [],
+  "visibility": [],
+  "notes": "Extracted from scraped data on 2025-11-06. Events: 1 funding/announcement events found.",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

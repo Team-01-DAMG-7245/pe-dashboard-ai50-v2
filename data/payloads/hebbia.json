@@ -1,0 +1,319 @@
+{
+  "company_record": {
+    "company_id": "hebbia",
+    "legal_name": "Hebbia Inc.",
+    "brand_name": null,
+    "website": "https://www.hebbia.com/",
+    "hq_city": "San Francisco",
+    "hq_state": "CA",
+    "hq_country": "USA",
+    "founded_year": 2020,
+    "categories": [
+      "AI",
+      "Enterprise Software",
+      "Finance",
+      "Legal Tech",
+      "Data Analytics"
+    ],
+    "related_companies": [],
+    "total_raised_usd": 130000000.0,
+    "last_disclosed_valuation_usd": null,
+    "last_round_name": "Series B",
+    "last_round_date": "2025-10-21",
+    "schema_version": "2.0.0",
+    "as_of": "2025-11-05",
+    "provenance": [
+      {
+        "source_url": "https://www.hebbia.com/about",
+        "crawled_at": "2023-10-21T00:00:00Z",
+        "snippet": "In 2020, Hebbia was one of the first companies to productionize LLMs, pioneering retrieval augmented generation (RAG). Since then we\u2019ve raised 4 rounds of financing."
+      },
+      {
+        "source_url": "https://www.hebbia.com/home",
+        "crawled_at": "2023-10-21T00:00:00Z",
+        "snippet": "Hebbia raises $130M Series B led by a16z."
+      },
+      {
+        "source_url": "https://www.hebbia.com/news",
+        "crawled_at": "2023-10-21T00:00:00Z",
+        "snippet": "Hebbia Opens Doors in San Francisco and Welcomes New CTO."
+      },
+      {
+        "source_url": "https://www.hebbia.com/careers",
+        "crawled_at": "2023-10-21T00:00:00Z",
+        "snippet": "We are building the most important software product of the next 100 years."
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "1",
+      "company_id": "hebbia",
+      "occurred_on": "2025-10-21",
+      "event_type": "funding",
+      "title": "Series B funding round",
+      "description": "Hebbia raises $130M Series B",
+      "round_name": "Series B",
+      "investors": [
+        "a16z"
+      ],
+      "amount_usd": 130000000.0,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "snapshots": [
+    {
+      "company_id": "hebbia",
+      "as_of": "2025-11-05",
+      "headcount_total": 500,
+      "headcount_growth_pct": null,
+      "job_openings_count": 22,
+      "engineering_openings": 12,
+      "sales_openings": 7,
+      "hiring_focus": [
+        "Engineering",
+        "Sales",
+        "Marketing",
+        "AI Strategy",
+        "Design"
+      ],
+      "pricing_tiers": null,
+      "active_products": [
+        "AI for Finance",
+        "Matrix"
+      ],
+      "geo_presence": [
+        "New York City",
+        "San Francisco, CA",
+        "London, UK"
+      ],
+      "confidence": null,
+      "funding_cadence_months": null,
+      "headcount_velocity": "Rapid",
+      "headcount_growth_rate": null,
+      "release_velocity": "High",
+      "products_released_last_12m": 0,
+      "geography_expansion": [
+        "San Francisco"
+      ],
+      "geography_expansion_rate": "Moderate",
+      "notable_customers": [
+        "JP Morgan",
+        "KKR",
+        "Sixth Street",
+        "Evercore",
+        "Lazard",
+        "Paul Hastings",
+        "YC"
+      ],
+      "customer_quality_score": "Enterprise",
+      "churn_signals": [],
+      "regulatory_exposure": [],
+      "leadership_stability": "Growing",
+      "leadership_changes_last_12m": 1,
+      "layoffs_mentioned": false,
+      "layoffs_count": null,
+      "layoffs_date": null,
+      "layoffs_percentage": null,
+      "positive_signals": [
+        "Raised $130M Series B",
+        "Opened new office in San Francisco"
+      ],
+      "negative_signals": [],
+      "positive_events_count": 1,
+      "negative_events_count": 0,
+      "risk_score": 33.0,
+      "risk_level": "Medium",
+      "key_challenges": [],
+      "transparency_score": 85.0,
+      "transparency_level": "High",
+      "marketed_info_available": [
+        "AI platform for finance",
+        "1000+ live use cases",
+        "$14T AUM of firms using Hebbia"
+      ],
+      "actual_case_studies": [],
+      "disclosure_gaps": [
+        "Pricing information not disclosed",
+        "Marketing claims lack supporting case studies"
+      ],
+      "missing_key_info": [],
+      "marketing_vs_reality_gap": "Large gap (marketing claims without case studies)",
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://www.linkedin.com/company/hebbia",
+          "crawled_at": "2023-10-21T00:00:00Z",
+          "snippet": "Company Size: 201-500 employees"
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "product_id": "hebbia_product_1",
+      "company_id": "hebbia",
+      "name": "Matrix",
+      "description": "The AI interface for serious work that executes complex multi-step workflows, reasons over any amount and modality of data, and provides total transparency with enterprise security.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "hebbia_product_2",
+      "company_id": "hebbia",
+      "name": "Hebbia",
+      "description": "An AI platform for finance that integrates generative AI to create value from day one, with a wealth of use cases across various sectors.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "hebbia_eric_schmidt",
+      "company_id": "hebbia",
+      "name": "Eric Schmidt",
+      "role": "Chief Technology Officer",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "hebbia_charlie_pickell",
+      "company_id": "hebbia",
+      "name": "Charlie Pickell",
+      "role": "Business Operations",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "hebbia_shirley_kabir",
+      "company_id": "hebbia",
+      "name": "Shirley Kabir",
+      "role": "Software Engineer",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "hebbia_ava_ford",
+      "company_id": "hebbia",
+      "name": "Ava Ford",
+      "role": "Sales",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "hebbia_andoni_tsougarakis",
+      "company_id": "hebbia",
+      "name": "Andoni Tsougarakis",
+      "role": "Sales",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "hebbia_ammar_husain",
+      "company_id": "hebbia",
+      "name": "Ammar Husain",
+      "role": "Engineering Manager",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "hebbia_ryan_samii",
+      "company_id": "hebbia",
+      "name": "Ryan Samii",
+      "role": "Head of Legal",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "hebbia_eric_macblane",
+      "company_id": "hebbia",
+      "name": "Eric MacBlane",
+      "role": "Business Operations",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "hebbia_erin_winchester",
+      "company_id": "hebbia",
+      "name": "Erin Winchester",
+      "role": "Business Operations",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "visibility": [],
+  "notes": "Extracted from scraped data on 2025-11-05. Events: 1 funding/announcement events found.",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

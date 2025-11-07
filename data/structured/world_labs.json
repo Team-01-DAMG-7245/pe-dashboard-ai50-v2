@@ -1,0 +1,257 @@
+{
+  "company_record": {
+    "company_id": "world_labs",
+    "legal_name": "World of Labs Trading Establishment",
+    "brand_name": null,
+    "website": "https://www.wlabs.sa/",
+    "hq_city": "Riyadh",
+    "hq_state": null,
+    "hq_country": "Saudi Arabia",
+    "founded_year": null,
+    "categories": [
+      "Medical Equipment",
+      "Analytical Instruments",
+      "Laboratory Supplies",
+      "Healthcare Solutions",
+      "Pharmaceutical Testing"
+    ],
+    "related_companies": [],
+    "total_raised_usd": null,
+    "last_disclosed_valuation_usd": null,
+    "last_round_name": "Seed round",
+    "last_round_date": "2020-01-01",
+    "schema_version": "2.0.0",
+    "as_of": "2025-11-05",
+    "provenance": [
+      {
+        "source_url": "https://www.wlabs.sa",
+        "crawled_at": "2023-10-01T00:00:00Z",
+        "snippet": "World of Labs Trading Establishment, supplies Analytical, Medical Equipment, Solutions & Kits, as well as installing, operating and recommend the correct equipment and provide training for its use."
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "1",
+      "company_id": "world_labs",
+      "occurred_on": "2020-01-01",
+      "event_type": "funding",
+      "title": "Funding round",
+      "description": null,
+      "round_name": "Seed round",
+      "investors": null,
+      "amount_usd": 0.0,
+      "valuation_usd": 0.0,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "snapshots": [
+    {
+      "company_id": "world_labs",
+      "as_of": "2025-11-05",
+      "headcount_total": 387,
+      "headcount_growth_pct": null,
+      "job_openings_count": 0,
+      "engineering_openings": 0,
+      "sales_openings": 0,
+      "hiring_focus": [
+        "Medical Equipment",
+        "Analytical Solutions"
+      ],
+      "pricing_tiers": [],
+      "active_products": [
+        "Analytical instrument",
+        "Process and Environment",
+        "Pharmaceutical Testing",
+        "Disposable & Consumables",
+        "Microbiology & Microscopy"
+      ],
+      "geo_presence": [
+        "Riyadh, Saudi Arabia"
+      ],
+      "confidence": null,
+      "funding_cadence_months": null,
+      "headcount_velocity": null,
+      "headcount_growth_rate": null,
+      "release_velocity": "Low",
+      "products_released_last_12m": 0,
+      "geography_expansion": [],
+      "geography_expansion_rate": null,
+      "notable_customers": [
+        "Hain Lifescience",
+        "NORMAX",
+        "MICROBIOLOGICS",
+        "ERWEKA",
+        "Associates of CAPE",
+        "Altus science"
+      ],
+      "customer_quality_score": "Mixed",
+      "churn_signals": [],
+      "regulatory_exposure": [],
+      "leadership_stability": "Stable",
+      "leadership_changes_last_12m": 0,
+      "layoffs_mentioned": null,
+      "layoffs_count": null,
+      "layoffs_date": null,
+      "layoffs_percentage": null,
+      "positive_signals": [
+        "Strong presence in Saudi Arabia",
+        "Over 7300 happy customers",
+        "Over 8200 clients",
+        "2000+ products offered"
+      ],
+      "negative_signals": [],
+      "positive_events_count": 1,
+      "negative_events_count": 0,
+      "risk_score": 43.0,
+      "risk_level": "Medium",
+      "key_challenges": [],
+      "transparency_score": 52.0,
+      "transparency_level": "Low",
+      "marketed_info_available": [
+        "Provider of choice in Medical & Laboratory Equipment",
+        "Outstanding customer satisfaction",
+        "High-quality products and services"
+      ],
+      "actual_case_studies": [],
+      "disclosure_gaps": [
+        "Claims to have a strong presence but lacks specific growth metrics"
+      ],
+      "missing_key_info": [
+        "Headcount growth percentage not disclosed",
+        "Job openings not available"
+      ],
+      "marketing_vs_reality_gap": "Large gap (marketing claims without case studies)",
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "products": [
+    {
+      "product_id": "world_labs_product_1",
+      "company_id": "world_labs",
+      "name": "Hain Lifescience",
+      "description": "Hain Lifescience GmbH is a manufacturer and distributor of in-vitro diagnostics.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "world_labs_product_2",
+      "company_id": "world_labs",
+      "name": "NORMAX",
+      "description": "Normax - F\u00e1brica de Vidros has been operational since January 2nd, 1975.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "world_labs_product_3",
+      "company_id": "world_labs",
+      "name": "MICROBIOLOGICS",
+      "description": "Microbilogics is the leading provider of ready-to-use QC microorganisms.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "world_labs_product_4",
+      "company_id": "world_labs",
+      "name": "ERWEKA",
+      "description": "ERWEKA is a leading international manufacturer of test equipment.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "world_labs_product_5",
+      "company_id": "world_labs",
+      "name": "Associates of CAPE",
+      "description": "Specializing in chromogenic and turbidimetric reagent technologies.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "world_labs_product_6",
+      "company_id": "world_labs",
+      "name": "Altus Science",
+      "description": "Altus Science is a company involved in scientific research and development.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "world_labs_world_of_labs",
+      "company_id": "world_labs",
+      "name": "World of Labs",
+      "role": "Founder",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "world_labs_ceo",
+      "company_id": "world_labs",
+      "name": "CEO",
+      "role": "CEO",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "visibility": [],
+  "notes": "Extracted from scraped data on 2025-11-05. Events: 1 funding/announcement events found.",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

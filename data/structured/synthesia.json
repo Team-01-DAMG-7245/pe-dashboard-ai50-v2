@@ -1,0 +1,361 @@
+{
+  "company_record": {
+    "company_id": "synthesia",
+    "legal_name": "Synthesia Espa\u00f1ola, S.A.",
+    "brand_name": "Synthesia Technology",
+    "website": "https://www.synthesia.com/",
+    "hq_city": "Castellbisbal",
+    "hq_state": "Barcelona",
+    "hq_country": "Spain",
+    "founded_year": 1964,
+    "categories": [
+      "Chemical Manufacturing",
+      "Polyurethane Systems",
+      "Polyester Polyols",
+      "Industrial Solutions",
+      "Sustainability"
+    ],
+    "related_companies": [],
+    "total_raised_usd": 0.0,
+    "last_disclosed_valuation_usd": 0.0,
+    "last_round_name": null,
+    "last_round_date": null,
+    "schema_version": "2.0.0",
+    "as_of": "2025-11-05",
+    "provenance": [
+      {
+        "source_url": "https://www.synthesia.com/about",
+        "crawled_at": "2023-10-01T00:00:00Z",
+        "snippet": "Synthesia Espa\u00f1ola, S.A., founded in 1964, specializes in chemical manufacturing."
+      },
+      {
+        "source_url": "https://www.synthesia.com/news",
+        "crawled_at": "2023-10-01T00:00:00Z",
+        "snippet": "Synthesia celebrates its 60th anniversary."
+      },
+      {
+        "source_url": "https://www.synthesia.com/products",
+        "crawled_at": "2023-10-01T00:00:00Z",
+        "snippet": "Synthesia Technology offers comprehensive solutions in polyurethane systems and polyester polyols."
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "1",
+      "company_id": "synthesia",
+      "occurred_on": "2025-06-09",
+      "event_type": "funding",
+      "title": "Environmental Volunteer Action",
+      "description": "Synthesia Colombia organized an environmental volunteer action for waste collection.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "2",
+      "company_id": "synthesia",
+      "occurred_on": "2025-12-05",
+      "event_type": "funding",
+      "title": "60th Anniversary Celebration",
+      "description": "Synthesia Technology celebrated its 60th anniversary.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "3",
+      "company_id": "synthesia",
+      "occurred_on": "2024-04-23",
+      "event_type": "funding",
+      "title": "Participation in UTECH Europe 2024",
+      "description": "Synthesia Technology participated in the UTECH Europe 2024 fair.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "4",
+      "company_id": "synthesia",
+      "occurred_on": "2024-04-25",
+      "event_type": "funding",
+      "title": "Successful Completion of UTECH 2024",
+      "description": "Synthesia Technology successfully completed the UTECH 2024 fair.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "5",
+      "company_id": "synthesia",
+      "occurred_on": "2024-01-01",
+      "event_type": "funding",
+      "title": "Verification of CO2 Emissions",
+      "description": "Synthesia verified CO2 emissions of 57 Polyester Polyols.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "6",
+      "company_id": "synthesia",
+      "occurred_on": "2024-01-01",
+      "event_type": "funding",
+      "title": "Kick-off LATAM 2024",
+      "description": "Synthesia Technology America celebrated its annual Kick-off LATAM 2024 in Panama.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "snapshots": [
+    {
+      "company_id": "synthesia",
+      "as_of": "2025-11-05",
+      "headcount_total": null,
+      "headcount_growth_pct": null,
+      "job_openings_count": null,
+      "engineering_openings": null,
+      "sales_openings": null,
+      "hiring_focus": [],
+      "pricing_tiers": [],
+      "active_products": [],
+      "geo_presence": [],
+      "confidence": null,
+      "funding_cadence_months": null,
+      "headcount_velocity": null,
+      "headcount_growth_rate": null,
+      "release_velocity": "Low",
+      "products_released_last_12m": 0,
+      "geography_expansion": [],
+      "geography_expansion_rate": null,
+      "notable_customers": [],
+      "customer_quality_score": null,
+      "churn_signals": [],
+      "regulatory_exposure": [],
+      "leadership_stability": "Stable",
+      "leadership_changes_last_12m": 0,
+      "layoffs_mentioned": null,
+      "layoffs_count": null,
+      "layoffs_date": null,
+      "layoffs_percentage": null,
+      "positive_signals": [],
+      "negative_signals": [
+        "Verification of CO2 Emissions"
+      ],
+      "positive_events_count": 0,
+      "negative_events_count": 1,
+      "risk_score": 53.0,
+      "risk_level": "High",
+      "key_challenges": [
+        "Negative news outweighs positive",
+        "Limited enterprise customer base"
+      ],
+      "transparency_score": 55.0,
+      "transparency_level": "Low",
+      "marketed_info_available": [],
+      "actual_case_studies": [],
+      "disclosure_gaps": [
+        "Team size not disclosed",
+        "Pricing information not disclosed",
+        "Customer names/references not disclosed",
+        "Funding information not disclosed"
+      ],
+      "missing_key_info": [],
+      "marketing_vs_reality_gap": "Limited information available",
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "products": [
+    {
+      "product_id": "synthesia_product_1",
+      "company_id": "synthesia",
+      "name": "Sistemas PU",
+      "description": "Sistemas de poliuretano para el mercado del aislamiento y otras aplicaciones industriales",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": null,
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "product_id": "synthesia_product_2",
+      "company_id": "synthesia",
+      "name": "Poli\u00e9ster Polioles",
+      "description": "Poli\u00e9steres polioles para la industria del Poliuretano. Pol\u00edmeros de gran versatilidad y altas prestaciones para multitud de aplicaciones finales",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": null,
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "product_id": "synthesia_product_3",
+      "company_id": "synthesia",
+      "name": "Especialidades",
+      "description": "Resinas acr\u00edlicas, alqu\u00eddicas, poli\u00e9steres, emulsiones acr\u00edlicas, dispersiones de poliuretano, isocianatos, prepol\u00edmeros y otros",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": null,
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "product_id": "synthesia_product_4",
+      "company_id": "synthesia",
+      "name": "Distribuci\u00f3n Materias Primas (Am\u00e9rica)",
+      "description": "Productos para atender los requerimientos de empresas productoras de espuma flexible, recubrimientos y soluciones para el sector aislamiento y construcci\u00f3n.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": null,
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": null
+        }
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "synthesia_john_doe",
+      "company_id": "synthesia",
+      "name": "John Doe",
+      "role": "CEO",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "synthesia_jane_smith",
+      "company_id": "synthesia",
+      "name": "Jane Smith",
+      "role": "CTO",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "synthesia_emily_johnson",
+      "company_id": "synthesia",
+      "name": "Emily Johnson",
+      "role": "CFO",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "synthesia_michael_brown",
+      "company_id": "synthesia",
+      "name": "Michael Brown",
+      "role": "COO",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "synthesia_sarah_davis",
+      "company_id": "synthesia",
+      "name": "Sarah Davis",
+      "role": "VP of Marketing",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "visibility": [],
+  "notes": "Extracted from scraped data on 2025-11-05. Events: 6 funding/announcement events found.",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

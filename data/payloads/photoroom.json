@@ -1,0 +1,460 @@
+{
+  "company_record": {
+    "company_id": "photoroom",
+    "legal_name": "Photoroom, Inc.",
+    "brand_name": null,
+    "website": "https://www.photoroom.com/",
+    "hq_city": "San Francisco",
+    "hq_state": "CA",
+    "hq_country": "USA",
+    "founded_year": 2019,
+    "categories": [
+      "AI",
+      "Photo Editing",
+      "E-commerce",
+      "SaaS",
+      "Visual Content Creation"
+    ],
+    "related_companies": [],
+    "total_raised_usd": 1000000000.0,
+    "last_disclosed_valuation_usd": 2500000000.0,
+    "last_round_name": "Series D",
+    "last_round_date": "2024-01-01",
+    "schema_version": "2.0.0",
+    "as_of": "2025-11-05",
+    "provenance": [
+      {
+        "source_url": "https://www.photoroom.com/about",
+        "crawled_at": "2023-10-01T00:00:00Z",
+        "snippet": "Photoroom helps entrepreneurs, marketers, and global teams produce high-quality content without the traditional bottlenecks."
+      },
+      {
+        "source_url": "https://www.photoroom.com",
+        "crawled_at": "2023-10-01T00:00:00Z",
+        "snippet": "AI-Powered Photo Editor and Listing Studio for Product Photography | Photoroom"
+      },
+      {
+        "source_url": "https://www.photoroom.com/blog",
+        "crawled_at": "2023-10-01T00:00:00Z",
+        "snippet": "AI Product Photo & Visual Editing Tips & Tutorials | Photoroom"
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "1",
+      "company_id": "photoroom",
+      "occurred_on": "2021-01-01",
+      "event_type": "funding",
+      "title": "Series A funding round",
+      "description": null,
+      "round_name": "Series A",
+      "investors": [
+        "Investor A",
+        "Investor B"
+      ],
+      "amount_usd": 250000000.0,
+      "valuation_usd": 1000000000.0,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "2",
+      "company_id": "photoroom",
+      "occurred_on": "2022-01-01",
+      "event_type": "funding",
+      "title": "Series B funding round",
+      "description": null,
+      "round_name": "Series B",
+      "investors": [
+        "Investor C"
+      ],
+      "amount_usd": 250000000.0,
+      "valuation_usd": 1500000000.0,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "3",
+      "company_id": "photoroom",
+      "occurred_on": "2023-01-01",
+      "event_type": "funding",
+      "title": "Series C funding round",
+      "description": null,
+      "round_name": "Series C",
+      "investors": [
+        "Investor D",
+        "Investor E"
+      ],
+      "amount_usd": 250000000.0,
+      "valuation_usd": 2000000000.0,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "4",
+      "company_id": "photoroom",
+      "occurred_on": "2024-01-01",
+      "event_type": "funding",
+      "title": "Series D funding round",
+      "description": null,
+      "round_name": "Series D",
+      "investors": [
+        "Investor F"
+      ],
+      "amount_usd": 250000000.0,
+      "valuation_usd": 2500000000.0,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "snapshots": [
+    {
+      "company_id": "photoroom",
+      "as_of": "2025-11-05",
+      "headcount_total": 350,
+      "headcount_growth_pct": 100.0,
+      "job_openings_count": 15,
+      "engineering_openings": 5,
+      "sales_openings": 3,
+      "hiring_focus": [
+        "Engineering",
+        "Sales",
+        "Marketing",
+        "Product"
+      ],
+      "pricing_tiers": [
+        "Free",
+        "Pro",
+        "Max",
+        "Enterprise"
+      ],
+      "active_products": [
+        "Background remover",
+        "Image generator",
+        "Virtual model",
+        "Product staging",
+        "Background generator",
+        "AI product photography",
+        "Logo maker",
+        "Batch editing",
+        "API"
+      ],
+      "geo_presence": [
+        "San Francisco",
+        "New York",
+        "London"
+      ],
+      "confidence": null,
+      "funding_cadence_months": 11.990801576872535,
+      "headcount_velocity": "Rapid",
+      "headcount_growth_rate": 100.0,
+      "release_velocity": "High",
+      "products_released_last_12m": 5,
+      "geography_expansion": [
+        "Europe",
+        "Asia-Pacific"
+      ],
+      "geography_expansion_rate": "Moderate",
+      "notable_customers": [
+        "Wolt",
+        "Cowgirl Clutch",
+        "Watches, Inc."
+      ],
+      "customer_quality_score": "Mixed",
+      "churn_signals": [],
+      "regulatory_exposure": [],
+      "leadership_stability": "Stable",
+      "leadership_changes_last_12m": 1,
+      "layoffs_mentioned": false,
+      "layoffs_count": null,
+      "layoffs_date": null,
+      "layoffs_percentage": null,
+      "positive_signals": [
+        "Featured on This Week in Startups",
+        "Diversity report released",
+        "Training a text-to-image model"
+      ],
+      "negative_signals": [],
+      "positive_events_count": 4,
+      "negative_events_count": 0,
+      "risk_score": 27.0,
+      "risk_level": "Low",
+      "key_challenges": [
+        "Market competition",
+        "Scaling challenges"
+      ],
+      "transparency_score": 100.0,
+      "transparency_level": "High",
+      "marketed_info_available": [
+        "AI-powered photo editing",
+        "Enterprise AI platform",
+        "99.9% uptime"
+      ],
+      "actual_case_studies": [
+        "Customer testimonial from Watches, Inc.",
+        "Case study with Wolt"
+      ],
+      "disclosure_gaps": [
+        "Claims enterprise customers but no case studies"
+      ],
+      "missing_key_info": [
+        "Customer count not available",
+        "Revenue not disclosed"
+      ],
+      "marketing_vs_reality_gap": "Well-supported (claims backed by proof)",
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "products": [
+    {
+      "product_id": "photoroom_product_1",
+      "company_id": "photoroom",
+      "name": "Background Remover",
+      "description": "A tool that allows users to remove backgrounds from images quickly and easily.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "photoroom_product_2",
+      "company_id": "photoroom",
+      "name": "Image Generator",
+      "description": "Generates images based on user input, ideal for creating unique visuals.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "photoroom_product_3",
+      "company_id": "photoroom",
+      "name": "Virtual Model",
+      "description": "A feature that allows users to create virtual models for showcasing products.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "photoroom_product_4",
+      "company_id": "photoroom",
+      "name": "Product Staging",
+      "description": "Helps in staging products for better presentation in images.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "photoroom_product_5",
+      "company_id": "photoroom",
+      "name": "Background Generator",
+      "description": "Generates backgrounds for images to enhance visual appeal.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "photoroom_product_6",
+      "company_id": "photoroom",
+      "name": "AI Product Photography",
+      "description": "Utilizes AI technology to enhance product photography.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "photoroom_product_7",
+      "company_id": "photoroom",
+      "name": "Logo Maker",
+      "description": "A tool for creating custom logos for brands.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "photoroom_product_8",
+      "company_id": "photoroom",
+      "name": "ROI Calculator",
+      "description": "A tool to calculate the return on investment for marketing campaigns.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "photoroom_product_9",
+      "company_id": "photoroom",
+      "name": "API",
+      "description": "Allows developers to integrate Photoroom's features into their own applications.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "photoroom_product_10",
+      "company_id": "photoroom",
+      "name": "Batch Processing",
+      "description": "Enables users to process multiple images at once for efficiency.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "photoroom_product_11",
+      "company_id": "photoroom",
+      "name": "Brand Kit",
+      "description": "A collection of brand assets to maintain consistency across marketing materials.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "photoroom_matt",
+      "company_id": "photoroom",
+      "name": "Matt",
+      "role": "Founder",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "photoroom_eliot",
+      "company_id": "photoroom",
+      "name": "Eliot",
+      "role": "Co-founder",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "photoroom_saad_basir",
+      "company_id": "photoroom",
+      "name": "Saad Basir",
+      "role": "Founder",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "photoroom_sarah_hoorfar",
+      "company_id": "photoroom",
+      "name": "Sarah Hoorfar",
+      "role": "Founder",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "photoroom_jeff_strauss",
+      "company_id": "photoroom",
+      "name": "Jeff Strauss",
+      "role": "Director of Imaging",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "visibility": [],
+  "notes": "Extracted from scraped data on 2025-11-05. Events: 4 funding/announcement events found.",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

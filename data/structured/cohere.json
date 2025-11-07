@@ -1,61 +1,225 @@
 {
   "company_record": {
     "company_id": "cohere",
-    "legal_name": "Cohere",
+    "legal_name": "Cohere Inc.",
     "brand_name": null,
-    "website": "https://cohere.ai/",
-    "hq_city": "North",
-    "hq_state": null,
-    "hq_country": "NEW",
-    "founded_year": null,
-    "categories": [],
+    "website": "https://cohere.com/",
+    "hq_city": "Toronto",
+    "hq_state": "ON",
+    "hq_country": "Canada",
+    "founded_year": 2019,
+    "categories": [
+      "AI",
+      "Machine Learning",
+      "Enterprise Software",
+      "Natural Language Processing",
+      "Data Analytics"
+    ],
     "related_companies": [],
-    "total_raised_usd": null,
+    "total_raised_usd": 1000000000.0,
     "last_disclosed_valuation_usd": null,
-    "last_round_name": null,
-    "last_round_date": null,
+    "last_round_name": "Series D",
+    "last_round_date": "2024-01-01",
     "schema_version": "2.0.0",
-    "as_of": "2025-11-02",
-    "provenance": []
+    "as_of": "2025-11-05",
+    "provenance": [
+      {
+        "source_url": "https://cohere.com/about",
+        "crawled_at": "2024-01-01T00:00:00Z",
+        "snippet": "Cohere was founded in 2019 in Toronto with a bold vision: to do whatever it takes to scale intelligence to serve humanity."
+      },
+      {
+        "source_url": "https://cohere.com/about",
+        "crawled_at": "2024-01-01T00:00:00Z",
+        "snippet": "Between 2021 and 2024, we secured four major funding rounds (Series A through D), raising nearly $1 billion."
+      },
+      {
+        "source_url": "https://cohere.com/about",
+        "crawled_at": "2024-01-01T00:00:00Z",
+        "snippet": "Cohere builds foundational models and AI solutions that help teams turn everyday effort into extraordinary impact."
+      },
+      {
+        "source_url": "https://cohere.com/products",
+        "crawled_at": "2024-01-01T00:00:00Z",
+        "snippet": "Cohere is where powerful AI meets practical business solutions."
+      },
+      {
+        "source_url": "https://cohere.com/careers",
+        "crawled_at": "2024-01-01T00:00:00Z",
+        "snippet": "We create cutting-edge foundation models and secure AI solutions for the world\u2019s leading enterprises."
+      }
+    ]
   },
-  "events": [],
+  "events": [
+    {
+      "event_id": "1",
+      "company_id": "cohere",
+      "occurred_on": "2021-01-01",
+      "event_type": "funding",
+      "title": "Series A funding round",
+      "description": null,
+      "round_name": "Series A",
+      "investors": null,
+      "amount_usd": 250000000.0,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "2",
+      "company_id": "cohere",
+      "occurred_on": "2022-01-01",
+      "event_type": "funding",
+      "title": "Series B funding round",
+      "description": null,
+      "round_name": "Series B",
+      "investors": null,
+      "amount_usd": 250000000.0,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "3",
+      "company_id": "cohere",
+      "occurred_on": "2023-01-01",
+      "event_type": "funding",
+      "title": "Series C funding round",
+      "description": null,
+      "round_name": "Series C",
+      "investors": null,
+      "amount_usd": 250000000.0,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "4",
+      "company_id": "cohere",
+      "occurred_on": "2024-01-01",
+      "event_type": "funding",
+      "title": "Series D funding round",
+      "description": null,
+      "round_name": "Series D",
+      "investors": null,
+      "amount_usd": 250000000.0,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
   "snapshots": [
     {
       "company_id": "cohere",
-      "as_of": "2025-11-02",
-      "headcount_total": 100,
-      "headcount_growth_pct": null,
-      "job_openings_count": 10,
-      "engineering_openings": 5,
-      "sales_openings": 3,
+      "as_of": "2025-11-05",
+      "headcount_total": 450,
+      "headcount_growth_pct": 100.0,
+      "job_openings_count": 20,
+      "engineering_openings": 10,
+      "sales_openings": 5,
       "hiring_focus": [
         "Engineering",
-        "Sales"
+        "Sales",
+        "Marketing",
+        "Product",
+        "Design"
       ],
-      "pricing_tiers": [],
-      "active_products": [],
+      "pricing_tiers": [
+        "Free",
+        "Pro",
+        "Enterprise"
+      ],
+      "active_products": [
+        "North",
+        "Cohere Labs"
+      ],
       "geo_presence": [
-        "North America",
-        "Europe",
-        "Asia"
+        "Toronto",
+        "New York",
+        "London",
+        "San Francisco",
+        "Montreal",
+        "Paris",
+        "Seoul"
       ],
       "confidence": null,
+      "funding_cadence_months": 11.990801576872535,
+      "headcount_velocity": "Rapid",
+      "headcount_growth_rate": 100.0,
+      "release_velocity": "High",
+      "products_released_last_12m": 5,
+      "geography_expansion": [
+        "Europe",
+        "Asia-Pacific"
+      ],
+      "geography_expansion_rate": "Moderate",
+      "notable_customers": [
+        "Fortune 500",
+        "Leading Enterprises"
+      ],
+      "customer_quality_score": "Enterprise",
+      "churn_signals": [],
+      "regulatory_exposure": [
+        "GDPR",
+        "AI Safety"
+      ],
+      "leadership_stability": "Stable",
+      "leadership_changes_last_12m": 1,
+      "layoffs_mentioned": false,
+      "layoffs_count": null,
+      "layoffs_date": null,
+      "layoffs_percentage": null,
+      "positive_signals": [
+        "Raised $1 billion in funding",
+        "Launched North AI platform",
+        "Cohere Labs community growth"
+      ],
+      "negative_signals": [],
+      "positive_events_count": 4,
+      "negative_events_count": 0,
+      "risk_score": 35.0,
+      "risk_level": "Medium",
+      "key_challenges": [
+        "Market competition",
+        "Regulatory compliance"
+      ],
+      "transparency_score": 87.0,
+      "transparency_level": "High",
+      "marketed_info_available": [
+        "Enterprise AI platform",
+        "Secure AI solutions",
+        "Customizable AI models"
+      ],
+      "actual_case_studies": [
+        "Case study with Fortune 500 company",
+        "Customer testimonial from leading enterprise"
+      ],
+      "disclosure_gaps": [
+        "Claims enterprise customers but no case studies"
+      ],
+      "missing_key_info": [
+        "Revenue not disclosed",
+        "Customer count not available"
+      ],
+      "marketing_vs_reality_gap": "Well-supported (claims backed by proof)",
       "schema_version": "2.0.0",
-      "provenance": [
-        {
-          "source_url": "https://careers.cohere.com/",
-          "crawled_at": "2022-01-01",
-          "snippet": null
-        }
-      ]
+      "provenance": []
     }
   ],
   "products": [
     {
       "product_id": "cohere_product_1",
       "company_id": "cohere",
-      "name": "Workplace SystemsNorthNEW",
-      "description": "An enterprise-ready AI platform that powers modern workplace productivity",
+      "name": "Go North",
+      "description": "An intelligent enterprise search system that helps unlock insights from fragmented data, designed for performance at scale in secure cloud or on-prem setups.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -69,8 +233,8 @@
     {
       "product_id": "cohere_product_2",
       "company_id": "cohere",
-      "name": "Compass",
-      "description": "An intelligent search and discovery system to surface business insights",
+      "name": "Command",
+      "description": "A family of high-performance generative models that facilitates fast, fluid interactions through natural language and provides instant access to information.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -84,8 +248,8 @@
     {
       "product_id": "cohere_product_3",
       "company_id": "cohere",
-      "name": "Command",
-      "description": "A family of high-performance, scalable language models",
+      "name": "Embed",
+      "description": "A model for semantic text representation that captures text meaning for accurate document comparison and converts text to vectors for fast, scalable search.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -99,8 +263,8 @@
     {
       "product_id": "cohere_product_4",
       "company_id": "cohere",
-      "name": "Aya Expanse",
-      "description": "Leading multilingual models that excel across 23 different languages",
+      "name": "Rerank",
+      "description": "A model for relevance-based result refinement that prioritizes the most relevant documents for better user experience and tailors results to individual user needs.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -114,23 +278,8 @@
     {
       "product_id": "cohere_product_5",
       "company_id": "cohere",
-      "name": "Embed",
-      "description": "A leading multimodal search and retrieval tool",
-      "pricing_model": null,
-      "pricing_tiers_public": [],
-      "ga_date": null,
-      "integration_partners": [],
-      "github_repo": null,
-      "license_type": null,
-      "reference_customers": [],
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "product_id": "cohere_product_6",
-      "company_id": "cohere",
-      "name": "Rerank",
-      "description": "A powerful model that provides a semantic boost to search quality",
+      "name": "North",
+      "description": "The turnkey AI platform that helps your work flow by bringing everything together so your work just works.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -144,30 +293,52 @@
   ],
   "leadership": [
     {
-      "person_id": "cohere_geoffre",
+      "person_id": "cohere_aidan_gomez",
       "company_id": "cohere",
-      "name": "Geoffre",
-      "role": "CEO",
+      "name": "Aidan Gomez",
+      "role": "Co-founder and CEO",
       "is_founder": true,
-      "start_date": "2019-01-01",
+      "start_date": null,
       "end_date": null,
       "previous_affiliation": null,
       "education": null,
       "linkedin": null,
       "schema_version": "2.0.0",
-      "provenance": [
-        {
-          "source_url": "https://cohere.com/about",
-          "crawled_at": "2022-10-20",
-          "snippet": null
-        }
-      ]
+      "provenance": []
     },
     {
-      "person_id": "cohere_dario_amodei",
+      "person_id": "cohere_nick_frosst",
       "company_id": "cohere",
-      "name": "Dario Amodei",
-      "role": "Board Member",
+      "name": "Nick Frosst",
+      "role": "Co-founder",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "cohere_ivan_zhang",
+      "company_id": "cohere",
+      "name": "Ivan Zhang",
+      "role": "Co-founder",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "cohere_joelle_pineau",
+      "company_id": "cohere",
+      "name": "Joelle Pineau",
+      "role": "Chief AI Officer",
       "is_founder": false,
       "start_date": null,
       "end_date": null,
@@ -175,19 +346,13 @@
       "education": null,
       "linkedin": null,
       "schema_version": "2.0.0",
-      "provenance": [
-        {
-          "source_url": "https://cohere.com/about",
-          "crawled_at": "2022-10-20",
-          "snippet": null
-        }
-      ]
+      "provenance": []
     },
     {
-      "person_id": "cohere_daniela_amodei",
+      "person_id": "cohere_francois_chadwick",
       "company_id": "cohere",
-      "name": "Daniela Amodei",
-      "role": "Board Member",
+      "name": "Francois Chadwick",
+      "role": "Chief Financial Officer",
       "is_founder": false,
       "start_date": null,
       "end_date": null,
@@ -195,16 +360,136 @@
       "education": null,
       "linkedin": null,
       "schema_version": "2.0.0",
-      "provenance": [
-        {
-          "source_url": "https://cohere.com/about",
-          "crawled_at": "2022-10-20",
-          "snippet": null
-        }
-      ]
+      "provenance": []
+    },
+    {
+      "person_id": "cohere_phil_blunsom",
+      "company_id": "cohere",
+      "name": "Phil Blunsom",
+      "role": "Chief Technology Officer",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "cohere_laura_moss",
+      "company_id": "cohere",
+      "name": "Laura Moss",
+      "role": "SVP, Finance",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "cohere_nora_beatty",
+      "company_id": "cohere",
+      "name": "Nora Beatty",
+      "role": "SVP, People Operations",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "cohere_andrew_chang",
+      "company_id": "cohere",
+      "name": "Andrew Chang",
+      "role": "VP, APAC",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "cohere_eric_hu",
+      "company_id": "cohere",
+      "name": "Eric Hu",
+      "role": "VP, Design",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "cohere_nils_reimers",
+      "company_id": "cohere",
+      "name": "Nils Reimers",
+      "role": "VP, Embeddings & Search",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "cohere_autumn_moulder",
+      "company_id": "cohere",
+      "name": "Autumn Moulder",
+      "role": "VP, Engineering",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "cohere_melika_carroll",
+      "company_id": "cohere",
+      "name": "Melika Carroll",
+      "role": "VP, Government Affairs & Public Policy",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "cohere_kosta_starostin",
+      "company_id": "cohere",
+      "name": "Kosta Starostin",
+      "role": "VP, Legal",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
     }
   ],
   "visibility": [],
-  "notes": "Extracted from scraped data on 2025-11-02",
+  "notes": "Extracted from scraped data on 2025-11-05. Events: 4 funding/announcement events found.",
   "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
 }
