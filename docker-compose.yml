@@ -79,7 +79,7 @@ services:
       dockerfile: Dockerfile
     container_name: pe-dashboard-api
     ports:
-      - "8000:8000"
+      - "8002:8000"
     environment:
       AWS_BUCKET_NAME: quanta-ai50-data
     volumes:
