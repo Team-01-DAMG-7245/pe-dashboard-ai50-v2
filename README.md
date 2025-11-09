@@ -325,7 +325,7 @@ python src\lab6\assemble_payloads.py
 
 - Swara: Phase 1 (Labs 0–1), Phase 2 (Lab 5), Phase 3 (Labs 8–9)
 - Nat: Phase 1 (Labs 2–3), Phase 4 (Labs 10–11)
-- Kundana: Phase 2 (Labs 4, 6, 7)
+- Kundana: Phase 2 (Labs 4, 6),Phase 3(Lab 7)
 
 ### Roles & Responsibilities
 
