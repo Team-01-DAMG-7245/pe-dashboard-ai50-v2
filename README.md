@@ -202,93 +202,6 @@ Open a **NEW** PowerShell terminal (keep the API server running) and run:
 
 **Expected Output:** `EVAL.md` with rubric and scores for all companies with payloads.
 
----
-
-## Running Labs 17-18: Workflow & HITL
-
-### Lab 17: Supervisory Workflow Pattern
-
-**Terminal 1 - Start MCP Server:**
-```powershell
-cd "C:\Users\Swara\Desktop\Big Data Assignments\damg7245-assignmnet4\forbes-ai50-dashboard-assignment4"
-$env:PYTHONPATH="src"
-$env:KMP_DUPLICATE_LIB_OK="TRUE"
-python -c "import sys; sys.path.insert(0, 'src'); from server.mcp_server import app; import uvicorn; uvicorn.run(app, host='0.0.0.0', port=9000)"
-```
-
-**Terminal 2 - Start API Server:**
-```powershell
-cd "C:\Users\Swara\Desktop\Big Data Assignments\damg7245-assignmnet4\forbes-ai50-dashboard-assignment4"
-$env:PYTHONPATH="src"
-$env:KMP_DUPLICATE_LIB_OK="TRUE"
-python src\lab7\rag_dashboard.py
-```
-
-**Terminal 3 - Run Workflow:**
-```powershell
-cd "C:\Users\Swara\Desktop\Big Data Assignments\damg7245-assignmnet4\forbes-ai50-dashboard-assignment4"
-$env:PYTHONPATH=""
-python -m src.workflows.due_diligence_graph anthropic
-```
-
-**Output:** Dashboard saved to `data/workflow_dashboards/{company_id}_{run_id}_{timestamp}.md`
-
----
-
-### Lab 18: HITL Approval
-
-#### CLI Mode (Default)
-
-```powershell
-cd "C:\Users\Swara\Desktop\Big Data Assignments\damg7245-assignmnet4\forbes-ai50-dashboard-assignment4"
-$env:PYTHONPATH=""
-python -m src.workflows.due_diligence_graph anthropic
-# When prompted, type 'yes' or 'no'
-```
-
-#### HTTP Mode
-
-**Terminal 1 - Start HITL Server:**
-```powershell
-.\start_hitl_server.ps1
-```
-
-**Terminal 2 - Start API Server:**
-```powershell
-$env:PYTHONPATH="src"
-$env:KMP_DUPLICATE_LIB_OK="TRUE"
-python src\lab7\rag_dashboard.py
-```
-
-**Terminal 3 - Run Workflow:**
-```powershell
-$env:HITL_METHOD="http"
-$env:HITL_BASE_URL="http://localhost:8003"
-$env:PYTHONPATH=""
-python -m src.workflows.due_diligence_graph anthropic
-```
-
-**Terminal 4 - Approve/Reject:**
-
-**PowerShell Scripts:**
-```powershell
-.\check_hitl_status.ps1
-.\approve_hitl.ps1 -RunId "{run_id}" -Approved -Reviewer "admin" -Notes "Approved"
-.\approve_hitl.ps1 -RunId "{run_id}" -Rejected -Reviewer "admin" -Notes "Rejected"
-```
-
-**Direct PowerShell:**
-```powershell
-$body = @{approved=$true; reviewer="admin"; notes="Approved"} | ConvertTo-Json
-Invoke-RestMethod -Uri "http://localhost:8003/hitl/approve/{run_id}" -Method Post -Body $body -ContentType "application/json"
-```
-
-**curl.exe:**
-```powershell
-curl.exe -X POST http://localhost:8003/hitl/approve/{run_id} -H "Content-Type: application/json" -d "{\"approved\": true, \"reviewer\": \"admin\", \"notes\": \"Approved\"}"
-```
-
----
 
 ## Labs Progress
 
@@ -342,11 +255,23 @@ curl.exe -X POST http://localhost:8003/hitl/approve/{run_id} -H "Content-Type: a
 - Rubric: factual correctness, schema adherence, hallucination control
 - Output: `EVAL.md` with scores and findings
 
+### ✅ Lab 16: ReAct Pattern Implementation
+- Structured logging for Thought/Action/Observation triplets
+- JSON trace files in `logs/react_traces/`
+- Documentation: `docs/REACT_TRACE_EXAMPLE.md`
+
 ### ✅ Lab 17: Supervisory Workflow Pattern (Graph-based)
 - LangGraph-based workflow with conditional branching
 - Nodes: Planner, Data Generator, Evaluator, Risk Detector
 - Conditional routing based on risk signals (HITL approval for high-risk cases)
+- Documentation: `docs/WORKFLOW_GRAPH.md`
 - See [Lab 17 Instructions](#lab-17-supervisory-workflow-pattern) below
+
+### ✅ Lab 18: Human-in-the-Loop (HITL) Approval
+- CLI and HTTP approval methods for high-risk companies
+- Workflow pauses for human review
+- Approval/rejection affects workflow continuation
+- HITL events logged in workflow traces
 
 ### ✅ Lab 10: Dockerize FastAPI + Streamlit
 - `docker-compose.yml` for app layer
@@ -388,6 +313,19 @@ python src\lab6\assemble_payloads.py
 
 # Step 5: Lab 9 - Evaluation (in new terminal, after API is running)
 .\run_lab9.ps1
+
+# Labs 12-18 - Phase 3 (See README_ASSIGNMENT5.md for detailed commands)
+# Validate Phase 3 completion
+python scripts/validate_phase3.py
+
+# Run integration tests
+python -m pytest tests/test_phase3_integration.py -v
+
+# Run workflow (Lab 17)
+python -m src.workflows.due_diligence_graph anthropic
+
+# Visualize workflow execution
+python scripts/visualize_workflow.py logs/workflow_traces/workflow_trace_{run_id}_{timestamp}.json
 ```
 
 ---

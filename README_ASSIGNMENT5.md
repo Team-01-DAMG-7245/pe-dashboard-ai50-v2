@@ -192,6 +192,75 @@ curl.exe -X POST http://localhost:8003/hitl/approve/{run_id} -H "Content-Type: a
 
 ---
 
+## Phase 3 Validation & Testing
+
+### Validate Phase 3 Completion
+
+**Run validation script:**
+```powershell
+python scripts/validate_phase3.py
+```
+
+**Expected:** All checks pass (29/29) for Labs 16, 17, 18
+
+**What it checks:**
+- Lab 16: ReAct Logger file, class, documentation, trace logs
+- Lab 17: Workflow graph, nodes, conditional edges, documentation
+- Lab 18: HITL handler, CLI/HTTP methods, workflow integration
+- Testing: Integration tests, branch coverage, mock HITL
+
+### Run Integration Tests
+
+**Run all Phase 3 integration tests:**
+```powershell
+python -m pytest tests/test_phase3_integration.py -v
+```
+
+**Run specific scenarios:**
+```powershell
+# Normal flow (no risks)
+python -m pytest tests/test_phase3_integration.py::test_normal_flow_no_risks -v
+
+# High-risk flow with approval
+python -m pytest tests/test_phase3_integration.py::test_high_risk_flow_with_approval -v
+
+# High-risk flow with rejection
+python -m pytest tests/test_phase3_integration.py::test_high_risk_flow_with_rejection -v
+
+# Complete end-to-end integration
+python -m pytest tests/test_phase3_integration.py::test_complete_integration_flow -v
+```
+
+**Expected:** All 12 tests pass (3 normal flow, 3 approval, 3 rejection, 1 complete, 2 edge cases)
+
+### Visualize Workflow Execution
+
+**Generate workflow visualization from trace:**
+```powershell
+python scripts/visualize_workflow.py logs/workflow_traces/workflow_trace_{run_id}_{timestamp}.json
+```
+
+**Expected:** Mermaid diagram showing execution path, HITL decision points, and branch taken
+
+### View Workflow Traces
+
+**List workflow traces:**
+```powershell
+Get-ChildItem logs\workflow_traces\*.json
+```
+
+**View trace content:**
+```powershell
+Get-Content logs\workflow_traces\workflow_trace_{run_id}_{timestamp}.json | ConvertFrom-Json | ConvertTo-Json -Depth 10
+```
+
+**View ReAct traces:**
+```powershell
+Get-Content logs\react_traces\*.json | ConvertFrom-Json | Format-List
+```
+
+---
+
 ## Quick Reference
 
 **Checkpoints:**
@@ -202,19 +271,31 @@ curl.exe -X POST http://localhost:8003/hitl/approve/{run_id} -H "Content-Type: a
 - Lab 16: Check JSON logs in `logs/react_traces/`
 - Lab 17: `pytest tests/test_workflow_branches.py -v` + workflow diagram
 - Lab 18: HITL approval works via CLI or HTTP
+- Phase 3: `python scripts/validate_phase3.py` (should show 100% complete)
 
 **Common Commands:**
 ```powershell
 # Set PYTHONPATH
 $env:PYTHONPATH="src"
 
-# Run tests
+# Run all tests
 python -m pytest tests/ -v
+
+# Run Phase 3 validation
+python scripts/validate_phase3.py
+
+# Run integration tests
+python -m pytest tests/test_phase3_integration.py -v
 
 # Check logs
 Get-Content logs\react_traces\*.json
+Get-Content logs\workflow_traces\*.json
 
-# View workflow diagram
+# View documentation
 cat docs\WORKFLOW_GRAPH.md
+cat docs\REACT_TRACE_EXAMPLE.md
+
+# Visualize workflow
+python scripts/visualize_workflow.py logs/workflow_traces/workflow_trace_{run_id}_{timestamp}.json
 ```
 
