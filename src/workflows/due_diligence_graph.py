@@ -37,6 +37,23 @@ except (ImportError, AttributeError) as e:
 from openai import OpenAI
 import requests
 
+# Import HITL handler - handle both relative and absolute imports
+try:
+    # Try relative import first (works when run as module)
+    from .hitl_handler import pause_for_approval
+except (ImportError, ValueError):
+    # Fallback for absolute import
+    try:
+        from workflows.hitl_handler import pause_for_approval
+    except ImportError:
+        # Last resort: add src to path and import
+        import sys
+        from pathlib import Path
+        src_path = Path(__file__).resolve().parents[1]
+        if str(src_path) not in sys.path:
+            sys.path.insert(0, str(src_path))
+        from workflows.hitl_handler import pause_for_approval
+
 # Load environment variables
 project_root = Path(__file__).resolve().parents[2]
 env_path = project_root / ".env"
@@ -74,6 +91,9 @@ class WorkflowState(TypedDict):
     dashboard_score: Optional[float]  # Quality score from evaluator (1-10)
     requires_hitl: bool  # Flag indicating if human approval is needed
     hitl_approved: bool  # Flag indicating if human has approved
+    hitl_reviewer: Optional[str]  # Name/ID of the reviewer
+    hitl_timestamp: Optional[str]  # Timestamp of approval decision
+    hitl_notes: Optional[str]  # Optional notes from reviewer
     execution_plan: Optional[Dict]  # Plan created by planner node
     error: Optional[str]  # Error message if any step fails
 
@@ -600,62 +620,85 @@ def hitl_approval_node(state: WorkflowState) -> WorkflowState:
     HITL (Human-In-The-Loop) APPROVAL NODE: Handles high-risk cases requiring human review.
     
     Responsibilities:
-    - Log risk signals for human review
-    - Set hitl_approved flag (in production, this would wait for human input)
-    - Generate summary of risks for review
-    - Optionally pause workflow until approval received
+    - Pause workflow execution
+    - Display risk summary to human reviewer
+    - Wait for approval/rejection (CLI or HTTP)
+    - Store approval decision with metadata
+    - Resume workflow based on decision
     
-    In production, this node would:
-    - Send notification to human reviewer
-    - Wait for approval/rejection
-    - Update hitl_approved flag based on human decision
-    - Potentially route back to risk_detector if changes needed
-    
-    For now, this is a placeholder that auto-approves after logging.
+    Supports two methods:
+    - CLI: Interactive terminal prompt (default)
+    - HTTP: REST endpoint for approval UI
     
     Returns:
-        Updated state with hitl_approved flag and review summary
+        Updated state with hitl_approved flag, reviewer, timestamp, and notes
     """
     company_id = state.get("company_id", "")
+    run_id = state.get("run_id", "")
     risk_signals = state.get("risk_signals", [])
     dashboard = state.get("dashboard", "")
     
+    # Determine HITL method (CLI or HTTP)
+    hitl_method = os.getenv("HITL_METHOD", "cli").lower()
+    
+    # Get dashboard preview (first 500 chars)
+    dashboard_preview = dashboard[:500] if dashboard else None
+    
+    # Pause workflow and request approval
     print(f"\n{'='*60}")
-    print(f"[HITL] HUMAN REVIEW REQUIRED for {company_id}")
+    print(f"[HITL] PAUSING WORKFLOW - Waiting for human approval")
     print(f"{'='*60}")
-    print(f"[HITL] Risk Signals Detected: {len(risk_signals)}")
-    
-    # Log high-severity risks
-    high_risks = [s for s in risk_signals if s.get("severity") == "high"]
-    for risk in high_risks:
-        print(f"[HITL]   [HIGH] {risk.get('type')} - {risk.get('details')}")
-    
-    # Request human approval
-    print(f"\n[HITL] ⚠️  HIGH-RISK DASHBOARD DETECTED")
-    print(f"[HITL] Please review the risk signals above.")
-    print(f"[HITL] Do you want to approve this dashboard? (yes/no): ", end="", flush=True)
     
     try:
-        # In production: This would send notification and wait for response
-        # For CLI: Prompt user for input
-        user_input = input().strip().lower()
-        hitl_approved = user_input in ['yes', 'y', 'approve', 'a']
+        # Call HITL handler (pauses here until decision is made)
+        decision = pause_for_approval(
+            run_id=run_id,
+            company_id=company_id,
+            risk_signals=risk_signals,
+            dashboard_preview=dashboard_preview,
+            method=hitl_method
+        )
         
+        hitl_approved = decision.get("approved", False)
+        reviewer = decision.get("reviewer", "unknown")
+        timestamp = decision.get("timestamp", datetime.now().isoformat())
+        notes = decision.get("notes")
+        
+        print(f"\n{'='*60}")
+        print(f"[HITL] DECISION RECEIVED")
+        print(f"{'='*60}")
         if hitl_approved:
-            print(f"[HITL] [APPROVED] Approved - proceeding with dashboard")
+            print(f"[HITL] ✅ APPROVED by {reviewer}")
         else:
-            print(f"[HITL] [REJECTED] Rejected - workflow terminated")
-    except (EOFError, KeyboardInterrupt):
-        # If running non-interactively (e.g., in tests), auto-approve
-        print(f"[HITL] [AUTO-APPROVED] No user input available - auto-approving")
-        hitl_approved = True
-    
-    print(f"{'='*60}\n")
-    
-    return {
-        **state,
-        "hitl_approved": hitl_approved
-    }
+            print(f"[HITL] ❌ REJECTED by {reviewer}")
+        if notes:
+            print(f"[HITL] Notes: {notes}")
+        print(f"[HITL] Timestamp: {timestamp}")
+        print(f"{'='*60}\n")
+        
+        # Update state with approval decision
+        return {
+            **state,
+            "hitl_approved": hitl_approved,
+            "hitl_reviewer": reviewer,
+            "hitl_timestamp": timestamp,
+            "hitl_notes": notes
+        }
+        
+    except Exception as e:
+        # Error in HITL handler - default to rejection for safety
+        error_msg = f"HITL approval failed: {str(e)}"
+        print(f"[HITL] ERROR: {error_msg}")
+        print(f"[HITL] Defaulting to REJECTED for safety")
+        
+        return {
+            **state,
+            "hitl_approved": False,
+            "hitl_reviewer": "system",
+            "hitl_timestamp": datetime.now().isoformat(),
+            "hitl_notes": error_msg,
+            "error": error_msg
+        }
 
 
 def create_due_diligence_graph() -> StateGraph:
@@ -763,6 +806,9 @@ def run_due_diligence_workflow(
         "dashboard_score": None,
         "requires_hitl": False,
         "hitl_approved": False,
+        "hitl_reviewer": None,
+        "hitl_timestamp": None,
+        "hitl_notes": None,
         "execution_plan": None,
         "error": None
     }
@@ -815,6 +861,9 @@ def run_due_diligence_workflow(
 **Risk Signals:** {len(final_state.get('risk_signals', []))}  
 **Requires HITL:** {final_state.get('requires_hitl', False)}  
 **HITL Approved:** {final_state.get('hitl_approved', False)}  
+**HITL Reviewer:** {final_state.get('hitl_reviewer', 'N/A')}  
+**HITL Timestamp:** {final_state.get('hitl_timestamp', 'N/A')}  
+**HITL Notes:** {final_state.get('hitl_notes', 'None')}  
 **Branch Taken:** {'HIGH-RISK PATH -> HITL Approval -> END' if final_state.get('requires_hitl', False) else 'SAFE PATH -> END (Direct)'}
 
 ---
@@ -951,6 +1000,10 @@ Examples:
         
         if result.get('requires_hitl'):
             print(f"HITL Approved: {result.get('hitl_approved', False)}")
+            print(f"HITL Reviewer: {result.get('hitl_reviewer', 'N/A')}")
+            print(f"HITL Timestamp: {result.get('hitl_timestamp', 'N/A')}")
+            if result.get('hitl_notes'):
+                print(f"HITL Notes: {result.get('hitl_notes')}")
         
         if verbose:
             print("\n" + "="*60)

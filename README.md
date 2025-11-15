@@ -202,11 +202,11 @@ Open a **NEW** PowerShell terminal (keep the API server running) and run:
 
 **Expected Output:** `EVAL.md` with rubric and scores for all companies with payloads.
 
-### Step 6: Lab 17 - Supervisory Workflow Pattern (Graph-based)
+---
 
-**Run Lab 17 Workflow:**
+## Running Labs 17-18: Workflow & HITL
 
-You need to start 3 terminals (or 3 separate PowerShell windows):
+### Lab 17: Supervisory Workflow Pattern
 
 **Terminal 1 - Start MCP Server:**
 ```powershell
@@ -224,27 +224,69 @@ $env:KMP_DUPLICATE_LIB_OK="TRUE"
 python src\lab7\rag_dashboard.py
 ```
 
-**Terminal 3 - Run Lab 17 Workflow:**
+**Terminal 3 - Run Workflow:**
 ```powershell
 cd "C:\Users\Swara\Desktop\Big Data Assignments\damg7245-assignmnet4\forbes-ai50-dashboard-assignment4"
 $env:PYTHONPATH=""
 python -m src.workflows.due_diligence_graph anthropic
 ```
 
-**Expected Output:**
-- Workflow executes all 4 nodes (Planner, Data Generator, Evaluator, Risk Detector)
-- Detects risk signals in dashboard content
-- Routes to HITL path if high-severity risks found, or safe path if no risks
-- Prints branch taken: `[BRANCH] SAFE PATH -> END (Direct)` or `[BRANCH] HIGH-RISK PATH -> HITL Approval -> END`
-- Prompts for human approval if high risks detected
-- **Dashboard saved to:** `data/workflow_dashboards/{company_id}_{run_id}_{timestamp}.md`
+**Output:** Dashboard saved to `data/workflow_dashboards/{company_id}_{run_id}_{timestamp}.md`
 
-**Dashboard Storage:**
-- All generated dashboards are automatically saved to `data/workflow_dashboards/`
-- Each dashboard includes metadata: run ID, score, risk signals, branch taken, HITL status
-- Filename format: `{company_id}_{run_id}_{timestamp}.md`
+---
 
-**Note:** Make sure both servers (MCP on port 9000 and API on port 8002) are running before executing the workflow.
+### Lab 18: HITL Approval
+
+#### CLI Mode (Default)
+
+```powershell
+cd "C:\Users\Swara\Desktop\Big Data Assignments\damg7245-assignmnet4\forbes-ai50-dashboard-assignment4"
+$env:PYTHONPATH=""
+python -m src.workflows.due_diligence_graph anthropic
+# When prompted, type 'yes' or 'no'
+```
+
+#### HTTP Mode
+
+**Terminal 1 - Start HITL Server:**
+```powershell
+.\start_hitl_server.ps1
+```
+
+**Terminal 2 - Start API Server:**
+```powershell
+$env:PYTHONPATH="src"
+$env:KMP_DUPLICATE_LIB_OK="TRUE"
+python src\lab7\rag_dashboard.py
+```
+
+**Terminal 3 - Run Workflow:**
+```powershell
+$env:HITL_METHOD="http"
+$env:HITL_BASE_URL="http://localhost:8003"
+$env:PYTHONPATH=""
+python -m src.workflows.due_diligence_graph anthropic
+```
+
+**Terminal 4 - Approve/Reject:**
+
+**PowerShell Scripts:**
+```powershell
+.\check_hitl_status.ps1
+.\approve_hitl.ps1 -RunId "{run_id}" -Approved -Reviewer "admin" -Notes "Approved"
+.\approve_hitl.ps1 -RunId "{run_id}" -Rejected -Reviewer "admin" -Notes "Rejected"
+```
+
+**Direct PowerShell:**
+```powershell
+$body = @{approved=$true; reviewer="admin"; notes="Approved"} | ConvertTo-Json
+Invoke-RestMethod -Uri "http://localhost:8003/hitl/approve/{run_id}" -Method Post -Body $body -ContentType "application/json"
+```
+
+**curl.exe:**
+```powershell
+curl.exe -X POST http://localhost:8003/hitl/approve/{run_id} -H "Content-Type: application/json" -d "{\"approved\": true, \"reviewer\": \"admin\", \"notes\": \"Approved\"}"
+```
 
 ---
 
