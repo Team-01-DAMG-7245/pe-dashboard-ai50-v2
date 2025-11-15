@@ -1,0 +1,10 @@
+{
+  "company_id": "xai",
+  "timestamp": "2025-11-12T19:47:09.164922",
+  "mcp_calls": [
+    "generate_structured_dashboard",
+    "generate_rag_dashboard"
+  ],
+  "structured_length": 2330,
+  "rag_length": 2445
+}

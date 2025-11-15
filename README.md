@@ -37,7 +37,8 @@ streamlit run src/streamlit_app.py  # http://localhost:8501
 │   ├── forbes_ai50_seed.json   # Company list (Lab 0)
 │   ├── raw/                     # Scraped HTML/text (Lab 1)
 │   ├── structured/              # Pydantic models (Lab 5)
-│   └── payloads/                # Dashboard payloads (Lab 6)
+│   ├── payloads/                # Dashboard payloads (Lab 6)
+│   └── workflow_dashboards/     # Lab 17 workflow outputs
 ├── src/
 │   ├── api.py                   # FastAPI endpoints (Lab 7-8)
 │   ├── models.py                # Pydantic schemas (Lab 5)
@@ -201,7 +202,6 @@ Open a **NEW** PowerShell terminal (keep the API server running) and run:
 
 **Expected Output:** `EVAL.md` with rubric and scores for all companies with payloads.
 
----
 
 ## Labs Progress
 
@@ -255,6 +255,24 @@ Open a **NEW** PowerShell terminal (keep the API server running) and run:
 - Rubric: factual correctness, schema adherence, hallucination control
 - Output: `EVAL.md` with scores and findings
 
+### ✅ Lab 16: ReAct Pattern Implementation
+- Structured logging for Thought/Action/Observation triplets
+- JSON trace files in `logs/react_traces/`
+- Documentation: `docs/REACT_TRACE_EXAMPLE.md`
+
+### ✅ Lab 17: Supervisory Workflow Pattern (Graph-based)
+- LangGraph-based workflow with conditional branching
+- Nodes: Planner, Data Generator, Evaluator, Risk Detector
+- Conditional routing based on risk signals (HITL approval for high-risk cases)
+- Documentation: `docs/WORKFLOW_GRAPH.md`
+- See [Lab 17 Instructions](#lab-17-supervisory-workflow-pattern) below
+
+### ✅ Lab 18: Human-in-the-Loop (HITL) Approval
+- CLI and HTTP approval methods for high-risk companies
+- Workflow pauses for human review
+- Approval/rejection affects workflow continuation
+- HITL events logged in workflow traces
+
 ### ✅ Lab 10: Dockerize FastAPI + Streamlit
 - `docker-compose.yml` for app layer
 - FastAPI: http://localhost:8000
@@ -295,6 +313,19 @@ python src\lab6\assemble_payloads.py
 
 # Step 5: Lab 9 - Evaluation (in new terminal, after API is running)
 .\run_lab9.ps1
+
+# Labs 12-18 - Phase 3 (See README_ASSIGNMENT5.md for detailed commands)
+# Validate Phase 3 completion
+python scripts/validate_phase3.py
+
+# Run integration tests
+python -m pytest tests/test_phase3_integration.py -v
+
+# Run workflow (Lab 17)
+python -m src.workflows.due_diligence_graph anthropic
+
+# Visualize workflow execution
+python scripts/visualize_workflow.py logs/workflow_traces/workflow_trace_{run_id}_{timestamp}.json
 ```
 
 ---
