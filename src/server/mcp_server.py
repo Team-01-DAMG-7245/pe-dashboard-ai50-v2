@@ -15,8 +15,13 @@ import sys
 sys.path.append(str(Path(__file__).parent.parent.parent))
 
 # Import your existing dashboard functions
-from src.rag_dashboard import generate_rag_dashboard as rag_dashboard_func
-from src.rag_dashboard import DashboardRequest as RAGDashboardRequest
+try:
+    from src.lab7.rag_dashboard import generate_rag_dashboard as rag_dashboard_func
+    from src.lab7.rag_dashboard import DashboardRequest as RAGDashboardRequest
+except ImportError:
+    # Fallback if rag_dashboard doesn't exist
+    rag_dashboard_func = None
+    RAGDashboardRequest = None
 
 app = FastAPI(
     title="PE Dashboard MCP Server",
@@ -173,7 +178,10 @@ async def generate_structured_dashboard(req: DashboardRequest):
 async def generate_rag_dashboard(req: DashboardRequest):
     """Tool: Generate dashboard using RAG/vector search"""
     try:
-        # Use your existing RAG dashboard function
+        # Use your existing RAG dashboard function if available
+        if rag_dashboard_func is None or RAGDashboardRequest is None:
+            raise HTTPException(status_code=501, detail="RAG dashboard function not available")
+        
         rag_request = RAGDashboardRequest(company_id=req.company_id)
         result = await rag_dashboard_func(rag_request)
         
@@ -192,7 +200,7 @@ async def generate_rag_dashboard(req: DashboardRequest):
     except Exception as e:
         # Fallback: Try to generate a basic RAG dashboard
         try:
-            from src.vector_db import VectorDB
+            from src.lab4.vector_db import VectorDB
             from openai import OpenAI
             
             # Search vector DB

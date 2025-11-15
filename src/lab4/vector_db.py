@@ -2,10 +2,28 @@
 Vector database module using ChromaDB for RAG
 """
 
+import os
+import sys
+import importlib
+import importlib.util
+from types import ModuleType
+
+# Fix for onnxruntime DLL issue on Windows
+# Mock onnxruntime BEFORE importing chromadb to prevent DLL errors
+# This is the same fix used in lab7/rag_dashboard.py and lab4/index_for_rag_all.py
+if 'onnxruntime' not in sys.modules:
+    class MockONNXRuntime(ModuleType):
+        """Mock onnxruntime module to prevent DLL errors"""
+        def __init__(self):
+            super().__init__('onnxruntime')
+            # Add __spec__ attribute to prevent PyTorch's dynamo from failing
+            self.__spec__ = importlib.util.spec_from_loader('onnxruntime', loader=None)
+    
+    sys.modules['onnxruntime'] = MockONNXRuntime()
+
 import chromadb
 from sentence_transformers import SentenceTransformer
 from typing import List, Dict, Optional
-import os
 
 
 class VectorDB:
@@ -29,14 +47,37 @@ class VectorDB:
         
         # Get or create collection - use SentenceTransformer for consistency
         # Note: We manually encode embeddings, so we don't need embedding function here
+        # Use a simple embedding function to avoid onnxruntime dependency issues
         try:
             self.collection = self.client.get_collection("ai50_companies")
             print(f"Connected to existing collection: ai50_companies")
         except:
-            self.collection = self.client.create_collection(
-                "ai50_companies",
-                metadata={"hnsw:space": "cosine"}
-            )
+            # Create collection without default embedding function to avoid onnxruntime DLL issues
+            # We'll provide embeddings manually
+            from chromadb.utils import embedding_functions
+            # Use a simple embedding function that doesn't require onnxruntime
+            try:
+                # Try to use a simple embedding function
+                embedding_func = embedding_functions.SentenceTransformerEmbeddingFunction(
+                    model_name="all-MiniLM-L6-v2"
+                )
+            except:
+                # Fallback: create collection without embedding function
+                # We'll provide embeddings manually
+                embedding_func = None
+            
+            if embedding_func:
+                self.collection = self.client.create_collection(
+                    "ai50_companies",
+                    embedding_function=embedding_func,
+                    metadata={"hnsw:space": "cosine"}
+                )
+            else:
+                # Create without embedding function - we'll provide embeddings manually
+                self.collection = self.client.create_collection(
+                    "ai50_companies",
+                    metadata={"hnsw:space": "cosine"}
+                )
             print("Created new collection: ai50_companies")
     
     def add_chunks(self, chunks: List[Dict], company_id: str):

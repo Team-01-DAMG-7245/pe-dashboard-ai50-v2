@@ -42,3 +42,20 @@
 {"timestamp": "2025-11-12T19:53:12.438523", "company_id": "hugging_face", "occurred_on": "2025-11-12", "description": "Risk score: 42.0, Challenges: Limited enterprise customer base", "source_url": "https://huggingface.co/investor-relations"}
 {"timestamp": "2025-11-12T19:53:12.439048", "company_id": "photoroom", "occurred_on": "2025-11-12", "description": "Risk score: 27.0, Challenges: Market competition, Scaling challenges", "source_url": "https://www.photoroom.com/investor-relations"}
 {"timestamp": "2025-11-12T19:53:12.439840", "company_id": "databricks", "occurred_on": "2025-11-12", "description": "Risk score: 29.0, Challenges: Market competition, Regulatory compliance", "source_url": "https://www.databricks.com/investor-relations"}
+{"timestamp": "2025-11-14T19:34:24.691434", "company_id": "test_company", "occurred_on": "2025-11-14", "description": "Test risk assessment", "source_url": "https://example.com/test"}
+{"timestamp": "2025-11-14T19:34:36.265997", "company_id": "test_company", "occurred_on": "2025-11-14", "description": "Test risk assessment", "source_url": "https://example.com/test"}
+{"timestamp": "2025-11-14T19:37:29.539477", "company_id": "test_company", "occurred_on": "2025-11-14", "description": "Test risk assessment", "source_url": "https://example.com/test"}
+{"timestamp": "2025-11-14T20:02:38.026731", "company_id": "test_company", "occurred_on": "2025-11-14", "description": "Risk assessment from analysis", "source_url": "https://example.com/test"}
+{"timestamp": "2025-11-14T20:12:06.666065", "company_id": "test_company", "occurred_on": "2025-11-14", "description": "Risk assessment from analysis", "source_url": "https://example.com/test"}
+{"timestamp": "2025-11-14T20:16:54.262586", "company_id": "test_company", "occurred_on": "2025-11-14", "description": "Risk assessment from analysis", "source_url": "https://example.com/test"}
+{"timestamp": "2025-11-14T20:19:51.605602", "company_id": "test_company", "occurred_on": "2025-11-14", "description": "Test layoff event", "source_url": "https://example.com/test"}
+{"timestamp": "2025-11-14T20:23:04.996827", "company_id": "test_company", "occurred_on": "2025-11-14", "description": "Test layoff event", "source_url": "https://example.com/test"}
+{"timestamp": "2025-11-14T20:23:12.226764", "company_id": "test_company", "occurred_on": "2025-11-14", "description": "Test layoff event", "source_url": "https://example.com/test"}
+{"timestamp": "2025-11-14T20:23:18.717579", "company_id": "test_company", "occurred_on": "2025-11-14", "description": "Test layoff event", "source_url": "https://example.com/test"}
+{"timestamp": "2025-11-14T20:26:44.946524", "company_id": "test_company", "occurred_on": "2025-11-14", "description": "Test layoff event", "source_url": "https://example.com/test"}
+{"timestamp": "2025-11-14T20:28:02.557555", "company_id": "test_company", "occurred_on": "2025-11-14", "description": "Test layoff event", "source_url": "https://example.com/test"}
+{"timestamp": "2025-11-14T20:29:58.369295", "company_id": "test_company", "occurred_on": "2025-11-14", "description": "Risk assessment from analysis", "source_url": "https://example.com/test"}
+{"timestamp": "2025-11-14T20:29:58.458352", "company_id": "anthropic", "occurred_on": "2025-11-14", "description": "Potential risk detected: layoffs workforce reduction", "source_url": "https://example.com/analysis"}
+{"timestamp": "2025-11-14T20:29:58.519831", "company_id": "anthropic", "occurred_on": "2025-11-14", "description": "Potential risk detected: lawsuit legal action litigation", "source_url": "https://example.com/analysis"}
+{"timestamp": "2025-11-14T20:29:58.569151", "company_id": "anthropic", "occurred_on": "2025-11-14", "description": "Potential risk detected: data breach security incident", "source_url": "https://example.com/analysis"}
+{"timestamp": "2025-11-14T20:29:58.622970", "company_id": "anthropic", "occurred_on": "2025-11-14", "description": "Potential risk detected: funding issues financial trouble", "source_url": "https://example.com/analysis"}
