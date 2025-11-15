@@ -10,7 +10,7 @@ Implements a supervisory workflow for due diligence dashboard generation with:
 import os
 import json
 import uuid
-from typing import TypedDict, List, Dict, Optional, Literal
+from typing import TypedDict, List, Dict, Optional, Literal, Any
 from pathlib import Path
 from datetime import datetime
 
@@ -99,6 +99,15 @@ class WorkflowState(TypedDict):
 
 
 # ============================================================================
+# GLOBAL TRACE STATE
+# ============================================================================
+
+# Global state for workflow trace logging
+_workflow_trace_events: List[Dict[str, Any]] = []
+_workflow_node_order: List[str] = []
+
+
+# ============================================================================
 # NODE FUNCTIONS
 # ============================================================================
 
@@ -116,12 +125,24 @@ def planner_node(state: WorkflowState) -> WorkflowState:
         Updated state with execution_plan and run_id
     """
     company_id = state.get("company_id", "")
+    run_id = state.get("run_id", "")
     
     if not company_id:
         return {**state, "error": "company_id is required"}
     
     # Generate run_id if not present
-    run_id = state.get("run_id") or f"{company_id}_{datetime.now().strftime('%Y%m%d_%H%M%S')}_{uuid.uuid4().hex[:8]}"
+    if not run_id:
+        run_id = f"{company_id}_{datetime.now().strftime('%Y%m%d_%H%M%S')}_{uuid.uuid4().hex[:8]}"
+    
+    # Log node execution
+    _workflow_node_order.append("planner")
+    _workflow_trace_events.append({
+        "event_type": "NODE_EXECUTED",
+        "timestamp": datetime.now().isoformat(),
+        "node": "planner",
+        "run_id": run_id,
+        "company_id": company_id
+    })
     
     # Create execution plan
     execution_plan = {
@@ -161,7 +182,18 @@ def data_generator_node(state: WorkflowState) -> WorkflowState:
         Updated state with structured_data and rag_insights
     """
     company_id = state.get("company_id", "")
+    run_id = state.get("run_id", "")
     execution_plan = state.get("execution_plan", {})
+    
+    # Log node execution
+    _workflow_node_order.append("data_generator")
+    _workflow_trace_events.append({
+        "event_type": "NODE_EXECUTED",
+        "timestamp": datetime.now().isoformat(),
+        "node": "data_generator",
+        "run_id": run_id,
+        "company_id": company_id
+    })
     
     if not company_id:
         return {**state, "error": "company_id is required for data generation"}
@@ -232,7 +264,18 @@ def evaluator_node(state: WorkflowState) -> WorkflowState:
         Updated state with dashboard and dashboard_score
     """
     company_id = state.get("company_id", "")
+    run_id = state.get("run_id", "")
     structured_data = state.get("structured_data")
+    
+    # Log node execution
+    _workflow_node_order.append("evaluator")
+    _workflow_trace_events.append({
+        "event_type": "NODE_EXECUTED",
+        "timestamp": datetime.now().isoformat(),
+        "node": "evaluator",
+        "run_id": run_id,
+        "company_id": company_id
+    })
     
     if not company_id:
         return {**state, "error": "company_id is required for evaluation"}
@@ -293,9 +336,20 @@ def risk_detector_node(state: WorkflowState) -> WorkflowState:
         Updated state with risk_signals and requires_hitl flag
     """
     company_id = state.get("company_id", "")
+    run_id = state.get("run_id", "")
     structured_data = state.get("structured_data", {})
     rag_insights = state.get("rag_insights", [])
     dashboard = state.get("dashboard", "")
+    
+    # Log node execution
+    _workflow_node_order.append("risk_detector")
+    _workflow_trace_events.append({
+        "event_type": "NODE_EXECUTED",
+        "timestamp": datetime.now().isoformat(),
+        "node": "risk_detector",
+        "run_id": run_id,
+        "company_id": company_id
+    })
     
     risk_signals = []
     requires_hitl = False
@@ -638,6 +692,16 @@ def hitl_approval_node(state: WorkflowState) -> WorkflowState:
     risk_signals = state.get("risk_signals", [])
     dashboard = state.get("dashboard", "")
     
+    # Log node execution
+    _workflow_node_order.append("hitl_approval")
+    _workflow_trace_events.append({
+        "event_type": "NODE_EXECUTED",
+        "timestamp": datetime.now().isoformat(),
+        "node": "hitl_approval",
+        "run_id": run_id,
+        "company_id": company_id
+    })
+    
     # Determine HITL method (CLI or HTTP)
     hitl_method = os.getenv("HITL_METHOD", "cli").lower()
     
@@ -650,6 +714,14 @@ def hitl_approval_node(state: WorkflowState) -> WorkflowState:
     print(f"{'='*60}")
     
     try:
+        # Set up trace logger for HITL events
+        from workflows.hitl_handler import set_trace_logger
+        
+        def log_trace(event):
+            _workflow_trace_events.append(event)
+        
+        set_trace_logger(log_trace)
+        
         # Call HITL handler (pauses here until decision is made)
         decision = pause_for_approval(
             run_id=run_id,
@@ -813,11 +885,24 @@ def run_due_diligence_workflow(
         "error": None
     }
     
+    # Reset global trace state for this run
+    global _workflow_trace_events, _workflow_node_order
+    _workflow_trace_events.clear()
+    _workflow_node_order.clear()
+    
     # Execute workflow
     print(f"\n{'='*60}")
     print(f"Starting Due Diligence Workflow for: {company_id}")
     print(f"Run ID: {initial_state['run_id']}")
     print(f"{'='*60}\n")
+    
+    # Log workflow start
+    _workflow_trace_events.append({
+        "event_type": "WORKFLOW_START",
+        "timestamp": datetime.now().isoformat(),
+        "run_id": initial_state['run_id'],
+        "company_id": company_id
+    })
     
     try:
         if checkpoint:
@@ -897,6 +982,32 @@ def run_due_diligence_workflow(
             print(f"[WARNING] No dashboard to save (dashboard is None or empty)")
         
         print(f"{'='*60}\n")
+        
+        # Save execution trace
+        trace_data = {
+            "run_id": initial_state['run_id'],
+            "company_id": company_id,
+            "start_time": _workflow_trace_events[0]['timestamp'] if _workflow_trace_events else datetime.now().isoformat(),
+            "end_time": datetime.now().isoformat(),
+            "node_execution_order": _workflow_node_order.copy(),
+            "events": _workflow_trace_events.copy(),
+            "final_state": {
+                "requires_hitl": final_state.get('requires_hitl', False),
+                "hitl_approved": final_state.get('hitl_approved', False),
+                "hitl_reviewer": final_state.get('hitl_reviewer'),
+                "dashboard_score": final_state.get('dashboard_score'),
+                "risk_signals_count": len(final_state.get('risk_signals', []))
+            }
+        }
+        
+        # Save trace to file
+        trace_dir = project_root / "logs" / "workflow_traces"
+        trace_dir.mkdir(parents=True, exist_ok=True)
+        trace_file = trace_dir / f"workflow_trace_{initial_state['run_id']}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
+        with open(trace_file, 'w', encoding='utf-8') as f:
+            json.dump(trace_data, f, indent=2)
+        
+        print(f"[TRACE] Execution trace saved to: {trace_file}")
         
         return final_state
         

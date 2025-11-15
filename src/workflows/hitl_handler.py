@@ -26,6 +26,25 @@ except ImportError:
 # In-memory store for pending approvals (in production, use a database)
 _pending_approvals: Dict[str, Dict[str, Any]] = {}
 
+# Trace logger callback (set by workflow)
+_trace_logger: Optional[callable] = None
+
+
+def set_trace_logger(logger_func: callable):
+    """Set the trace logger function to be called for HITL events"""
+    global _trace_logger
+    _trace_logger = logger_func
+
+
+def log_hitl_event(event_type: str, data: Dict[str, Any]):
+    """Log HITL event to trace if logger is available"""
+    if _trace_logger:
+        _trace_logger({
+            "event_type": event_type,
+            "timestamp": datetime.now().isoformat(),
+            **data
+        })
+
 
 # ============================================================================
 # PYDANTIC MODELS
@@ -133,6 +152,14 @@ def pause_for_approval_cli(
         if len(dashboard_preview) > 500:
             print(f"\n... ({len(dashboard_preview) - 500} more characters)")
     
+    # Log HITL triggered event
+    log_hitl_event("HITL_TRIGGERED", {
+        "run_id": run_id,
+        "company_id": company_id,
+        "risk_signals_count": len(risk_signals),
+        "high_severity_count": len([s for s in risk_signals if s.get("severity") == "high"])
+    })
+    
     # Prompt for approval
     print(f"\n{'='*70}")
     print(f"APPROVAL DECISION")
@@ -142,6 +169,12 @@ def pause_for_approval_cli(
     print(f"  - Type 'no' or 'n' to REJECT and terminate")
     print(f"  - Type 'notes' to add notes before deciding")
     print(f"\nYour decision: ", end="", flush=True)
+    
+    # Log HITL waiting event
+    log_hitl_event("HITL_WAITING", {
+        "run_id": run_id,
+        "company_id": company_id
+    })
     
     try:
         user_input = input().strip().lower()
@@ -174,12 +207,31 @@ def pause_for_approval_cli(
         print(f"\n{'='*70}")
         if approved:
             print(f"✅ APPROVED by {reviewer}")
+            log_hitl_event("HITL_APPROVED", {
+                "run_id": run_id,
+                "company_id": company_id,
+                "reviewer": reviewer,
+                "notes": notes
+            })
         else:
             print(f"❌ REJECTED by {reviewer}")
+            log_hitl_event("HITL_REJECTED", {
+                "run_id": run_id,
+                "company_id": company_id,
+                "reviewer": reviewer,
+                "notes": notes
+            })
         if notes:
             print(f"Notes: {notes}")
         print(f"Timestamp: {decision['timestamp']}")
         print(f"{'='*70}\n")
+        
+        # Log workflow resuming
+        log_hitl_event("WORKFLOW_RESUMED", {
+            "run_id": run_id,
+            "company_id": company_id,
+            "approved": approved
+        })
         
         return decision
         
