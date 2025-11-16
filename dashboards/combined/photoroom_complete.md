@@ -1,0 +1,37 @@
+# PHOTOROOM - Complete PE Due Diligence Dashboard
+
+*Generated: 2025-11-14T21:11:26.930296*
+
+---
+
+## STRUCTURED DASHBOARD
+
+## Company Overview
+Photoroom, Inc. is a private AI startup that was founded in 2019 and is based in San Francisco, CA, USA. The company operates in the AI, Photo Editing, E-commerce, SaaS, and Visual Content Creation sectors. They offer AI-powered photo editing solutions to entrepreneurs, marketers, and global teams to produce high-quality content without traditional bottlenecks.
+
+## Business Model and GTM
+Photoroom operates a SaaS business model offering a range of products including Background remover, Image generator, Virtual model, Product staging, Background generator, AI product photography, Logo maker, Batch editing, and an API. The company offers four pricing tiers: Free, Pro, Max, and Enterprise. Photoroom has establishments in San Francisco, New York, and London with plans to expand in Europe and Asia-Pacific.
+
+## Funding & Investor Profile
+Photoroom has raised a total of $1,000,000,000 in funding over four rounds. Their latest funding round, Series D, was on January 1, 2024, where they achieved a valuation of $2,500,000,000. Investors involved in the funding rounds include Investor A, Investor B, Investor C, Investor D, Investor E, and Investor F.
+
+## Growth Momentum
+Photoroom has shown significant growth with a 100% increase in headcount and they currently have 350 employees. The company is actively hiring, with a focus on Engineering, Sales, Marketing, and Product roles. They have released five new products in the last 12 months.
+
+## Visibility & Market Sentiment
+Photoroom has a high transparency score of 100%. The company has been featured on "This Week in Startups", they've released a diversity report, and are training a text-to-image model. The company has notable customers like Wolt, Cowgirl Clutch, and Watches, Inc.
+
+## Risks and Challenges
+The company identifies market competition and scaling challenges as their key challenges. They have a risk score of 27.0, which is considered low.
+
+## Outlook
+With a steady growth rate, successful funding rounds, and plans for geographical expansion, Photoroom’s future outlook seems positive. The company's focus on innovation and product development is evident in the range of products released over the past year.
+
+## Disclosure Gaps
+The company claims enterprise customers but there are no specific case studies available. Customer count and revenue details are also not disclosed.
+
+---
+
+## RAG-ENHANCED DASHBOARD
+
+company_id='photoroom' dashboard="## Company Overview\n**Legal Name:** Photoroom, Inc.  \n**Website:** [photoroom.com](https://www.photoroom.com/)  \n**Headquarters:** San Francisco, CA, USA  \n**Founded Year:** 2019  \n**Categories:** AI, Photo Editing, E-commerce, SaaS, Visual Content Creation  \n**Total Raised:** $1,000,000,000  \n**Last Disclosed Valuation:** $2,500,000,000  \n**Last Round Name:** Series D  \n**Last Round Date:** January 1, 2024  \n\n## Business Model and GTM\nPhotoroom offers a suite of products designed to enhance visual content creation, including:\n- **Background Remover:** A tool that allows users to remove backgrounds from images quickly and easily.\n- **Image Generator:** Generates images based on user input, ideal for creating unique visuals.\n- **Virtual Model:** A feature that allows users to create virtual models for showcasing products.\n- **Product Staging:** Helps in staging products for better presentation in images.\n- **Background Generator:** Generates backgrounds for images to enhance visual appeal.\n- **AI Product Photography:** Utilizes AI technology to enhance product photography.\n- **Logo Maker:** A tool for creating custom logos for brands.\n- **ROI Calculator:** A tool to calculate the return on investment for marketing campaigns.\n- **API:** Allows developers to integrate Photoroom's features into their own applications.\n- **Batch Processing:** Enables users to process multiple images at once for efficiency.\n- **Brand Kit:** A collection of brand assets to maintain consistency across marketing materials.\n\nPricing models and tiers are not disclosed.\n\n## Funding & Investor Profile\nPhotoroom has completed several funding rounds:\n- **Series A:** $250,000,000 from Investor A and Investor B (January 1, 2021)\n- **Series B:** $250,000,000 from Investor C (January 1, 2022)\n- **Series C:** $250,000,000 from Investor D and Investor E (January 1, 2023)\n- **Series D:** $250,000,000 from Investor F (January 1, 2024)\n\n## Growth Momentum\nThe company has shown consistent growth through its funding rounds, increasing its valuation from $1,000,000,000 in Series A to $2,500,000,000 in Series D.\n\n## Visibility & Market Sentiment\nThe company states that it helps entrepreneurs, marketers, and global teams produce high-quality content without the traditional bottlenecks. It positions itself as an AI-powered photo editor and listing studio for product photography.\n\n## Risks and Challenges\nNot disclosed.\n\n## Outlook\nNot disclosed.\n\n## Disclosure Gaps\n- Specific pricing models and tiers for products are not disclosed.\n- Detailed information on risks and challenges is not disclosed.\n- Future outlook and strategic plans are not disclosed." chunks_used=3

@@ -1,0 +1,162 @@
+{
+  "generated_at": "2025-11-15T00:02:19.458932",
+  "total_companies": 35,
+  "successful": 21,
+  "failed": 14,
+  "results": [
+    {
+      "company_id": "abridge",
+      "status": "success"
+    },
+    {
+      "company_id": "anthropic",
+      "status": "success"
+    },
+    {
+      "company_id": "cursor",
+      "status": "success"
+    },
+    {
+      "company_id": "cohere",
+      "status": "success"
+    },
+    {
+      "company_id": "databricks",
+      "status": "success"
+    },
+    {
+      "company_id": "deepl",
+      "status": "success"
+    },
+    {
+      "company_id": "eleven-labs",
+      "status": "success"
+    },
+    {
+      "company_id": "glean",
+      "status": "success"
+    },
+    {
+      "company_id": "hugging-face",
+      "status": "success"
+    },
+    {
+      "company_id": "notion",
+      "status": "success"
+    },
+    {
+      "company_id": "perplexity",
+      "status": "success"
+    },
+    {
+      "company_id": "runway",
+      "status": "success"
+    },
+    {
+      "company_id": "suno",
+      "status": "success"
+    },
+    {
+      "company_id": "baseten",
+      "status": "success"
+    },
+    {
+      "company_id": "captions",
+      "status": "success"
+    },
+    {
+      "company_id": "clay",
+      "status": "success"
+    },
+    {
+      "company_id": "crusoe",
+      "status": "success"
+    },
+    {
+      "company_id": "figure-ai",
+      "status": "success"
+    },
+    {
+      "company_id": "hebbia",
+      "status": "success"
+    },
+    {
+      "company_id": "langchain",
+      "status": "success"
+    },
+    {
+      "company_id": "luminance",
+      "status": "success"
+    },
+    {
+      "company_id": "manifest",
+      "status": "failed",
+      "error": "No MCP calls made"
+    },
+    {
+      "company_id": "mercor",
+      "status": "failed",
+      "error": "No MCP calls made"
+    },
+    {
+      "company_id": "openevidence",
+      "status": "failed",
+      "error": "No MCP calls made"
+    },
+    {
+      "company_id": "photoroom",
+      "status": "failed",
+      "error": "No MCP calls made"
+    },
+    {
+      "company_id": "speak",
+      "status": "failed",
+      "error": "No MCP calls made"
+    },
+    {
+      "company_id": "stackblitz",
+      "status": "failed",
+      "error": "No MCP calls made"
+    },
+    {
+      "company_id": "synthesia",
+      "status": "failed",
+      "error": "No MCP calls made"
+    },
+    {
+      "company_id": "thinking-machines",
+      "status": "failed",
+      "error": "No MCP calls made"
+    },
+    {
+      "company_id": "together",
+      "status": "failed",
+      "error": "No MCP calls made"
+    },
+    {
+      "company_id": "vannevar",
+      "status": "failed",
+      "error": "No MCP calls made"
+    },
+    {
+      "company_id": "windsurf",
+      "status": "failed",
+      "error": "No MCP calls made"
+    },
+    {
+      "company_id": "world-labs",
+      "status": "failed",
+      "error": "No MCP calls made"
+    },
+    {
+      "company_id": "writer",
+      "status": "failed",
+      "error": "No MCP calls made"
+    },
+    {
+      "company_id": "xai",
+      "status": "failed",
+      "error": "No MCP calls made"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+# LUMINANCE - PE Due Diligence Dashboard (Structured)
+
+*Generated: 2025-11-15T00:00:29.673689*
+
+## Company Overview
+Luminance, founded in 2020, is a private AI startup based in Cambridge, United Kingdom. The company specializes in AI, Legal Technology, Contract Management, Compliance, and Enterprise Software. Luminance's AI solution automates and augments every touchpoint a business has with its contracts. The company operates across various departments, including Legal, Compliance, Procurement, Sales, HR, and more.
+
+## Business Model and GTM
+Luminance's business model is centered around its AI-powered products which cater to contract management. These products are intended to help teams across any business navigate negotiations more quickly, confidently, and compliantly than ever before. The company's product portfolio includes "Luminance’s AI-Powered Checklists", "Word Plugin", "Lumi Summary", "Lumi Generate", and "Legal-Grade™ AI". The pricing details of these products are not disclosed. Luminance has a geographical presence in 70 countries and has expanded its geography via AWS Marketplace. 
+
+## Funding & Investor Profile
+Luminance has raised a total of $75 million in funding. The last funding round was a Series C round that took place on January 1, 2025. The investors in the last round are not disclosed. The company's last disclosed valuation is not available.
+
+## Growth Momentum
+As of November 5, 2025, Luminance has a total headcount of 700 employees. The company's headcount growth percentage is not disclosed. However, it is noted that the company has a moderate headcount velocity. The company hasn't disclosed any job openings. The company does not have any new products released in the last 12 months. 
+
+## Visibility & Market Sentiment
+Luminance has received several positive signals, including raising $75 million in Series C funding, being featured in Forbes' AI 50 List, and being named the Best AI Product for Legal at the CogX Awards. The company has not disclosed any negative signals. 
+
+## Risks and Challenges
+Luminance has a risk score of 38.0, indicating a medium level of risk. The key challenges faced by the company are not disclosed.
+
+## Outlook
+Luminance has shown steady growth and positive market sentiment. Notable customers of the company include AMD, BBC Studios, Hitachi, Liberty Mutual, and Koch Industries. The company's transparency score is high at 100.0. 
+
+## Disclosure Gaps
+The company has not disclosed pricing information for its products. The company's last disclosed valuation, investors in the last round, and headcount growth percentage are also not available.
