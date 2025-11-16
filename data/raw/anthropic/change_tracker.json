@@ -4,8 +4,8 @@
   "hashes": {
     "about": "1d8203a73d8515fe5bc5b9f76134a16f",
     "careers": "1c75b2e7e135500b29065610a9d14e70",
-    "blog": "df239983211c900e38b3945168445ad4",
-    "news": "df239983211c900e38b3945168445ad4"
+    "blog": "963be1a3b33a59721010baf6712706e9",
+    "news": "963be1a3b33a59721010baf6712706e9"
   },
   "history": [
     {
@@ -40,6 +40,37 @@
     {
       "execution_date": "2025-11-07",
       "crawled_at": "2025-11-07T00:59:16.972665Z",
+      "pages_checked": 4,
+      "changes_detected": [],
+      "errors": 0
+    },
+    {
+      "execution_date": "2025-11-14",
+      "crawled_at": "2025-11-15T23:49:17.811713Z",
+      "pages_checked": 4,
+      "changes_detected": [
+        "blog",
+        "news"
+      ],
+      "errors": 0
+    },
+    {
+      "execution_date": "2025-11-14",
+      "crawled_at": "2025-11-16T00:35:26.644860Z",
+      "pages_checked": 4,
+      "changes_detected": [],
+      "errors": 0
+    },
+    {
+      "execution_date": "2025-11-14",
+      "crawled_at": "2025-11-16T02:58:57.415479Z",
+      "pages_checked": 4,
+      "changes_detected": [],
+      "errors": 0
+    },
+    {
+      "execution_date": "2025-11-15",
+      "crawled_at": "2025-11-16T03:37:54.609507Z",
       "pages_checked": 4,
       "changes_detected": [],
       "errors": 0

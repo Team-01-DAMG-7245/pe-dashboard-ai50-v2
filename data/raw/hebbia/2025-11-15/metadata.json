@@ -1,0 +1,51 @@
+{
+  "company_name": "Hebbia",
+  "company_id": "hebbia",
+  "base_url": "https://hebbia.com",
+  "crawled_at": "2025-11-16T03:37:40.094951Z",
+  "execution_date": "2025-11-15",
+  "pages_refreshed": [
+    {
+      "page": "about",
+      "url": "https://hebbia.com/about",
+      "status": 200,
+      "size_bytes": 120735,
+      "content_hash": "9213fa06effa4a8176412dace2ca8284",
+      "changed": false,
+      "html_file": "hebbia/2025-11-15/about_raw.html",
+      "text_file": "hebbia/2025-11-15/about_clean.txt"
+    },
+    {
+      "page": "careers",
+      "url": "https://hebbia.com/careers",
+      "status": 200,
+      "size_bytes": 338568,
+      "content_hash": "cd12727ab67c7520f80b1d3d608b269a",
+      "changed": false,
+      "html_file": "hebbia/2025-11-15/careers_raw.html",
+      "text_file": "hebbia/2025-11-15/careers_clean.txt"
+    },
+    {
+      "page": "blog",
+      "url": "https://hebbia.com/blog",
+      "status": 200,
+      "size_bytes": 205383,
+      "content_hash": "63feb15def9e2053ec8021b82bf9a1dc",
+      "changed": false,
+      "html_file": "hebbia/2025-11-15/blog_raw.html",
+      "text_file": "hebbia/2025-11-15/blog_clean.txt"
+    },
+    {
+      "page": "news",
+      "url": "https://hebbia.com/newsroom",
+      "status": 200,
+      "size_bytes": 71902,
+      "content_hash": "1b9d3cac3f41378e5302b972880d0461",
+      "changed": false,
+      "html_file": "hebbia/2025-11-15/news_raw.html",
+      "text_file": "hebbia/2025-11-15/news_clean.txt"
+    }
+  ],
+  "changes_detected": [],
+  "errors": []
+}

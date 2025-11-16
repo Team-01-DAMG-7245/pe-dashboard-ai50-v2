@@ -33,7 +33,9 @@ services:
       - airflow-network
 
   airflow-webserver:
-    image: apache/airflow:2.7.3
+    build:
+      context: .
+      dockerfile: Dockerfile.airflow
     depends_on:
       airflow-init:
         condition: service_completed_successfully
@@ -41,11 +43,18 @@ services:
       AIRFLOW__CORE__EXECUTOR: LocalExecutor
       AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
       AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
+      AIRFLOW__CORE__TASK_EXECUTION_TIMEOUT: 7200  # 2 hours
+      AIRFLOW__CORE__DAGBAG_IMPORT_TIMEOUT: 600  # 10 minutes (increased for complex DAGs)
+      AIRFLOW__SCHEDULER__DAG_FILE_PROCESSOR_TIMEOUT: 600  # 10 minutes for file processing
+      AIRFLOW__SCHEDULER__PARSING_PROCESSES: 2  # Number of processes for parsing DAGs
+      AIRFLOW__CELERY__TASK_TIMEOUT: 7200  # 2 hours (for LocalExecutor compatibility)
+      AIRFLOW__WEBSERVER__WEB_SERVER_MASTER_TIMEOUT: 600  # 10 minutes
       AWS_BUCKET_NAME: quanta-ai50-data
     volumes:
       - ./dags:/opt/airflow/dags
       - ./data:/opt/airflow/data
       - ./src:/opt/airflow/src
+      - ./mcp_config.json:/opt/airflow/mcp_config.json:ro
       - ~/.aws:/home/airflow/.aws:ro
     ports:
       - "8080:8080"
@@ -54,7 +63,9 @@ services:
       - airflow-network
 
   airflow-scheduler:
-    image: apache/airflow:2.7.3
+    build:
+      context: .
+      dockerfile: Dockerfile.airflow
     depends_on:
       airflow-init:
         condition: service_completed_successfully
@@ -62,11 +73,18 @@ services:
       AIRFLOW__CORE__EXECUTOR: LocalExecutor
       AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
       AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
+      AIRFLOW__CORE__TASK_EXECUTION_TIMEOUT: 7200  # 2 hours
+      AIRFLOW__CORE__DAGBAG_IMPORT_TIMEOUT: 600  # 10 minutes (increased for complex DAGs)
+      AIRFLOW__SCHEDULER__DAG_FILE_PROCESSOR_TIMEOUT: 600  # 10 minutes for file processing
+      AIRFLOW__SCHEDULER__PARSING_PROCESSES: 2  # Number of processes for parsing DAGs
+      AIRFLOW__CELERY__TASK_TIMEOUT: 7200  # 2 hours (for LocalExecutor compatibility)
+      AIRFLOW__WEBSERVER__WEB_SERVER_MASTER_TIMEOUT: 600  # 10 minutes
       AWS_BUCKET_NAME: quanta-ai50-data
     volumes:
       - ./dags:/opt/airflow/dags
       - ./data:/opt/airflow/data
       - ./src:/opt/airflow/src
+      - ./mcp_config.json:/opt/airflow/mcp_config.json:ro
       - ~/.aws:/home/airflow/.aws:ro
     command: airflow scheduler
     networks:
@@ -82,10 +100,12 @@ services:
       - "8002:8000"
     environment:
       AWS_BUCKET_NAME: quanta-ai50-data
+      OPENAI_API_KEY: ${OPENAI_API_KEY}
     volumes:
       - ./src:/app/src
       - ./data:/app/data
       - ~/.aws:/root/.aws:ro
+      - ./.env:/app/.env:ro
     command: uvicorn src.api:app --host 0.0.0.0 --port 8000 --reload
     networks:
       - airflow-network
@@ -108,6 +128,56 @@ services:
     command: streamlit run src/streamlit_app.py --server.port 8501 --server.address 0.0.0.0
     depends_on:
       - fastapi
+    networks:
+      - airflow-network
+
+  # MCP Server (Phase 4 - Assignment 5)
+  mcp-server:
+    build:
+      context: .
+      dockerfile: Dockerfile.mcp
+    container_name: pe-dashboard-mcp
+    ports:
+      - "9000:9000"
+    environment:
+      OPENAI_API_KEY: ${OPENAI_API_KEY}
+      AWS_BUCKET_NAME: ${AWS_BUCKET_NAME:-quanta-ai50-data}
+    volumes:
+      - ./src:/app/src
+      - ./data:/app/data
+      - ./mcp_config.json:/app/mcp_config.json
+      - ~/.aws:/root/.aws:ro
+    command: python src/lab14/server/mcp_server.py
+    networks:
+      - airflow-network
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:9000/health')"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+
+  # Supervisor Agent + Workflow (Phase 4 - Assignment 5)
+  agent:
+    build:
+      context: .
+      dockerfile: Dockerfile.agent
+    container_name: pe-dashboard-agent
+    ports:
+      - "9001:9001"
+    environment:
+      OPENAI_API_KEY: ${OPENAI_API_KEY}
+      MCP_SERVER_URL: http://mcp-server:9000
+      AWS_BUCKET_NAME: ${AWS_BUCKET_NAME:-quanta-ai50-data}
+    volumes:
+      - ./src:/app/src
+      - ./data:/app/data
+      - ./mcp_config.json:/app/mcp_config.json
+      - ./logs:/app/logs
+      - ~/.aws:/root/.aws:ro
+    depends_on:
+      mcp-server:
+        condition: service_healthy
     networks:
       - airflow-network
 

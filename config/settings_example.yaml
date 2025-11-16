@@ -1,0 +1,213 @@
+# Project ORBIT - Configuration Settings Example
+# Copy this file to config/settings.yaml and customize as needed
+
+# Application Settings
+app:
+  name: "Project ORBIT - PE Dashboard"
+  version: "1.0.0"
+  environment: "development"  # development, staging, production
+
+# Data Pipeline Configuration
+pipeline:
+  # Company data
+  seed_file: "data/forbes_ai50_seed.json"
+  raw_data_dir: "data/raw"
+  structured_data_dir: "data/structured"
+  payloads_dir: "data/payloads"
+  dashboards_dir: "data/dashboards"
+  
+  # Vector DB
+  vector_db:
+    path: "data/vector_db"
+    collection_name: "ai50_companies"
+    embedding_model: "all-MiniLM-L6-v2"
+    chunk_size: 500
+    chunk_overlap: 100
+
+# LLM Configuration
+llm:
+  provider: "openai"  # openai, anthropic
+  model: "gpt-4"
+  temperature: 0.7
+  max_tokens: 2000
+  timeout: 30
+
+# MCP Server Configuration (Phase 4 - Assignment 5)
+mcp:
+  server:
+    host: "0.0.0.0"
+    port: 9000
+    base_url: "http://localhost:9000"
+    timeout: 30
+    retry_attempts: 3
+  
+  tools:
+    enabled:
+      - "generate_structured_dashboard"
+      - "generate_rag_dashboard"
+    endpoints:
+      generate_structured_dashboard: "/tool/generate_structured_dashboard"
+      generate_rag_dashboard: "/tool/generate_rag_dashboard"
+  
+  resources:
+    companies: "/resource/ai50/companies"
+  
+  prompts:
+    pe_dashboard: "/prompt/pe-dashboard"
+  
+  security:
+    enable_filtering: true
+    allowed_tools:
+      - "generate_structured_dashboard"
+      - "generate_rag_dashboard"
+
+# Agent Configuration (Phase 4 - Assignment 5)
+agent:
+  supervisor:
+    system_prompt: "You are a PE Due Diligence Supervisor Agent. Use MCP tools to retrieve payloads, run RAG queries, log risks, and generate PE dashboards."
+    timeout: 30
+    retry_attempts: 3
+  
+  workflow:
+    enable_hitl: true  # Human-in-the-Loop
+    risk_keywords:
+      - "layoffs"
+      - "workforce reduction"
+      - "lawsuit"
+      - "legal action"
+      - "data breach"
+      - "security incident"
+      - "funding issues"
+      - "financial trouble"
+  
+  logging:
+    format: "json"
+    level: "INFO"
+    output_dir: "logs"
+    react_trace_file: "docs/REACT_TRACE_EXAMPLE.md"
+
+# Airflow DAG Configuration
+airflow:
+  dags:
+    initial_load:
+      dag_id: "orbit_initial_load_dag"
+      schedule: "@once"
+      max_active_runs: 1
+    
+    daily_update:
+      dag_id: "orbit_daily_update_dag"
+      schedule: "0 3 * * *"  # 3 AM UTC
+      max_active_runs: 1
+    
+    agentic_dashboard:
+      dag_id: "orbit_agentic_dashboard_dag"
+      schedule: "0 4 * * *"  # 4 AM UTC (after daily update)
+      max_active_runs: 1
+  
+  default_args:
+    owner: "quanta-capital"
+    retries: 2
+    retry_delay_minutes: 5
+    email_on_failure: false
+    email_on_retry: false
+
+# Cloud Storage Configuration
+storage:
+  provider: "s3"  # s3, gcs
+  bucket_name: "quanta-ai50-data"
+  region: "us-east-1"
+  
+  paths:
+    raw_data: "ai50/raw"
+    structured_data: "ai50/structured"
+    payloads: "ai50/payloads"
+    dashboards: "ai50/dashboards"
+    summaries: "ai50/summaries"
+
+# Dashboard Generation Settings
+dashboard:
+  sections:
+    - "Company Overview"
+    - "Business Model and GTM"
+    - "Funding & Investor Profile"
+    - "Growth Momentum"
+    - "Visibility & Market Sentiment"
+    - "Risks and Challenges"
+    - "Outlook"
+    - "Disclosure Gaps"
+  
+  defaults:
+    missing_field_text: "Not disclosed."
+    max_tokens: 2000
+    temperature: 0.7
+
+# Risk Detection Configuration
+risk_detection:
+  enabled: true
+  keywords:
+    layoffs:
+      - "layoff"
+      - "layoffs"
+      - "workforce reduction"
+      - "job cuts"
+      - "downsizing"
+    
+    legal:
+      - "lawsuit"
+      - "litigation"
+      - "legal action"
+      - "court"
+      - "settlement"
+    
+    security:
+      - "data breach"
+      - "security incident"
+      - "cyber attack"
+      - "hack"
+      - "leak"
+    
+    financial:
+      - "funding issues"
+      - "financial trouble"
+      - "bankruptcy"
+      - "insolvency"
+      - "cash flow"
+
+# Logging Configuration
+logging:
+  version: 1
+  disable_existing_loggers: false
+  
+  formatters:
+    json:
+      format: "%(asctime)s %(name)s %(levelname)s %(message)s"
+      class: "pythonjsonlogger.jsonlogger.JsonFormatter"
+    
+    standard:
+      format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  
+  handlers:
+    console:
+      class: "logging.StreamHandler"
+      level: "INFO"
+      formatter: "standard"
+      stream: "ext://sys.stdout"
+    
+    file:
+      class: "logging.handlers.RotatingFileHandler"
+      level: "INFO"
+      formatter: "json"
+      filename: "logs/orbit.log"
+      maxBytes: 10485760  # 10MB
+      backupCount: 5
+  
+  loggers:
+    orbit:
+      level: "INFO"
+      handlers: ["console", "file"]
+      propagate: false
+  
+  root:
+    level: "INFO"
+    handlers: ["console"]
+

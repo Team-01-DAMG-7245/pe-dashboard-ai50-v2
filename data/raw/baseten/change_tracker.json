@@ -2,9 +2,9 @@
   "company_id": "baseten",
   "company_name": "Baseten",
   "hashes": {
-    "about": "b0dbb78f617e7c05498f99b73ce63c18",
-    "careers": "b0dbb78f617e7c05498f99b73ce63c18",
-    "blog": "76cc77643e261c0befec3b43f54bf3e1"
+    "about": "71a865da832d32c72cf7f5b9d014c933",
+    "careers": "71a865da832d32c72cf7f5b9d014c933",
+    "blog": "fcee102e34b5ad53dbe5626daa632691"
   },
   "history": [
     {
@@ -43,6 +43,40 @@
       "changes_detected": [
         "blog"
       ],
+      "errors": 0
+    },
+    {
+      "execution_date": "2025-11-14",
+      "crawled_at": "2025-11-15T23:49:17.531440Z",
+      "pages_checked": 3,
+      "changes_detected": [
+        "about",
+        "careers",
+        "blog"
+      ],
+      "errors": 0
+    },
+    {
+      "execution_date": "2025-11-14",
+      "crawled_at": "2025-11-16T00:35:32.705698Z",
+      "pages_checked": 3,
+      "changes_detected": [
+        "blog"
+      ],
+      "errors": 0
+    },
+    {
+      "execution_date": "2025-11-14",
+      "crawled_at": "2025-11-16T02:59:05.143414Z",
+      "pages_checked": 3,
+      "changes_detected": [],
+      "errors": 0
+    },
+    {
+      "execution_date": "2025-11-15",
+      "crawled_at": "2025-11-16T03:37:27.641893Z",
+      "pages_checked": 3,
+      "changes_detected": [],
       "errors": 0
     }
   ]

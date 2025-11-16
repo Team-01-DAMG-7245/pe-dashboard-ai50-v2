@@ -17,9 +17,9 @@ Learn more
 Build with Model APIs
 Test new workloads, prototype new products, or evaluate the latest models with production-grade performance — instantly.
 Learn more
-DeepSeek V3.1
-Try It
 Qwen3 Coder 480B
+Try It
+DeepSeek V3.1
 Try It
 GPT OSS 120B
 Try It

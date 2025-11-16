@@ -5,7 +5,6 @@ Extracts structured data from scraped company text using LLM
 
 import os
 import json
-import instructor
 from openai import OpenAI
 from typing import Dict, List
 from datetime import date, datetime
@@ -28,6 +27,15 @@ else:
     # Also try loading from current directory
     load_dotenv()
 
+# Try to import instructor (may not be available in Python 3.8)
+try:
+    import instructor
+    HAS_INSTRUCTOR = True
+except ImportError:
+    HAS_INSTRUCTOR = False
+    print("Warning: instructor not available. Requires Python >=3.9/3.10. "
+          "Some features may not work. Consider running structured extraction in agent service (Python 3.11).")
+
 # Import job counting helper
 try:
     from lab5.count_jobs_helper import count_jobs_from_careers_text
@@ -35,9 +43,12 @@ try:
 except ImportError:
     HAS_JOB_HELPER = False
 
-# Initialize instructor with OpenAI
+# Initialize instructor with OpenAI (if available)
 openai_client = OpenAI()
-client = instructor.patch(openai_client)
+if HAS_INSTRUCTOR:
+    client = instructor.patch(openai_client)
+else:
+    client = openai_client
 
 def read_company_texts(company_id: str) -> Dict[str, str]:
     """Read all text files for a company"""
@@ -73,6 +84,14 @@ def read_company_texts(company_id: str) -> Dict[str, str]:
 
 def extract_company_info(company_id: str, texts: Dict[str, str]) -> Company:
     """Extract company information using LLM - MAXIMUM EXTRACTION MODE"""
+    
+    if not HAS_INSTRUCTOR:
+        raise ImportError(
+            "instructor is required for structured extraction but not available. "
+            "Instructor requires Python >=3.10, but Airflow uses Python 3.8. "
+            "Please run structured extraction in a service with Python 3.11 (e.g., agent service) "
+            "or upgrade to a newer Airflow version with Python 3.11 support."
+        )
     
     # Use FULL text content (no truncation) for maximum extraction
     about_text = texts.get('about', '')
@@ -217,6 +236,12 @@ def extract_company_info(company_id: str, texts: Dict[str, str]) -> Company:
 def extract_leadership(company_id: str, texts: Dict[str, str]) -> List[Leadership]:
     """Extract leadership information using LLM - MAXIMUM EXTRACTION"""
     
+    if not HAS_INSTRUCTOR:
+        raise ImportError(
+            "instructor is required for structured extraction but not available. "
+            "Please run structured extraction in a service with Python 3.11."
+        )
+    
     # Use FULL text from multiple sources
     about_text = texts.get('about', '')
     homepage_text = texts.get('homepage', '')
@@ -300,6 +325,12 @@ def extract_leadership(company_id: str, texts: Dict[str, str]) -> List[Leadershi
 def extract_products(company_id: str, texts: Dict[str, str]) -> List[Product]:
     """Extract product information using LLM"""
     
+    if not HAS_INSTRUCTOR:
+        raise ImportError(
+            "instructor is required for structured extraction but not available. "
+            "Please run structured extraction in a service with Python 3.11."
+        )
+    
     product_text = texts.get('product', '')
     homepage_text = texts.get('homepage', '')
     
@@ -347,6 +378,12 @@ def extract_products(company_id: str, texts: Dict[str, str]) -> List[Product]:
 
 def extract_events(company_id: str, texts: Dict[str, str]) -> List[Event]:
     """Extract events (funding rounds, key announcements) from blog/news - MAXIMUM EXTRACTION"""
+    
+    if not HAS_INSTRUCTOR:
+        raise ImportError(
+            "instructor is required for structured extraction but not available. "
+            "Please run structured extraction in a service with Python 3.11."
+        )
     
     # Use FULL text - no truncation for maximum extraction
     about_text = texts.get('about', '')
@@ -442,6 +479,12 @@ def extract_events(company_id: str, texts: Dict[str, str]) -> List[Event]:
 
 def extract_snapshot(company_id: str, texts: Dict[str, str]) -> Snapshot:
     """Extract current snapshot information - MAXIMUM EXTRACTION with LinkedIn-aware extraction"""
+    
+    if not HAS_INSTRUCTOR:
+        raise ImportError(
+            "instructor is required for structured extraction but not available. "
+            "Please run structured extraction in a service with Python 3.11."
+        )
     
     # Use FULL text from multiple sources
     careers_text = texts.get('careers', '')

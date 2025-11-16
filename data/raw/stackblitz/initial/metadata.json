@@ -6,7 +6,7 @@
   "hq_country": "United States",
   "category": "Web and mobile app development",
   "linkedin": "https://www.linkedin.com/company/stackblitz/",
-  "crawled_at": "2025-11-07T00:55:55.836429Z",
+  "crawled_at": "2025-11-16T03:37:36.630844Z",
   "pages_scraped": [
     {
       "page": "homepage",
@@ -20,7 +20,7 @@
       "page": "careers",
       "url": "https://stackblitz.com/careers",
       "status": 200,
-      "size_bytes": 122434,
+      "size_bytes": 125936,
       "html_file": "stackblitz/initial/careers_raw.html",
       "text_file": "stackblitz/initial/careers_clean.txt"
     }

@@ -4,7 +4,7 @@
   "hashes": {
     "about": "2a54620ab06ad95bf15b2194ab951060",
     "careers": "2144177f42a039c4158c1b6f1209a56f",
-    "blog": "1fb52fe15b2b9a093e714adf0f5949a0"
+    "blog": "a6686f58714e18fa3ed76853e6e2c0a5"
   },
   "history": [
     {
@@ -37,6 +37,36 @@
     {
       "execution_date": "2025-11-07",
       "crawled_at": "2025-11-07T00:59:08.770030Z",
+      "pages_checked": 3,
+      "changes_detected": [],
+      "errors": 0
+    },
+    {
+      "execution_date": "2025-11-14",
+      "crawled_at": "2025-11-15T23:49:20.600407Z",
+      "pages_checked": 3,
+      "changes_detected": [
+        "blog"
+      ],
+      "errors": 0
+    },
+    {
+      "execution_date": "2025-11-14",
+      "crawled_at": "2025-11-16T00:35:24.355512Z",
+      "pages_checked": 3,
+      "changes_detected": [],
+      "errors": 0
+    },
+    {
+      "execution_date": "2025-11-14",
+      "crawled_at": "2025-11-16T02:58:58.392941Z",
+      "pages_checked": 3,
+      "changes_detected": [],
+      "errors": 0
+    },
+    {
+      "execution_date": "2025-11-15",
+      "crawled_at": "2025-11-16T03:14:06.879247Z",
       "pages_checked": 3,
       "changes_detected": [],
       "errors": 0

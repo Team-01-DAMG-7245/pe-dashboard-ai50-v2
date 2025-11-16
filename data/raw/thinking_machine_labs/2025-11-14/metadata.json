@@ -1,0 +1,16 @@
+{
+  "company_name": "Thinking Machine Labs",
+  "company_id": "thinking_machine_labs",
+  "base_url": "https://thinking-machine-labs.com",
+  "crawled_at": "2025-11-16T03:01:27.729230Z",
+  "execution_date": "2025-11-14",
+  "pages_refreshed": [],
+  "changes_detected": [],
+  "errors": [
+    {
+      "page": "careers",
+      "url": "https://thinking-machine-labs.com/jobs",
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+    }
+  ]
+}

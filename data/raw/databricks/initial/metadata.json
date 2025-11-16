@@ -6,13 +6,13 @@
   "hq_country": "United States",
   "category": "Data and AI platform",
   "linkedin": "https://www.linkedin.com/company/databricks/",
-  "crawled_at": "2025-11-07T00:56:00.121849Z",
+  "crawled_at": "2025-11-16T02:57:51.806061Z",
   "pages_scraped": [
     {
       "page": "homepage",
       "url": "https://databricks.com",
       "status": 200,
-      "size_bytes": 780615,
+      "size_bytes": 780605,
       "html_file": "databricks/initial/homepage_raw.html",
       "text_file": "databricks/initial/homepage_clean.txt"
     },
@@ -20,7 +20,7 @@
       "page": "about",
       "url": "https://databricks.com/about",
       "status": 200,
-      "size_bytes": 730671,
+      "size_bytes": 730618,
       "html_file": "databricks/initial/about_raw.html",
       "text_file": "databricks/initial/about_clean.txt"
     },
@@ -28,7 +28,7 @@
       "page": "product",
       "url": "https://databricks.com/product",
       "status": 200,
-      "size_bytes": 759915,
+      "size_bytes": 759862,
       "html_file": "databricks/initial/product_raw.html",
       "text_file": "databricks/initial/product_clean.txt"
     },
@@ -36,7 +36,7 @@
       "page": "platform",
       "url": "https://databricks.com/solutions",
       "status": 200,
-      "size_bytes": 729393,
+      "size_bytes": 729340,
       "html_file": "databricks/initial/platform_raw.html",
       "text_file": "databricks/initial/platform_clean.txt"
     },
@@ -44,7 +44,7 @@
       "page": "careers",
       "url": "https://databricks.com/careers",
       "status": 200,
-      "size_bytes": 750555,
+      "size_bytes": 750501,
       "html_file": "databricks/initial/careers_raw.html",
       "text_file": "databricks/initial/careers_clean.txt"
     },
@@ -52,7 +52,7 @@
       "page": "blog",
       "url": "https://databricks.com/blog",
       "status": 200,
-      "size_bytes": 732706,
+      "size_bytes": 732417,
       "html_file": "databricks/initial/blog_raw.html",
       "text_file": "databricks/initial/blog_clean.txt"
     },
@@ -60,7 +60,7 @@
       "page": "news",
       "url": "https://databricks.com/newsroom",
       "status": 200,
-      "size_bytes": 694104,
+      "size_bytes": 694069,
       "html_file": "databricks/initial/news_raw.html",
       "text_file": "databricks/initial/news_clean.txt"
     }

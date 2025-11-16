@@ -1,0 +1,41 @@
+{
+  "company_name": "Baseten",
+  "company_id": "baseten",
+  "base_url": "https://baseten.com",
+  "crawled_at": "2025-11-16T03:37:27.641893Z",
+  "execution_date": "2025-11-15",
+  "pages_refreshed": [
+    {
+      "page": "about",
+      "url": "https://baseten.com/about",
+      "status": 200,
+      "size_bytes": 386222,
+      "content_hash": "71a865da832d32c72cf7f5b9d014c933",
+      "changed": false,
+      "html_file": "baseten/2025-11-15/about_raw.html",
+      "text_file": "baseten/2025-11-15/about_clean.txt"
+    },
+    {
+      "page": "careers",
+      "url": "https://baseten.com/careers",
+      "status": 200,
+      "size_bytes": 386222,
+      "content_hash": "71a865da832d32c72cf7f5b9d014c933",
+      "changed": false,
+      "html_file": "baseten/2025-11-15/careers_raw.html",
+      "text_file": "baseten/2025-11-15/careers_clean.txt"
+    },
+    {
+      "page": "blog",
+      "url": "https://baseten.com/blog",
+      "status": 200,
+      "size_bytes": 333781,
+      "content_hash": "fcee102e34b5ad53dbe5626daa632691",
+      "changed": false,
+      "html_file": "baseten/2025-11-15/blog_raw.html",
+      "text_file": "baseten/2025-11-15/blog_clean.txt"
+    }
+  ],
+  "changes_detected": [],
+  "errors": []
+}

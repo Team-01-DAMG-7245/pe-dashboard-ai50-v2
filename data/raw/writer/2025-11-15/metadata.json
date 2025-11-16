@@ -1,0 +1,51 @@
+{
+  "company_name": "Writer",
+  "company_id": "writer",
+  "base_url": "https://writer.com",
+  "crawled_at": "2025-11-16T03:37:44.991028Z",
+  "execution_date": "2025-11-15",
+  "pages_refreshed": [
+    {
+      "page": "about",
+      "url": "https://writer.com/about",
+      "status": 200,
+      "size_bytes": 346834,
+      "content_hash": "95eed51df0df5ebb2d29fbfad6e2bf9e",
+      "changed": false,
+      "html_file": "writer/2025-11-15/about_raw.html",
+      "text_file": "writer/2025-11-15/about_clean.txt"
+    },
+    {
+      "page": "careers",
+      "url": "https://writer.com/careers",
+      "status": 200,
+      "size_bytes": 211504,
+      "content_hash": "d4d74b62b1c8c3eb86fddd2fa0c7f9b1",
+      "changed": false,
+      "html_file": "writer/2025-11-15/careers_raw.html",
+      "text_file": "writer/2025-11-15/careers_clean.txt"
+    },
+    {
+      "page": "blog",
+      "url": "https://writer.com/blog",
+      "status": 200,
+      "size_bytes": 253499,
+      "content_hash": "f4cd1f07eb4c29282717ec1f0d429766",
+      "changed": false,
+      "html_file": "writer/2025-11-15/blog_raw.html",
+      "text_file": "writer/2025-11-15/blog_clean.txt"
+    },
+    {
+      "page": "news",
+      "url": "https://writer.com/newsroom",
+      "status": 200,
+      "size_bytes": 270665,
+      "content_hash": "74b37ed1f5a023cc62c9bcc8b1835570",
+      "changed": false,
+      "html_file": "writer/2025-11-15/news_raw.html",
+      "text_file": "writer/2025-11-15/news_clean.txt"
+    }
+  ],
+  "changes_detected": [],
+  "errors": []
+}

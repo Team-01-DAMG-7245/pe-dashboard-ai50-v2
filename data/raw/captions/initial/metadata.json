@@ -6,13 +6,13 @@
   "hq_country": "United States",
   "category": "Video editor",
   "linkedin": "https://www.linkedin.com/company/captions/",
-  "crawled_at": "2025-11-07T00:55:59.307964Z",
+  "crawled_at": "2025-11-16T02:57:53.449865Z",
   "pages_scraped": [
     {
       "page": "homepage",
       "url": "https://captions.com",
       "status": 200,
-      "size_bytes": 239136,
+      "size_bytes": 279908,
       "html_file": "captions/initial/homepage_raw.html",
       "text_file": "captions/initial/homepage_clean.txt"
     }

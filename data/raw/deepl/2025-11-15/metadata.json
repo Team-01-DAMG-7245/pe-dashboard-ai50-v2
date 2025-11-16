@@ -1,0 +1,41 @@
+{
+  "company_name": "Deepl",
+  "company_id": "deepl",
+  "base_url": "https://deepl.com",
+  "crawled_at": "2025-11-16T03:02:46.871031Z",
+  "execution_date": "2025-11-15",
+  "pages_refreshed": [
+    {
+      "page": "about",
+      "url": "https://deepl.com/about-us",
+      "status": 200,
+      "size_bytes": 119929,
+      "content_hash": "01232fca559e821a7d446c4800272c9f",
+      "changed": false,
+      "html_file": "deepl/2025-11-15/about_raw.html",
+      "text_file": "deepl/2025-11-15/about_clean.txt"
+    },
+    {
+      "page": "careers",
+      "url": "https://deepl.com/careers",
+      "status": 200,
+      "size_bytes": 129953,
+      "content_hash": "2379a735c0852fc811077e4d4fd90984",
+      "changed": false,
+      "html_file": "deepl/2025-11-15/careers_raw.html",
+      "text_file": "deepl/2025-11-15/careers_clean.txt"
+    },
+    {
+      "page": "blog",
+      "url": "https://deepl.com/blog",
+      "status": 200,
+      "size_bytes": 130950,
+      "content_hash": "6fbd8d672c0e7fd1b193a785f2c5ab4c",
+      "changed": false,
+      "html_file": "deepl/2025-11-15/blog_raw.html",
+      "text_file": "deepl/2025-11-15/blog_clean.txt"
+    }
+  ],
+  "changes_detected": [],
+  "errors": []
+}

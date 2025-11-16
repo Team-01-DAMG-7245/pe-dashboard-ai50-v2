@@ -1,0 +1,31 @@
+{
+  "company_name": "Langchain",
+  "company_id": "langchain",
+  "base_url": "https://langchain.com",
+  "crawled_at": "2025-11-16T02:58:25.522436Z",
+  "execution_date": "2025-11-14",
+  "pages_refreshed": [
+    {
+      "page": "about",
+      "url": "https://langchain.com/about",
+      "status": 200,
+      "size_bytes": 40092,
+      "content_hash": "4c07686ba4c1ea215d5cd59e8ed82e47",
+      "changed": false,
+      "html_file": "langchain/2025-11-14/about_raw.html",
+      "text_file": "langchain/2025-11-14/about_clean.txt"
+    },
+    {
+      "page": "careers",
+      "url": "https://langchain.com/careers",
+      "status": 200,
+      "size_bytes": 45158,
+      "content_hash": "8d443a8fbc11b4dd64eafb8ae42d1c87",
+      "changed": false,
+      "html_file": "langchain/2025-11-14/careers_raw.html",
+      "text_file": "langchain/2025-11-14/careers_clean.txt"
+    }
+  ],
+  "changes_detected": [],
+  "errors": []
+}

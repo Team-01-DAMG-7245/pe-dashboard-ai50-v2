@@ -2,17 +2,26 @@ import streamlit as st
 import requests
 import os
 
-API_BASE = "http://localhost:8002"
+# Use environment variable if available (for Docker), otherwise fallback to localhost
+API_BASE = os.getenv("FASTAPI_URL", "http://localhost:8002")
 
 st.set_page_config(page_title="PE Dashboard (AI 50)", layout="wide")
 st.title("Project ORBIT – PE Dashboard for Forbes AI 50")
 
 # Get list of companies from API
 try:
-    response = requests.get(f"{API_BASE}/companies", timeout=5)
+    response = requests.get(f"{API_BASE}/companies", timeout=30)
     if response.status_code == 200:
         companies_data = response.json()
-        company_list = companies_data.get("companies", [])
+        # Handle both list and dict responses
+        if isinstance(companies_data, list):
+            # API returns list of company objects directly
+            company_list = [company.get("company_name", "") for company in companies_data if company.get("company_name")]
+        elif isinstance(companies_data, dict):
+            # API returns dict with "companies" key
+            company_list = companies_data.get("companies", [])
+        else:
+            company_list = []
     else:
         company_list = []
         st.warning("Could not fetch companies from API. Please ensure the API server is running.")
@@ -20,11 +29,21 @@ except Exception as e:
     company_list = []
     st.error(f"Error connecting to API: {e}. Please ensure the API server is running at {API_BASE}")
 
+# Generate company IDs (lowercase, normalized) for API calls
+def generate_company_id(company_name):
+    """Generate company_id from company name"""
+    if not company_name:
+        return ""
+    return company_name.lower().replace(' ', '_').replace('.', '').replace(',', '')
+
 # Company selection dropdown
 if company_list:
-    selected_company = st.selectbox("Select Company", company_list, key="company_selector")
+    selected_company_name = st.selectbox("Select Company", company_list, key="company_selector")
+    selected_company = generate_company_id(selected_company_name)
 else:
-    selected_company = st.selectbox("Select Company", ["anthropic", "abridge", "baseten", "clay", "anysphere"], key="company_selector")
+    default_companies = ["anthropic", "abridge", "baseten", "clay", "anysphere"]
+    selected_company = st.selectbox("Select Company", default_companies, key="company_selector")
+    selected_company_name = selected_company
     st.info("Using default company list. API may not be available.")
 
 st.divider()
@@ -43,14 +62,19 @@ with col1:
                 response = requests.post(
                     f"{API_BASE}/dashboard/structured",
                     json={"company_id": selected_company},
-                    timeout=120
+                    timeout=300,
+                    headers={"Content-Type": "application/json"}
                 )
                 
                 if response.status_code == 200:
                     data = response.json()
-                    dashboard = data.get("dashboard", "")
+                    # API returns "markdown" key, not "dashboard"
+                    dashboard = data.get("markdown", data.get("dashboard", ""))
                     st.success("✅ Dashboard generated successfully!")
-                    st.markdown(dashboard)
+                    if dashboard:
+                        st.markdown(dashboard)
+                    else:
+                        st.warning("Dashboard content is empty")
                 else:
                     st.error(f"Error: {response.status_code} - {response.text}")
             except requests.exceptions.RequestException as e:
@@ -70,16 +94,21 @@ with col2:
             try:
                 response = requests.post(
                     f"{API_BASE}/dashboard/rag",
-                    json={"company_id": selected_company, "top_k": top_k},
-                    timeout=120
+                    json={"company_id": selected_company},
+                    timeout=300,
+                    headers={"Content-Type": "application/json"}
                 )
                 
                 if response.status_code == 200:
                     data = response.json()
-                    dashboard = data.get("dashboard", "")
+                    # API returns "markdown" key, not "dashboard"
+                    dashboard = data.get("markdown", data.get("dashboard", ""))
                     chunks_used = data.get("chunks_used", 0)
                     st.success(f"✅ Dashboard generated successfully! (Used {chunks_used} chunks)")
-                    st.markdown(dashboard)
+                    if dashboard:
+                        st.markdown(dashboard)
+                    else:
+                        st.warning("Dashboard content is empty")
                     
                     with st.expander("📋 Retrieval Details"):
                         st.info(f"Retrieved {chunks_used} chunks from vector database for context.")

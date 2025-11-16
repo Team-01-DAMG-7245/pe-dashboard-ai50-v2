@@ -96,20 +96,16 @@ First Name
 *
 Last Name
 *
-Work Email Address
+Email Address
 *
-Company
+Company Name
 *
 Role
+*
 Phone Number
 By submitting these details you agree to our
-privacy policy
+Privacy Policy
 . We will also subscribe you to our marketing emails, but you can unsubscribe at any time.
-Channel
-Channel Drilldown 1
-Channel Drilldown 2
-Channel Drilldown 3
-Landing Page
 Submit
 "Luminance adds value, speeds up processes and eliminates risks."
 50% time-savings on contract review

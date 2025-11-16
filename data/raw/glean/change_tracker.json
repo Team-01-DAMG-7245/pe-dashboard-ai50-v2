@@ -2,9 +2,9 @@
   "company_id": "glean",
   "company_name": "Glean",
   "hashes": {
-    "about": "95f05f9798673fe8a7ce1b753643dac4",
-    "careers": "2233b604d4d5b4ee76cdec757c08fd35",
-    "blog": "0aa765046c41a29f93d69b69ccecb4d4"
+    "about": "ab199d4c3b1395728f641c0da4e58888",
+    "careers": "4dc78aa117c6bc44613c3cd24de08888",
+    "blog": "c87195e864bfb38291036d0aa0533f02"
   },
   "history": [
     {
@@ -37,6 +37,38 @@
     {
       "execution_date": "2025-11-07",
       "crawled_at": "2025-11-07T00:58:50.408289Z",
+      "pages_checked": 3,
+      "changes_detected": [],
+      "errors": 0
+    },
+    {
+      "execution_date": "2025-11-14",
+      "crawled_at": "2025-11-15T23:50:57.587960Z",
+      "pages_checked": 3,
+      "changes_detected": [
+        "about",
+        "careers",
+        "blog"
+      ],
+      "errors": 0
+    },
+    {
+      "execution_date": "2025-11-14",
+      "crawled_at": "2025-11-16T00:36:12.244558Z",
+      "pages_checked": 3,
+      "changes_detected": [],
+      "errors": 0
+    },
+    {
+      "execution_date": "2025-11-14",
+      "crawled_at": "2025-11-16T02:58:18.612824Z",
+      "pages_checked": 3,
+      "changes_detected": [],
+      "errors": 0
+    },
+    {
+      "execution_date": "2025-11-15",
+      "crawled_at": "2025-11-16T03:02:32.002290Z",
       "pages_checked": 3,
       "changes_detected": [],
       "errors": 0

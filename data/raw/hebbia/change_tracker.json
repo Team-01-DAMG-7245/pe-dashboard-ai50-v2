@@ -2,8 +2,8 @@
   "company_id": "hebbia",
   "company_name": "Hebbia",
   "hashes": {
-    "about": "3358ddef8549bf00cfe275128df857a9",
-    "careers": "295cfddb7d21c893d1ed57637b3f1d5c",
+    "about": "9213fa06effa4a8176412dace2ca8284",
+    "careers": "cd12727ab67c7520f80b1d3d608b269a",
     "blog": "63feb15def9e2053ec8021b82bf9a1dc",
     "news": "1b9d3cac3f41378e5302b972880d0461"
   },
@@ -40,6 +40,37 @@
     {
       "execution_date": "2025-11-07",
       "crawled_at": "2025-11-07T00:56:30.416797Z",
+      "pages_checked": 4,
+      "changes_detected": [],
+      "errors": 0
+    },
+    {
+      "execution_date": "2025-11-14",
+      "crawled_at": "2025-11-15T23:50:57.921916Z",
+      "pages_checked": 4,
+      "changes_detected": [
+        "about",
+        "careers"
+      ],
+      "errors": 0
+    },
+    {
+      "execution_date": "2025-11-14",
+      "crawled_at": "2025-11-16T00:36:16.010929Z",
+      "pages_checked": 4,
+      "changes_detected": [],
+      "errors": 0
+    },
+    {
+      "execution_date": "2025-11-14",
+      "crawled_at": "2025-11-16T02:58:20.420607Z",
+      "pages_checked": 4,
+      "changes_detected": [],
+      "errors": 0
+    },
+    {
+      "execution_date": "2025-11-15",
+      "crawled_at": "2025-11-16T03:37:40.094951Z",
       "pages_checked": 4,
       "changes_detected": [],
       "errors": 0

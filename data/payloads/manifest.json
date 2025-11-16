@@ -1,305 +1,305 @@
 {
-  "last_updated": "2025-11-07T01:03:45.544569Z",
-  "execution_date": "2025-11-07",
+  "last_updated": "2025-11-16T03:39:44.090432Z",
+  "execution_date": "2025-11-15",
   "companies": [
     {
       "company_id": "sakana_ai",
       "company_name": "Sakana AI",
-      "last_updated": "2025-11-07T01:02:02.039191Z",
+      "last_updated": "2025-11-16T03:13:09.238757Z",
       "pages_available": 0
     },
     {
       "company_id": "cohere",
       "company_name": "Cohere",
-      "last_updated": "2025-11-07T00:56:29.607247Z",
+      "last_updated": "2025-11-16T03:02:42.875882Z",
       "pages_available": 4
     },
     {
       "company_id": "captions",
       "company_name": "Captions",
-      "last_updated": "2025-11-07T01:00:33.713236Z",
+      "last_updated": "2025-11-16T03:08:48.489843Z",
       "pages_available": 0
     },
     {
       "company_id": "sambanova",
       "company_name": "Sambanova",
-      "last_updated": "2025-11-07T01:02:06.107428Z",
+      "last_updated": "2025-11-16T03:15:05.787955Z",
       "pages_available": 0
     },
     {
       "company_id": "anysphere",
       "company_name": "Anysphere",
-      "last_updated": "2025-11-07T00:59:50.130204Z",
+      "last_updated": "2025-11-16T03:19:55.885493Z",
       "pages_available": 0
     },
     {
       "company_id": "baseten",
       "company_name": "Baseten",
-      "last_updated": "2025-11-07T00:59:45.284371Z",
+      "last_updated": "2025-11-16T03:37:27.641893Z",
       "pages_available": 3
     },
     {
       "company_id": "harvey",
       "company_name": "Harvey",
-      "last_updated": "2025-11-07T00:56:28.685798Z",
+      "last_updated": "2025-11-16T03:02:37.572992Z",
       "pages_available": 0
     },
     {
       "company_id": "hebbia",
       "company_name": "Hebbia",
-      "last_updated": "2025-11-07T00:56:30.416797Z",
+      "last_updated": "2025-11-16T03:37:40.094951Z",
       "pages_available": 4
     },
     {
       "company_id": "mistral_ai",
       "company_name": "Mistral AI",
-      "last_updated": "2025-11-07T01:00:47.889094Z",
+      "last_updated": "2025-11-16T03:11:16.426992Z",
       "pages_available": 0
     },
     {
       "company_id": "speak",
       "company_name": "Speak",
-      "last_updated": "2025-11-07T00:57:38.543994Z",
+      "last_updated": "2025-11-16T03:37:28.673020Z",
       "pages_available": 2
     },
     {
       "company_id": "world_labs",
       "company_name": "World Labs",
-      "last_updated": "2025-11-07T00:58:01.286278Z",
+      "last_updated": "2025-11-16T03:04:31.993943Z",
       "pages_available": 4
     },
     {
       "company_id": "langchain",
       "company_name": "Langchain",
-      "last_updated": "2025-11-07T00:56:29.812376Z",
+      "last_updated": "2025-11-16T03:37:34.016746Z",
       "pages_available": 2
     },
     {
       "company_id": "runway",
       "company_name": "Runway",
-      "last_updated": "2025-11-07T01:02:00.437694Z",
+      "last_updated": "2025-11-16T03:02:37.898383Z",
       "pages_available": 3
     },
     {
       "company_id": "sierra",
       "company_name": "Sierra",
-      "last_updated": "2025-11-07T01:02:22.603807Z",
+      "last_updated": "2025-11-16T03:14:58.576435Z",
       "pages_available": 0
     },
     {
       "company_id": "vast_data",
       "company_name": "Vast Data",
-      "last_updated": "2025-11-07T00:58:06.201498Z",
+      "last_updated": "2025-11-16T03:02:48.316912Z",
       "pages_available": 0
     },
     {
       "company_id": "databricks",
       "company_name": "Databricks",
-      "last_updated": "2025-11-07T00:56:28.940175Z",
+      "last_updated": "2025-11-16T03:37:45.655718Z",
       "pages_available": 4
     },
     {
       "company_id": "perplexity_ai",
       "company_name": "Perplexity AI",
-      "last_updated": "2025-11-07T01:01:09.730549Z",
+      "last_updated": "2025-11-16T03:15:10.724151Z",
       "pages_available": 0
     },
     {
       "company_id": "thinking_machine_labs",
       "company_name": "Thinking Machine Labs",
-      "last_updated": "2025-11-07T00:57:52.860447Z",
+      "last_updated": "2025-11-16T03:07:25.790238Z",
       "pages_available": 0
     },
     {
       "company_id": "mercor",
       "company_name": "Mercor",
-      "last_updated": "2025-11-07T01:00:45.997208Z",
+      "last_updated": "2025-11-16T03:11:01.955905Z",
       "pages_available": 2
     },
     {
       "company_id": "figure_ai",
       "company_name": "Figure AI",
-      "last_updated": "2025-11-07T00:56:21.501891Z",
+      "last_updated": "2025-11-16T03:19:36.662359Z",
       "pages_available": 0
     },
     {
       "company_id": "crusoe",
       "company_name": "Crusoe",
-      "last_updated": "2025-11-07T00:56:28.768914Z",
+      "last_updated": "2025-11-16T03:07:26.611817Z",
       "pages_available": 0
     },
     {
       "company_id": "synthesia",
       "company_name": "Synthesia",
-      "last_updated": "2025-11-07T00:56:21.669144Z",
-      "pages_available": 3
+      "last_updated": "2025-11-16T03:09:18.751541Z",
+      "pages_available": 2
     },
     {
       "company_id": "xai",
       "company_name": "Xai",
-      "last_updated": "2025-11-07T00:59:00.832683Z",
+      "last_updated": "2025-11-16T03:02:46.001117Z",
       "pages_available": 4
     },
     {
       "company_id": "midjourney",
       "company_name": "Midjourney",
-      "last_updated": "2025-11-07T01:00:07.446025Z",
+      "last_updated": "2025-11-16T03:12:27.706271Z",
       "pages_available": 0
     },
     {
       "company_id": "decagon",
       "company_name": "Decagon",
-      "last_updated": "2025-11-07T00:56:19.547250Z",
+      "last_updated": "2025-11-16T03:02:38.131225Z",
       "pages_available": 0
     },
     {
       "company_id": "notion",
       "company_name": "Notion",
-      "last_updated": "2025-11-07T01:00:13.881496Z",
+      "last_updated": "2025-11-16T03:13:09.332999Z",
       "pages_available": 3
     },
     {
       "company_id": "elevenlabs",
       "company_name": "Elevenlabs",
-      "last_updated": "2025-11-07T00:56:29.428216Z",
+      "last_updated": "2025-11-16T03:37:36.564664Z",
       "pages_available": 3
     },
     {
       "company_id": "pika",
       "company_name": "Pika",
-      "last_updated": "2025-11-07T01:01:27.581074Z",
+      "last_updated": "2025-11-16T03:20:36.276203Z",
       "pages_available": 0
     },
     {
       "company_id": "writer",
       "company_name": "Writer",
-      "last_updated": "2025-11-07T00:58:38.977957Z",
+      "last_updated": "2025-11-16T03:37:44.991028Z",
       "pages_available": 4
     },
     {
       "company_id": "skild_ai",
       "company_name": "Skild AI",
-      "last_updated": "2025-11-07T01:02:03.758334Z",
+      "last_updated": "2025-11-16T03:15:13.633652Z",
       "pages_available": 0
     },
     {
       "company_id": "clay",
       "company_name": "Clay",
-      "last_updated": "2025-11-07T01:00:13.195766Z",
+      "last_updated": "2025-11-16T03:02:37.919512Z",
       "pages_available": 4
     },
     {
       "company_id": "stackblitz",
       "company_name": "Stackblitz",
-      "last_updated": "2025-11-07T00:57:41.086232Z",
+      "last_updated": "2025-11-16T03:14:13.947187Z",
       "pages_available": 1
     },
     {
       "company_id": "fireworks_ai",
       "company_name": "Fireworks AI",
-      "last_updated": "2025-11-07T00:56:29.606772Z",
+      "last_updated": "2025-11-16T03:02:37.223298Z",
       "pages_available": 0
     },
     {
       "company_id": "glean",
       "company_name": "Glean",
-      "last_updated": "2025-11-07T00:58:50.408289Z",
+      "last_updated": "2025-11-16T03:02:32.002290Z",
       "pages_available": 3
     },
     {
       "company_id": "luminance",
       "company_name": "Luminance",
-      "last_updated": "2025-11-07T01:00:13.110765Z",
+      "last_updated": "2025-11-16T03:14:18.471746Z",
       "pages_available": 4
     },
     {
       "company_id": "lambda",
       "company_name": "Lambda",
-      "last_updated": "2025-11-07T00:56:19.694078Z",
+      "last_updated": "2025-11-16T03:19:47.818589Z",
       "pages_available": 0
     },
     {
       "company_id": "deepl",
       "company_name": "Deepl",
-      "last_updated": "2025-11-07T00:56:19.799247Z",
+      "last_updated": "2025-11-16T03:02:46.871031Z",
       "pages_available": 3
     },
     {
       "company_id": "windsurf",
       "company_name": "Windsurf",
-      "last_updated": "2025-11-07T00:58:07.258607Z",
+      "last_updated": "2025-11-16T03:02:37.934240Z",
       "pages_available": 4
     },
     {
       "company_id": "anthropic",
       "company_name": "Anthropic",
-      "last_updated": "2025-11-07T00:59:16.972665Z",
+      "last_updated": "2025-11-16T03:37:54.609507Z",
       "pages_available": 4
     },
     {
       "company_id": "together_ai",
       "company_name": "Together AI",
-      "last_updated": "2025-11-07T00:58:09.693777Z",
+      "last_updated": "2025-11-16T03:06:58.836637Z",
       "pages_available": 4
     },
     {
       "company_id": "hugging_face",
       "company_name": "Hugging Face",
-      "last_updated": "2025-11-07T00:56:21.638949Z",
+      "last_updated": "2025-11-16T03:37:36.661838Z",
       "pages_available": 0
     },
     {
       "company_id": "coactive_ai",
       "company_name": "Coactive AI",
-      "last_updated": "2025-11-07T00:56:29.456654Z",
+      "last_updated": "2025-11-16T03:18:13.546056Z",
       "pages_available": 0
     },
     {
       "company_id": "suno",
       "company_name": "Suno",
-      "last_updated": "2025-11-07T00:56:29.604830Z",
+      "last_updated": "2025-11-16T03:14:14.091394Z",
       "pages_available": 3
     },
     {
       "company_id": "snorkel_ai",
       "company_name": "Snorkel AI",
-      "last_updated": "2025-11-07T00:58:14.972529Z",
+      "last_updated": "2025-11-16T03:15:42.910866Z",
       "pages_available": 0
     },
     {
       "company_id": "scale_ai",
       "company_name": "Scale AI",
-      "last_updated": "2025-11-07T01:02:03.010583Z",
+      "last_updated": "2025-11-16T03:14:55.078673Z",
       "pages_available": 0
     },
     {
       "company_id": "vannevar_labs",
       "company_name": "Vannevar Labs",
-      "last_updated": "2025-11-07T00:58:02.207913Z",
+      "last_updated": "2025-11-16T03:07:07.407912Z",
       "pages_available": 4
     },
     {
       "company_id": "openevidence",
       "company_name": "Openevidence",
-      "last_updated": "2025-11-07T01:01:11.386401Z",
+      "last_updated": "2025-11-16T03:14:16.770030Z",
       "pages_available": 2
     },
     {
       "company_id": "abridge",
       "company_name": "Abridge",
-      "last_updated": "2025-11-07T00:59:08.770030Z",
+      "last_updated": "2025-11-16T03:14:06.879247Z",
       "pages_available": 3
     },
     {
       "company_id": "openai",
       "company_name": "Openai",
-      "last_updated": "2025-11-07T01:00:46.007678Z",
+      "last_updated": "2025-11-16T03:14:21.151673Z",
       "pages_available": 0
     },
     {
       "company_id": "photoroom",
       "company_name": "Photoroom",
-      "last_updated": "2025-11-07T01:01:16.989527Z",
+      "last_updated": "2025-11-16T03:14:10.567985Z",
       "pages_available": 3
     }
   ]

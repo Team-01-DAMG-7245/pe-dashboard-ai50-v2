@@ -1,8 +1,4 @@
 LangChain
-We've raised a
-$125MÂ Series B
-to build the platform for agent engineering.
-Read more
 LangChain products power top engineering teams, from
 AI startups
 to
@@ -89,5 +85,5 @@ Downloaded agent framework
 Integrations
 Ready to start shipping â¨reliable agents faster?
 Get started with tools from the LangChain product suite for every step of the agent development lifecycle.
-Get a demo
+Talk to sales
 Sign up for free

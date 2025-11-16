@@ -1,13 +1,34 @@
 # Docker app requirements - FastAPI + Streamlit only
+# Note: Airflow runs in separate official Docker image, not installed here
+
+# Core Web Framework & API
 fastapi==0.115.0
 uvicorn[standard]==0.30.6
 streamlit==1.38.0
 pydantic>=2.4.2
-requests==2.31.0
 python-multipart==0.0.9
+
+# Data Validation
+email-validator
+
+# Web Scraping & Data Collection (for API endpoints that may need it)
+requests==2.31.0
+beautifulsoup4==4.12.2
+lxml==4.9.3
+selenium>=4.15.0
+
+# Cloud Storage
 boto3>=1.28.64
 python-dotenv>=1.0.0
 
-# Add later for Labs 7-8 when generating dashboards:
+# LLM APIs (for dashboard generation)
 openai>=1.0.0
 anthropic>=0.7.0
+
+# Vector Database & RAG (for RAG dashboard pipeline)
+# Note: torch and chromadb are installed separately in Dockerfile
+# chromadb>=0.4.22  # Installed separately in Dockerfile to avoid build issues
+sentence-transformers>=2.3.1
+tiktoken==0.5.2
+# Pin NumPy for compatibility
+numpy>=1.22.0,<2.0.0

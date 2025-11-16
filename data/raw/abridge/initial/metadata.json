@@ -6,13 +6,13 @@
   "hq_country": "United States",
   "category": "Clinical documentation platform",
   "linkedin": "https://www.linkedin.com/company/abridge/",
-  "crawled_at": "2025-11-07T00:55:55.545399Z",
+  "crawled_at": "2025-11-16T02:57:50.291047Z",
   "pages_scraped": [
     {
       "page": "homepage",
       "url": "https://abridge.com",
       "status": 200,
-      "size_bytes": 196949,
+      "size_bytes": 198168,
       "html_file": "abridge/initial/homepage_raw.html",
       "text_file": "abridge/initial/homepage_clean.txt"
     },
@@ -20,7 +20,7 @@
       "page": "about",
       "url": "https://abridge.com/about",
       "status": 200,
-      "size_bytes": 44949,
+      "size_bytes": 46194,
       "html_file": "abridge/initial/about_raw.html",
       "text_file": "abridge/initial/about_clean.txt"
     },
@@ -28,7 +28,7 @@
       "page": "product",
       "url": "https://abridge.com/product",
       "status": 200,
-      "size_bytes": 120057,
+      "size_bytes": 121302,
       "html_file": "abridge/initial/product_raw.html",
       "text_file": "abridge/initial/product_clean.txt"
     },
@@ -36,7 +36,7 @@
       "page": "careers",
       "url": "https://abridge.com/careers",
       "status": 200,
-      "size_bytes": 86304,
+      "size_bytes": 85353,
       "html_file": "abridge/initial/careers_raw.html",
       "text_file": "abridge/initial/careers_clean.txt"
     },
@@ -44,7 +44,7 @@
       "page": "blog",
       "url": "https://abridge.com/blog",
       "status": 200,
-      "size_bytes": 37718,
+      "size_bytes": 39043,
       "html_file": "abridge/initial/blog_raw.html",
       "text_file": "abridge/initial/blog_clean.txt"
     }

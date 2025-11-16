@@ -2,10 +2,10 @@
   "company_id": "writer",
   "company_name": "Writer",
   "hashes": {
-    "about": "e66412d092958d968f814e5cae584609",
-    "careers": "08ea57d0fdfe577cbffcc2b1cc19fdc3",
-    "blog": "8cdab7c54f0c64205a4b1801369ef3c1",
-    "news": "b3cc43d050eb30573e379dc83f31ef87"
+    "about": "95eed51df0df5ebb2d29fbfad6e2bf9e",
+    "careers": "d4d74b62b1c8c3eb86fddd2fa0c7f9b1",
+    "blog": "f4cd1f07eb4c29282717ec1f0d429766",
+    "news": "74b37ed1f5a023cc62c9bcc8b1835570"
   },
   "history": [
     {
@@ -45,6 +45,39 @@
       "pages_checked": 4,
       "changes_detected": [],
       "errors": 1
+    },
+    {
+      "execution_date": "2025-11-14",
+      "crawled_at": "2025-11-15T23:51:03.311331Z",
+      "pages_checked": 4,
+      "changes_detected": [
+        "about",
+        "careers",
+        "blog",
+        "news"
+      ],
+      "errors": 0
+    },
+    {
+      "execution_date": "2025-11-14",
+      "crawled_at": "2025-11-16T00:36:52.153157Z",
+      "pages_checked": 4,
+      "changes_detected": [],
+      "errors": 0
+    },
+    {
+      "execution_date": "2025-11-14",
+      "crawled_at": "2025-11-16T02:58:24.845871Z",
+      "pages_checked": 4,
+      "changes_detected": [],
+      "errors": 0
+    },
+    {
+      "execution_date": "2025-11-15",
+      "crawled_at": "2025-11-16T03:37:44.991028Z",
+      "pages_checked": 4,
+      "changes_detected": [],
+      "errors": 0
     }
   ]
 }

@@ -6,77 +6,73 @@
   "hq_country": "United States",
   "category": "AI infrastructure",
   "linkedin": "https://www.linkedin.com/company/crusoe/",
-  "crawled_at": "2025-11-07T00:56:00.304929Z",
-  "pages_scraped": [
+  "crawled_at": "2025-11-16T02:57:50.923216Z",
+  "pages_scraped": [],
+  "errors": [
     {
       "page": "homepage",
       "url": "https://crusoe.com",
-      "status": 200,
-      "size_bytes": 7170,
-      "html_file": "crusoe/initial/homepage_raw.html",
-      "text_file": "crusoe/initial/homepage_clean.txt"
-    }
-  ],
-  "errors": [
+      "error": "Timeout"
+    },
     {
       "page": "about",
       "url": "https://crusoe.com/about",
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "error": "Timeout"
     },
     {
       "page": "about",
       "url": "https://crusoe.com/about-us",
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "error": "Timeout"
     },
     {
       "page": "about",
       "url": "https://crusoe.com/company",
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "error": "Timeout"
     },
     {
       "page": "product",
       "url": "https://crusoe.com/product",
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "error": "Timeout"
     },
     {
       "page": "product",
       "url": "https://crusoe.com/products",
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "error": "Timeout"
     },
     {
       "page": "platform",
       "url": "https://crusoe.com/platform",
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "error": "Timeout"
     },
     {
       "page": "platform",
       "url": "https://crusoe.com/solutions",
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "error": "Timeout"
     },
     {
       "page": "careers",
       "url": "https://crusoe.com/careers",
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "error": "Timeout"
     },
     {
       "page": "careers",
       "url": "https://crusoe.com/jobs",
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "error": "Timeout"
     },
     {
       "page": "blog",
       "url": "https://crusoe.com/blog",
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "error": "Timeout"
     },
     {
       "page": "news",
       "url": "https://crusoe.com/news",
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "error": "Timeout"
     },
     {
       "page": "news",
       "url": "https://crusoe.com/newsroom",
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "error": "Timeout"
     }
   ]
 }

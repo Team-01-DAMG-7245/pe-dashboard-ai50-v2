@@ -1,0 +1,40 @@
+FROM python:3.11-slim
+
+WORKDIR /app
+
+# Install system dependencies
+RUN apt-get update && apt-get install -y \
+    gcc \
+    && rm -rf /var/lib/apt/lists/*
+
+# Upgrade pip first
+RUN pip install --upgrade pip
+
+# Install core dependencies first (fast - shows progress)
+COPY requirements-agent.txt .
+RUN pip install --no-cache-dir --retries 3 --timeout 100 -r requirements-agent.txt
+
+# Install heavy RAG dependencies separately (can take 5-10 minutes)
+# OPTIONAL: Uncomment below if you need RAG features immediately
+# The agent will work without these - RAG features will return fallback messages
+# COPY requirements-agent-rag.txt .
+# RUN echo "Installing heavy RAG dependencies (chromadb, sentence-transformers)..." && \
+#     pip install --no-cache-dir --retries 3 --timeout 100 -r requirements-agent-rag.txt || \
+#     (echo "Warning: RAG dependencies failed. RAG features will use fallback." && exit 0)
+
+# Copy application code
+COPY src/ ./src/
+COPY data/ ./data/
+COPY mcp_config.json .
+COPY .env .
+
+# Create directories for logs and dashboards
+RUN mkdir -p logs dashboards
+
+# Expose port for agent service (if needed)
+EXPOSE 9001
+
+# Run supervisor agent (can be overridden in docker-compose)
+# Default: keep container running for Airflow to invoke
+CMD ["python", "-c", "import time; time.sleep(86400)"]
+

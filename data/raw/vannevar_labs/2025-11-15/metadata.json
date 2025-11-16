@@ -1,0 +1,51 @@
+{
+  "company_name": "Vannevar Labs",
+  "company_id": "vannevar_labs",
+  "base_url": "https://vannevar-labs.com",
+  "crawled_at": "2025-11-16T03:07:07.407912Z",
+  "execution_date": "2025-11-15",
+  "pages_refreshed": [
+    {
+      "page": "about",
+      "url": "https://vannevar-labs.com/about",
+      "status": 200,
+      "size_bytes": 3138,
+      "content_hash": "4768e71f38a9fb252ff9fa92f9e2bc12",
+      "changed": false,
+      "html_file": "vannevar_labs/2025-11-15/about_raw.html",
+      "text_file": "vannevar_labs/2025-11-15/about_clean.txt"
+    },
+    {
+      "page": "careers",
+      "url": "https://vannevar-labs.com/careers",
+      "status": 200,
+      "size_bytes": 3138,
+      "content_hash": "4768e71f38a9fb252ff9fa92f9e2bc12",
+      "changed": false,
+      "html_file": "vannevar_labs/2025-11-15/careers_raw.html",
+      "text_file": "vannevar_labs/2025-11-15/careers_clean.txt"
+    },
+    {
+      "page": "blog",
+      "url": "https://vannevar-labs.com/blog",
+      "status": 200,
+      "size_bytes": 3138,
+      "content_hash": "4768e71f38a9fb252ff9fa92f9e2bc12",
+      "changed": false,
+      "html_file": "vannevar_labs/2025-11-15/blog_raw.html",
+      "text_file": "vannevar_labs/2025-11-15/blog_clean.txt"
+    },
+    {
+      "page": "news",
+      "url": "https://vannevar-labs.com/news",
+      "status": 200,
+      "size_bytes": 3138,
+      "content_hash": "4768e71f38a9fb252ff9fa92f9e2bc12",
+      "changed": false,
+      "html_file": "vannevar_labs/2025-11-15/news_raw.html",
+      "text_file": "vannevar_labs/2025-11-15/news_clean.txt"
+    }
+  ],
+  "changes_detected": [],
+  "errors": []
+}

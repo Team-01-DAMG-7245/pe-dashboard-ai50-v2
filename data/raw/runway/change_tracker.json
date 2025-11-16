@@ -2,9 +2,9 @@
   "company_id": "runway",
   "company_name": "Runway",
   "hashes": {
-    "about": "317ba195f37cb8d6924426558f9d62fd",
-    "careers": "d917fccc16113de7139e64890147c1ee",
-    "blog": "f50780c6c92a177c6ebe364fce7f5e08"
+    "about": "ebcd24fbdb7704d053caf03d56a14fed",
+    "careers": "0253f7f91b17e4917e84dbfb669ed5dc",
+    "blog": "0773e759cbcff62404d354ea3c65c898"
   },
   "history": [
     {
@@ -37,6 +37,38 @@
     {
       "execution_date": "2025-11-07",
       "crawled_at": "2025-11-07T01:02:00.437694Z",
+      "pages_checked": 3,
+      "changes_detected": [],
+      "errors": 0
+    },
+    {
+      "execution_date": "2025-11-14",
+      "crawled_at": "2025-11-15T23:54:23.905910Z",
+      "pages_checked": 3,
+      "changes_detected": [
+        "about",
+        "careers",
+        "blog"
+      ],
+      "errors": 0
+    },
+    {
+      "execution_date": "2025-11-14",
+      "crawled_at": "2025-11-16T00:36:37.610259Z",
+      "pages_checked": 3,
+      "changes_detected": [],
+      "errors": 0
+    },
+    {
+      "execution_date": "2025-11-14",
+      "crawled_at": "2025-11-16T03:01:37.381751Z",
+      "pages_checked": 3,
+      "changes_detected": [],
+      "errors": 0
+    },
+    {
+      "execution_date": "2025-11-15",
+      "crawled_at": "2025-11-16T03:02:37.898383Z",
       "pages_checked": 3,
       "changes_detected": [],
       "errors": 0

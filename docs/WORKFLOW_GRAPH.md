@@ -432,7 +432,7 @@ python src/workflows/due_diligence_graph.py --company anthropic --verbose
 ### Programmatic Usage
 
 ```python
-from src.workflows.due_diligence_graph import run_due_diligence_workflow
+from src.lab17.workflows.due_diligence_graph import run_due_diligence_workflow
 
 # Run workflow
 result = run_due_diligence_workflow("anthropic")
