@@ -1,6 +1,35 @@
-# Forbes AI 50 - PE Dashboard (Project ORBIT)
+## Case Study 2 — Project ORBIT (Part 2)  
+### Agentification and Secure Scaling of PE Intelligence using MCP
 
-Automated data pipeline for scraping and analyzing Forbes AI 50 companies for private equity intelligence.
+---
+
+## 🧭 Setting
+
+In Assignment 4 (Project ORBIT Part 1) you automated ingestion and Markdown dashboard generation for the **Forbes AI 50** using Airflow ETL + FastAPI + Streamlit.  
+That system worked, but it was **static**—no reasoning, no secure integration with multiple data tools.
+
+Now, **Priya Rao (VP of Data Engineering)** wants you to evolve it into an **agentic, production-ready platform** that can:
+
+- Orchestrate due-diligence workflows through **supervisory LLM agents**  
+- Standardize tool access with the **Model Context Protocol (MCP)**  
+- Employ **ReAct reasoning** for transparency  
+- Run under **Airflow orchestration** with containerized MCP services  
+- Pause for **Human-in-the-Loop (HITL)** review when risks appear  
+
+---
+
+## 🎯 Learning Outcomes
+
+By the end you will:
+
+- Build specialized LLM agents (LangChain v1 or Microsoft Agent Framework)  
+- Design a **Supervisory Agent Architecture** that delegates to sub-agents  
+- Implement an **MCP server** exposing Tools / Prompts / Resources  
+- Apply the **ReAct pattern** (Thought → Action → Observation) with structured logs  
+- Compose a **graph-based workflow** (LangGraph or WorkflowBuilder) with conditional edges  
+- Integrate **Airflow DAGs**, **Docker**, and **.env configuration** for deployment  
+- Add **pytest tests** and structured logging for maintainability  
+- Embed **Human-in-the-Loop (HITL)** approval nodes for risk verification  
 
 ---
 
@@ -107,266 +136,224 @@ OPENAI_API_KEY=your-api-key-here
 
 ---
 
-## Running Labs 4-9
+## 🧱 Project Architecture Overview
 
-### Prerequisites
-
-1. **Create `.env` file** in project root with:
-   ```
-   OPENAI_API_KEY=your-api-key-here
-   ```
-
-2. **Install dependencies:**
-   ```powershell
-   pip install -r requirements.txt
-   ```
-
-**Note:** All scripts automatically load API keys from `.env` file. No need to set environment variables manually.
-
-### Step 1: Lab 4 - Vector DB & RAG Index
-
-**Build Vector DB Index:**
-```powershell
-python src\lab4\index_for_rag_all.py
+```mermaid
+flowchart TD
+    subgraph Airflow
+        DAG1[Initial Load DAG]
+        DAG2[Daily Update DAG]
+        DAG3[Agentic Dashboard DAG]
+    end
+    subgraph Services
+        MCP[MCP Server]
+        AGENT[Supervisor Agent]
+    end
+    DAG3 -->|HTTP/CLI| MCP
+    MCP --> AGENT
+    AGENT -->|calls Tools| MCP
+    AGENT -->|Risk Detected| HITL[Human Approval]
+    AGENT --> STORE[(Dashboards DB or S3)]
 ```
 
-**Expected Output:** Vector DB should have 294+ chunks indexed.
 
-**Verify:**
-```powershell
-Get-ChildItem data\vector_db -Recurse | Measure-Object
-```
+🧩 Phase 1 – Agent Infrastructure & Tool Definition (Labs 12–13)
 
-### Step 2: Lab 5 - Structured Extraction
+Lab 12 — Core Agent Tools
 
-**Extract Structured Data:**
-```powershell
-python src\lab5\structured_extraction.py
-```
+Implement async Python tools with Pydantic models for structured I/O:
 
-**Expected Output:** At least 5 companies with structured data in `data/structured/`.
+Tool	Purpose
+get_latest_structured_payload(company_id)	Return the latest assembled payload from Assignment 2
+rag_search_company(company_id, query)	Query the Vector DB for contextual snippets
+report_layoff_signal(signal_data)	Log or flag high-risk events (layoffs / breaches)
 
-**Verify:**
-```powershell
-Get-ChildItem data\structured -Filter *.json | Measure-Object
-```
+✅ Checkpoint: Unit tests (tests/test_tools.py) validate each tool’s behavior.
 
-### Step 3: Lab 6 - Payload Assembly
+⸻
 
-**Assemble Payloads:**
-```powershell
-python src\lab6\assemble_payloads.py
-```
+Lab 13 — Supervisor Agent Bootstrap
+	•	Instantiate a Due Diligence Supervisor Agent with system prompt:
+“You are a PE Due Diligence Supervisor Agent. Use tools to retrieve payloads, run RAG queries, log risks, and generate PE dashboards.”
+	•	Register the three tools.
+	•	Verify tool invocation loop via ReAct logs.
 
-**Expected Output:** Payloads assembled for all companies with structured data in `data/payloads/`.
+✅ Checkpoint: Console logs show Thought → Action → Observation sequence.
 
-**Verify:**
-```powershell
-Get-ChildItem data\payloads -Filter *.json | Measure-Object
-```
+⸻
 
-### Step 4: Lab 7 & 8 - Dashboard API
+🌐 Phase 2 – Model Context Protocol (MCP) Integration (Labs 14–15)
 
-**Start API Server:**
-```powershell
-.\start_api_server.ps1
-```
+Lab 14 — MCP Server Implementation
 
-**Note:** Make sure you have a `.env` file in the project root with:
-```
-OPENAI_API_KEY=your-api-key-here
-```
+Create src/server/mcp_server.py exposing HTTP endpoints:
 
-The server will start on `http://localhost:8002`
+Type	Endpoint	Description
+Tool	/tool/generate_structured_dashboard	Calls structured dashboard logic
+Tool	/tool/generate_rag_dashboard	Calls RAG dashboard logic
+Resource	/resource/ai50/companies	Lists company IDs
+Prompt	/prompt/pe-dashboard	Returns 8-section dashboard template
 
-**Access API:**
-- **Swagger UI**: http://localhost:8002/docs (Interactive API testing)
-- **Health Check**: http://localhost:8002/health
-- **RAG Dashboard**: `POST http://localhost:8002/dashboard/rag`
-- **Structured Dashboard**: `POST http://localhost:8002/dashboard/structured`
+Provide Dockerfile (Dockerfile.mcp) and .env variables for config.
 
-**Test API Endpoints in Swagger UI:**
+✅ Checkpoint: MCP Inspector shows registered tools/resources/prompts.
 
-1. **Lab 7 - RAG Dashboard** (`POST /dashboard/rag`):
-   - Open http://localhost:8002/docs in your browser
-   - Click on `POST /dashboard/rag` endpoint
-   - Click "Try it out"
-   - Enter JSON:
-   ```json
-   {
-     "company_id": "anthropic",
-     "top_k": 10
-   }
-   ```
-   - Click "Execute"
+⸻
 
-2. **Lab 8 - Structured Dashboard** (`POST /dashboard/structured`):
-   - Click on `POST /dashboard/structured` endpoint
-   - Click "Try it out"
-   - Enter JSON:
-   ```json
-   {
-     "company_id": "anthropic"
-   }
-   ```
-   - Click "Execute"
+Lab 15 — Agent MCP Consumption
+	•	Configure mcp_config.json with base URL and tools.
+	•	Allow Supervisor Agent to invoke MCP tools securely with tool filtering.
+	•	Add integration test (tests/test_mcp_server.py) that requests a dashboard.
 
-**Expected Output:**
-- Lab 7: Generates 8-section dashboard using RAG pipeline with "Not disclosed." for missing data
-- Lab 8: Generates 8-section dashboard using structured payload (more precise, no "Missing Key Information" in Disclosure Gaps)
+✅ Checkpoint: Agent → MCP → Dashboard → Agent round trip works.
 
-### Step 5: Lab 9 - Evaluation & Comparison
+⸻
 
-**Generate Evaluation Dashboards:**
+🧠 Phase 3 – Advanced Agent Implementation (Labs 16–18)
 
-Open a **NEW** PowerShell terminal (keep the API server running) and run:
+Lab 16 — ReAct Pattern Implementation
+	•	Log Thought/Action/Observation triplets in structured JSON (log file or stdout).
+	•	Use correlation IDs (run_id, company_id).
+	•	Save one trace under docs/REACT_TRACE_EXAMPLE.md.
 
-```powershell
-.\run_lab9.ps1
-```
+✅ Checkpoint: JSON logs show sequential ReAct steps.
 
-**Note:** Make sure you have a `.env` file in the project root with your `OPENAI_API_KEY`.
+⸻
 
-**Output:** 
-- Dashboards saved in `src/lab9/evaluation_output/` directory
-- Generates both RAG and Structured dashboards for all companies with payloads
+Lab 17 — Supervisory Workflow Pattern (Graph-based)
 
-**Fill Evaluation:**
-- Review dashboards in `src/lab9/evaluation_output/`
-- Fill out `src/lab9/EVAL.md` with rubric scores (0-10 points per company)
-- Complete comparison of RAG vs Structured methods
+Use LangGraph or WorkflowBuilder to define nodes:
 
-**Expected Output:** `EVAL.md` with rubric and scores for all companies with payloads.
+Node	Responsibility
+Planner	Constructs plan of actions
+Data Generator	Invokes MCP dashboard tools
+Evaluator	Scores dashboards per rubric
+Risk Detector	Branches to HITL if keywords found
+
+Provide workflow diagram (docs/WORKFLOW_GRAPH.md) and unit test covering both branches.
+
+✅ Checkpoint: python src/workflows/due_diligence_graph.py prints branch taken.
+
+⸻
+
+Lab 18 — HITL Integration & Visualization
+	•	Implement CLI or HTTP pause for human approval.
+	•	Record execution path with LangGraph Dev UI or Mermaid.
+	•	Save trace and decision path in docs/REACT_TRACE_EXAMPLE.md.
+
+✅ Checkpoint: Demo video shows workflow pausing and resuming after approval.
+
+⸻
+
+☁️ Phase 4 – Orchestration & Deployment (Add-On)
+
+Airflow DAGs Integration
+
+Create under airflow/dags/:
+
+File	Purpose
+orbit_initial_load_dag.py	Initial data load and payload assembly
+orbit_daily_update_dag.py	Incremental updates of snapshots and vector DB
+orbit_agentic_dashboard_dag.py	Invokes MCP + Agentic workflow daily for all AI 50 companies
+
+✅ Checkpoint: Each DAG runs locally or in Dockerized Airflow and updates dashboards.
+
+Containerization and Configuration
+
+Provide:
+	•	Dockerfile.mcp (for MCP Server)
+	•	Dockerfile.agent (for Supervisor Agent + Workflow)
+	•	docker-compose.yml linking services + optional vector DB
+	•	.env.example for API keys and service URLs
+	•	config/settings_example.yaml for parameterization
+
+✅ Checkpoint: docker compose up brings up MCP + Agent locally.
+
+⸻
+
+🧪 Testing & Observability
+
+Minimum Tests (pytest)
+
+Test	Purpose
+test_tools.py	Validate core tools return expected schema
+test_mcp_server.py	Ensure MCP endpoints return Markdown
+test_workflow_branches.py	Assert risk vs no-risk branch logic
+
+Run: pytest -v --maxfail=1 --disable-warnings
+
+Logging & Metrics
+	•	Use Python logging or structlog (JSON format).
+	•	Include fields: timestamp, run_id, company_id, phase, message.
+	•	Optional: emit basic counters (e.g., dashboards generated, HITL triggered).
+
+⸻
+
+📦 Deliverables
+
+#	Deliverable	Requirements
+1	Updated GitHub Repo (pe-dashboard-ai50-v3)	Full code + docs + Airflow DAGs
+2	MCP Server Service	Dockerized HTTP server exposing Tools/Resources/Prompts
+3	Supervisor Agent & Workflow	Implements ReAct + Graph + HITL
+4	Airflow Integration	DAG invokes Agentic workflow on schedule
+5	Configuration Mgmt	.env and config/ externalization
+6	Testing Suite	≥ 3 pytest cases
+7	Structured Logging	JSON ReAct trace saved to docs/
+8	Docker Deployment	Dockerfiles + docker-compose
+9	Demo Video (≤ 5 min)	Show workflow execution + HITL pause
+10	Contribution Attestation	Completed form
 
 
-## Labs Progress
+⸻
 
-### ✅ Lab 0: Project Bootstrap
-- Repository structure with `dags/`, `data/`, `src/`
-- `forbes_ai50_seed.json` with all 50 companies
+🧮 Dashboard Format (Reference)
 
-### ✅ Lab 1: Scrape & Store
-- Python scraper for homepage, about, product, careers, blog
-- Stores raw HTML + clean text locally
-- Uploads to S3: `s3://quanta-ai50-data/ai50/raw/`
+Eight mandatory sections:
+	1.	Company Overview
+	2.	Business Model and GTM
+	3.	Funding & Investor Profile
+	4.	Growth Momentum
+	5.	Visibility & Market Sentiment
+	6.	Risks and Challenges
+	7.	Outlook
+	8.	Disclosure Gaps (bullet list of missing info)
 
-### ✅ Lab 2: Full Load Airflow DAG
-- `ai50_full_ingest_dag.py` - scrapes all 50 companies
-- Schedule: `@once` (manual trigger)
-- Output: `data/raw/<company_id>/initial/` + S3
+Rules
+	•	Use literal “Not disclosed.” for missing fields.
+	•	Never invent ARR/MRR/valuation/customer logos.
+	•	Always include final Disclosure Gaps section.
 
-### ✅ Lab 3: Daily Refresh Airflow DAG
-- `ai50_daily_refresh_dag.py` - daily updates
-- Schedule: `0 3 * * *` (3 AM UTC)
-- Tracks changes with content hashing
-- Creates dated subfolders per run
+⸻
 
-### ✅ Lab 4: Vector DB & RAG Index
-- Chunk text into 500-1000 tokens
-- Embed and store in vector DB (ChromaDB)
-- FastAPI endpoint: `/rag/search` (Lab 4 API on port 8001)
+🚀 Production Readiness Checklist
 
-### ✅ Lab 5: Structured Extraction (Pydantic)
-- Use `instructor` library with LLM
-- Extract: Company, Event, Snapshot, Product, Leadership, Visibility
-- Output: `data/structured/<company_id>.json`
+Before submission, verify that your system:
+	•	Has working Airflow DAGs for initial/daily/agentic runs
+	•	Runs MCP Server + Agent via Docker Compose
+	•	Loads config and secrets from .env or config/
+	•	Implements structured ReAct logging (JSON)
+	•	Includes at least 3 automated pytest tests
+	•	Documents setup and run instructions in README.md
+	•	Demo video shows HITL pause/resume
+	•	README contains system diagram and architecture summary
 
-### ✅ Lab 6: Payload Assembly
-- Combine all structured data into dashboard payload
-- Output: `data/payloads/<company_id>.json`
-- Validation: All payloads can be loaded by `src/structured_pipeline.py`
+⸻
 
-### ✅ Lab 7: RAG Pipeline Dashboard
-- Endpoint: `POST /dashboard/rag`
-- Vector DB → LLM → 8-section Markdown dashboard
-- Uses "Not disclosed." for missing data
+🧾 Submission
+	•	Repo name: pe-dashboard-ai50-v3-<teamname>
+	•	Push to GitHub with all code, docs, and Docker/Airflow files.
+	•	Include demo video link in README.
+	•	Submit GitHub URL + video link via LMS.
 
-### ✅ Lab 8: Structured Pipeline Dashboard
-- Endpoint: `POST /dashboard/structured`
-- Pydantic payload → LLM → Markdown dashboard
-- More precise and less hallucinatory than RAG
+⸻
 
-### ✅ Lab 9: Evaluation & Comparison
-- Compare RAG vs Structured for 5+ companies
-- Rubric: factual correctness, schema adherence, hallucination control
-- Output: `EVAL.md` with scores and findings
-
-### ✅ Lab 10: Dockerize FastAPI + Streamlit
-- `docker-compose.yml` for app layer
-- FastAPI: http://localhost:8000
-- Streamlit: http://localhost:8501
-
-### ✅ Lab 11: DAG ↔ App Integration
-- Daily DAG writes to `data/payloads/`
-- App reads from payloads for dashboard generation
-
----
-
-## Key Commands
-
-```bash
-# Airflow
-docker compose up               # Start Airflow
-docker compose down             # Stop Airflow
-docker compose logs -f          # View logs
-
-# Check S3
-aws s3 ls s3://quanta-ai50-data/ai50/raw/
-
-# Check scraped data
-ls data/raw/ | wc -l           # Count companies scraped
-
-# Labs 4-9 - Complete Sequence
-# Step 1: Lab 4 - Vector DB Index
-python src\lab4\index_for_rag_all.py
-
-# Step 2: Lab 5 - Structured Extraction
-python src\lab5\structured_extraction.py
-
-# Step 3: Lab 6 - Payload Assembly
-python src\lab6\assemble_payloads.py
-
-# Step 4: Lab 7/8 - Start API Server (run in separate terminal)
-.\start_api_server.ps1
-
-# Step 5: Lab 9 - Evaluation (in new terminal, after API is running)
-.\run_lab9.ps1
-
-# Labs 12-18 - Phase 3 (See README_ASSIGNMENT5.md for detailed commands)
-# Validate Phase 3 completion
-python scripts/validate_phase3.py
-
-# Run integration tests
-python -m pytest tests/test_phase3_integration.py -v
-
-# Run workflow (Lab 17)
-python -m src.workflows.due_diligence_graph anthropic
-
-# Visualize workflow execution
-python scripts/visualize_workflow.py logs/workflow_traces/workflow_trace_{run_id}_{timestamp}.json
-```
-
----
-
-## Troubleshooting
-
-**DLL Errors (Windows):**
-- Install Visual C++ Redistributables: https://aka.ms/vs/17/release/vc_redist.x64.exe
-- Restart terminal after installation
-
-**API Not Starting:**
-- Check if port 8002 is available
-- Verify `.env` file has `OPENAI_API_KEY` set
-- Ensure virtual environment is activated
-
-**Vector DB Empty:**
-- Run `python src\index_for_rag_all.py` to populate vector DB
-- Check that `data/raw/` contains company directories
-
-**Docker Issues:**
-- Ensure Docker Desktop is running
-- Check `docker-compose.yml` configuration
-- View logs: `docker compose logs -f`
+📚 References & Resources
+	•	Python AI Series modules (Structured Outputs, Tool Calling, Agents, MCP)
+	•	Model Context Protocol Docs
+	•	LangGraph Docs
+	•	Microsoft Agent Framework Samples
+	•	Apache Airflow Quick Start
+	•	Docker Compose Guide
 
 ---
 
