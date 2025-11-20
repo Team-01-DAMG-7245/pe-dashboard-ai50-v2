@@ -1,0 +1,28 @@
+{
+  "server": {
+    "base_url": "http://localhost:9000",
+    "timeout": 30,
+    "retry_attempts": 3
+  },
+  "tools": {
+    "enabled": [
+      "generate_structured_dashboard",
+      "generate_rag_dashboard"
+    ],
+    "endpoints": {
+      "generate_structured_dashboard": "/tool/generate_structured_dashboard",
+      "generate_rag_dashboard": "/tool/generate_rag_dashboard"
+    }
+  },
+  "resources": {
+    "companies": "/resource/ai50/companies"
+  },
+  "prompts": {
+    "pe_dashboard": "/prompt/pe-dashboard"
+  },
+  "security": {
+    "api_key": "${MCP_API_KEY}",
+    "enable_filtering": true,
+    "allowed_tools": ["generate_structured_dashboard", "generate_rag_dashboard"]
+  }
+}

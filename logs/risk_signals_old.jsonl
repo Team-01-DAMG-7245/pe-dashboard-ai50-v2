@@ -1,0 +1,19 @@
+{"timestamp": "2025-11-10T21:42:20.535526", "company_id": "anthropic", "occurred_on": "2024-11-01", "description": "Hypothetical layoff of 100 employees", "source_url": "https://example.com/news"}
+{"timestamp": "2025-11-10T21:47:01.507838", "company_id": "test_company", "occurred_on": "2025-11-10", "description": "Test layoff event", "source_url": "https://example.com/test"}
+{"timestamp": "2025-11-10T21:54:14.206237", "company_id": "anthropic", "occurred_on": "2025-11-10", "description": "Potential risk detected: layoffs workforce reduction", "source_url": "https://example.com/analysis"}
+{"timestamp": "2025-11-10T21:54:14.230373", "company_id": "anthropic", "occurred_on": "2025-11-10", "description": "Potential risk detected: data breach security incident", "source_url": "https://example.com/analysis"}
+{"timestamp": "2025-11-10T23:14:23.556412", "company_id": "anthropic", "occurred_on": "2025-11-10", "description": "Potential risk detected: layoffs workforce reduction", "source_url": "https://example.com/analysis"}
+{"timestamp": "2025-11-10T23:14:23.580636", "company_id": "anthropic", "occurred_on": "2025-11-10", "description": "Potential risk detected: data breach security incident", "source_url": "https://example.com/analysis"}
+{"timestamp": "2025-11-12T14:02:22.635102", "company_id": "test_company", "occurred_on": "2025-11-12", "description": "Test layoff event", "source_url": "https://example.com/test"}
+{"timestamp": "2025-11-12T14:07:52.858039", "company_id": "anthropic", "occurred_on": "2025-11-12", "description": "Potential risk detected: layoffs workforce reduction", "source_url": "https://example.com/analysis"}
+{"timestamp": "2025-11-12T14:07:52.880144", "company_id": "anthropic", "occurred_on": "2025-11-12", "description": "Potential risk detected: data breach security incident", "source_url": "https://example.com/analysis"}
+{"timestamp": "2025-11-12T14:25:15.207678", "company_id": "test_company", "occurred_on": "2025-11-12", "description": "Test layoff event", "source_url": "https://example.com/test"}
+{"timestamp": "2025-11-12T14:25:30.585590", "company_id": "anthropic", "occurred_on": "2025-11-12", "description": "Potential risk detected: layoffs workforce reduction", "source_url": "https://example.com/analysis"}
+{"timestamp": "2025-11-12T14:25:30.618559", "company_id": "anthropic", "occurred_on": "2025-11-12", "description": "Potential risk detected: data breach security incident", "source_url": "https://example.com/analysis"}
+{"timestamp": "2025-11-12T14:35:10.852328", "company_id": "test", "occurred_on": "2025-11-12", "description": "test", "source_url": "https://example.com/"}
+{"timestamp": "2025-11-12T17:59:44.187110", "company_id": "test", "occurred_on": "2025-11-12", "description": "test", "source_url": "https://example.com/"}
+{"timestamp": "2025-11-12T18:03:22.999562", "company_id": "anthropic", "occurred_on": "2024-11-01", "description": "Anthropic potential workforce reduction identified in analysis", "source_url": "https://anthropic.com/news"}
+{"timestamp": "2025-11-12T18:03:23.014496", "company_id": "databricks", "occurred_on": "2024-11-01", "description": "Databricks potential workforce reduction identified in analysis", "source_url": "https://databricks.com/news"}
+{"timestamp": "2025-11-12T18:03:23.025647", "company_id": "cohere", "occurred_on": "2024-11-01", "description": "Cohere potential workforce reduction identified in analysis", "source_url": "https://cohere.com/news"}
+{"timestamp": "2025-11-12T18:10:04.510500", "company_id": "databricks", "occurred_on": "2024-11-01", "description": "Risk assessment", "source_url": "https://databricks.com/"}
+{"timestamp": "2025-11-12T18:10:17.996245", "company_id": "test_company", "occurred_on": "2025-11-12", "description": "Test layoff event", "source_url": "https://example.com/test"}

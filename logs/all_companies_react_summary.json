@@ -1,0 +1,32 @@
+{
+  "run_id_prefix": "lab16-final",
+  "started_at": "2025-11-14T21:43:20.784759",
+  "completed_at": "2025-11-14T21:44:01.802293",
+  "duration_seconds": 41.017534,
+  "total_companies": 3,
+  "successful": 3,
+  "failed": 0,
+  "results": [
+    {
+      "company_id": "abridge",
+      "run_id": "lab16-final-abridge-20251114-214320",
+      "status": "success",
+      "trace_file": "logs\\react_traces\\react_trace_lab16-final-abridge-20251114-214320.json",
+      "error": null
+    },
+    {
+      "company_id": "anthropic",
+      "run_id": "lab16-final-anthropic-20251114-214335",
+      "status": "success",
+      "trace_file": "logs\\react_traces\\react_trace_lab16-final-anthropic-20251114-214335.json",
+      "error": null
+    },
+    {
+      "company_id": "anysphere",
+      "run_id": "lab16-final-anysphere-20251114-214346",
+      "status": "success",
+      "trace_file": "logs\\react_traces\\react_trace_lab16-final-anysphere-20251114-214346.json",
+      "error": null
+    }
+  ]
+}

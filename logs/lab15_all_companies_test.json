@@ -1,0 +1,162 @@
+{
+  "total": 34,
+  "successful": 31,
+  "failed": 3,
+  "companies_tested": [
+    {
+      "company": "abridge",
+      "dashboard_chars": 2953,
+      "status": "success"
+    },
+    {
+      "company": "anthropic",
+      "dashboard_chars": 2438,
+      "status": "success"
+    },
+    {
+      "company": "anysphere",
+      "dashboard_chars": 2124,
+      "status": "success"
+    },
+    {
+      "company": "baseten",
+      "dashboard_chars": 2402,
+      "status": "success"
+    },
+    {
+      "company": "captions",
+      "dashboard_chars": 2623,
+      "status": "success"
+    },
+    {
+      "company": "clay",
+      "dashboard_chars": 2177,
+      "status": "success"
+    },
+    {
+      "company": "cohere",
+      "dashboard_chars": 2152,
+      "status": "success"
+    },
+    {
+      "company": "crusoe",
+      "dashboard_chars": 1683,
+      "status": "success"
+    },
+    {
+      "company": "databricks",
+      "dashboard_chars": 2320,
+      "status": "success"
+    },
+    {
+      "company": "deepl",
+      "dashboard_chars": 2564,
+      "status": "success"
+    },
+    {
+      "company": "elevenlabs",
+      "dashboard_chars": 2537,
+      "status": "success"
+    },
+    {
+      "company": "figure_ai",
+      "dashboard_chars": 1898,
+      "status": "success"
+    },
+    {
+      "company": "glean",
+      "dashboard_chars": 2767,
+      "status": "success"
+    },
+    {
+      "company": "hebbia",
+      "dashboard_chars": 2083,
+      "status": "success"
+    },
+    {
+      "company": "hugging_face",
+      "dashboard_chars": 2223,
+      "status": "success"
+    },
+    {
+      "company": "langchain",
+      "dashboard_chars": 2810,
+      "status": "success"
+    },
+    {
+      "company": "luminance",
+      "dashboard_chars": 2352,
+      "status": "success"
+    },
+    {
+      "company": "mercor",
+      "dashboard_chars": 2413,
+      "status": "success"
+    },
+    {
+      "company": "notion",
+      "dashboard_chars": 2947,
+      "status": "success"
+    },
+    {
+      "company": "perplexity_ai",
+      "dashboard_chars": 2020,
+      "status": "success"
+    },
+    {
+      "company": "photoroom",
+      "dashboard_chars": 2316,
+      "status": "success"
+    },
+    {
+      "company": "speak",
+      "dashboard_chars": 2511,
+      "status": "success"
+    },
+    {
+      "company": "suno",
+      "dashboard_chars": 1900,
+      "status": "success"
+    },
+    {
+      "company": "synthesia",
+      "dashboard_chars": 1574,
+      "status": "success"
+    },
+    {
+      "company": "thinking_machine_labs",
+      "dashboard_chars": 2071,
+      "status": "success"
+    },
+    {
+      "company": "together_ai",
+      "dashboard_chars": 2390,
+      "status": "success"
+    },
+    {
+      "company": "vannevar_labs",
+      "dashboard_chars": 2515,
+      "status": "success"
+    },
+    {
+      "company": "windsurf",
+      "dashboard_chars": 2292,
+      "status": "success"
+    },
+    {
+      "company": "world_labs",
+      "dashboard_chars": 2689,
+      "status": "success"
+    },
+    {
+      "company": "writer",
+      "dashboard_chars": 3124,
+      "status": "success"
+    },
+    {
+      "company": "xai",
+      "dashboard_chars": 2393,
+      "status": "success"
+    }
+  ]
+}
