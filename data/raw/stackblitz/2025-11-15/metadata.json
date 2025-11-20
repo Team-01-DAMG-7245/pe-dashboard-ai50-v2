@@ -1,0 +1,21 @@
+{
+  "company_name": "Stackblitz",
+  "company_id": "stackblitz",
+  "base_url": "https://stackblitz.com",
+  "crawled_at": "2025-11-16T03:14:13.947187Z",
+  "execution_date": "2025-11-15",
+  "pages_refreshed": [
+    {
+      "page": "careers",
+      "url": "https://stackblitz.com/careers",
+      "status": 200,
+      "size_bytes": 125936,
+      "content_hash": "f42fffdaca2d6a06fd7fdd8fe577c9b4",
+      "changed": false,
+      "html_file": "stackblitz/2025-11-15/careers_raw.html",
+      "text_file": "stackblitz/2025-11-15/careers_clean.txt"
+    }
+  ],
+  "changes_detected": [],
+  "errors": []
+}

@@ -30,9 +30,11 @@ class VectorDB:
     def __init__(self, persist_directory: str = None):
         """Initialize vector database with ChromaDB"""
         if persist_directory is None:
-            # Get project root (3 levels up from lab4/vector_db.py)
-            project_root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
-            persist_directory = os.path.join(project_root, "data", "vector_db")
+            # Get project root (3 levels up from lab4/vector_db.py: src/lab4/vector_db.py -> src -> root)
+            from pathlib import Path
+            file_path = Path(__file__).resolve()
+            project_root = file_path.parent.parent.parent
+            persist_directory = os.path.join(str(project_root), "data", "vector_db")
         self.persist_directory = persist_directory
         
         # Initialize embedding model
@@ -45,39 +47,29 @@ class VectorDB:
         # Initialize ChromaDB client (simpler approach)
         self.client = chromadb.PersistentClient(path=persist_directory)
         
-        # Get or create collection - use SentenceTransformer for consistency
-        # Note: We manually encode embeddings, so we don't need embedding function here
-        # Use a simple embedding function to avoid onnxruntime dependency issues
+        # Get or create collection - use SentenceTransformer embedding function for consistency
+        # This must match what rag_dashboard.py expects
+        from chromadb.utils import embedding_functions
+        
+        # Always use the same embedding function that rag_dashboard.py uses
+        embedding_func = embedding_functions.SentenceTransformerEmbeddingFunction(
+            model_name="all-MiniLM-L6-v2"
+        )
+        
         try:
-            self.collection = self.client.get_collection("ai50_companies")
+            # Try to get existing collection WITH embedding function (required for ChromaDB)
+            self.collection = self.client.get_collection(
+                "ai50_companies",
+                embedding_function=embedding_func
+            )
             print(f"Connected to existing collection: ai50_companies")
         except:
-            # Create collection without default embedding function to avoid onnxruntime DLL issues
-            # We'll provide embeddings manually
-            from chromadb.utils import embedding_functions
-            # Use a simple embedding function that doesn't require onnxruntime
-            try:
-                # Try to use a simple embedding function
-                embedding_func = embedding_functions.SentenceTransformerEmbeddingFunction(
-                    model_name="all-MiniLM-L6-v2"
-                )
-            except:
-                # Fallback: create collection without embedding function
-                # We'll provide embeddings manually
-                embedding_func = None
-            
-            if embedding_func:
-                self.collection = self.client.create_collection(
-                    "ai50_companies",
-                    embedding_function=embedding_func,
-                    metadata={"hnsw:space": "cosine"}
-                )
-            else:
-                # Create without embedding function - we'll provide embeddings manually
-                self.collection = self.client.create_collection(
-                    "ai50_companies",
-                    metadata={"hnsw:space": "cosine"}
-                )
+            # Create new collection with embedding function
+            self.collection = self.client.create_collection(
+                "ai50_companies",
+                embedding_function=embedding_func,
+                metadata={"hnsw:space": "cosine"}
+            )
             print("Created new collection: ai50_companies")
     
     def add_chunks(self, chunks: List[Dict], company_id: str):

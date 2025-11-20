@@ -6,13 +6,13 @@
   "hq_country": "United States",
   "category": "Go-to-market tools",
   "linkedin": "https://www.linkedin.com/company/clay/",
-  "crawled_at": "2025-11-07T00:55:59.681229Z",
+  "crawled_at": "2025-11-16T02:57:54.378521Z",
   "pages_scraped": [
     {
       "page": "homepage",
       "url": "https://clay.com",
       "status": 200,
-      "size_bytes": 190671,
+      "size_bytes": 191234,
       "html_file": "clay/initial/homepage_raw.html",
       "text_file": "clay/initial/homepage_clean.txt"
     },
@@ -20,7 +20,7 @@
       "page": "about",
       "url": "https://clay.com/about",
       "status": 200,
-      "size_bytes": 275710,
+      "size_bytes": 276048,
       "html_file": "clay/initial/about_raw.html",
       "text_file": "clay/initial/about_clean.txt"
     },
@@ -28,7 +28,7 @@
       "page": "careers",
       "url": "https://clay.com/careers",
       "status": 200,
-      "size_bytes": 179475,
+      "size_bytes": 179615,
       "html_file": "clay/initial/careers_raw.html",
       "text_file": "clay/initial/careers_clean.txt"
     },
@@ -36,7 +36,7 @@
       "page": "blog",
       "url": "https://clay.com/blog",
       "status": 200,
-      "size_bytes": 798863,
+      "size_bytes": 799623,
       "html_file": "clay/initial/blog_raw.html",
       "text_file": "clay/initial/blog_clean.txt"
     },
@@ -44,7 +44,7 @@
       "page": "news",
       "url": "https://clay.com/newsroom",
       "status": 200,
-      "size_bytes": 129860,
+      "size_bytes": 130155,
       "html_file": "clay/initial/news_raw.html",
       "text_file": "clay/initial/news_clean.txt"
     }

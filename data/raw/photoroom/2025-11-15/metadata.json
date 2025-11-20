@@ -1,0 +1,41 @@
+{
+  "company_name": "Photoroom",
+  "company_id": "photoroom",
+  "base_url": "https://photoroom.com",
+  "crawled_at": "2025-11-16T03:14:10.567985Z",
+  "execution_date": "2025-11-15",
+  "pages_refreshed": [
+    {
+      "page": "about",
+      "url": "https://photoroom.com/about",
+      "status": 200,
+      "size_bytes": 245948,
+      "content_hash": "fd26d8278a823eeb8263077db7effc71",
+      "changed": false,
+      "html_file": "photoroom/2025-11-15/about_raw.html",
+      "text_file": "photoroom/2025-11-15/about_clean.txt"
+    },
+    {
+      "page": "careers",
+      "url": "https://photoroom.com/careers",
+      "status": 200,
+      "size_bytes": 39862,
+      "content_hash": "549ff278b6a8ce2b138ace025def7aa8",
+      "changed": false,
+      "html_file": "photoroom/2025-11-15/careers_raw.html",
+      "text_file": "photoroom/2025-11-15/careers_clean.txt"
+    },
+    {
+      "page": "blog",
+      "url": "https://photoroom.com/blog",
+      "status": 200,
+      "size_bytes": 631686,
+      "content_hash": "afcce75e77e52e07b58dee8ab13e149f",
+      "changed": false,
+      "html_file": "photoroom/2025-11-15/blog_raw.html",
+      "text_file": "photoroom/2025-11-15/blog_clean.txt"
+    }
+  ],
+  "changes_detected": [],
+  "errors": []
+}

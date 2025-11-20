@@ -23,11 +23,11 @@ sys.path.insert(0, str(project_root / "src"))
 
 # Import after path setup
 try:
-    from workflows.due_diligence_graph import (
+    from src.lab17.workflows.due_diligence_graph import (
         run_due_diligence_workflow,
         WorkflowState
     )
-    import workflows.due_diligence_graph as workflow_module
+    import src.lab17.workflows.due_diligence_graph as workflow_module
 except ImportError:
     pytest.skip("Workflow module not available", allow_module_level=True)
 
@@ -136,7 +136,7 @@ def cleanup_traces():
 @pytest.fixture
 def reset_workflow_state():
     """Reset global workflow state between tests"""
-    import workflows.due_diligence_graph as workflow_module
+    import src.lab17.workflows.due_diligence_graph as workflow_module
     workflow_module._workflow_trace_events.clear()
     workflow_module._workflow_node_order.clear()
     yield
@@ -252,7 +252,7 @@ def test_normal_flow_no_risks(
         assert result.get("error") is None
         
         # Check node execution order
-        import workflows.due_diligence_graph as workflow_module
+        import src.lab17.workflows.due_diligence_graph as workflow_module
         node_order = workflow_module._workflow_node_order
         assert "planner" in node_order
         assert "data_generator" in node_order
@@ -350,7 +350,7 @@ def test_high_risk_flow_with_approval(
         assert len(result.get("risk_signals", [])) > 0, "Should have risk signals"
         
         # Check node execution order includes HITL
-        import workflows.due_diligence_graph as workflow_module
+        import src.lab17.workflows.due_diligence_graph as workflow_module
         node_order = workflow_module._workflow_node_order
         trace_events = workflow_module._workflow_trace_events
         
@@ -474,7 +474,7 @@ def test_high_risk_flow_with_rejection(
         assert len(result.get("risk_signals", [])) > 0, "Should have risk signals"
         
         # Check node execution order includes HITL
-        import workflows.due_diligence_graph as workflow_module
+        import src.lab17.workflows.due_diligence_graph as workflow_module
         node_order = workflow_module._workflow_node_order
         trace_events = workflow_module._workflow_trace_events
         
@@ -582,7 +582,7 @@ def test_complete_integration_flow(
         assert result.get("hitl_approved") == True
         
         # 2. ReAct Logging Validation
-        import workflows.due_diligence_graph as workflow_module
+        import src.lab17.workflows.due_diligence_graph as workflow_module
         trace_events = workflow_module._workflow_trace_events
         node_order = workflow_module._workflow_node_order
         

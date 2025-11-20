@@ -983,14 +983,6 @@ Anthropic
 Â©
 [year]
 Anthropic PBC
-x.com
-x.com
-LinkedIn
-LinkedIn
-YouTube
-YouTube
-Instagram
-Instagram
 Products
 Claude
 Claude
@@ -1084,6 +1076,9 @@ Blog
 Courses
 Courses
 Courses
+Use cases
+Use cases
+Use cases
 Connectors
 Connectors
 Connectors

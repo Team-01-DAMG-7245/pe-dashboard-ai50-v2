@@ -30,6 +30,34 @@
       "pages_checked": 0,
       "changes_detected": [],
       "errors": 8
+    },
+    {
+      "execution_date": "2025-11-14",
+      "crawled_at": "2025-11-15T23:51:01.141114Z",
+      "pages_checked": 0,
+      "changes_detected": [],
+      "errors": 8
+    },
+    {
+      "execution_date": "2025-11-14",
+      "crawled_at": "2025-11-16T00:36:16.976980Z",
+      "pages_checked": 0,
+      "changes_detected": [],
+      "errors": 8
+    },
+    {
+      "execution_date": "2025-11-14",
+      "crawled_at": "2025-11-16T02:58:24.485542Z",
+      "pages_checked": 0,
+      "changes_detected": [],
+      "errors": 8
+    },
+    {
+      "execution_date": "2025-11-15",
+      "crawled_at": "2025-11-16T03:19:47.818589Z",
+      "pages_checked": 0,
+      "changes_detected": [],
+      "errors": 8
     }
   ]
 }

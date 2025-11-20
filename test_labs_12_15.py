@@ -22,7 +22,7 @@ print("-" * 70)
 # Test 1: Payload Tool
 print("\n1. Testing Payload Tool...")
 try:
-    from src.tools.payload_tool import get_latest_structured_payload
+    from src.lab12.tools.payload_tool import get_latest_structured_payload
     payload = asyncio.run(get_latest_structured_payload('anthropic'))
     print(f'✅ Payload Tool: {payload.company_record.get("legal_name", "Unknown")}')
     print(f'   Events: {len(payload.events)}, Products: {len(payload.products)}')
@@ -32,7 +32,7 @@ except Exception as e:
 # Test 2: RAG Search Tool
 print("\n2. Testing RAG Search Tool...")
 try:
-    from src.tools.rag_tool import rag_search_company
+    from src.lab12.tools.rag_tool import rag_search_company
     results = asyncio.run(rag_search_company('anthropic', 'data platform'))
     print(f'✅ RAG Tool: {len(results)} results found')
     if results:
@@ -43,7 +43,7 @@ except Exception as e:
 # Test 3: Risk Logger Tool
 print("\n3. Testing Risk Logger Tool...")
 try:
-    from src.tools.risk_logger import report_layoff_signal, LayoffSignal
+    from src.lab12.tools.risk_logger import report_layoff_signal, LayoffSignal
     signal = LayoffSignal(
         company_id='test_company',
         occurred_on=date.today(),
@@ -69,7 +69,7 @@ print("\n🤖 LAB 13: Supervisor Agent")
 print("-" * 70)
 
 try:
-    from src.agents.supervisor_agent import DueDiligenceSupervisor
+    from src.lab13.agents.supervisor_agent import DueDiligenceSupervisor
     
     print("\nTesting Supervisor Agent with ReAct pattern...")
     supervisor = DueDiligenceSupervisor()
@@ -156,7 +156,7 @@ try:
             print(f"❌ MCP Server returned status {response.status_code}")
     except requests.exceptions.ConnectionError:
         print("⚠️ MCP Server not running")
-        print("   Start it with: $env:KMP_DUPLICATE_LIB_OK='TRUE'; python src/server/mcp_server.py")
+        print("   Start it with: $env:KMP_DUPLICATE_LIB_OK='TRUE'; python src/lab14/server/mcp_server.py")
         print("   Then run this test again")
     except Exception as e:
         print(f"❌ Error connecting to MCP server: {e}")
@@ -186,7 +186,7 @@ try:
     
     # Test MCP-enabled supervisor
     try:
-        from src.agents.supervisor_agent_mcp import MCPEnabledSupervisor
+        from src.lab13.agents.supervisor_agent_mcp import MCPEnabledSupervisor
         
         print("\nTesting MCP-Enabled Supervisor...")
         supervisor = MCPEnabledSupervisor()

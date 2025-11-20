@@ -30,6 +30,27 @@
       "pages_checked": 0,
       "changes_detected": [],
       "errors": 0
+    },
+    {
+      "execution_date": "2025-11-14",
+      "crawled_at": "2025-11-15T23:54:22.358162Z",
+      "pages_checked": 0,
+      "changes_detected": [],
+      "errors": 0
+    },
+    {
+      "execution_date": "2025-11-14",
+      "crawled_at": "2025-11-16T00:36:37.545173Z",
+      "pages_checked": 0,
+      "changes_detected": [],
+      "errors": 0
+    },
+    {
+      "execution_date": "2025-11-15",
+      "crawled_at": "2025-11-16T03:13:09.238757Z",
+      "pages_checked": 0,
+      "changes_detected": [],
+      "errors": 0
     }
   ]
 }

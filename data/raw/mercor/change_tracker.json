@@ -3,7 +3,7 @@
   "company_name": "Mercor",
   "hashes": {
     "careers": "77fa24aeffef29689fc7a2baf19a0df4",
-    "blog": "073ebace22cfc4f9c38bb908d6d0bb0b"
+    "blog": "310829af27eaaa41b0a1ac760f440f4b"
   },
   "history": [
     {
@@ -35,6 +35,36 @@
     {
       "execution_date": "2025-11-07",
       "crawled_at": "2025-11-07T01:00:45.997208Z",
+      "pages_checked": 2,
+      "changes_detected": [],
+      "errors": 0
+    },
+    {
+      "execution_date": "2025-11-14",
+      "crawled_at": "2025-11-15T23:51:31.619941Z",
+      "pages_checked": 2,
+      "changes_detected": [
+        "blog"
+      ],
+      "errors": 0
+    },
+    {
+      "execution_date": "2025-11-14",
+      "crawled_at": "2025-11-16T00:36:18.664249Z",
+      "pages_checked": 2,
+      "changes_detected": [],
+      "errors": 0
+    },
+    {
+      "execution_date": "2025-11-14",
+      "crawled_at": "2025-11-16T02:58:21.807417Z",
+      "pages_checked": 2,
+      "changes_detected": [],
+      "errors": 0
+    },
+    {
+      "execution_date": "2025-11-15",
+      "crawled_at": "2025-11-16T03:11:01.955905Z",
       "pages_checked": 2,
       "changes_detected": [],
       "errors": 0

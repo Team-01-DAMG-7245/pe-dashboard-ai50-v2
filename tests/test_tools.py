@@ -6,12 +6,12 @@ import sys
 # Add parent directory to path
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
-from src.tools.payload_tool import get_latest_structured_payload
-from src.tools.risk_logger import report_layoff_signal, LayoffSignal
+from src.lab12.tools.payload_tool import get_latest_structured_payload
+from src.lab12.tools.risk_logger import report_layoff_signal, LayoffSignal
 
 # Try to import RAG tool, but skip if dependency issue
 try:
-    from src.tools.rag_tool import rag_search_company
+    from src.lab12.tools.rag_tool import rag_search_company
     RAG_TOOL_AVAILABLE = True
 except Exception as e:
     RAG_TOOL_AVAILABLE = False

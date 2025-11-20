@@ -1,0 +1,51 @@
+{
+  "company_name": "Databricks",
+  "company_id": "databricks",
+  "base_url": "https://databricks.com",
+  "crawled_at": "2025-11-16T02:59:35.884143Z",
+  "execution_date": "2025-11-14",
+  "pages_refreshed": [
+    {
+      "page": "about",
+      "url": "https://databricks.com/about",
+      "status": 200,
+      "size_bytes": 730618,
+      "content_hash": "3496b25bce34df464962774bee095610",
+      "changed": false,
+      "html_file": "databricks/2025-11-14/about_raw.html",
+      "text_file": "databricks/2025-11-14/about_clean.txt"
+    },
+    {
+      "page": "careers",
+      "url": "https://databricks.com/careers",
+      "status": 200,
+      "size_bytes": 750501,
+      "content_hash": "46e7b6ad3a36de66dca9a37f4f118247",
+      "changed": false,
+      "html_file": "databricks/2025-11-14/careers_raw.html",
+      "text_file": "databricks/2025-11-14/careers_clean.txt"
+    },
+    {
+      "page": "blog",
+      "url": "https://databricks.com/blog",
+      "status": 200,
+      "size_bytes": 732417,
+      "content_hash": "280ac6aa9842c3eea1d23910dcf562b9",
+      "changed": false,
+      "html_file": "databricks/2025-11-14/blog_raw.html",
+      "text_file": "databricks/2025-11-14/blog_clean.txt"
+    },
+    {
+      "page": "news",
+      "url": "https://databricks.com/newsroom",
+      "status": 200,
+      "size_bytes": 694069,
+      "content_hash": "dfe3a3aa014e6aee89150c128d402359",
+      "changed": false,
+      "html_file": "databricks/2025-11-14/news_raw.html",
+      "text_file": "databricks/2025-11-14/news_clean.txt"
+    }
+  ],
+  "changes_detected": [],
+  "errors": []
+}

@@ -135,16 +135,16 @@ Try the AI Music Generator
 Used by millions of the best creators
 Create content faster with
 Voice Cloning
-Andrew Huberman
+Michael Caine
 Voice over your videos with
 Text to Speech
-The Colin & Samir Show
+Andrew Huberman
 Create AI audiobooks with
 Studio
 Arianna Huffington
 Translate your content with
 Dubbing
-Drew Binsky
+Matthew McConaughey
 Get started
 For
 Developers
@@ -245,16 +245,16 @@ Latest updates
 All updates
 Company
 Company
-Ukrainian Public Services Will Speak Through AI: Announcing a Partnership with ElevenLabs
-We’re partnering with the Ministry of Digital Transformation to add voice to core services
+ElevenLabs Welcomes Matthew McConaughey as New Investor
+At ElevenLabs’ inaugural Summit, the company revealed that Academy Award-winning actor Matthew McConaughey has been a part of ElevenLabs story for years – as an investor, early supporter, and now, as a customer.
+Product
+Product
+Announcing Partnership with Sir Michael Caine to Newly Launched Iconic Marketplace
+At today’s Summit, ElevenLabs announced a partnership with British cultural icon and award-winning actor Sir Michael Caine. Caine’s voice will be available on the ElevenReader app, and on the newly launched Iconic Marketplace.
 Company
 Company
-ElevenLabs and AILAS launch voice ID system to protect actors from AI misuse
-Japanese actors and voice actors can now mark their voices as authorized for AI use
-Company
-Company
-Melania: The Audiobook, Released Using ElevenLabs Voice AI
-Melania Trump brings her #1 New York Times Best Seller memoir to life with AI-powered audiobook now available in ElevenReader
+Building the First Agentic Government with Ukraine
+Using AI to make public services works for everyone by voice
 Voice chat
 Powered by ElevenLabs
 Agents

@@ -1,0 +1,180 @@
+{
+  "execution_date": "2025-11-15",
+  "run_id": "scheduled__2025-11-15T04:00:00+00:00",
+  "completed_at": "2025-11-16T04:03:59.395607Z",
+  "companies_processed": 34,
+  "dashboards_generated": 0,
+  "errors": 34,
+  "company_details": [
+    {
+      "company_id": "cohere",
+      "status": "pending",
+      "dashboards": []
+    },
+    {
+      "company_id": "captions",
+      "status": "pending",
+      "dashboards": []
+    },
+    {
+      "company_id": "anysphere",
+      "status": "pending",
+      "dashboards": []
+    },
+    {
+      "company_id": "baseten",
+      "status": "pending",
+      "dashboards": []
+    },
+    {
+      "company_id": "hebbia",
+      "status": "pending",
+      "dashboards": []
+    },
+    {
+      "company_id": "speak",
+      "status": "pending",
+      "dashboards": []
+    },
+    {
+      "company_id": "world_labs",
+      "status": "pending",
+      "dashboards": []
+    },
+    {
+      "company_id": "langchain",
+      "status": "pending",
+      "dashboards": []
+    },
+    {
+      "company_id": "runway",
+      "status": "pending",
+      "dashboards": []
+    },
+    {
+      "company_id": "databricks",
+      "status": "pending",
+      "dashboards": []
+    },
+    {
+      "company_id": "perplexity_ai",
+      "status": "pending",
+      "dashboards": []
+    },
+    {
+      "company_id": "thinking_machine_labs",
+      "status": "pending",
+      "dashboards": []
+    },
+    {
+      "company_id": "mercor",
+      "status": "pending",
+      "dashboards": []
+    },
+    {
+      "company_id": "figure_ai",
+      "status": "pending",
+      "dashboards": []
+    },
+    {
+      "company_id": "crusoe",
+      "status": "pending",
+      "dashboards": []
+    },
+    {
+      "company_id": "synthesia",
+      "status": "pending",
+      "dashboards": []
+    },
+    {
+      "company_id": "xai",
+      "status": "pending",
+      "dashboards": []
+    },
+    {
+      "company_id": "notion",
+      "status": "pending",
+      "dashboards": []
+    },
+    {
+      "company_id": "elevenlabs",
+      "status": "pending",
+      "dashboards": []
+    },
+    {
+      "company_id": "writer",
+      "status": "pending",
+      "dashboards": []
+    },
+    {
+      "company_id": "clay",
+      "status": "pending",
+      "dashboards": []
+    },
+    {
+      "company_id": "stackblitz",
+      "status": "pending",
+      "dashboards": []
+    },
+    {
+      "company_id": "glean",
+      "status": "pending",
+      "dashboards": []
+    },
+    {
+      "company_id": "luminance",
+      "status": "pending",
+      "dashboards": []
+    },
+    {
+      "company_id": "deepl",
+      "status": "pending",
+      "dashboards": []
+    },
+    {
+      "company_id": "windsurf",
+      "status": "pending",
+      "dashboards": []
+    },
+    {
+      "company_id": "anthropic",
+      "status": "pending",
+      "dashboards": []
+    },
+    {
+      "company_id": "together_ai",
+      "status": "pending",
+      "dashboards": []
+    },
+    {
+      "company_id": "hugging_face",
+      "status": "pending",
+      "dashboards": []
+    },
+    {
+      "company_id": "suno",
+      "status": "pending",
+      "dashboards": []
+    },
+    {
+      "company_id": "vannevar_labs",
+      "status": "pending",
+      "dashboards": []
+    },
+    {
+      "company_id": "openevidence",
+      "status": "pending",
+      "dashboards": []
+    },
+    {
+      "company_id": "abridge",
+      "status": "pending",
+      "dashboards": []
+    },
+    {
+      "company_id": "photoroom",
+      "status": "pending",
+      "dashboards": []
+    }
+  ]
+}

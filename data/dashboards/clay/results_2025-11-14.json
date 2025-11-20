@@ -1,0 +1,13 @@
+{
+  "company_id": "clay",
+  "run_id": "scheduled__2025-11-14T04:00:00+00:00",
+  "execution_date": "2025-11-14",
+  "timestamp": "2025-11-16T02:49:25.762257Z",
+  "dashboards": {
+    "structured": {
+      "file": "dashboards/clay/structured_2025-11-14.md",
+      "size": 2520
+    }
+  },
+  "status": "pending"
+}

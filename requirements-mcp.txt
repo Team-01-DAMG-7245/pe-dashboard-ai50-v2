@@ -1,0 +1,29 @@
+# Minimal requirements for MCP Server
+# Core dependencies only - RAG dependencies loaded lazily if needed
+
+# Core Web Framework & API
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+python-multipart==0.0.9
+
+# Data Validation & Models
+pydantic==2.4.2
+email-validator
+
+# HTTP Client for MCP/Agent communication
+httpx>=0.24.0
+
+# Cloud Storage 
+boto3==1.28.64
+python-dotenv==1.0.0
+
+# LLM APIs
+openai>=1.12.0
+
+# Note: chromadb, sentence-transformers, instructor, langchain are optional
+# They're only needed if RAG dashboard features are used
+# Install separately if needed: pip install chromadb sentence-transformers instructor langchain
+
+# Logging
+python-json-logger==2.0.7
+

@@ -6,7 +6,7 @@ Demonstrates how the callback handler captures agent steps.
 import asyncio
 import json
 from pathlib import Path
-from src.agents.supervisor_agent_langchain import run_supervisor_agent_langchain
+from src.lab13.agents.supervisor_agent_langchain import run_supervisor_agent_langchain
 
 
 async def test_langchain_react_logging():

@@ -1,0 +1,27 @@
+FROM apache/airflow:2.7.3
+
+USER root
+
+# Install system dependencies if needed
+RUN apt-get update && apt-get install -y \
+    gcc \
+    && rm -rf /var/lib/apt/lists/*
+
+USER airflow
+
+# Upgrade pip first
+RUN pip install --upgrade pip
+
+# Copy Airflow-specific requirements (without instructor, as it requires Python >=3.10)
+# Airflow 2.7.3 uses Python 3.8, so instructor==0.5.2 is not compatible
+COPY requirements-airflow.txt /tmp/requirements-airflow.txt
+RUN pip install --no-cache-dir --user --retries 3 --timeout 100 -r /tmp/requirements-airflow.txt
+
+# Note: instructor cannot be installed - requires Python >=3.9/3.10
+# Airflow 2.7.3 uses Python 3.8
+# Structured extraction that uses instructor should run in agent service (Python 3.11)
+# or the code needs to handle missing instructor gracefully
+
+# Set Python path to include user site-packages (Python 3.8 for Airflow 2.7.3)
+ENV PYTHONPATH=/home/airflow/.local/lib/python3.8/site-packages:$PYTHONPATH
+

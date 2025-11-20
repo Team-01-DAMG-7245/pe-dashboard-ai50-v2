@@ -1,0 +1,47 @@
+{
+  "company_name": "Deepl",
+  "company_id": "deepl",
+  "base_url": "https://deepl.com",
+  "crawled_at": "2025-11-16T03:04:40.013180Z",
+  "execution_date": "2025-11-14",
+  "pages_refreshed": [
+    {
+      "page": "about",
+      "url": "https://deepl.com/about-us",
+      "status": 200,
+      "size_bytes": 119929,
+      "content_hash": "01232fca559e821a7d446c4800272c9f",
+      "changed": false,
+      "html_file": "deepl/2025-11-14/about_raw.html",
+      "text_file": "deepl/2025-11-14/about_clean.txt"
+    },
+    {
+      "page": "careers",
+      "url": "https://deepl.com/careers",
+      "status": 200,
+      "size_bytes": 129953,
+      "content_hash": "2379a735c0852fc811077e4d4fd90984",
+      "changed": false,
+      "html_file": "deepl/2025-11-14/careers_raw.html",
+      "text_file": "deepl/2025-11-14/careers_clean.txt"
+    },
+    {
+      "page": "blog",
+      "url": "https://deepl.com/blog",
+      "status": 200,
+      "size_bytes": 130950,
+      "content_hash": "6fbd8d672c0e7fd1b193a785f2c5ab4c",
+      "changed": false,
+      "html_file": "deepl/2025-11-14/blog_raw.html",
+      "text_file": "deepl/2025-11-14/blog_clean.txt"
+    }
+  ],
+  "changes_detected": [],
+  "errors": [
+    {
+      "page": "about",
+      "url": "https://deepl.com/about",
+      "error": "HTTPSConnectionPool(host='deepl.com', port=443): Max retries exceeded with url: /about (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)')))"
+    }
+  ]
+}

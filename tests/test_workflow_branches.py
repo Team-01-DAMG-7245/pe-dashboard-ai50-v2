@@ -22,7 +22,7 @@ from pathlib import Path as PathLib
 project_root = PathLib(__file__).resolve().parents[1]
 sys.path.insert(0, str(project_root / "src"))
 
-from workflows.due_diligence_graph import (
+from src.lab17.workflows.due_diligence_graph import (
     WorkflowState,
     planner_node,
     data_generator_node,

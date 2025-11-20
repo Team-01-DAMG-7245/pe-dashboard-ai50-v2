@@ -1,0 +1,41 @@
+# Minimal Airflow requirements (Python 3.8 compatible)
+# Only essential dependencies for DAG execution
+
+# Core Web Framework & API (if needed by DAGs)
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+python-multipart==0.0.9
+
+# Data Validation & Models
+pydantic==2.4.2
+email-validator
+
+# HTTP Client for MCP/Agent communication (Phase 4)
+httpx>=0.24.0
+
+# Cloud Storage 
+boto3==1.28.64
+python-dotenv==1.0.0
+
+# NumPy - basic dependency
+numpy>=1.22.0,<2.0.0
+
+# LLM APIs (for dashboard generation via agent service)
+openai>=1.12.0
+
+# Note: instructor==0.5.2 requires Python >=3.10, not available for Python 3.8
+# Structured extraction should run in agent service (Python 3.11), not Airflow
+# Instructor is handled gracefully with error messages in structured_extraction.py
+
+# Note: chromadb, sentence-transformers are NOT needed in Airflow
+# These are heavy dependencies (5-10 min install) used by RAG features
+# RAG features should run in agent/mcp services, not Airflow
+# If needed, they can be installed at runtime or handled via API calls
+
+# LangChain (if needed for agent DAGs)
+langchain>=0.1.0
+langchain-openai>=0.0.5
+langchain-core>=0.1.0
+
+# Logging
+python-json-logger==2.0.7

@@ -75,7 +75,7 @@ docker run -p 9000:9000 --env-file .env mcp-server
 ```powershell
 cd "C:\Users\Swara\Desktop\Big Data Assignments\damg7245-assignmnet4\forbes-ai50-dashboard-assignment4"
 $env:PYTHONPATH="src"
-python src\server\mcp_server.py
+python src\lab14\server\mcp_server.py
 ```
 
 **Verify MCP Inspector:**

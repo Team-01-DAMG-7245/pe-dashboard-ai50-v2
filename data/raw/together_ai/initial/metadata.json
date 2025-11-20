@@ -6,7 +6,7 @@
   "hq_country": "United States",
   "category": "AI cloud provider",
   "linkedin": "https://www.linkedin.com/company/together-ai/",
-  "crawled_at": "2025-11-07T01:02:39.650525Z",
+  "crawled_at": "2025-11-16T03:37:37.602853Z",
   "pages_scraped": [
     {
       "page": "homepage",
@@ -55,15 +55,18 @@
       "size_bytes": 4454,
       "html_file": "together_ai/initial/blog_raw.html",
       "text_file": "together_ai/initial/blog_clean.txt"
-    },
+    }
+  ],
+  "errors": [
     {
       "page": "news",
       "url": "https://together-ai.com/news",
-      "status": 200,
-      "size_bytes": 4454,
-      "html_file": "together_ai/initial/news_raw.html",
-      "text_file": "together_ai/initial/news_clean.txt"
+      "error": "HTTPSConnectionPool(host='together-ai.com', port=443): Max retries exceeded with url: /news (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1131)')))"
+    },
+    {
+      "page": "news",
+      "url": "https://together-ai.com/newsroom",
+      "error": "HTTPSConnectionPool(host='together-ai.com', port=443): Max retries exceeded with url: /newsroom (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1131)')))"
     }
-  ],
-  "errors": []
+  ]
 }

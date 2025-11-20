@@ -2,9 +2,9 @@
   "company_id": "clay",
   "company_name": "Clay",
   "hashes": {
-    "about": "aa144eb3e1fcbadc05a2cb625f4de576",
+    "about": "53488fbf6d79b5603e203cea5cc230ed",
     "careers": "140346c0dc90509b579291e0c7f4dbe6",
-    "blog": "0cae976f7c0c6ce87635171f972a17c5",
+    "blog": "8fcaa028bbbeae3a2fed6c69d24396e9",
     "news": "15888675b937e227fb8255636f710f87"
   },
   "history": [
@@ -40,6 +40,37 @@
     {
       "execution_date": "2025-11-07",
       "crawled_at": "2025-11-07T01:00:13.195766Z",
+      "pages_checked": 4,
+      "changes_detected": [],
+      "errors": 0
+    },
+    {
+      "execution_date": "2025-11-14",
+      "crawled_at": "2025-11-15T23:49:19.030367Z",
+      "pages_checked": 4,
+      "changes_detected": [
+        "about",
+        "blog"
+      ],
+      "errors": 0
+    },
+    {
+      "execution_date": "2025-11-14",
+      "crawled_at": "2025-11-16T00:35:26.486121Z",
+      "pages_checked": 4,
+      "changes_detected": [],
+      "errors": 0
+    },
+    {
+      "execution_date": "2025-11-14",
+      "crawled_at": "2025-11-16T02:59:17.706238Z",
+      "pages_checked": 4,
+      "changes_detected": [],
+      "errors": 0
+    },
+    {
+      "execution_date": "2025-11-15",
+      "crawled_at": "2025-11-16T03:02:37.919512Z",
       "pages_checked": 4,
       "changes_detected": [],
       "errors": 0

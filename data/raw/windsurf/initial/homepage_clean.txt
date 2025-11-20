@@ -197,8 +197,13 @@ Insights
 See all articles
 FEATURED
 product
+GPT 5.1, GPT 5.1-Codex, and GPT-5.1-Codex Mini are now available in Windsurf
+GPT 5.1, GPT 5.1-Codex, and GPT-5.1-Codex Mini deliver a solid upgrade for agentic coding with variable thinking and improved steerability
+Nov 13, 2025
+1
+min read
+product
 Introducing SWE-1.5: Our Fast Agent Model
-SWE-1.5 is our latest frontier model, delivering near-SOTA coding performance at unprecedented speed.
 Oct 29, 2025
 3
 min read
@@ -216,9 +221,4 @@ product
 Wave 11: Just Keep Shipping
 Jul 17, 2025
 4
-min read
-company
-Our Commitment to Windsurf
-Jul 16, 2025
-3
 min read

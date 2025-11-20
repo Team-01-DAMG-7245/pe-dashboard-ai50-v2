@@ -350,7 +350,7 @@ The ReAct pattern provides a foundation for building trustworthy, explainable AI
 ## References
 
 - **ReAct Paper**: [ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629)
-- **Trace Schema**: `src/logging/schemas.py`
-- **Logger Implementation**: `src/logging/react_logger.py`
-- **Supervisor Agent**: `src/agents/supervisor_agent_langchain.py`
+- **Trace Schema**: `src/lab16/react_logging/schemas.py`
+- **Logger Implementation**: `src/lab16/react_logging/react_logger.py`
+- **Supervisor Agent**: `src/lab13/agents/supervisor_agent_langchain.py`
 

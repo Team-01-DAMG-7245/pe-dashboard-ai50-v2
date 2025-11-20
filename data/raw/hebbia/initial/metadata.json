@@ -6,13 +6,13 @@
   "hq_country": "United States",
   "category": "General purpose AI for finance and legal",
   "linkedin": "https://www.linkedin.com/company/hebbia/",
-  "crawled_at": "2025-11-07T00:59:07.240465Z",
+  "crawled_at": "2025-11-16T02:59:04.814792Z",
   "pages_scraped": [
     {
       "page": "homepage",
       "url": "https://hebbia.com",
       "status": 200,
-      "size_bytes": 187843,
+      "size_bytes": 188041,
       "html_file": "hebbia/initial/homepage_raw.html",
       "text_file": "hebbia/initial/homepage_clean.txt"
     },
@@ -20,7 +20,7 @@
       "page": "about",
       "url": "https://hebbia.com/about",
       "status": 200,
-      "size_bytes": 119959,
+      "size_bytes": 120735,
       "html_file": "hebbia/initial/about_raw.html",
       "text_file": "hebbia/initial/about_clean.txt"
     },
@@ -28,7 +28,7 @@
       "page": "product",
       "url": "https://hebbia.com/product",
       "status": 200,
-      "size_bytes": 123043,
+      "size_bytes": 123055,
       "html_file": "hebbia/initial/product_raw.html",
       "text_file": "hebbia/initial/product_clean.txt"
     },
@@ -36,7 +36,7 @@
       "page": "platform",
       "url": "https://hebbia.com/solutions",
       "status": 200,
-      "size_bytes": 187843,
+      "size_bytes": 188041,
       "html_file": "hebbia/initial/platform_raw.html",
       "text_file": "hebbia/initial/platform_clean.txt"
     },
@@ -44,7 +44,7 @@
       "page": "careers",
       "url": "https://hebbia.com/careers",
       "status": 200,
-      "size_bytes": 344276,
+      "size_bytes": 338568,
       "html_file": "hebbia/initial/careers_raw.html",
       "text_file": "hebbia/initial/careers_clean.txt"
     },

@@ -3,9 +3,9 @@
   "company_name": "Databricks",
   "hashes": {
     "about": "3496b25bce34df464962774bee095610",
-    "careers": "57da32de9219169fb1dde475ed1cd319",
-    "blog": "eb0132f43c06cacb78ddf4b52242e1ea",
-    "news": "e264331992c39f3191e515e110eb44ca"
+    "careers": "46e7b6ad3a36de66dca9a37f4f118247",
+    "blog": "280ac6aa9842c3eea1d23910dcf562b9",
+    "news": "dfe3a3aa014e6aee89150c128d402359"
   },
   "history": [
     {
@@ -40,6 +40,38 @@
     {
       "execution_date": "2025-11-07",
       "crawled_at": "2025-11-07T00:56:28.940175Z",
+      "pages_checked": 4,
+      "changes_detected": [],
+      "errors": 0
+    },
+    {
+      "execution_date": "2025-11-14",
+      "crawled_at": "2025-11-15T23:49:21.496592Z",
+      "pages_checked": 4,
+      "changes_detected": [
+        "careers",
+        "blog",
+        "news"
+      ],
+      "errors": 0
+    },
+    {
+      "execution_date": "2025-11-14",
+      "crawled_at": "2025-11-16T00:35:33.892720Z",
+      "pages_checked": 4,
+      "changes_detected": [],
+      "errors": 0
+    },
+    {
+      "execution_date": "2025-11-14",
+      "crawled_at": "2025-11-16T02:59:35.884143Z",
+      "pages_checked": 4,
+      "changes_detected": [],
+      "errors": 0
+    },
+    {
+      "execution_date": "2025-11-15",
+      "crawled_at": "2025-11-16T03:37:45.655718Z",
       "pages_checked": 4,
       "changes_detected": [],
       "errors": 0

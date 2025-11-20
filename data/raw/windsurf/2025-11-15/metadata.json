@@ -1,0 +1,51 @@
+{
+  "company_name": "Windsurf",
+  "company_id": "windsurf",
+  "base_url": "https://windsurf.com",
+  "crawled_at": "2025-11-16T03:02:37.934240Z",
+  "execution_date": "2025-11-15",
+  "pages_refreshed": [
+    {
+      "page": "about",
+      "url": "https://windsurf.com/about",
+      "status": 200,
+      "size_bytes": 155416,
+      "content_hash": "3d8ad8381fb1822cfb9afeec2891794f",
+      "changed": false,
+      "html_file": "windsurf/2025-11-15/about_raw.html",
+      "text_file": "windsurf/2025-11-15/about_clean.txt"
+    },
+    {
+      "page": "careers",
+      "url": "https://windsurf.com/jobs",
+      "status": 200,
+      "size_bytes": 64138,
+      "content_hash": "191f714a09c7a6ff8a07ffa958f5f9df",
+      "changed": false,
+      "html_file": "windsurf/2025-11-15/careers_raw.html",
+      "text_file": "windsurf/2025-11-15/careers_clean.txt"
+    },
+    {
+      "page": "blog",
+      "url": "https://windsurf.com/blog",
+      "status": 200,
+      "size_bytes": 159855,
+      "content_hash": "b38b617216ffcfe04a678229f6f94a6a",
+      "changed": false,
+      "html_file": "windsurf/2025-11-15/blog_raw.html",
+      "text_file": "windsurf/2025-11-15/blog_clean.txt"
+    },
+    {
+      "page": "news",
+      "url": "https://windsurf.com/news",
+      "status": 200,
+      "size_bytes": 64138,
+      "content_hash": "191f714a09c7a6ff8a07ffa958f5f9df",
+      "changed": false,
+      "html_file": "windsurf/2025-11-15/news_raw.html",
+      "text_file": "windsurf/2025-11-15/news_clean.txt"
+    }
+  ],
+  "changes_detected": [],
+  "errors": []
+}

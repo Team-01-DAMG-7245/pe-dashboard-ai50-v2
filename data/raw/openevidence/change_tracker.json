@@ -2,7 +2,7 @@
   "company_id": "openevidence",
   "company_name": "Openevidence",
   "hashes": {
-    "about": "42855c209aa5a4ba44957533e5dd44e8",
+    "about": "d90bbea58448b93ac75e7a687fb981a3",
     "news": "8ff5de76334cbea67b920099df37b841"
   },
   "history": [
@@ -35,6 +35,36 @@
     {
       "execution_date": "2025-11-07",
       "crawled_at": "2025-11-07T01:01:11.386401Z",
+      "pages_checked": 2,
+      "changes_detected": [],
+      "errors": 0
+    },
+    {
+      "execution_date": "2025-11-14",
+      "crawled_at": "2025-11-15T23:51:49.257375Z",
+      "pages_checked": 2,
+      "changes_detected": [
+        "about"
+      ],
+      "errors": 0
+    },
+    {
+      "execution_date": "2025-11-14",
+      "crawled_at": "2025-11-16T00:36:29.057962Z",
+      "pages_checked": 2,
+      "changes_detected": [],
+      "errors": 0
+    },
+    {
+      "execution_date": "2025-11-14",
+      "crawled_at": "2025-11-16T03:00:35.413169Z",
+      "pages_checked": 2,
+      "changes_detected": [],
+      "errors": 0
+    },
+    {
+      "execution_date": "2025-11-15",
+      "crawled_at": "2025-11-16T03:14:16.770030Z",
       "pages_checked": 2,
       "changes_detected": [],
       "errors": 0

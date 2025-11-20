@@ -41,12 +41,12 @@ Trustworthy by design.
 Citations are available every step of the way. Validate, update and co-work with your agent.
 Bridging today's AI with tomorrow's innovation.
 Powered by a world class AI architecture that outperforms RAG at every task, Matrix is the only AI Platform you'll ever need.
-$14T
+$21T
 AUM of firms using Hebbia
-5000+
-1:1 AI onboardings
-4 years
-deploying enterprise LLMs
+2T+
+tokens processed by investors
+5 years
+deploying at top firms
 1000+
 use cases in production
 The security of privacy
