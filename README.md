@@ -366,14 +366,11 @@ Before submission, verify that your system:
 ### Roles & Responsibilities
 
 - Swara
-  - Scraping (Lab 1), structured extraction (Lab 5)
-  - Evaluation and Documentation (EVAL.md, REFLECTION.md)
-  - Dashboard generation via Structured pipeline (Lab 8) and evaluation (Lab 9)
+  - Phase 1, 3
 
 - Nat
-  - Airflow DAGs (full-load and daily) and deployment (Labs 2–3)
-  - Frontend/Streamlit and containerization in Phase 4 (Labs 10–11)
+  - Phase 4
+  - RAG pipeline
 
 - Kundana
-  - RAG-based pipeline and retrieval experiments (Labs 4, 7)
-  - Payload assembly integration (Lab 6)
+  - Phase 2
