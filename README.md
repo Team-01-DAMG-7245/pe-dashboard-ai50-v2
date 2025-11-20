@@ -4,6 +4,42 @@ Automated data pipeline for scraping and analyzing Forbes AI 50 companies for pr
 
 ---
 
+## Architecture Diagram
+
+The following diagram illustrates the complete system architecture for Assignment 4 - Project ORBIT Part 1, showing the two parallel dashboard generation pipelines (RAG and Structured), Airflow orchestration, and the complete data flow from ingestion to evaluation.
+
+![Assignment 4 Architecture Diagram](docs/assignment4_architecture_diagram.png)
+
+### Diagram Components
+
+- **☁️ Airflow Orchestration Layer**: 2 DAGs (Initial Load @once, Daily Refresh 0 3 * * *)
+- **📥 Data Ingestion Layer**: Web Scraper (homepage, /about, /product, /careers, /blog) → Raw Storage (S3/GCS)
+- **🔄 Processing Layer - Two Parallel Pipelines**:
+  - **RAG Pipeline (Unstructured)**: Raw → Chunk → Embed → Vector DB → LLM → Dashboard
+  - **Structured Pipeline (Pydantic)**: Raw → Instructor → Pydantic Models → Payload → LLM → Dashboard
+- **🌐 API & UI Layer**: FastAPI (port 8000) + Streamlit (port 8501)
+- **📊 Evaluation & Comparison**: Rubric-based comparison of RAG vs Structured dashboards
+- **💾 Storage Layer**: S3/GCS, Vector DB (ChromaDB), Local storage
+
+### Pipeline Flows
+
+**RAG Pipeline:**
+```
+Raw HTML → Text Chunker → Vector DB (Embeddings) → LLM (Top-K chunks) → RAG Dashboard
+```
+
+**Structured Pipeline:**
+```
+Raw HTML → Instructor (Pydantic Extraction) → Structured Data → Payload Assembly → LLM (Structured context) → Structured Dashboard
+```
+
+**To regenerate the diagram:**
+```powershell
+python scripts/generate_assignment4_architecture_diagram.py
+```
+
+---
+
 ## Submission Deliverables
 1. **GitHub repo** : https://github.com/Team-01-DAMG-7245/pe-dashboard-ai50
 2. **EVAL.md** : https://github.com/Team-01-DAMG-7245/pe-dashboard-ai50/blob/swara/EVAL.md
@@ -254,24 +290,6 @@ Open a **NEW** PowerShell terminal (keep the API server running) and run:
 - Compare RAG vs Structured for 5+ companies
 - Rubric: factual correctness, schema adherence, hallucination control
 - Output: `EVAL.md` with scores and findings
-
-### ✅ Lab 16: ReAct Pattern Implementation
-- Structured logging for Thought/Action/Observation triplets
-- JSON trace files in `logs/react_traces/`
-- Documentation: `docs/REACT_TRACE_EXAMPLE.md`
-
-### ✅ Lab 17: Supervisory Workflow Pattern (Graph-based)
-- LangGraph-based workflow with conditional branching
-- Nodes: Planner, Data Generator, Evaluator, Risk Detector
-- Conditional routing based on risk signals (HITL approval for high-risk cases)
-- Documentation: `docs/WORKFLOW_GRAPH.md`
-- See [Lab 17 Instructions](#lab-17-supervisory-workflow-pattern) below
-
-### ✅ Lab 18: Human-in-the-Loop (HITL) Approval
-- CLI and HTTP approval methods for high-risk companies
-- Workflow pauses for human review
-- Approval/rejection affects workflow continuation
-- HITL events logged in workflow traces
 
 ### ✅ Lab 10: Dockerize FastAPI + Streamlit
 - `docker-compose.yml` for app layer

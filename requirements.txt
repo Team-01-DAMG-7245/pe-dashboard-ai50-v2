@@ -60,3 +60,7 @@ langchain-core>=0.1.0
 # Logging
 
 python-json-logger==2.0.7
+
+# Diagram Generation
+
+diagrams>=0.23.4

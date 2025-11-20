@@ -1,5 +1,40 @@
 # Assignment 5: Advanced Agent Implementation
 
+## Architecture Diagram
+
+The following diagram illustrates the complete system architecture for Assignment 5 - Project ORBIT Part 2, showing the integration of Airflow orchestration, MCP Server, Supervisor Agent, and the LangGraph workflow with Human-in-the-Loop (HITL) approval.
+
+![Architecture Diagram](docs/architecture_diagram.png)
+
+### Diagram Components
+
+- **☁️ Airflow Orchestration Layer**: 3 DAGs (Initial Load, Daily Update, Agentic Dashboard)
+- **🔧 Services Layer**: MCP Server (Tools/Resources/Prompts), Supervisor Agent (LangChain/LangGraph), Vector DB (ChromaDB)
+- **🔄 Agent Workflow**: 5 nodes with conditional branching (Planner → Data Generator → Evaluator → Risk Detector → HITL)
+- **💾 Storage Layer**: S3 Bucket, PostgreSQL (Dashboards DB), Structured Logs (JSON ReAct Traces)
+- **🌐 External Services**: LLM API (OpenAI/Anthropic), Forbes AI 50 (Data Source)
+
+### Workflow Flow
+
+```
+Planner → Data Generator → Evaluator → Risk Detector → [HITL or Save]
+```
+
+**To regenerate the diagram:**
+```powershell
+python scripts/generate_architecture_diagram.py
+```
+
+---
+
+## Contributions
+
+This assignment was completed collaboratively with the following phase assignments:
+
+- **Phase 1 & 2**: Kundana
+- **Phase 3**: Swara
+- **Phase 4**: Natnicha
+
 ## Lab 12: Core Agent Tools
 
 **Run unit tests:**
