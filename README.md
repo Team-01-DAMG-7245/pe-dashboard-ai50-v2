@@ -373,4 +373,4 @@ Before submission, verify that your system:
   - RAG pipeline
 
 - Kundana
-  - Phase 2
+  - Phase 2,3
