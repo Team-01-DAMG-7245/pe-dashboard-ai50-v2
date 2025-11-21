@@ -369,7 +369,7 @@ Before submission, verify that your system:
 
 - Nat
   - Phase 4
-  - RAG pipeline
+  - Streamlit
 
 - Kundana
-  - Phase 2,3
+  - Phase 2, Lab 16
