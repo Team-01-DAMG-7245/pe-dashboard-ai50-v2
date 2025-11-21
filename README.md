@@ -70,11 +70,10 @@ python scripts/generate_assignment4_architecture_diagram.py
 ---
 
 ## Submission Deliverables
-1. **GitHub repo** : https://github.com/Team-01-DAMG-7245/pe-dashboard-ai50
-2. **EVAL.md** : https://github.com/Team-01-DAMG-7245/pe-dashboard-ai50/blob/swara/EVAL.md
-3. **Demo video** : https://drive.google.com/file/d/1abFljwrx1lSxF5LOVPup7tTnjKDvDKF8/view?usp=sharing
-4. **Youtube video** : https://youtu.be/BzeN0LC2-8Q
-5. **Reflection.md for Evaluation** : https://github.com/Team-01-DAMG-7245/pe-dashboard-ai50/blob/main/REFLECTION.md
+1. **GitHub repo** : https://github.com/Team-01-DAMG-7245/pe-dashboard-ai50-v2
+2. **Youtube video** : https://youtu.be/kBuY7KJPcNY
+3. **Codelabs** : 
+
 ## Quick Start
 
 ### Run Airflow (Docker)
