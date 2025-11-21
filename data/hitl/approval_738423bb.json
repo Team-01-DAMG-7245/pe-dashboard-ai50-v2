@@ -1,0 +1,11 @@
+{
+  "approval_id": "738423bb",
+  "company_id": "test_risky",
+  "run_id": "20251120_231137",
+  "risk_type": "risk_signals_detected",
+  "status": "approved",
+  "requested_at": "2025-11-20T23:11:37.174900",
+  "approved_at": "2025-11-20T23:12:05.104543",
+  "reviewer": "PE_Analyst",
+  "comments": null
+}

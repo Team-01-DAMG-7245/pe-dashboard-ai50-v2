@@ -1,0 +1,11 @@
+{
+  "approval_id": "81020707",
+  "company_id": "test_risky",
+  "run_id": "20251121_041713",
+  "risk_type": "risk_signals_detected",
+  "status": "timeout",
+  "requested_at": "2025-11-21T04:17:13.697705",
+  "approved_at": null,
+  "reviewer": null,
+  "comments": null
+}

@@ -1,0 +1,11 @@
+{
+  "approval_id": "25cdb505",
+  "company_id": "test_risky",
+  "run_id": "20251121_051639",
+  "risk_type": "risk_signals_detected",
+  "status": "approved",
+  "requested_at": "2025-11-21T05:16:39.779887",
+  "approved_at": "2025-11-21T05:17:30.220168",
+  "reviewer": "PE_Analyst",
+  "comments": null
+}
