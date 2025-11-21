@@ -1,0 +1,9 @@
+{
+  "execution_log": [],
+  "results": {
+    "company_id": "test_risky",
+    "risk_signals": []
+  },
+  "trace_file": "logs/react_traces/react_trace_6238be00-b27a-4726-9864-f5f1cc902483.json",
+  "run_id": "6238be00-b27a-4726-9864-f5f1cc902483"
+}

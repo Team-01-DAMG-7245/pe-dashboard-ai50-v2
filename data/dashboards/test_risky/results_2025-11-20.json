@@ -1,0 +1,9 @@
+{
+  "company_id": "test_risky",
+  "run_id": "scheduled__2025-11-20T04:00:00+00:00",
+  "execution_date": "2025-11-20",
+  "timestamp": "2025-11-21T04:48:16.428536Z",
+  "dashboards": {},
+  "status": "error",
+  "error": "Task received SIGTERM signal"
+}

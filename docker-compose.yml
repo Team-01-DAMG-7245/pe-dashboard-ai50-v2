@@ -164,7 +164,7 @@ services:
       dockerfile: Dockerfile.agent
     container_name: pe-dashboard-agent
     ports:
-      - "9001:9001"
+      - "9001:8001"
     environment:
       OPENAI_API_KEY: ${OPENAI_API_KEY}
       MCP_SERVER_URL: http://mcp-server:9000

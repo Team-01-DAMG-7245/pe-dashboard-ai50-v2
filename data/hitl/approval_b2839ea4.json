@@ -1,0 +1,11 @@
+{
+  "approval_id": "b2839ea4",
+  "company_id": "test_risky",
+  "run_id": "20251121_043322",
+  "risk_type": "risk_signals_detected",
+  "status": "timeout",
+  "requested_at": "2025-11-21T04:33:22.159159",
+  "approved_at": null,
+  "reviewer": null,
+  "comments": null
+}

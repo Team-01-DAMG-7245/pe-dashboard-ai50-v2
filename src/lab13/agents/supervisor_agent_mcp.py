@@ -11,6 +11,8 @@ from typing import Dict, Any, List
 from pathlib import Path
 import os
 
+from .HITL_INTEGRATION_PATCH import HITLIntegration
+
 # Load MCP configuration - look in multiple locations
 def find_mcp_config():
     """Find mcp_config.json in common locations"""
@@ -86,8 +88,33 @@ class MCPEnabledSupervisor:
             "company_id": company_id,
             "timestamp": datetime.now().isoformat(),
             "dashboards": {},
-            "mcp_calls": []
+            "mcp_calls": [],
+            "payload": None,  # ADD THIS for HITL detection
+            "risk_signals": []  # ADD THIS for HITL detection
         }
+
+        print("\n💭 Thought: Retrieve payload to check for risks")
+        print("🎯 Action: Call get_latest_structured_payload")
+        
+        try:
+            from src.lab12.tools.payload_tool import get_latest_structured_payload
+            payload = await get_latest_structured_payload(company_id)
+            results["payload"] = payload
+            
+            # Check for risk signals in events
+            if hasattr(payload, 'events'):
+                for event in payload.events:
+                    event_dict = event.model_dump() if hasattr(event, 'model_dump') else event
+                    event_str = json.dumps(event_dict).lower()
+                    if any(kw in event_str for kw in ['breach', 'layoff', 'lawsuit', 'fraud']):
+                        results["risk_signals"].append({
+                            "event_id": event_dict.get('event_id'),
+                            "detected": True
+                        })
+            
+            print(f"👁️ Observation: Retrieved payload, found {len(results['risk_signals'])} risk signals")
+        except Exception as e:
+            print(f"⚠️ Could not retrieve payload: {e}")
         
         # Generate Structured Dashboard
         print("\n💭 Thought: Generate structured dashboard via MCP")
@@ -122,6 +149,29 @@ class MCPEnabledSupervisor:
         print(f"   MCP Calls: {len(results['mcp_calls'])}")
         print(f"   Dashboards Generated: {len(results['dashboards'])}")
         print("="*60)
+
+        # HITL Check
+        if not hasattr(self, 'hitl'):
+            self.hitl = HITLIntegration()
+        
+        needs_hitl, risk_type = self.hitl.detect_risks(results)
+        
+        if needs_hitl:
+            print(f"\n🚨 HIGH RISK DETECTED: {risk_type}")
+            
+            run_id = datetime.now().strftime('%Y%m%d_%H%M%S')
+            approval_id = self.hitl.request_approval(company_id, run_id, risk_type)
+            approval_status = self.hitl.wait_for_approval(approval_id, timeout=300)
+            
+            if approval_status != "approved":
+                results["hitl_status"] = approval_status
+                results["hitl_rejected"] = True
+                print(f"\n❌ Workflow terminated: {approval_status}\n")
+                return results
+            
+            print(f"\n✅ HITL Approved - continuing\n")
+            results["hitl_status"] = "approved"
+            results["hitl_triggered"] = True
         
         return results
     

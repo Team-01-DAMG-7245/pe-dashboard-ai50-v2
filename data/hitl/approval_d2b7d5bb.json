@@ -1,0 +1,11 @@
+{
+  "approval_id": "d2b7d5bb",
+  "company_id": "test_risky",
+  "run_id": "6238be00-b27a-4726-9864-f5f1cc902483",
+  "risk_type": "breach",
+  "status": "approved",
+  "requested_at": "2025-11-20T22:35:42.802444",
+  "approved_at": "2025-11-20T22:36:20.498991",
+  "reviewer": "PE_Analyst",
+  "comments": "Breach documented in dashboard. Approved for publication."
+}

@@ -13,6 +13,7 @@ from enum import Enum
 from src.lab12.tools.payload_tool import get_latest_structured_payload
 from src.lab12.tools.rag_tool import rag_search_company
 from src.lab12.tools.risk_logger import report_layoff_signal, LayoffSignal
+from .HITL_INTEGRATION_PATCH import add_hitl_to_supervisor
 from src.lab16.react_logging.react_logger import ReActLogger
 
 class ActionType(Enum):
@@ -22,6 +23,7 @@ class ActionType(Enum):
     LOG_RISK = "log_risk"
     COMPLETE = "complete"
 
+@add_hitl_to_supervisor
 class DueDiligenceSupervisor:
     """
     PE Due Diligence Supervisor Agent that uses tools to retrieve payloads,

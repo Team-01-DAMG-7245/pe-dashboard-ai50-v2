@@ -29,12 +29,10 @@ COPY mcp_config.json .
 COPY .env .
 
 # Create directories for logs and dashboards
-RUN mkdir -p logs dashboards
+RUN mkdir -p logs dashboards data/hitl
 
-# Expose port for agent service (if needed)
+# Expose port for HITL service
 EXPOSE 9001
 
-# Run supervisor agent (can be overridden in docker-compose)
-# Default: keep container running for Airflow to invoke
-CMD ["python", "-c", "import time; time.sleep(86400)"]
-
+# Run HITL API service
+CMD ["python", "src/lab13/agents/hitl_service.py"]
