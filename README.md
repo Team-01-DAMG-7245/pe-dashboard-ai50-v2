@@ -1,375 +1,327 @@
-## Case Study 2 — Project ORBIT (Part 2)  
-### Agentification and Secure Scaling of PE Intelligence using MCP
+# Assignment 5: Advanced Agent Implementation
 
----
-
-## 🧭 Setting
-
-In Assignment 4 (Project ORBIT Part 1) you automated ingestion and Markdown dashboard generation for the **Forbes AI 50** using Airflow ETL + FastAPI + Streamlit.  
-That system worked, but it was **static**—no reasoning, no secure integration with multiple data tools.
-
-Now, **Priya Rao (VP of Data Engineering)** wants you to evolve it into an **agentic, production-ready platform** that can:
-
-- Orchestrate due-diligence workflows through **supervisory LLM agents**  
-- Standardize tool access with the **Model Context Protocol (MCP)**  
-- Employ **ReAct reasoning** for transparency  
-- Run under **Airflow orchestration** with containerized MCP services  
-- Pause for **Human-in-the-Loop (HITL)** review when risks appear  
-
----
-
-## 🎯 Learning Outcomes
-
-By the end you will:
-
-- Build specialized LLM agents (LangChain v1 or Microsoft Agent Framework)  
-- Design a **Supervisory Agent Architecture** that delegates to sub-agents  
-- Implement an **MCP server** exposing Tools / Prompts / Resources  
-- Apply the **ReAct pattern** (Thought → Action → Observation) with structured logs  
-- Compose a **graph-based workflow** (LangGraph or WorkflowBuilder) with conditional edges  
-- Integrate **Airflow DAGs**, **Docker**, and **.env configuration** for deployment  
-- Add **pytest tests** and structured logging for maintainability  
-- Embed **Human-in-the-Loop (HITL)** approval nodes for risk verification  
-
----
+## Submission
+- Github: [https://github.com/Team-01-DAMG-7245/pe-dashboard-ai50](https://github.com/Team-01-DAMG-7245/pe-dashboard-ai50-v2)
+- Codelab Documentation: https://codelabs-preview.appspot.com/?file_id=1S0GCTiO0q3iwqtBaNzO8qBEpWTZAsWwNyMaj3-S0l0o#0
+- Demo Video: https://youtu.be/kBuY7KJPcNY
 
 ## Architecture Diagram
 
-The following diagram illustrates the complete system architecture for Assignment 4 - Project ORBIT Part 1, showing the two parallel dashboard generation pipelines (RAG and Structured), Airflow orchestration, and the complete data flow from ingestion to evaluation.
+The following diagram illustrates the complete system architecture for Assignment 5 - Project ORBIT Part 2, showing the integration of Airflow orchestration, MCP Server, Supervisor Agent, and the LangGraph workflow with Human-in-the-Loop (HITL) approval.
 
-![Assignment 4 Architecture Diagram](docs/assignment4_architecture_diagram.png)
+![Architecture Diagram](docs/architecture_diagram.png)
 
 ### Diagram Components
 
-- **☁️ Airflow Orchestration Layer**: 2 DAGs (Initial Load @once, Daily Refresh 0 3 * * *)
-- **📥 Data Ingestion Layer**: Web Scraper (homepage, /about, /product, /careers, /blog) → Raw Storage (S3/GCS)
-- **🔄 Processing Layer - Two Parallel Pipelines**:
-  - **RAG Pipeline (Unstructured)**: Raw → Chunk → Embed → Vector DB → LLM → Dashboard
-  - **Structured Pipeline (Pydantic)**: Raw → Instructor → Pydantic Models → Payload → LLM → Dashboard
-- **🌐 API & UI Layer**: FastAPI (port 8000) + Streamlit (port 8501)
-- **📊 Evaluation & Comparison**: Rubric-based comparison of RAG vs Structured dashboards
-- **💾 Storage Layer**: S3/GCS, Vector DB (ChromaDB), Local storage
+- *☁ Airflow Orchestration Layer*: 3 DAGs (Initial Load, Daily Update, Agentic Dashboard)
+- *🔧 Services Layer*: MCP Server (Tools/Resources/Prompts), Supervisor Agent (LangChain/LangGraph), Vector DB (ChromaDB)
+- *🔄 Agent Workflow*: 5 nodes with conditional branching (Planner → Data Generator → Evaluator → Risk Detector → HITL)
+- *💾 Storage Layer*: S3 Bucket, PostgreSQL (Dashboards DB), Structured Logs (JSON ReAct Traces)
+- *🌐 External Services*: LLM API (OpenAI/Anthropic), Forbes AI 50 (Data Source)
 
-### Pipeline Flows
+### Workflow Flow
 
-**RAG Pipeline:**
-```
-Raw HTML → Text Chunker → Vector DB (Embeddings) → LLM (Top-K chunks) → RAG Dashboard
-```
 
-**Structured Pipeline:**
-```
-Raw HTML → Instructor (Pydantic Extraction) → Structured Data → Payload Assembly → LLM (Structured context) → Structured Dashboard
-```
+Planner → Data Generator → Evaluator → Risk Detector → [HITL or Save]
 
-**To regenerate the diagram:**
-```powershell
-python scripts/generate_assignment4_architecture_diagram.py
-```
 
----
+*To regenerate the diagram:*
+powershell
+python scripts/generate_architecture_diagram.py
 
-## Submission Deliverables
-1. **GitHub repo** : https://github.com/Team-01-DAMG-7245/pe-dashboard-ai50-v2
-2. **Youtube video** : https://youtu.be/kBuY7KJPcNY
-3. **Codelabs** : 
-
-## Quick Start
-
-### Run Airflow (Docker)
-```bash
-docker compose up
-# Access UI: http://localhost:8080 (admin/admin)
-```
-
-### Run App Locally (Dev)
-```bash
-python -m venv airflow_env
-source airflow_env/bin/activate
-pip install -r requirements.txt
-uvicorn src.api:app --reload        # http://localhost:8000
-streamlit run src/streamlit_app.py  # http://localhost:8501
-```
-
----
-
-## Project Structure
-
-```
-├── dags/                  # Airflow DAGs (Labs 2-3)
-├── data/
-│   ├── forbes_ai50_seed.json   # Company list (Lab 0)
-│   ├── raw/                     # Scraped HTML/text (Lab 1)
-│   ├── structured/              # Pydantic models (Lab 5)
-│   ├── payloads/                # Dashboard payloads (Lab 6)
-│   └── workflow_dashboards/     # Lab 17 workflow outputs
-├── src/
-│   ├── api.py                   # FastAPI endpoints (Lab 7-8)
-│   ├── models.py                # Pydantic schemas (Lab 5)
-│   ├── s3_utils.py              # Cloud storage (Lab 1)
-│   └── streamlit_app.py         # Dashboard UI (Lab 10)
-├── requirements.txt
-├── docker-compose.yml
-└── README.md
-```
-
----
-
-## Setup
-
-### 1. AWS S3 Configuration
-```bash
-aws configure  # Enter your credentials
-export AWS_BUCKET_NAME=quanta-ai50-data
-```
-
-### 2. Seed File
-Populate `data/forbes_ai50_seed.json` with Forbes AI 50 companies from https://www.forbes.com/lists/ai50/
-
-### 3. Environment Variables
-Create `.env`:
-```bash
-AWS_BUCKET_NAME=quanta-ai50-data
-OPENAI_API_KEY=your-api-key-here
-```
-
----
-
-## 🧱 Project Architecture Overview
-
-```mermaid
-flowchart TD
-    subgraph Airflow
-        DAG1[Initial Load DAG]
-        DAG2[Daily Update DAG]
-        DAG3[Agentic Dashboard DAG]
-    end
-    subgraph Services
-        MCP[MCP Server]
-        AGENT[Supervisor Agent]
-    end
-    DAG3 -->|HTTP/CLI| MCP
-    MCP --> AGENT
-    AGENT -->|calls Tools| MCP
-    AGENT -->|Risk Detected| HITL[Human Approval]
-    AGENT --> STORE[(Dashboards DB or S3)]
-```
-
-
-🧩 Phase 1 – Agent Infrastructure & Tool Definition (Labs 12–13)
-
-Lab 12 — Core Agent Tools
-
-Implement async Python tools with Pydantic models for structured I/O:
-
-Tool	Purpose
-get_latest_structured_payload(company_id)	Return the latest assembled payload from Assignment 2
-rag_search_company(company_id, query)	Query the Vector DB for contextual snippets
-report_layoff_signal(signal_data)	Log or flag high-risk events (layoffs / breaches)
-
-✅ Checkpoint: Unit tests (tests/test_tools.py) validate each tool’s behavior.
-
-⸻
-
-Lab 13 — Supervisor Agent Bootstrap
-	•	Instantiate a Due Diligence Supervisor Agent with system prompt:
-“You are a PE Due Diligence Supervisor Agent. Use tools to retrieve payloads, run RAG queries, log risks, and generate PE dashboards.”
-	•	Register the three tools.
-	•	Verify tool invocation loop via ReAct logs.
-
-✅ Checkpoint: Console logs show Thought → Action → Observation sequence.
-
-⸻
-
-🌐 Phase 2 – Model Context Protocol (MCP) Integration (Labs 14–15)
-
-Lab 14 — MCP Server Implementation
-
-Create src/server/mcp_server.py exposing HTTP endpoints:
-
-Type	Endpoint	Description
-Tool	/tool/generate_structured_dashboard	Calls structured dashboard logic
-Tool	/tool/generate_rag_dashboard	Calls RAG dashboard logic
-Resource	/resource/ai50/companies	Lists company IDs
-Prompt	/prompt/pe-dashboard	Returns 8-section dashboard template
-
-Provide Dockerfile (Dockerfile.mcp) and .env variables for config.
-
-✅ Checkpoint: MCP Inspector shows registered tools/resources/prompts.
-
-⸻
-
-Lab 15 — Agent MCP Consumption
-	•	Configure mcp_config.json with base URL and tools.
-	•	Allow Supervisor Agent to invoke MCP tools securely with tool filtering.
-	•	Add integration test (tests/test_mcp_server.py) that requests a dashboard.
-
-✅ Checkpoint: Agent → MCP → Dashboard → Agent round trip works.
-
-⸻
-
-🧠 Phase 3 – Advanced Agent Implementation (Labs 16–18)
-
-Lab 16 — ReAct Pattern Implementation
-	•	Log Thought/Action/Observation triplets in structured JSON (log file or stdout).
-	•	Use correlation IDs (run_id, company_id).
-	•	Save one trace under docs/REACT_TRACE_EXAMPLE.md.
-
-✅ Checkpoint: JSON logs show sequential ReAct steps.
-
-⸻
-
-Lab 17 — Supervisory Workflow Pattern (Graph-based)
-
-Use LangGraph or WorkflowBuilder to define nodes:
-
-Node	Responsibility
-Planner	Constructs plan of actions
-Data Generator	Invokes MCP dashboard tools
-Evaluator	Scores dashboards per rubric
-Risk Detector	Branches to HITL if keywords found
-
-Provide workflow diagram (docs/WORKFLOW_GRAPH.md) and unit test covering both branches.
-
-✅ Checkpoint: python src/workflows/due_diligence_graph.py prints branch taken.
-
-⸻
-
-Lab 18 — HITL Integration & Visualization
-	•	Implement CLI or HTTP pause for human approval.
-	•	Record execution path with LangGraph Dev UI or Mermaid.
-	•	Save trace and decision path in docs/REACT_TRACE_EXAMPLE.md.
-
-✅ Checkpoint: Demo video shows workflow pausing and resuming after approval.
-
-⸻
-
-☁️ Phase 4 – Orchestration & Deployment (Add-On)
-
-Airflow DAGs Integration
-
-Create under airflow/dags/:
-
-File	Purpose
-orbit_initial_load_dag.py	Initial data load and payload assembly
-orbit_daily_update_dag.py	Incremental updates of snapshots and vector DB
-orbit_agentic_dashboard_dag.py	Invokes MCP + Agentic workflow daily for all AI 50 companies
-
-✅ Checkpoint: Each DAG runs locally or in Dockerized Airflow and updates dashboards.
-
-Containerization and Configuration
-
-Provide:
-	•	Dockerfile.mcp (for MCP Server)
-	•	Dockerfile.agent (for Supervisor Agent + Workflow)
-	•	docker-compose.yml linking services + optional vector DB
-	•	.env.example for API keys and service URLs
-	•	config/settings_example.yaml for parameterization
-
-✅ Checkpoint: docker compose up brings up MCP + Agent locally.
-
-⸻
-
-🧪 Testing & Observability
-
-Minimum Tests (pytest)
-
-Test	Purpose
-test_tools.py	Validate core tools return expected schema
-test_mcp_server.py	Ensure MCP endpoints return Markdown
-test_workflow_branches.py	Assert risk vs no-risk branch logic
-
-Run: pytest -v --maxfail=1 --disable-warnings
-
-Logging & Metrics
-	•	Use Python logging or structlog (JSON format).
-	•	Include fields: timestamp, run_id, company_id, phase, message.
-	•	Optional: emit basic counters (e.g., dashboards generated, HITL triggered).
-
-⸻
-
-📦 Deliverables
-
-#	Deliverable	Requirements
-1	Updated GitHub Repo (pe-dashboard-ai50-v3)	Full code + docs + Airflow DAGs
-2	MCP Server Service	Dockerized HTTP server exposing Tools/Resources/Prompts
-3	Supervisor Agent & Workflow	Implements ReAct + Graph + HITL
-4	Airflow Integration	DAG invokes Agentic workflow on schedule
-5	Configuration Mgmt	.env and config/ externalization
-6	Testing Suite	≥ 3 pytest cases
-7	Structured Logging	JSON ReAct trace saved to docs/
-8	Docker Deployment	Dockerfiles + docker-compose
-9	Demo Video (≤ 5 min)	Show workflow execution + HITL pause
-10	Contribution Attestation	Completed form
-
-
-⸻
-
-🧮 Dashboard Format (Reference)
-
-Eight mandatory sections:
-	1.	Company Overview
-	2.	Business Model and GTM
-	3.	Funding & Investor Profile
-	4.	Growth Momentum
-	5.	Visibility & Market Sentiment
-	6.	Risks and Challenges
-	7.	Outlook
-	8.	Disclosure Gaps (bullet list of missing info)
-
-Rules
-	•	Use literal “Not disclosed.” for missing fields.
-	•	Never invent ARR/MRR/valuation/customer logos.
-	•	Always include final Disclosure Gaps section.
-
-⸻
-
-🚀 Production Readiness Checklist
-
-Before submission, verify that your system:
-	•	Has working Airflow DAGs for initial/daily/agentic runs
-	•	Runs MCP Server + Agent via Docker Compose
-	•	Loads config and secrets from .env or config/
-	•	Implements structured ReAct logging (JSON)
-	•	Includes at least 3 automated pytest tests
-	•	Documents setup and run instructions in README.md
-	•	Demo video shows HITL pause/resume
-	•	README contains system diagram and architecture summary
-
-⸻
-
-🧾 Submission
-	•	Repo name: pe-dashboard-ai50-v3-<teamname>
-	•	Push to GitHub with all code, docs, and Docker/Airflow files.
-	•	Include demo video link in README.
-	•	Submit GitHub URL + video link via LMS.
-
-⸻
-
-📚 References & Resources
-	•	Python AI Series modules (Structured Outputs, Tool Calling, Agents, MCP)
-	•	Model Context Protocol Docs
-	•	LangGraph Docs
-	•	Microsoft Agent Framework Samples
-	•	Apache Airflow Quick Start
-	•	Docker Compose Guide
 
 ---
 
 ## Contributions
 
-- Swara: Phase 1 (Labs 0–1), Phase 2 (Lab 5), Phase 3 (Labs 8–9)
-- Nat: Phase 1 (Labs 2–3), Phase 4 (Labs 10–11)
-- Kundana: Phase 2 (Labs 4, 6),Phase 3(Lab 7)
+This assignment was completed collaboratively with the following phase assignments:
 
-### Roles & Responsibilities
+- *Phase 1 & 2*: Kundana
+- *Phase 3*: Swara
+- *Phase 4*: Natnicha
 
-- Swara
-  - Phase 1, 3
+## Lab 12: Core Agent Tools
 
-- Nat
-  - Phase 4
-  - Streamlit
+*Run unit tests:*
+powershell
+python -m pytest tests/test_tools.py -v
 
-- Kundana
-  - Phase 2, Lab 16
+
+*Expected:* All tool tests pass (get_latest_structured_payload, rag_search_company, report_layoff_signal)
+
+---
+
+## Lab 13: Supervisor Agent Bootstrap
+
+*Run Supervisor Agent:*
+powershell
+cd "C:\Users\Swara\Desktop\Big Data Assignments\damg7245-assignmnet4\forbes-ai50-dashboard-assignment4"
+python -m src.lab13.agents.supervisor_agent anthropic
+
+
+*Expected:* Console logs show Thought → Action → Observation sequence
+
+---
+
+## Lab 14: MCP Server Implementation
+
+*Build MCP Server Docker image:*
+powershell
+docker build -f Dockerfile.mcp -t mcp-server .
+
+
+*Run MCP Server:*
+powershell
+docker run -p 9000:9000 --env-file .env mcp-server
+
+
+*Or run directly:*
+powershell
+cd "C:\Users\Swara\Desktop\Big Data Assignments\damg7245-assignmnet4\forbes-ai50-dashboard-assignment4"
+python -m src.lab14.server.mcp_server
+
+
+*Verify MCP Inspector:*
+- Open MCP Inspector tool
+- Connect to http://localhost:9000
+- Verify registered tools/resources/prompts
+
+---
+
+## Lab 15: Agent MCP Consumption
+
+*Configure mcp_config.json:*
+json
+{
+  "base_url": "http://localhost:9000",
+  "tools": ["generate_structured_dashboard", "generate_rag_dashboard"]
+}
+
+
+*Run integration test:*
+powershell
+python -m pytest tests/test_mcpserver.py -v
+
+
+*Run Agent with MCP:*
+powershell
+cd "C:\Users\Swara\Desktop\Big Data Assignments\damg7245-assignmnet4\forbes-ai50-dashboard-assignment4"
+# Terminal 1: start MCP server (see Lab 14)
+# Terminal 2:
+python -m src.lab13.agents.supervisor_agent_mcp anthropic
+
+
+*Expected:* Agent → MCP → Dashboard → Agent round trip works
+
+---
+
+## Lab 16: ReAct Pattern Implementation
+
+*Run ReAct Agent:*
+powershell
+cd "C:\Users\Swara\Desktop\Big Data Assignments\damg7245-assignmnet4\forbes-ai50-dashboard-assignment4"
+python scripts\generate_react_trace.py --company anthropic
+
+
+*Check logs:*
+powershell
+# View JSON logs
+Get-Content logs\react_traces\*.json | ConvertFrom-Json | Format-List
+
+# Or view trace example
+cat docs\REACT_TRACE_EXAMPLE.md
+
+
+*Expected:* JSON logs show sequential ReAct steps with Thought/Action/Observation triplets
+
+---
+
+## Lab 17: Supervisory Workflow Pattern (Graph-based)
+
+*Terminal 1 - Start API Server:*
+powershell
+cd "C:\Users\Swara\Desktop\Big Data Assignments\damg7245-assignmnet4\forbes-ai50-dashboard-assignment4"
+$env:KMP_DUPLICATE_LIB_OK="TRUE"
+python -m src.lab7.rag_dashboard
+
+
+**Terminal 2 - Run Workflow (requires OPENAI_API_KEY):**
+powershell
+cd "C:\Users\Swara\Desktop\Big Data Assignments\damg7245-assignmnet4\forbes-ai50-dashboard-assignment4"
+$env:KMP_DUPLICATE_LIB_OK="TRUE"
+python -m src.lab17.workflows.due_diligence_graph anthropic
+
+
+*Run unit tests:*
+powershell
+python -m pytest tests/test_workflow_branches.py -v
+
+
+*View workflow diagram:*
+powershell
+cat docs\WORKFLOW_GRAPH.md
+
+
+*Output:* Dashboard saved to data/workflow_dashboards/{company_id}_{run_id}_{timestamp}.md
+
+---
+
+## Lab 18: HITL Approval
+
+### CLI Mode (Default)
+
+powershell
+cd "C:\Users\Swara\Desktop\Big Data Assignments\damg7245-assignmnet4\forbes-ai50-dashboard-assignment4"
+$env:KMP_DUPLICATE_LIB_OK="TRUE"
+python -m src.lab17.workflows.due_diligence_graph anthropic
+# When prompted, type 'yes' or 'no'
+
+
+### HTTP Mode
+
+*Terminal 1 - Start HITL Server:*
+powershell
+.\start_hitl_server.ps1
+
+
+*Terminal 2 - Start API Server:*
+powershell
+$env:KMP_DUPLICATE_LIB_OK="TRUE"
+python -m src.lab7.rag_dashboard
+
+
+*Terminal 3 - Run Workflow:*
+powershell
+$env:HITL_METHOD="http"
+$env:HITL_BASE_URL="http://localhost:8003"
+$env:KMP_DUPLICATE_LIB_OK="TRUE"
+python -m src.lab17.workflows.due_diligence_graph anthropic
+
+
+*Terminal 4 - Approve/Reject:*
+
+*PowerShell Scripts:*
+powershell
+.\check_hitl_status.ps1
+.\approve_hitl.ps1 -RunId "{run_id}" -Approved -Reviewer "admin" -Notes "Approved"
+.\approve_hitl.ps1 -RunId "{run_id}" -Rejected -Reviewer "admin" -Notes "Rejected"
+
+
+*Direct PowerShell:*
+powershell
+$body = @{approved=$true; reviewer="admin"; notes="Approved"} | ConvertTo-Json
+Invoke-RestMethod -Uri "http://localhost:8003/hitl/approve/{run_id}" -Method Post -Body $body -ContentType "application/json"
+
+
+*curl.exe:*
+powershell
+curl.exe -X POST http://localhost:8003/hitl/approve/{run_id} -H "Content-Type: application/json" -d "{\"approved\": true, \"reviewer\": \"admin\", \"notes\": \"Approved\"}"
+
+
+---
+
+## Phase 3 Validation & Testing
+
+### Validate Phase 3 Completion
+
+*Run validation script:*
+powershell
+python scripts/validate_phase3.py
+
+
+*Expected:* All checks pass (29/29) for Labs 16, 17, 18
+
+*What it checks:*
+- Lab 16: ReAct Logger file, class, documentation, trace logs
+- Lab 17: Workflow graph, nodes, conditional edges, documentation
+- Lab 18: HITL handler, CLI/HTTP methods, workflow integration
+- Testing: Integration tests, branch coverage, mock HITL
+
+### Run Integration Tests
+
+*Run all Phase 3 integration tests:*
+powershell
+python -m pytest tests/test_phase3_integration.py -v
+
+
+*Run specific scenarios:*
+powershell
+# Normal flow (no risks)
+python -m pytest tests/test_phase3_integration.py::test_normal_flow_no_risks -v
+
+# High-risk flow with approval
+python -m pytest tests/test_phase3_integration.py::test_high_risk_flow_with_approval -v
+
+# High-risk flow with rejection
+python -m pytest tests/test_phase3_integration.py::test_high_risk_flow_with_rejection -v
+
+# Complete end-to-end integration
+python -m pytest tests/test_phase3_integration.py::test_complete_integration_flow -v
+
+
+*Expected:* All 12 tests pass (3 normal flow, 3 approval, 3 rejection, 1 complete, 2 edge cases)
+
+### Visualize Workflow Execution
+
+*Generate workflow visualization from trace:*
+powershell
+python scripts/visualize_workflow.py logs/workflow_traces/workflow_trace_{run_id}_{timestamp}.json
+
+
+*Expected:* Mermaid diagram showing execution path, HITL decision points, and branch taken
+
+### View Workflow Traces
+
+*List workflow traces:*
+powershell
+Get-ChildItem logs\workflow_traces\*.json
+
+
+*View trace content:*
+powershell
+Get-Content logs\workflow_traces\workflow_trace_{run_id}_{timestamp}.json | ConvertFrom-Json | ConvertTo-Json -Depth 10
+
+
+*View ReAct traces:*
+powershell
+Get-Content logs\react_traces\*.json | ConvertFrom-Json | Format-List
+
+
+---
+
+## Quick Reference
+
+*Checkpoints:*
+- Lab 12: pytest tests/test_tools.py -v
+- Lab 13: Check console logs for ReAct sequence
+- Lab 14: MCP Inspector shows registered tools/resources/prompts
+- Lab 15: pytest tests/test_mcp_server.py -v
+- Lab 16: Check JSON logs in logs/react_traces/
+- Lab 17: pytest tests/test_workflow_branches.py -v + workflow diagram
+- Lab 18: HITL approval works via CLI or HTTP
+- Phase 3: python scripts/validate_phase3.py (should show 100% complete)
+
+*Common Commands:*
+powershell
+# Set PYTHONPATH
+$env:PYTHONPATH="src"
+
+# Run all tests
+python -m pytest tests/ -v
+
+# Run Phase 3 validation
+python scripts/validate_phase3.py
+
+# Run integration tests
+python -m pytest tests/test_phase3_integration.py -v
+
+# Check logs
+Get-Content logs\react_traces\*.json
+Get-Content logs\workflow_traces\*.json
+
+# View documentation
+cat docs\WORKFLOW_GRAPH.md
+cat docs\REACT_TRACE_EXAMPLE.md
+
+# Visualize workflow
+python scripts/visualize_workflow.py logs/workflow_traces/workflow_trace_{run_id}_{timestamp}.json
